@@ -1,0 +1,105 @@
+/**
+ * Fhi buttons
+ */
+
+@mixin fhi-btn($default-color, $hover-color, $text-color, $btn-type) {
+    @if ($btn-type == 'normal') { @include fhi-btn-state($default-color, $default-color, $text-color) }
+    @if ($btn-type == 'outline') { @include fhi-btn-outline-state($default-color, $fhi-px, $text-color) }
+    @if ($btn-type == 'flat') { @include fhi-btn-flat-state($text-color) }
+
+    &:hover {
+        @if ($btn-type == 'normal') { @include fhi-btn-state($hover-color, $hover-color, $text-color) }
+        @if ($btn-type == 'outline') { @include fhi-btn-outline-state($hover-color, $fhi-px * 4, $text-color) }
+        @if ($btn-type == 'flat') { @include fhi-btn-flat-state($hover-color) }
+    }
+    &:focus {
+        @if ($btn-type == 'normal') { @include fhi-btn-state($default-color, $default-color, $text-color, $fhi-btn-font-family-bold) }
+        @if ($btn-type == 'outline') { @include fhi-btn-outline-state($default-color, $fhi-px * 2, $text-color, $fhi-btn-font-family-bold) }
+        @if ($btn-type == 'flat') { @include fhi-btn-flat-state($hover-color) }
+
+        &:hover {
+            @if ($btn-type == 'normal') { @include fhi-btn-state($hover-color, $hover-color, $text-color, $fhi-btn-font-family-bold) }
+            @if ($btn-type == 'outline') { @include fhi-btn-outline-state($hover-color, $fhi-px * 4, $text-color, $fhi-btn-font-family-bold) }
+            @if ($btn-type == 'flat') { @include fhi-btn-flat-state($hover-color) }
+        }
+    }
+    &:active {
+        @if ($btn-type == 'normal') { @include fhi-btn-state($default-color, $default-color, $text-color, $fhi-btn-font-family-bold) }
+        @if ($btn-type == 'outline') { @include fhi-btn-outline-state($default-color, $fhi-px * 2, $text-color, $fhi-btn-font-family-bold) }
+        @if ($btn-type == 'flat') { @include fhi-btn-flat-state($hover-color) }
+    }
+}
+
+@mixin fhi-btn-state($background-color, $border-color, $color, $font-family: $btn-font-family) {
+    background-color: $background-color;
+    border-color: $border-color;
+    box-shadow: none;
+    color: $color;
+    font-family: $font-family;
+
+    &:not(.btn-sm):not(.btn-md):not(.btn-lg) {
+        width: $fhi-btn-sm-width;
+    }
+}
+
+@mixin fhi-btn-outline-state($border-color, $border-width, $color, $font-family: $btn-font-family) {
+    @include fhi-btn-state(transparent, $border-color, $color, $font-family);
+    border-width: $border-width;
+    padding: 0 (-$border-width + ($fhi-px * 11));
+    transition-duration: 0.1s;
+}
+
+@mixin fhi-btn-flat-state($color) {
+    @include fhi-btn-state(transparent, transparent, $color, $fhi-btn-font-family-bold);
+    text-decoration: underline;
+
+    &:not(.btn-sm):not(.btn-md):not(.btn-lg) {
+        width: auto;
+    }
+}
+
+
+//
+// Buttons (normal)
+//
+.fhi-btn-primary {
+    @include fhi-btn($fhi-btn-primary-color, $fhi-btn-primary-hover-color, $white, 'normal');
+}
+.fhi-btn-secondary {
+    @include fhi-btn($fhi-btn-secondary-color, $fhi-btn-secondary-hover-color, $white, 'normal');
+}
+
+
+//
+// Buttons (outline)
+//
+.fhi-btn-outline-primary {
+    @include fhi-btn($fhi-btn-primary-color, $fhi-btn-primary-hover-color, $body-color, 'outline');
+}
+.fhi-btn-outline-secondary {
+    @include fhi-btn($fhi-btn-secondary-color, $fhi-btn-secondary-hover-color, $body-color, 'outline');
+}
+
+
+//
+// Buttons (flat)
+//
+.fhi-btn-flat {
+    @include fhi-btn(transparent, $inline-link-hover-color, $inline-link-color, 'flat');
+}
+
+//
+// Fockus ved keyboard-navigasjon
+//
+[data-whatintent="keyboard"] {
+    .fhi-btn-primary,
+    .fhi-btn-secondary,
+    .fhi-btn-outline-primary,
+    .fhi-btn-outline-secondary {
+        &:focus {
+            background-color: $white;
+            border-radius: 0;
+            color: $body-color;
+       }
+    }
+}
