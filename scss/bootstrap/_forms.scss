@@ -1,0 +1,18 @@
+/**
+ * General form controls
+ */
+
+.form-control {
+    color: $body-color;
+    font-size: $fhi-default-font-size-xs;
+}
+.form-control:focus {
+    border: 1px solid $fhi-blue-light-2;
+    color: $body-color;
+}
+
+@include media-breakpoint-up(lg) {
+    .form-control {
+        font-size: $fhi-default-font-size-lg;
+    }
+}

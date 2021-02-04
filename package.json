@@ -1,0 +1,30 @@
+{
+  "name": "@folkehelseinstituttet/style",
+  "version": "1.0.0",
+  "description": "Css and sass styling used by Folkehelseinstituttet",
+  "files": [
+    "/css",
+    "/scss"
+  ],
+  "exports": {
+    "css": "./dist/css",
+    "scss": "./dist/scss"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
+    "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
+    "prepack": "npm run compile-css && npm run minify-css"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.6.0",
+    "clean-css-cli": "^4.3.0",
+    "ncp": "^2.0.0",
+    "node-sass": "^5.0.0"
+  }
+}

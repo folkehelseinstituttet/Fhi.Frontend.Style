@@ -1,0 +1,40 @@
+// Fonter
+// No fonts are distributed with this package, but for best experiance please supply your own fonts
+
+// Variabler
+@import "./fhi-felles/variables.bootstrap-color-reset";
+@import "./fhi-felles/variables.colors";
+@import "./fhi-felles/variables.color-aliases";
+@import "./fhi-felles/variables.spacers-and-height-width";
+@import "./fhi-felles/variables.grid";
+@import "./fhi-felles/variables.typography";
+@import "./fhi-felles/variables.buttons";
+@import "./fhi-felles/variables.forms";
+
+// Bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./bootstrap/buttons";
+@import "./bootstrap/containers";
+@import "./bootstrap/forms";
+
+// NgBootstrap
+@import "./ng-bootstrap/datepicker/datepicker-day-view";
+@import "./ng-bootstrap/datepicker/datepicker-month";
+@import "./ng-bootstrap/datepicker/datepicker-navigation";
+@import "./ng-bootstrap/datepicker/datepicker-navigation-select";
+@import "./ng-bootstrap/datepicker/datepicker";
+
+// FHI-basic
+@import "./fhi-felles/backdrops";
+@import "./fhi-felles/keyboard-focus";
+@import "./fhi-felles/typography";
+@import "./fhi-felles/color-utilities";
+@import "./fhi-felles/fhi-buttons";
+
+// FHI-sidemaler
+@import "./fhi-felles/sidemaler/fhi-app.block";
+
+// FHI-komponenter
+@import "./fhi-felles/komponenter/fhi-datepicker.block";
+@import "./fhi-felles/komponenter/fhi-main-menu.block";
+@import "./fhi-felles/komponenter/fhi-spinner-border.block";
