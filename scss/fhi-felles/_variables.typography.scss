@@ -40,14 +40,20 @@ $fhi-default-font-size-lg:  $fhi-font-size-2;
 $fhi-lead-font-size-xs:  $fhi-font-size-3;
 
 // Font families
-$fhi-font-family-serif-regular: 'CrimsonText', 'Cambria', serif;
+$fhi-font-family-serif: 'Crimson Text', 'Cambria', serif;
 $fhi-font-family-sans-serif-regular: 'Brandon Regular', 'Calibri', sans-serif;
 $fhi-font-family-sans-serif-medium: 'Brandon Medium', 'Calibri', sans-serif;
 $fhi-font-family-sans-serif-bold: 'Brandon Bold', 'Calibri', sans-serif;
 $fhi-font-family-sans-serif-secondary: 'Calibri', 'Trebuchet MS', sans-serif;
 $font-family-monospace: Consolas, "Liberation Mono", "Courier New", monospace;
 
+// Font-tykkelser
+$fhi-font-family-serif-weight-regular: 400;
+$fhi-font-family-serif-weight-bold: 600;
+$fhi-font-family-serif-weight-bold: 700;
+
 // Div Bootstrap resets
 $line-height-base: 1.5;
-$headings-font-family: $fhi-font-family-serif-regular;
+$headings-font-family: $fhi-font-family-serif;
+$headings-font-weight: $fhi-font-family-serif-weight-bold;
 $input-btn-font-family: $fhi-font-family-sans-serif-secondary;
