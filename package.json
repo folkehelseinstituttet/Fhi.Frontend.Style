@@ -6,10 +6,9 @@
     "/css",
     "/scss"
   ],
-  "exports": {
-    "css": "./dist/css",
-    "scss": "./dist/scss"
-  },
+  "main": "./scss/style.scss",
+  "unpkg": "./css/styles.css",
+  "style": "./css/styles.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
