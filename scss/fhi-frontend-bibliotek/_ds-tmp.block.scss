@@ -41,6 +41,22 @@
     top: 1rem;
 }
 
+.ds-scroll-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 2;
+
+    &__icon {
+        font-size: 2rem;
+        line-height: 1;
+
+        &:hover {
+            color: $inline-link-color;
+        }
+    }
+}
+
 .ds-color-palette {
     &__color {
         height: $fhi-space-6;
@@ -179,5 +195,8 @@
     }
     &__color--fhi-pink-light-2 {
         background-color: $fhi-pink-light-2;
+    }
+    &__color--fhi-pink-light-3 {
+        background-color: $fhi-pink-light-3;
     }
 }

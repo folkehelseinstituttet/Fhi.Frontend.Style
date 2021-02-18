@@ -1,4 +1,4 @@
-// $assets: '../../../assets';
+$assets: '../../../assets';
 
 .fhi-ngb {
     .ngb-dp {
@@ -15,7 +15,7 @@
                 content: "";
                 position: absolute;
                 left: 0;
-                // background: no-repeat center url($assets + '/fhi-felles/icons/arrow-thin-red.svg');
+                background: no-repeat center url($assets + '/fhi-felles/icons/arrow-thin-red.svg');
                 width: $fhi-px * 55;
                 height: $fhi-px * 50;
                 transform: rotate(180deg);
