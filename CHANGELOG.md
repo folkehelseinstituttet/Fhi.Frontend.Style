@@ -1,3 +1,9 @@
+# 1.1.0
+> Feb 18, 2021
+
+* :tada: **Enhancement** Fixed styling for button
+
+
 # 1.0.0
 > Feb 04, 2021
 
