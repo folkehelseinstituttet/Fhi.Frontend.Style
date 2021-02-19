@@ -3,7 +3,7 @@ $assets: '../../../assets';
 .fhi-ngb {
     ngb-datepicker-navigation-select {
         > .custom-select {
-            background-image: url($assets + '/fhi-felles/icons/angle-down.svg');
+            // background-image: url($assets + '/fhi-felles/icons/angle-down.svg');
             background-position: right ($fhi-px * 6) center;
             background-size: ($fhi-px * 14) ($fhi-px * 28);
             border: 1px solid transparent;
