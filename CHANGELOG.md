@@ -1,3 +1,10 @@
+# Unreleased
+> Feb 19, 2021
+
+* :tada: **Enhancement** Remove files only relevant for Demo-app
+* :tada: **Enhancement** Get scss up to date with the old Azure repo
+
+
 # 1.1.0
 > Feb 18, 2021
 
