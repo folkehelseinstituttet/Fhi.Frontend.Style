@@ -3,6 +3,7 @@ $fhi-main-menu-height-xl: $fhi-px * 46;
 
 .fhi-app {
     background-color: $fhi-bg-color-1;
+    display: block;
     min-height: 100vh;
 
     &__header {

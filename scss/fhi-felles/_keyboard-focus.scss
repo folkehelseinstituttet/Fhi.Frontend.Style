@@ -10,6 +10,8 @@
 [data-whatintent="touch"] {
     *:focus {
         outline: none !important;
+    }
+    *:not(.btn):focus {
         box-shadow: none !important;
     }
 }

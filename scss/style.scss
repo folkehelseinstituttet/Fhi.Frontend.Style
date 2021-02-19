@@ -11,6 +11,10 @@
 @import "./fhi-felles/variables.buttons";
 @import "./fhi-felles/variables.forms";
 
+// Mixins
+@import "./fhi-felles/mixins/button.mixins";
+@import "./fhi-felles/mixins/form.mixins";
+
 // Bootstrap
 @import "./node_modules/bootstrap/scss/bootstrap";
 @import "./bootstrap/buttons";
@@ -29,12 +33,17 @@
 @import "./fhi-felles/keyboard-focus";
 @import "./fhi-felles/typography";
 @import "./fhi-felles/color-utilities";
-@import "./fhi-felles/fhi-buttons";
 
 // FHI-sidemaler
 @import "./fhi-felles/sidemaler/fhi-app.block";
 
 // FHI-komponenter
+@import "./fhi-felles/komponenter/fhi-btn-flat.block";
+@import "./fhi-felles/komponenter/fhi-btn-outline-primary.block";
+@import "./fhi-felles/komponenter/fhi-btn-outline-secondary.block";
+@import "./fhi-felles/komponenter/fhi-btn-primary.block";
+@import "./fhi-felles/komponenter/fhi-btn-secondary.block";
+@import "./fhi-felles/komponenter/fhi-btn-shortcut.block";
 @import "./fhi-felles/komponenter/fhi-datepicker.block";
 @import "./fhi-felles/komponenter/fhi-main-menu.block";
 @import "./fhi-felles/komponenter/fhi-spinner-border.block";

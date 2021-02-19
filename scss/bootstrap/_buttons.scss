@@ -6,13 +6,13 @@
     font-size: $btn-font-size;
     line-height: 1;
     height: $fhi-btn-height-sm;
-    padding: 0 $fhi-px * 12;
-    transition: all 0.2s linear;
+    padding: $fhi-btn-padding-tb-sm $fhi-btn-padding-lr-sm;
+    transition: all 0.1s linear;
 }
 
 //
 // Button Sizes
-//   NB! xs, sm, osv. representere ikke her breakpoints.
+//   NB! xs, sm, etc. does not represent breakpoints in this context.
 //
 .btn-sm {
     width: $fhi-btn-sm-width;
@@ -32,5 +32,6 @@
 @include media-breakpoint-up(lg) {
     .btn {
         height: $fhi-btn-height-lg;
+        padding: $fhi-btn-padding-tb-lg $fhi-btn-padding-lr-lg;
     }
 }

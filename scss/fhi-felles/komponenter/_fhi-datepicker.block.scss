@@ -1,30 +1,19 @@
-@mixin border-radius($side, $radius) {
-    @if $side == 'left' {
-        border-top-left-radius: $radius;
-        border-bottom-left-radius: $radius;
-    }
-    @if $side == 'right' {
-        border-top-right-radius: $radius;
-        border-bottom-right-radius: $radius;
-    }
-}
-@mixin border-transition {
-    transition: border-radius 0.2s ease;
-}
-
 .fhi-datepicker {
     &__input-group {
         min-width: $fhi-px * 155;
         max-width: $fhi-px * 175;
 
         > .form-control {
-            @include border-transition();
+            @include fhi-border-transition();
             height: $fhi-input-height-xs;
+        }
+        > .form-control:focus {
+            @include fhi-border-radius-right($input-border-radius);
         }
     }
     &__input-group-prepend {
-        @include border-radius('left', $fhi-px * 4);
-        @include border-transition();
+        @include fhi-border-radius-left($fhi-px * 4);
+        @include fhi-border-transition();
         background-color: $white;
         border: 1px solid $fhi-grey-3;
         line-height: 1;
@@ -40,6 +29,9 @@
         height: $fhi-btn-height-sm - ($fhi-px * 2);
         padding: 0 ($fhi-px * 12);
 
+        &:focus {
+            box-shadow: none;
+        }
         &:hover {
             color: $inline-link-hover-color;
         }
@@ -60,11 +52,11 @@
 .fhi-datepicker--open {
     .fhi-datepicker__input-group {
         > .form-control {
-            @include border-radius('right', $fhi-input-height-xs / 2);
+            @include fhi-border-radius-right($fhi-input-height-xs / 2);
         }
     }
     .fhi-datepicker__input-group-prepend {
-        @include border-radius('left', $fhi-input-height-xs / 2);
+        @include fhi-border-radius-left($fhi-input-height-xs / 2);
     }
 }
 
@@ -85,11 +77,11 @@
     .fhi-datepicker--open {
         .fhi-datepicker__input-group {
             > .form-control {
-                @include border-radius('right', $fhi-input-height-lg / 2);
+                @include fhi-border-radius-right($fhi-input-height-lg / 2);
             }
         }
         .fhi-datepicker__input-group-prepend {
-            @include border-radius('left', $fhi-input-height-lg / 2);
+            @include fhi-border-radius-left($fhi-input-height-lg / 2);
         }
     }
 }

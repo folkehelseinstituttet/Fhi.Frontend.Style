@@ -30,34 +30,28 @@ $fhi-disabled-color-inverse: $fhi-grey-1;
 // Text
 $body-color: $black;
 $text-muted: $disabled-color;
-$pre-color: $fhi-red-2;
+$pre-color:  $fhi-red-2;
 $code-color: $fhi-red-2;
-$fhi-text-ancillary: $fhi-grey-3;
+
+$fhi-text-ancillary:         $fhi-grey-3;
 $fhi-text-ancillary-inverse: $fhi-grey-1;
-$fhi-text-error-inverse: $fhi-pink-dark-1;
+$fhi-text-error-inverse:     $fhi-pink-dark-1;
 
 // Lenker
-$inline-link-color: $fhi-blue-1;
-$inline-link-hover-color: $fhi-red-2;
-$fhi-main-menu-xs-color: $white;
-$fhi-main-menu-xl-color: $body-color;
+$inline-link-color:             $fhi-blue-1;
+$inline-link-hover-color:       $fhi-red-2;
+$fhi-main-menu-xs-color:        $white;
+$fhi-main-menu-xl-color:        $body-color;
 $fhi-main-menu-xl-active-color: $inline-link-hover-color;
-$fhi-main-menu-xl-hover-color: $inline-link-hover-color;
+$fhi-main-menu-xl-hover-color:  $inline-link-hover-color;
 
 // Buttons
-$fhi-btn-primary-color:         $fhi-red-2;
-$fhi-btn-primary-hover-color:   $fhi-red-3;
-$fhi-btn-secondary-color:       $fhi-charcoal-1;
-$fhi-btn-secondary-hover-color: $fhi-grey-3;
-
-
-$btn-link-disabled-color: $fhi-grey-3;
-
+$btn-link-disabled-color:          $fhi-grey-3;
 
 // Form
-$input-border-color: $fhi-grey-1;
+$input-border-color:      $fhi-grey-1;
 $input-placeholder-color: $fhi-grey-3;
-$input-color: $black;
+$input-color:             $black;
 
 // Custom form
 $custom-select-indicator-color: $black;
