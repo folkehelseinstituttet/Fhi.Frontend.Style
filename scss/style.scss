@@ -21,13 +21,6 @@
 @import "./bootstrap/containers";
 @import "./bootstrap/forms";
 
-// NgBootstrap
-@import "./ng-bootstrap/datepicker/datepicker-day-view";
-@import "./ng-bootstrap/datepicker/datepicker-month";
-@import "./ng-bootstrap/datepicker/datepicker-navigation";
-@import "./ng-bootstrap/datepicker/datepicker-navigation-select";
-@import "./ng-bootstrap/datepicker/datepicker";
-
 // FHI-basic
 @import "./fhi-felles/backdrops";
 @import "./fhi-felles/keyboard-focus";
@@ -44,6 +37,5 @@
 @import "./fhi-felles/komponenter/fhi-btn-primary.block";
 @import "./fhi-felles/komponenter/fhi-btn-secondary.block";
 @import "./fhi-felles/komponenter/fhi-btn-shortcut.block";
-@import "./fhi-felles/komponenter/fhi-datepicker.block";
 @import "./fhi-felles/komponenter/fhi-main-menu.block";
 @import "./fhi-felles/komponenter/fhi-spinner-border.block";
