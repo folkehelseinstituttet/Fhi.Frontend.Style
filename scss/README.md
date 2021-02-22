@@ -6,7 +6,6 @@
   - [sidemaler](#sidemaler)
   - [_variables.[navn].scss](#_variablesnavnscss)
 - [fhi-[prosjektnavn]](#fhi-prosjektnavn)
-- [ng-bootstrap](#ng-bootstrap)
 
 ## bootstrap
 
@@ -40,7 +39,3 @@ Sidemaler er wrapper-komponenter som fylles med et sett med komponenter for å f
 ## fhi-[prosjektnavn]
 
 Her ligger alt av css som er kun brukes av gjeldende prosjekt. Koden som ligger her er enten helt custom, eller den modifiserer css som ligger i `fhi-felles`.
-
-## ng-bootstrap
-
-Her ligger kun css som modifiserer NgBootstrap.
