@@ -1,7 +1,9 @@
-// Fonter
-// No fonts are distributed with this package, but for best experiance please supply your own fonts
+// Fonts
+//   Only OFL-fonts (fallback fonts) are distributed with this 
+//   package, since CrimsonText and BrandonText are proprietary.
+@import "fonts";
 
-// Variabler
+// Variables
 @import "./fhi-felles/variables.bootstrap-color-reset";
 @import "./fhi-felles/variables.colors";
 @import "./fhi-felles/variables.color-aliases";
