@@ -1,7 +1,8 @@
-# Unreleased
-> Feb 24, 2021
+# 1.2.0
+> Feb 25, 2021
 
 * :tada: **Enhancement** Update BrandonText and CrimsonText font-variables and add the new fallback fonts
+* :tada: **Enhancement** Update font-family h1-h5
 * :tada: **Enhancement** Remove NgbDatepicker
 * :tada: **Enhancement** Remove files only relevant for Demo-app
 * :tada: **Enhancement** Get scss up to date with the old Azure repo
