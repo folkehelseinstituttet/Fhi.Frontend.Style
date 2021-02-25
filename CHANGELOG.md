@@ -1,3 +1,9 @@
+# 1.2.1
+> Feb 25, 2021
+
+* :bug: **Bugfix** Add `files["/fonts"]` to `package.json`
+
+
 # 1.2.0
 > Feb 25, 2021
 

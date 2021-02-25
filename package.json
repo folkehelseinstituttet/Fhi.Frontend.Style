@@ -4,6 +4,7 @@
   "description": "Css and sass styling used by Folkehelseinstituttet",
   "files": [
     "/css",
+    "/fonts",
     "/scss"
   ],
   "main": "./scss/style.scss",
