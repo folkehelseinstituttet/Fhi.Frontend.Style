@@ -1,6 +1,6 @@
 {
   "name": "@folkehelseinstituttet/style",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Css and sass styling used by Folkehelseinstituttet",
   "files": [
     "/css",
@@ -15,7 +15,7 @@
     "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
     "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
     "prepack": "npm run compile-css && npm run minify-css",
-    "postversion":"git add package.json package-lock.json && git commit -mv%npm_package_version%"
+    "postversion": "git add package.json package-lock.json && git commit -mv%npm_package_version%"
   },
   "author": "",
   "license": "MIT",
