@@ -1,7 +1,8 @@
-name: Release
+name: Automatic publish to NPM
 on:
-  workflow_dispatch:
-
+  push:
+    branches:
+      - main
 jobs:
   release:
     name: Release
