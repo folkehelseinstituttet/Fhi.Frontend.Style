@@ -1,0 +1,51 @@
+.custom-control.custom-radio {
+    .custom-control-input {
+        width: $fhi-space-4;
+        height: $fhi-space-4;    
+        &:checked {
+            &~.custom-control-label {
+                &:after {
+                    background: 50%/14px 14px no-repeat;
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='-8 -8 16 16'%3e%3ccircle r='8' fill='$fhi-charcoal-1'/%3e%3c/svg%3e");
+                }
+            }
+        }
+        &, &:focus, &:active, &:hover, &:checked {
+            &~.custom-control-label {
+                &:before {
+                    color: $fhi-charcoal-1;
+                    background-color: transparent;
+                    border-color: $fhi-charcoal-1;
+                }
+            }
+        }
+        &:focus {
+            &~.custom-control-label {
+                &:before {
+                    box-shadow: 0 0 0.2rem 0 $fhi-charcoal-1;
+                }
+            }
+        }
+        &:disabled {
+            &~.custom-control-label {
+                color: $fhi-grey-2;
+                cursor: default;
+                &:before {
+                    background-color: $fhi-grey-2;
+                }
+            }
+        }
+    }
+
+    .custom-control-label {
+        margin-left: $fhi-space-2;
+        cursor: pointer;
+        &:before, &:after {
+            left: calc(-1.5rem + -#{$fhi-space-2});
+            top: 0;
+            width: $fhi-space-4;
+            height: $fhi-space-4;
+            border-color: $fhi-charcoal-1;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.pagination {
+    .page-item {
+        &.active {
+            .page-link {
+                color: $fhi-grey-light-1;
+                background-color: $fhi-charcoal-1;
+            }
+        }
+        .page-link{
+            color: $fhi-grey-4;
+            border-color: $fhi-grey-4 ;
+
+            &:hover {
+                color: $fhi-grey-4;
+                background-color: $fhi-pink-light-2;
+            }
+        }
+    }
+}
+
+// Forces color on outmost buttons, should be overridden if you are not using next- and previous page buttons.
+.pagination {
+    .page-item:first-child, .page-item:last-child {
+        .page-link{
+            color: $fhi-red-1;
+            text-decoration: none;
+        }
+    }
+}
