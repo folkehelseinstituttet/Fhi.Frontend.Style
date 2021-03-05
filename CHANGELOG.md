@@ -1,4 +1,5 @@
-# Unreleased
+# 1.3.0
+> Mar 5, 2021
 
 * :nut_and_bolt: **New** Added styling to bootstrap checkbox
 * :nut_and_bolt: **New** Added styling to bootstrap radio-button
