@@ -1,8 +1,20 @@
 # How to contribute
 
-So you're thinking about contributing to Fhi.Frontend.Style? Great! Maintaining and enhancing Fhi.Frontend.Style is a big job, so **the community's help is really appreciated.**
+So you're thinking about contributing to Fhi.Frontend.Style? Great! Maintaining and enhancing Fhi.Frontend.Style is a big job, so **the community's help is really appreciated.** Helping out isn't just writing code, it also includes submitting issues, helping confirm issues and improving the documentation.
 
-Helping out isn't just writing code, it also includes submitting issues, helping confirm issues and improving the documentation.
+Table of contents:
+
+- [Submitting Issues](#submitting-issues)
+  - [Before you submit an issue](#before-you-submit-an-issue)
+  - [Submitting a good issue](#submitting-a-good-issue)
+- [Confirming Issues](#confirming-issues)
+- [Documentation](#documentation)
+- [Fixing Bugs and Adding Features](#fixing-bugs-and-adding-features)
+  - [Pull request guidelines for](#pull-request-guidelines-for)
+    - [Feature branches](#feature-branches)
+    - [Release branches](#release-branches)
+    - [PS. If you want to test the package before creating pull request](#ps-if-you-want-to-test-the-package-before-creating-pull-request)
+- [License](#license)
 
 ## Submitting Issues
 
