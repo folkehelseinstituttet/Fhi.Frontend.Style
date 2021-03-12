@@ -1,7 +1,5 @@
 /**
- * Fargealiaser
- *
- * Variabler uten fhi-prefiks er Bootstrap-variabler
+ * Color aliases
  */
 
 $white:     white;
@@ -25,6 +23,7 @@ $fhi-brand-color: $fhi-blue-dark-1;
 
 // Deaktivert
 $disabled-color: $fhi-grey-2;
+$fhi-disabled-color: $fhi-grey-2;
 $fhi-disabled-color-inverse: $fhi-grey-1;
 
 // Text
@@ -55,6 +54,8 @@ $input-color:             $black;
 
 // Custom form
 $custom-select-indicator-color: $black;
+$fhi-custom-control-color: $fhi-charcoal-1;
+$fhi-custom-control-shadow-color: lighten($black, 65%);
 
 // Bakgrunnsfarger for flater
 $fhi-bg-color-1:  $white;

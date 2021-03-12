@@ -1,0 +1,51 @@
+.custom-control.custom-switch {
+    padding-left: $fhi-space-7;
+
+    .custom-control-label {
+        &:before {
+            top: $fhi-px * 7;
+            left: -$fhi-space-7;
+            width: $fhi-px * 48;
+            height: $fhi-px * 12;
+        }
+        &:after {
+            background-color: $white;
+            border: 1px solid $fhi-custom-control-color;
+            border-radius: $fhi-px * 12;
+            box-shadow: 0px 3px 6px $fhi-custom-control-shadow-color;
+            top: $fhi-px * 1;
+            left: -$fhi-space-7;
+            width: $fhi-px * 24;
+            height: $fhi-px * 24;
+        }
+    }
+    .custom-control-input {
+        &, &:checked, &:focus, &:active {
+            & ~ .custom-control-label {
+                &:before {
+                    border-color: $fhi-custom-control-color;
+                    background-color: $white;
+                    box-shadow: none !important;
+                }
+            }
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label {
+        &:after {
+            background-color: $fhi-custom-control-color;
+            transform: translateX($fhi-space-4);
+        }
+    }
+    .custom-control-input {
+        &:disabled, &[disabled] {
+            & ~ .custom-control-label {
+                color: $fhi-disabled-color;
+
+                &:before,
+                &:after {
+                    border-color: $fhi-disabled-color;
+                }
+            }
+        }
+    }
+}
