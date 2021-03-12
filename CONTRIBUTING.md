@@ -41,6 +41,31 @@ We love pull requests, but would prefer that new contributors start with smaller
 
 It is also a good idea to add a comment to an issue that you are working on to let everyone know. If you stop working on it, also please let us know.
 
+### Pull request guidelines for
+
+#### Feature branches
+
+  1. Create a new branch named either `feature/*`, `bugfix/*` or `hotfix/*`
+  2. Before pull request, remember to update `CHANGELOG.md`
+     PS.If you are not releasing changes right away, add `Unreleased` instead of version number to `CHANGELOG.md`
+  3. Push feature branch, create pull request with a good name, and a comment if necessary
+  4. After approved review a maintainer will merge to `main`
+
+#### Release branches
+
+  1. Create a new branch named `release/x.x.x`
+  2. Change text `Unreleased` to `x.x.x` i `CHANGELOG.md`
+  3. Run `npm version [patch, minor, major]` to upgrade `package.json`
+  4. Push release branch and create pull request
+  5. After approved review a maintainer will merge to `main` (deploy)
+
+#### PS. If you want to test the package before creating pull request
+
+...you can do that in any app using this package, eg. in [https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
+
+- locally, in `[path to]/Fhi.Frontend.Style`, run: `npm pack`
+- locally, in `[path to]/Fhi.Frontend.Demo`, run: `npm install [path to]/Fhi.Frontend.Style/folkehelseinstituttet-style-[VERSION].tgz`
+
 ## License
 
 Fhi.Frontend.Style is under the [MIT license](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/LICENSE). By contributing to Fhi.Frontend.Style, you assert that:
