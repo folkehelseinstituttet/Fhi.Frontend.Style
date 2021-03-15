@@ -1,8 +1,20 @@
 # How to contribute
 
-So you're thinking about contributing to Fhi.Frontend.Style? Great! Maintaining and enhancing Fhi.Frontend.Style is a big job, so **the community's help is really appreciated.**
+So you're thinking about contributing to Fhi.Frontend.Style? Great! Maintaining and enhancing Fhi.Frontend.Style is a big job, so **the community's help is really appreciated.** Helping out isn't just writing code, it also includes submitting issues, helping confirm issues and improving the documentation.
 
-Helping out isn't just writing code, it also includes submitting issues, helping confirm issues and improving the documentation.
+Table of contents:
+
+- [Submitting Issues](#submitting-issues)
+  - [Before you submit an issue](#before-you-submit-an-issue)
+  - [Submitting a good issue](#submitting-a-good-issue)
+- [Confirming Issues](#confirming-issues)
+- [Documentation](#documentation)
+- [Fixing Bugs and Adding Features](#fixing-bugs-and-adding-features)
+  - [Pull request guidelines for](#pull-request-guidelines-for)
+    - [Feature branches](#feature-branches)
+    - [Release branches](#release-branches)
+    - [PS. If you want to test the package before creating pull request](#ps-if-you-want-to-test-the-package-before-creating-pull-request)
+- [License](#license)
 
 ## Submitting Issues
 
@@ -40,6 +52,31 @@ Great documentation is essential for any open source project and Fhi.Frontend.St
 We love pull requests, but would prefer that new contributors start with smaller issues and let us know before you contribute to prevent duplication of work.
 
 It is also a good idea to add a comment to an issue that you are working on to let everyone know. If you stop working on it, also please let us know.
+
+### Pull request guidelines for
+
+#### Feature branches
+
+  1. Create a new branch named either `feature/*`, `bugfix/*` or `hotfix/*`
+  2. Before pull request, remember to update `CHANGELOG.md`
+     PS.If you are not releasing changes right away, add `Unreleased` instead of version number to `CHANGELOG.md`
+  3. Push feature branch, create pull request with a good name, and a comment if necessary
+  4. After approved review a maintainer will merge to `main`
+
+#### Release branches
+
+  1. Create a new branch named `release/x.x.x`
+  2. Change text `Unreleased` to `x.x.x` i `CHANGELOG.md`
+  3. Run `npm version [patch, minor, major]` to upgrade `package.json`
+  4. Push release branch and create pull request
+  5. After approved review a maintainer will merge to `main` (deploy)
+
+#### PS. If you want to test the package before creating pull request
+
+...you can do that in any app using this package, eg. in [https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
+
+- locally, in `[path to]/Fhi.Frontend.Style`, run: `npm pack`
+- locally, in `[path to]/Fhi.Frontend.Demo`, run: `npm install [path to]/Fhi.Frontend.Style/folkehelseinstituttet-style-[VERSION].tgz`
 
 ## License
 

@@ -1,9 +1,11 @@
-# Unreleased
+ Unreleased
 
 > Mar 12, 2021
 
 * :tada: **Enhancement** Add `*.orig` to .gitignore
 * :tada: **Enhancement** Update color palette
+* :tada: **Enhancement** Add table of contents to CONTRIBUTING
+* :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING
 * :nut_and_bolt: **New** Add custom form switch
 
 # 1.3.0
