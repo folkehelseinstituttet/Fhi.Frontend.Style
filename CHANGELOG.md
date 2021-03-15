@@ -2,6 +2,7 @@
 
 > Mar 12, 2021
 
+* :tada: **Enhancement** Add `*.orig` to .gitignore
 * :tada: **Enhancement** Update color palette
 * :nut_and_bolt: **New** Add custom form switch
 
