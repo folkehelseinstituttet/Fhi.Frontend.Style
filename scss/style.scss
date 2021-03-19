@@ -6,21 +6,23 @@
 // Variables
 @import "./variables";
 
-// Mixins
-@import "./style/mixins/button.mixins";
-@import "./style/mixins/form.mixins";
-
 // Bootstrap
 @import "./node_modules/bootstrap/scss/bootstrap";
+
+// FHI mixins
+@import "./style/mixins/fhi-button.mixins";
+@import "./style/mixins/fhi-form.mixins";
+
+// FHI Bootstrap Theme (aka. Bootstrap overrides)
 @import "./style/bootstrap/buttons";
 @import "./style/bootstrap/containers";
 @import "./style/bootstrap/custom-forms";
 @import "./style/bootstrap/forms";
-@import "./style/bootstrap/checkbox";
-@import "./style/bootstrap/radio";
+@import "./style/bootstrap/forms.checkbox";
+@import "./style/bootstrap/forms.radio";
 @import "./style/bootstrap/pagination";
 
-// FHI basic
+// FHI basics
 @import "./style/backdrops";
 @import "./style/keyboard-focus";
 @import "./style/typography";
