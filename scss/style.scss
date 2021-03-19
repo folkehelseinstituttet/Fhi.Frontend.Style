@@ -1,17 +1,10 @@
 // Fonts
 //   Only the fallback fonts SourceSansPro and PTSerif (OFL-fonts) are distributed 
 //   with this package, since CrimsonText and BrandonText are proprietary.
-@import "style/fonts";
+@import "./style/fonts";
 
 // Variables
-@import "./style/variables.bootstrap-color-reset";
-@import "./style/variables.colors";
-@import "./style/variables.color-aliases";
-@import "./style/variables.spacers-and-height-width";
-@import "./style/variables.grid";
-@import "./style/variables.typography";
-@import "./style/variables.buttons";
-@import "./style/variables.forms";
+@import "./variables";
 
 // Mixins
 @import "./style/mixins/button.mixins";
