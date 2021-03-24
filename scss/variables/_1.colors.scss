@@ -2,6 +2,9 @@
  * All colors used by FHI
  */
 
+$fhi-white: white;
+$white: $fhi-white; // DEPRECATED! Use $fhi-white
+
 $fhi-grey-light-1: #fbfbfb;
 $fhi-grey-light-2: #f7f6f5;
 $fhi-grey-light-3: #f0edeb;
