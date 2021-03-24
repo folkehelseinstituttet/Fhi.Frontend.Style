@@ -58,7 +58,6 @@ $green:    red;
 $teal:     red;
 $cyan:     red;
 
-// Spacers
 $spacers: (
     0: 0,
     1: $fhi-space-1,
@@ -69,8 +68,6 @@ $spacers: (
     6: $fhi-space-6,
     7: $fhi-space-7
 );
-
-// Grid
 $grid-breakpoints: (
     xs: 0,
     sm: 576px,
@@ -86,3 +83,7 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1620px
 );
+
+$line-height-base: 1.5;
+$font-family-monospace: Consolas, "Liberation Mono", monospace;
+$input-btn-font-family: $fhi-font-family-sans-serif-regular-2;
