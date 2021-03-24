@@ -1,41 +1,62 @@
-# Organisering av css-filer i mappen "styles"
+# Syntax and folder structure
 
-- [bootstrap](#bootstrap)
-- [fhi-felles](#fhi-felles)
-  - [komponenter](#komponenter)
-  - [sidemaler](#sidemaler)
-  - [_variables.[navn].scss](#_variablesnavnscss)
-- [fhi-[prosjektnavn]](#fhi-prosjektnavn)
+- [Syntax](#syntax)
+  - [SASS](#sass)
+  - [BEM](#bem)
+    - [BEM in a nutshell](#bem-in-a-nutshell)
+- [Folder structure](#folder-structure)
 
-## bootstrap
+## Syntax
 
-Her ligger kun css som modifiserer Bootstrap.
+### SASS
 
-## fhi-felles
+This project is using [SCSS syntax](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax).
 
-Her ligger alt av css som er felles for alle prosjekter som bruker Fhi.FrontendBibliotek. Koden som ligger her er enten helt custom, eller den er modifiseringer av 3. parts css.
+### BEM
 
-### komponenter
+This project is using BEM syntax, but only in the folder `style/blocks`
 
-Komponenter er selvstendige designelementer på samme måte som [Bootstrap components](https://getbootstrap.com/docs/4.0/components). Hver komponent vil også være en selvstendig BEM-block.
+#### BEM in a nutshell
 
-### sidemaler
+```css
+.person {}
+.person--female {}
+.person__hand {}
+.person__hand--left {}
+```
 
-Sidemaler er wrapper-komponenter som fylles med et sett med komponenter for å fremstille en ferdig side. Hver sidemal vil også være en selvstendig BEM-block.
+```html
+<div class="person person--female">
+  <div class="person__hand person__hand--left"></div>
+</div>
+```
 
-### _variables.[navn].scss
+More info about BEM: [getbem.com](http://getbem.com/introduction)
 
- Både Bootstrap-variabler og custom FHI-variabler.
- 
- Bootstrap-variabler er definert med !default, så de kan gis ny verdi
- i denne filen. Denne filen blir importert før Bootstrap-rammeverket
- slik at disse variabelverdiene fungerer som en konfigurasjon.
- Oversikt over mulige Bootstrap-variabler som kan gis ny verdi, eller se:
- https://github.com/twbs/bootstrap/blob/v4.1.3/scss/_variables.scss
- (Se package.json for riktig versjonsnummer for Bootstrap.)
- For å finne ut om en variabel i denne filen er en Bootstrap-variabel er
- det bare å søke etter den i filen nevnt over.
+## Folder structure
 
-## fhi-[prosjektnavn]
+```sh
+style/
+    blocks/ 
+        #BEM syntax in this folder only
+        _fhi.[BEM-block-name].block.scss
+        ...
 
-Her ligger alt av css som er kun brukes av gjeldende prosjekt. Koden som ligger her er enten helt custom, eller den modifiserer css som ligger i `fhi-felles`.
+    bootstrap/
+        #All Bootstrap overrides
+        ...
+
+    fonts/
+        #PTSerif, SourceSansPro
+        _fonts.scss
+
+    #All "FHI basics" styles
+    _[file-name].scss
+    ...
+
+variables/
+    ...
+
+style.scss #All scss output
+variables.scss #Output for libraries
+```

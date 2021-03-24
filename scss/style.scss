@@ -1,7 +1,7 @@
 // Fonts
 //   Only the fallback fonts SourceSansPro and PTSerif (OFL-fonts) are distributed 
 //   with this package, since CrimsonText and BrandonText are proprietary.
-@import "./style/fonts";
+@import "./style/fonts/fonts";
 
 // FHI variables
 @import "./variables";
@@ -23,9 +23,9 @@
 
 // FHI basics
 @import "./style/backdrops";
+@import "./style/color-utilities";
 @import "./style/keyboard-focus";
 @import "./style/typography";
-@import "./style/color-utilities";
 
 // FHI BEM blocks
 @import "./style/blocks/fhi-app.block";
