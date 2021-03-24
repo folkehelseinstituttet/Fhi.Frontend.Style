@@ -69,3 +69,20 @@ $spacers: (
     6: $fhi-space-6,
     7: $fhi-space-7
 );
+
+// Grid
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1680px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1620px
+);
