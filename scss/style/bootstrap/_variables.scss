@@ -58,3 +58,14 @@ $green:    red;
 $teal:     red;
 $cyan:     red;
 
+// Spacers
+$spacers: (
+    0: 0,
+    1: $fhi-space-1,
+    2: $fhi-space-2,
+    3: $fhi-space-3,
+    4: $fhi-space-4,
+    5: $fhi-space-5,
+    6: $fhi-space-6,
+    7: $fhi-space-7
+);
