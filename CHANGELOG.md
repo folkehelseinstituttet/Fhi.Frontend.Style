@@ -1,7 +1,11 @@
 # Unreleased
 
-> Mar 19, 2021
+> Mar 24, 2021
 
+* :tada: **Enhancement** Update `./scss/README.md`
+* :tada: **Enhancement** Translate (or delete) all comments in norwegian
+* :tada: **Enhancement** Move all Bootstrap variables into dedicated file
+* :tada: **Enhancement** Change the folder structure
 * :tada: **Enhancement** Add `*.orig` to .gitignore and fix markdown syntax errors in CHANGELOG
 * :tada: **Enhancement** Update color palette
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING

@@ -1,11 +1,3 @@
-/**
- * Colors
- *
- * Lager tydelig fokusmarkering ved bruk av keyboard
- * Fjerner kun default fokusmarkering hvis what-input starter som forventet
- * Fjerner outline fokusmarkering ved bruk av musepeker
- */
-
 [data-whatintent="mouse"],
 [data-whatintent="touch"] {
     *:focus {

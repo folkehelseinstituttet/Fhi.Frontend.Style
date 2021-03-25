@@ -1,0 +1,101 @@
+/**
+ * Bootstrap variables (overrides)
+ */
+
+$black:     $fhi-grey-4;
+
+$primary:   $fhi-red-2;
+$secondary: $fhi-blue-grey-2;
+$success:   $fhi-green-2;
+$info:      $fhi-blue-light-2;
+$warning:   $fhi-orange-2;
+$danger:    $fhi-pink-dark-2;
+$light:     $fhi-grey-light-1;
+$dark:      $fhi-blue-dark-1;
+$theme-colors: (
+  'error': $danger
+);
+
+$disabled-color: $fhi-grey-2;
+
+$body-color: $black;
+$text-muted: $disabled-color;
+$pre-color:  $fhi-red-2;
+$code-color: $fhi-red-2;
+
+$border-color: $fhi-grey-1;
+
+$inline-link-color:       $fhi-blue-1;
+$inline-link-hover-color: $fhi-red-2;
+
+$btn-link-disabled-color: $fhi-grey-3;
+
+$input-border-color:      $fhi-grey-1;
+$input-placeholder-color: $fhi-grey-3;
+$input-color:             $black;
+
+$custom-select-indicator-color: $black;
+
+// Unused Bootsrap colors
+//   Annoying, I know, but helpful in preventing use of illegal colors ;)
+$gray-100: red;
+$gray-200: red;
+$gray-300: red;
+$gray-400: red;
+$gray-500: red;
+$gray-600: red;
+$gray-700: red;
+$gray-800: red;
+$gray-900: red;
+$blue:     red;
+$indigo:   red;
+$purple:   red;
+$pink:     red;
+$red:      red;
+$orange:   red;
+$yellow:   red;
+$green:    red;
+$teal:     red;
+$cyan:     red;
+
+$spacers: (
+    0: 0,
+    1: $fhi-space-1,
+    2: $fhi-space-2,
+    3: $fhi-space-3,
+    4: $fhi-space-4,
+    5: $fhi-space-5,
+    6: $fhi-space-6,
+    7: $fhi-space-7
+);
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1680px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1620px
+);
+
+$line-height-base: 1.5;
+
+$font-family-monospace: Consolas, "Liberation Mono", monospace;
+
+$input-btn-font-family: $fhi-font-family-sans-serif-regular-2;
+
+$btn-font-family:      $fhi-font-family-sans-serif-medium;
+$btn-font-size:        $fhi-font-size-2;
+$btn-border-radius:    $fhi-px * 4;
+$btn-border-radius-sm: $btn-border-radius;
+
+$input-border-radius: $fhi-px * 4;
+
+$form-feedback-invalid-color: $fhi-pink-dark-3;
+$form-feedback-font-size:     $fhi-font-size-2;

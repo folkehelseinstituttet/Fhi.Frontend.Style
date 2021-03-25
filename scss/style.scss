@@ -1,47 +1,39 @@
 // Fonts
 //   Only the fallback fonts SourceSansPro and PTSerif (OFL-fonts) are distributed 
 //   with this package, since CrimsonText and BrandonText are proprietary.
-@import "fonts";
+@import "./style/fonts/fonts";
 
-// Variables
-@import "./fhi-felles/variables.bootstrap-color-reset";
-@import "./fhi-felles/variables.colors";
-@import "./fhi-felles/variables.color-aliases";
-@import "./fhi-felles/variables.spacers-and-height-width";
-@import "./fhi-felles/variables.grid";
-@import "./fhi-felles/variables.typography";
-@import "./fhi-felles/variables.buttons";
-@import "./fhi-felles/variables.forms";
-
-// Mixins
-@import "./fhi-felles/mixins/button.mixins";
-@import "./fhi-felles/mixins/form.mixins";
+// FHI variables
+@import "./variables";
 
 // Bootstrap
+@import "./style/bootstrap/variables"; // overrides
 @import "./node_modules/bootstrap/scss/bootstrap";
-@import "./bootstrap/buttons";
-@import "./bootstrap/containers";
-@import "./bootstrap/custom-forms";
-@import "./bootstrap/forms";
-@import "./bootstrap/checkbox";
-@import "./bootstrap/radio";
-@import "./bootstrap/pagination";
 
-// FHI-basic
-@import "./fhi-felles/backdrops";
-@import "./fhi-felles/keyboard-focus";
-@import "./fhi-felles/typography";
-@import "./fhi-felles/color-utilities";
+// FHI Bootstrap Theme (aka. Bootstrap overrides)
+@import "./style/bootstrap/mixins/button.mixins";
+@import "./style/bootstrap/mixins/form.mixins";
+@import "./style/bootstrap/buttons";
+@import "./style/bootstrap/custom-forms";
+@import "./style/bootstrap/forms";
+@import "./style/bootstrap/forms.checkbox";
+@import "./style/bootstrap/forms.radio";
+@import "./style/bootstrap/grid";
+@import "./style/bootstrap/pagination";
 
-// FHI-sidemaler
-@import "./fhi-felles/sidemaler/fhi-app.block";
+// FHI basics
+@import "./style/backdrops";
+@import "./style/color-utilities";
+@import "./style/keyboard-focus";
+@import "./style/typography";
 
-// FHI-komponenter
-@import "./fhi-felles/komponenter/fhi-btn-flat.block";
-@import "./fhi-felles/komponenter/fhi-btn-outline-primary.block";
-@import "./fhi-felles/komponenter/fhi-btn-outline-secondary.block";
-@import "./fhi-felles/komponenter/fhi-btn-primary.block";
-@import "./fhi-felles/komponenter/fhi-btn-secondary.block";
-@import "./fhi-felles/komponenter/fhi-btn-shortcut.block";
-@import "./fhi-felles/komponenter/fhi-main-menu.block";
-@import "./fhi-felles/komponenter/fhi-spinner-border.block";
+// FHI BEM blocks
+@import "./style/blocks/fhi-app.block";
+@import "./style/blocks/fhi-btn-flat.block";
+@import "./style/blocks/fhi-btn-outline-primary.block";
+@import "./style/blocks/fhi-btn-outline-secondary.block";
+@import "./style/blocks/fhi-btn-primary.block";
+@import "./style/blocks/fhi-btn-secondary.block";
+@import "./style/blocks/fhi-btn-shortcut.block";
+@import "./style/blocks/fhi-main-menu.block";
+@import "./style/blocks/fhi-spinner-border.block";

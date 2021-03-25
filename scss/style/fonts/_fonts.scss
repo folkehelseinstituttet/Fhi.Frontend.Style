@@ -1,0 +1,91 @@
+// SourceSansPro
+
+@font-face {
+    font-family: 'SourceSansPro Bold';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url('SourceSansPro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-Bold.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    src:
+        url('SourceSansPro/SourceSansPro-BoldItalic.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-BoldItalic.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    src:
+        url('SourceSansPro/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-SemiBold.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    src:
+        url('SourceSansPro/SourceSansPro-SemiBoldItalic.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-SemiBoldItalic.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Regular';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('SourceSansPro/SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Regular Italic';
+    font-weight: 400;
+    font-style: italic;
+    src:
+        url('SourceSansPro/SourceSansPro-Italic.woff2') format('woff2'),
+        url('SourceSansPro/SourceSansPro-Italic.woff') format('woff'),
+        url('SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+}
+
+// PTSerif
+
+@font-face {
+    font-family: 'PTSerif Bold';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url('PTSerif/PTSerif-Bold.woff') format('woff'),
+        url('PTSerif/PTSerif-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PTSerif Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    src:
+        url('PTSerif/PTSerif-BoldItalic.woff') format('woff'),
+        url('PTSerif/PTSerif-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PTSerif Regular';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('PTSerif/PTSerif-Regular.woff') format('woff'),
+        url('PTSerif/PTSerif-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PTSerif Regular Italic';
+    font-weight: 400;
+    font-style: italic;
+    src:
+        url('PTSerif/PTSerif-Italic.woff') format('woff'),
+        url('PTSerif/PTSerif-Italic.ttf') format('truetype');
+}
