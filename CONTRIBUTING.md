@@ -61,7 +61,7 @@ It is also a good idea to add a comment to an issue that you are working on to l
   2. Before pull request, remember to update `CHANGELOG.md`
      PS.If you are not releasing changes right away, add `Unreleased` instead of version number to `CHANGELOG.md`
   3. Push feature branch, create pull request with a good name, and a comment if necessary
-  4. After approved review a maintainer will merge to `main`
+  4. After approved review, squash and merge to `main`
 
 #### Release branches
 
@@ -69,7 +69,7 @@ It is also a good idea to add a comment to an issue that you are working on to l
   2. Change text `Unreleased` to `x.x.x` i `CHANGELOG.md`
   3. Run `npm version [patch, minor, major]` to upgrade `package.json`
   4. Push release branch and create pull request
-  5. After approved review a maintainer will merge to `main` (deploy)
+  5. After approved review, squash and merge to `main` (deploy)
 
 #### PS. If you want to test the package before creating pull request
 
