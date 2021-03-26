@@ -1,7 +1,8 @@
 # Unreleased
 
-> Mar 24, 2021
+> Mar 26, 2021
 
+* :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 * :tada: **Enhancement** Update `./scss/README.md`
 * :tada: **Enhancement** Translate (or delete) all comments in norwegian
 * :tada: **Enhancement** Move all Bootstrap variables into dedicated file
