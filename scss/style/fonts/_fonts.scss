@@ -55,37 +55,60 @@
         url('SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
 }
 
-// PTSerif
+// CrimsonText
 
 @font-face {
-    font-family: 'PTSerif Bold';
+    font-family: 'CrimsonText Bold';
     font-weight: 700;
     font-style: normal;
     src:
-        url('PTSerif/PTSerif-Bold.woff') format('woff'),
-        url('PTSerif/PTSerif-Bold.ttf') format('truetype');
+        url('CrimsonText/crimson-text-v11-latin-700.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-700.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-700.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'PTSerif Bold Italic';
+    font-family: 'CrimsonText Bold Italic';
     font-weight: 700;
     font-style: italic;
     src:
-        url('PTSerif/PTSerif-BoldItalic.woff') format('woff'),
-        url('PTSerif/PTSerif-BoldItalic.ttf') format('truetype');
+        url('CrimsonText/crimson-text-v11-latin-700italic.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-700italic.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-700italic.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'PTSerif Regular';
+    font-family: 'CrimsonText Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    src:
+        url('CrimsonText/crimson-text-v11-latin-600.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-600.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-600.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    src:
+        url('CrimsonText/crimson-text-v11-latin-600italic.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-600italic.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-600italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Regular';
     font-weight: 400;
     font-style: normal;
     src:
-        url('PTSerif/PTSerif-Regular.woff') format('woff'),
-        url('PTSerif/PTSerif-Regular.ttf') format('truetype');
+        url('CrimsonText/crimson-text-v11-latin-regular.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-regular.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'PTSerif Regular Italic';
+    font-family: 'CrimsonText Regular Italic';
     font-weight: 400;
     font-style: italic;
     src:
-        url('PTSerif/PTSerif-Italic.woff') format('woff'),
-        url('PTSerif/PTSerif-Italic.ttf') format('truetype');
+        url('CrimsonText/crimson-text-v11-latin-italic.woff2') format('woff2'),
+        url('CrimsonText/crimson-text-v11-latin-italic.woff') format('woff'),
+        url('CrimsonText/crimson-text-v11-latin-italic.ttf') format('truetype');
 }
+

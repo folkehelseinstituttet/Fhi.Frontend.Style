@@ -4,7 +4,7 @@ Package containing fhi styling in both css and scss form for easy use in project
 
 ## Usage
 
-**NB!** This styling uses the custom fonts `BrandonText` and `CrimsonText`, which are not included in the package, and needs to be imported by the project using it. The fallback fonts `SourceSansPro` and `PTSerif` are included.
+**NB!** Only `SourceSansPro` and `CrimsonText` are distributed with this package. `BrandonText` are proprietary, and needs to be imported in projects where it's a design requirement.
 
 If you want the full style library
 
