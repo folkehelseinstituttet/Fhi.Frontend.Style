@@ -3,6 +3,7 @@
 > Mar 26, 2021
 
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
+* :tada: **Enhancement** Add font CrimsonText and remove font PTSerif
 * :tada: **Enhancement** Update `./scss/README.md`
 * :tada: **Enhancement** Translate (or delete) all comments in norwegian
 * :tada: **Enhancement** Move all Bootstrap variables into dedicated file
