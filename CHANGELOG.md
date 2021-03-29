@@ -1,4 +1,4 @@
-# Unreleased
+# 1.4.0
 
 > Mar 26, 2021
 
