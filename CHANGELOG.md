@@ -2,7 +2,7 @@
 
 > Apr 7, 2021
 
-* :tada: **Enhancement** Remove block fhi-main-menu
+* :boom: **Breaking** Remove block fhi-main-menu
 
 ## 1.4.1
 
