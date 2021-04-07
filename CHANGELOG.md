@@ -1,4 +1,10 @@
-# 1.4.0
+# Unreleased
+
+> Apr 6, 2021
+
+* :bug: **Bugfix** Move `bootstrap/variables` from `style.scss` to `variables.scss` so libraries can access them
+
+## 1.4.0
 
 > Mar 26, 2021
 
