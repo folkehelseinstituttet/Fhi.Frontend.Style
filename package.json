@@ -1,6 +1,6 @@
 {
   "name": "@folkehelseinstituttet/style",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Css and sass styling used by Folkehelseinstituttet",
   "files": [
     "/css",
