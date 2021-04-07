@@ -5,7 +5,7 @@
 @import "./variables";
 
 // Bootstrap
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 
 // FHI Bootstrap Theme (aka. Bootstrap overrides)
 @import "./style/bootstrap/mixins/button.mixins";
@@ -32,5 +32,4 @@
 @import "./style/blocks/fhi-btn-primary.block";
 @import "./style/blocks/fhi-btn-secondary.block";
 @import "./style/blocks/fhi-btn-shortcut.block";
-@import "./style/blocks/fhi-main-menu.block";
 @import "./style/blocks/fhi-spinner-border.block";
