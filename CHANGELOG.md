@@ -1,4 +1,10 @@
-# 1.4.1
+# Unreleased
+
+> Apr 7, 2021
+
+* :boom: **Breaking** Remove block fhi-main-menu
+
+## 1.4.1
 
 > Apr 7, 2021
 
