@@ -1,3 +1,9 @@
+# 2.0.3
+> Apr 8, 2021
+
+* :bug: **Bugfix** Fix broken GitHub release action again
+
+
 # 2.0.2
 > Apr 8, 2021
 
