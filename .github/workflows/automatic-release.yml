@@ -12,11 +12,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Publish
-        if: steps.release.outputs.released == 'true' 
+      - name: Install and prepack
         run: |
          npm install
-         npm prepack
+         npm run prepack
       - name: Automatic GitHub Release
         uses: justincy/github-action-npm-release@2.0.1
         id: release
