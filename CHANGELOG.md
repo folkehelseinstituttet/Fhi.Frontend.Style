@@ -1,4 +1,10 @@
-# 2.0.0
+# 2.0.1
+
+> Apr 8, 2021
+
+* :bug: **Bugfix** Reset bootstrap path
+
+## 2.0.0
 
 > Apr 7, 2021
 
