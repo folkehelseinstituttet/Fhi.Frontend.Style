@@ -1,15 +1,22 @@
-# 2.0.3
+# Unreleased
+
+> Apr 12, 2021
+
+* :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
+
+## 2.0.3
+
 > Apr 8, 2021
 
 * :bug: **Bugfix** Fix broken GitHub release action again
 
+## 2.0.2
 
-# 2.0.2
 > Apr 8, 2021
 
 * :bug: **Bugfix** Fix broken GitHub release action
 
-# 2.0.1
+## 2.0.1
 
 > Apr 8, 2021
 
