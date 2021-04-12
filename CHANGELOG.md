@@ -2,6 +2,7 @@
 
 > Apr 12, 2021
 
+* :tada: **Enhancement** Remove ngDatepicker variables
 * :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
 
 ## 2.0.3
