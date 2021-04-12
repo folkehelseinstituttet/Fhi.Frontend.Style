@@ -4,6 +4,9 @@
 
 * :tada: **Enhancement** Remove ngDatepicker variables
 * :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
+* :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request. 
+* :tada: **Enhancement** Rename Release workflow. Remove unused publish workflow.
+
 
 ## 2.0.3
 

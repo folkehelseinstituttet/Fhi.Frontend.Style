@@ -1,0 +1,20 @@
+name: Continous Integration build for Fhi.Frontend.Style
+on: [push, pull_request]
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: 'https://registry.npmjs.org/'
+      - name: Build 
+        run: |
+         npm install
+         npm run prepack
