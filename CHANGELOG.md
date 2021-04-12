@@ -2,21 +2,25 @@
 
 > Apr 12, 2021
 
+* :tada: **Enhancement** Remove ngDatepicker variables
+* :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
 * :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request. 
 * :tada: **Enhancement** Rename Release workflow. Remove unused publish workflow.
 
-# 2.0.3
+
+## 2.0.3
+
 > Apr 8, 2021
 
 * :bug: **Bugfix** Fix broken GitHub release action again
 
+## 2.0.2
 
-# 2.0.2
 > Apr 8, 2021
 
 * :bug: **Bugfix** Fix broken GitHub release action
 
-# 2.0.1
+## 2.0.1
 
 > Apr 8, 2021
 
