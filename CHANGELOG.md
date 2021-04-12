@@ -2,11 +2,11 @@
 
 > Apr 12, 2021
 
+* :tada: **Enhancement** Reintroduce the fhi-app and fhi-main-menu blocks into the package
 * :tada: **Enhancement** Remove ngDatepicker variables
 * :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
-* :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request. 
+* :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request.
 * :tada: **Enhancement** Rename Release workflow. Remove unused publish workflow.
-
 
 ## 2.0.3
 
