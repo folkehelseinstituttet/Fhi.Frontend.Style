@@ -1,4 +1,4 @@
-name: Automatic publish to NPM
+name: Continous Integration build for Fhi.Frontend.Style
 on: [push, pull_request]
 
 jobs:
