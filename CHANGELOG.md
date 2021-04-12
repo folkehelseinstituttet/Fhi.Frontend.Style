@@ -1,3 +1,10 @@
+# Unreleased
+
+> Apr 12, 2021
+
+* :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request. 
+* :tada: **Enhancement** Rename Release workflow. Remove unused publish workflow.
+
 # 2.0.3
 > Apr 8, 2021
 
