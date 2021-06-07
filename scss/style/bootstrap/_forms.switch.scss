@@ -1,56 +1,51 @@
 .custom-control.custom-switch {
-  .custom-control-input {
-    width: $fhi-space-4;
-    height: $fhi-space-4;
-    &:checked {
-      & ~ .custom-control-label {
-        &:after {
-          background: 50%/14px 14px no-repeat;
-          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='-8 -8 16 16'%3e%3ccircle r='8' fill='$fhi-charcoal-1'/%3e%3c/svg%3e");
-        }
-      }
-    }
-    &,
-    &:focus,
-    &:active,
-    &:hover,
-    &:checked {
-      & ~ .custom-control-label {
-        &:before {
-          color: $fhi-charcoal-1;
-          background-color: transparent;
-          border-color: $fhi-charcoal-1;
-        }
-      }
-    }
-    &:focus {
-      & ~ .custom-control-label {
-        &:before {
-          box-shadow: 0 0 0.2rem 0 $fhi-charcoal-1;
-        }
-      }
-    }
-    &:disabled {
-      & ~ .custom-control-label {
-        color: $fhi-grey-2;
-        cursor: default;
-        &:before {
-          background-color: $fhi-grey-2;
-        }
-      }
-    }
-  }
+    padding-left: $fhi-space-7;
 
-  .custom-control-label {
-    margin-left: $fhi-space-2;
-    cursor: pointer;
-    &:before,
-    &:after {
-      left: calc(-1.5rem + -#{$fhi-space-2});
-      top: 0;
-      width: $fhi-space-4;
-      height: $fhi-space-4;
-      border-color: $fhi-charcoal-1;
+    .custom-control-label {
+        &:before {
+            top: $fhi-px * 7;
+            left: -$fhi-space-7;
+            width: $fhi-px * 48;
+            height: $fhi-px * 12;
+        }
+        &:after {
+            background-color: $white;
+            border: 1px solid $fhi-custom-control-color;
+            border-radius: $fhi-px * 12;
+            box-shadow: 0px 3px 6px $fhi-custom-control-shadow-color;
+            top: $fhi-px * 1;
+            left: -$fhi-space-7;
+            width: $fhi-px * 24;
+            height: $fhi-px * 24;
+        }
     }
-  }
+    .custom-control-input {
+        &, &:checked, &:focus, &:active {
+            & ~ .custom-control-label {
+                &:before {
+                    border-color: $fhi-custom-control-color;
+                    background-color: $white;
+                    box-shadow: none !important;
+                }
+            }
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label {
+        &:after {
+            background-color: $fhi-custom-control-color;
+            transform: translateX($fhi-space-4);
+        }
+    }
+    .custom-control-input {
+        &:disabled, &[disabled] {
+            & ~ .custom-control-label {
+                color: $fhi-disabled-color;
+
+                &:before,
+                &:after {
+                    border-color: $fhi-disabled-color;
+                }
+            }
+        }
+    }
 }
