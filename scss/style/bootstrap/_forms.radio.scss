@@ -7,7 +7,7 @@
                 &:after {
                     background-color: $black;
                     background-image: none;
-                    border: ($fhi-space-1 * 1.75) solid $black;
+                    border: $radio-btn-checked-marker-border-width solid $black;
                     border-radius: 50%;
                 }
             }
@@ -50,7 +50,7 @@
             border-color: $fhi-charcoal-1;
         }
         &:after {
-            left: -#{($fhi-space-4 + $fhi-space-1 * .75)};
+            left: -#{($fhi-space-4 + $fhi-space-1 * .75)}; // 24 + 3 px
             top: $fhi-space-1 * 1.25;
             width: 0;
             height: 0;
