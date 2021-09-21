@@ -1,8 +1,9 @@
 # Unreleased
 
-> Jun 04, 2021
+> Sep 20, 2021
 
 * :tada: **Enhancement** Rename switch-file.
+* :bug: **Bugfix** Radio buttons showing state also on Windows high contrast.
 
 # 2.1.0
 

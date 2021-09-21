@@ -5,8 +5,10 @@
         &:checked {
             &~.custom-control-label {
                 &:after {
-                    background: 50%/14px 14px no-repeat;
-                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='-8 -8 16 16'%3e%3ccircle r='8' fill='$fhi-charcoal-1'/%3e%3c/svg%3e");
+                    background-color: $black;
+                    background-image: none;
+                    border: $radio-btn-checked-marker-border-width solid $black;
+                    border-radius: 50%;
                 }
             }
         }
@@ -40,12 +42,18 @@
     .custom-control-label {
         margin-left: $fhi-space-2;
         cursor: pointer;
-        &:before, &:after {
+        &:before {
             left: calc(-1.5rem + -#{$fhi-space-2});
             top: 0;
             width: $fhi-space-4;
             height: $fhi-space-4;
             border-color: $fhi-charcoal-1;
+        }
+        &:after {
+            left: -#{($fhi-space-4 + $fhi-space-1 * .75)}; // 24 + 3 px
+            top: $fhi-space-1 * 1.25;
+            width: 0;
+            height: 0;
         }
     }
 }
