@@ -1,7 +1,8 @@
 # Unreleased
 
-> Sep 20, 2021
+> Sep 27, 2021
 
+* :nut_and_bolt: **New** Added styling to bootstrap table.
 * :tada: **Enhancement** Rename switch-file.
 * :bug: **Bugfix** Radio buttons showing state also on Windows high contrast.
 
