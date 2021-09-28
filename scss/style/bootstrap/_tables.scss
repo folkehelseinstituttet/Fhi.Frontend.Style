@@ -1,0 +1,36 @@
+.table {
+    font-family: $fhi-font-family-sans-serif-regular-2;
+    width: auto;
+
+    th,
+    td {
+        padding-top: $table-cell-padding-sm;
+        padding-bottom: $table-cell-padding-sm;
+    }
+
+    &:not(.table-bordered) {
+        border-bottom: 1px solid $fhi-grey-1;
+
+        th,
+        td {
+            border: 0;
+        }
+    }
+
+    thead {
+        background-color: $fhi-blue-grey-2;
+
+        th {
+            border-bottom-width: 1px;
+            font-family: $fhi-font-family-sans-serif-regular-2-bold;
+        }
+    }
+}
+
+.table-bordered {
+    th,
+    td {
+        border-left: 0;
+        border-right: 0;
+    }
+}
