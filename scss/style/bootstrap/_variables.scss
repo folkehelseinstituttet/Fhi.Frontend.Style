@@ -4,16 +4,28 @@
 
 $black:     $fhi-grey-4;
 
-$primary:   $fhi-red-2;
-$secondary: $fhi-blue-grey-2;
-$success:   $fhi-green-2;
-$info:      $fhi-blue-light-2;
-$warning:   $fhi-orange-2;
-$danger:    $fhi-pink-dark-2;
-$light:     $fhi-grey-light-1;
-$dark:      $fhi-blue-dark-1;
+// $primary:   $fhi-red-2;
+// $secondary: $fhi-blue-grey-2;
+// $success:   $fhi-green-2;
+// $info:      $fhi-blue-light-2;
+// $warning:   $fhi-orange-2;
+// $danger:    $fhi-pink-dark-2;
+// $light:     $fhi-grey-light-1;
+// $dark:      $fhi-blue-dark-1;
+// $theme-colors: (
+//   'error': $fhi-pink-dark-2
+// );
+
 $theme-colors: (
-  'error': $danger
+  'primary':    $fhi-red-2,
+  'secondary':  $fhi-blue-grey-2,
+  'success':    $fhi-green-2,
+  'info':       $fhi-blue-light-2,
+  'warning':    $fhi-orange-2,
+  'danger':     $fhi-pink-dark-2,
+  'light':      $fhi-grey-light-1,
+  'dark':       $fhi-blue-dark-1,
+  'error':      $fhi-pink-dark-2,
 );
 
 $disabled-color: $fhi-grey-2;
@@ -28,11 +40,16 @@ $border-color: $fhi-grey-1;
 $inline-link-color:       $fhi-blue-1;
 $inline-link-hover-color: $fhi-red-2;
 
+$nav-link-color:          $fhi-blue-1;
+$nav-link-hover-color:    $fhi-red-2;
+
 $btn-link-disabled-color: $fhi-grey-3;
 
 $input-border-color:      $fhi-grey-1;
 $input-placeholder-color: $fhi-grey-3;
 $input-color:             $black;
+
+$list-group-color:        $body-color;
 
 $custom-select-indicator-color: $black;
 
@@ -83,6 +100,8 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1620px
 );
+
+$grid-gutter-width: 1rem / 16 * 30;
 
 $line-height-base: 1.5;
 
