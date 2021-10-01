@@ -45,13 +45,21 @@ $nav-link-hover-color:    $fhi-red-2;
 
 $btn-link-disabled-color: $fhi-grey-3;
 
+$list-group-color:        $body-color;
+
+// form colors
 $input-border-color:      $fhi-grey-1;
 $input-placeholder-color: $fhi-grey-3;
 $input-color:             $black;
 
-$list-group-color:        $body-color;
+$form-check-input-checked-bg-color: $fhi-charcoal-1;
+$form-check-input-width:            1.5rem;
+$form-check-padding-start:          $form-check-input-width + .5rem !default;
+$form-check-input-border:           1px solid $fhi-charcoal-1;
+$input-focus-border-color:          $fhi-charcoal-1;
 
 $custom-select-indicator-color: $black;
+
 
 // Unused Bootsrap colors
 //   Annoying, I know, but helpful in preventing use of illegal colors ;)

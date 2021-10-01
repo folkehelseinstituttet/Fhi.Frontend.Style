@@ -3,7 +3,7 @@
     *:focus {
         outline: none !important;
     }
-    *:not(.btn):focus {
+    *:not(.btn, .form-check-input):focus {
         box-shadow: none !important;
     }
 }
