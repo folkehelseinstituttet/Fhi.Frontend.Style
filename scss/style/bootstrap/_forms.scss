@@ -15,6 +15,10 @@
 select.form-control:focus {
     border-radius: $input-border-radius;
 }
+textarea.form-control {
+    height: auto;
+}
+
 .form-control.is-invalid {
     background-image: unset;
     color: $form-feedback-invalid-color;
