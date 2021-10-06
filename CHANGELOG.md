@@ -1,6 +1,6 @@
 # Unreleased
 
-> Oct 5, 2021
+> Oct 6, 2021
 
 * :boom: **Breaking** Introduced Bootstrap 5 (5.1.2).
 * :nut_and_bolt: **New** Added styling to bootstrap table.
