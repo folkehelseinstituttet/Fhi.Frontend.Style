@@ -1,7 +1,8 @@
 # Unreleased
 
-> Sep 27, 2021
+> Oct 6, 2021
 
+* :boom: **Breaking** Upgrading to Bootstrap 5 (5.1.2).
 * :nut_and_bolt: **New** Added styling to bootstrap table.
 * :tada: **Enhancement** Rename switch-file.
 * :bug: **Bugfix** Radio buttons showing state also on Windows high contrast.

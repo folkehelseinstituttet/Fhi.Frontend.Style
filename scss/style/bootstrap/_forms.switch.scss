@@ -1,8 +1,18 @@
-.custom-control.custom-switch {
+.form-check.form-switch {
     padding-left: $fhi-space-7;
 
-    .custom-control-label {
+    .form-check-label {
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+        }
         &:before {
+            border: 1px solid;
+            border-radius: 1em;
             top: $fhi-px * 7;
             left: -$fhi-space-7;
             width: $fhi-px * 48;
@@ -17,29 +27,30 @@
             left: -$fhi-space-7;
             width: $fhi-px * 24;
             height: $fhi-px * 24;
+            transition: transform .15s ease-out;
         }
     }
-    .custom-control-input {
+    .form-check-input {
         &, &:checked, &:focus, &:active {
-            & ~ .custom-control-label {
+            & ~ .form-check-label {
                 &:before {
                     border-color: $fhi-custom-control-color;
                     background-color: $white;
-                    box-shadow: none !important;
                 }
             }
         }
     }
-    .custom-control-input:checked ~ .custom-control-label {
+    .form-check-input:checked ~ .form-check-label {
         &:after {
             background-color: $fhi-custom-control-color;
             transform: translateX($fhi-space-4);
         }
     }
-    .custom-control-input {
+    .form-check-input {
         &:disabled, &[disabled] {
-            & ~ .custom-control-label {
+            & ~ .form-check-label {
                 color: $fhi-disabled-color;
+                opacity: 1;
 
                 &:before,
                 &:after {
