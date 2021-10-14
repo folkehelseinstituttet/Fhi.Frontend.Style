@@ -20,10 +20,10 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^5.1.2"
   },
   "devDependencies": {
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.1.2",
     "clean-css-cli": "^4.3.0",
     "ncp": "^2.0.0",
     "node-sass": "^5.0.0"

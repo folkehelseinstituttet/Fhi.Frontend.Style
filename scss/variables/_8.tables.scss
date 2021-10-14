@@ -3,9 +3,8 @@
  */
 
 // Bootstrap overrides
-$table-cell-padding: 1.5rem;
-$table-cell-padding-sm: 0.5rem;
-$table-accent-bg: $fhi-blue-grey-1;
-$table-border-color: $fhi-grey-1;
-$table-head-bg: red;
-$table-striped-order: even;
+$table-cell-padding-x:  1.5rem;
+$table-accent-bg:       transparent;
+$table-border-color:    $fhi-grey-1;
+$table-striped-bg:      $fhi-bg-color-6;
+$table-striped-order:   even;

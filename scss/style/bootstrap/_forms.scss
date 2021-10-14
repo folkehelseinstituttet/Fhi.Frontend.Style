@@ -6,6 +6,7 @@
     color: $body-color;
     font-size: $fhi-default-font-size-xs;
     height: $fhi-input-height-xs;
+    min-height: $fhi-input-height-xs;
 }
 .form-control:focus {
     border-radius: $fhi-input-height-xs / 2;
@@ -14,6 +15,10 @@
 select.form-control:focus {
     border-radius: $input-border-radius;
 }
+textarea.form-control {
+    height: auto;
+}
+
 .form-control.is-invalid {
     background-image: unset;
     color: $form-feedback-invalid-color;
@@ -28,6 +33,7 @@ select.form-control:focus {
     .form-control {
         font-size: $fhi-default-font-size-lg;
         height: $fhi-input-height-lg;
+        min-height: $fhi-input-height-lg;
     }
     .form-control:focus {
         border-radius: $fhi-input-height-lg / 2;

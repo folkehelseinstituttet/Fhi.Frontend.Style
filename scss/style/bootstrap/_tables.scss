@@ -2,12 +2,6 @@
     font-family: $fhi-font-family-sans-serif-regular-2;
     width: auto;
 
-    th,
-    td {
-        padding-top: $table-cell-padding-sm;
-        padding-bottom: $table-cell-padding-sm;
-    }
-
     &:not(.table-bordered) {
         border-bottom: 1px solid $fhi-grey-1;
 
@@ -18,7 +12,7 @@
     }
 
     thead {
-        background-color: $fhi-blue-grey-2;
+        background-color: $fhi-bg-color-7;
 
         th {
             border-bottom-width: 1px;
