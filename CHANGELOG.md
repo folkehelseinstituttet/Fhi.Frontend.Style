@@ -1,10 +1,10 @@
-# 3.0.1
+# Unreleased
 
 > Oct 15, 2021
 
 * :bug: **Bugfix** FHI main menu breakpoint fix and removed border below table heading
 
-# 3.0.0
+## 3.0.0
 
 > Oct 14, 2021
 
