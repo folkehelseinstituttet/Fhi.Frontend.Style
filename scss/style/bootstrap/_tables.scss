@@ -19,6 +19,10 @@
             font-family: $fhi-font-family-sans-serif-regular-2-bold;
         }
     }
+
+    > :not(:first-child) {
+        border-top: 0;
+    }
 }
 
 .table-bordered {

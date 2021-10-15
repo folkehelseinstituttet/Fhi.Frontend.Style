@@ -1,6 +1,12 @@
-# 3.0.0
+# Unreleased
 
-> Oct 13, 2021
+> Oct 15, 2021
+
+* :bug: **Bugfix** FHI main menu breakpoint fix and removed border below table heading
+
+## 3.0.0
+
+> Oct 14, 2021
 
 * :boom: **Breaking** Upgrading to Bootstrap 5 (5.1.2).
 * :nut_and_bolt: **New** Added styling to bootstrap table.
