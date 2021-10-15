@@ -1,4 +1,4 @@
-# Unreleased
+# 3.0.1
 
 > Oct 15, 2021
 
