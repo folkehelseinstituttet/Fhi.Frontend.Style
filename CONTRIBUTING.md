@@ -66,7 +66,7 @@ It is also a good idea to add a comment to an issue that you are working on to l
 #### Release branches
 
 1. Create a new branch from `main`.
-2. Name it `release/x.x.x`, where `x.x.x` is the version you'r releasing.
+2. Name it `release/x.x.x`, where `x.x.x` is the version you're releasing.
 3. Change text `# Unreleased` to `# x.x.x` i `CHANGELOG.md`
 4. Run `npm version [patch, minor, major]` to upgrade `package.json` and automatically create a new commit.
 5. Push release branch and create pull request
