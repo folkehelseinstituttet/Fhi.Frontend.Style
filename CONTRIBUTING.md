@@ -59,7 +59,7 @@ It is also a good idea to add a comment to an issue that you are working on to l
 
 1. Create a new branch from `main`.
 2. Prefix your branch name with either `feature/`, `bugfix/` or `hotfix/`.
-3. Before pull request, remember to update `CHANGELOG.md`, and if this is the first pull request after a release, change heading to `# Unreleased` instead of version number, and add an extra hash to the existing version number.
+3. Before pull request, remember to update `CHANGELOG.md`, and if this is the first pull request after a release, add an extra hash to the existing "version number heading", add a new heading called `# Unreleased`, a date, and then list your changes.
 4. Push feature branch, create pull request with a good name, and a comment if necessary
 5. After approved review, squash and merge to `main`
 
