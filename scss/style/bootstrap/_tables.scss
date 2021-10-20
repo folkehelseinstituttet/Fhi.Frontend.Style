@@ -23,6 +23,18 @@
     > :not(:first-child) {
         border-top: 0;
     }
+
+    th[aria-sort] {
+        color: $fhi-blue-grey-6;
+        cursor: pointer;
+        padding-right: $fhi-space-5;
+
+        [class*="icon-"] {
+            position: relative;
+            transform: translateX($fhi-space-2);
+            vertical-align: top;
+        }
+    }
 }
 
 .table-bordered {
