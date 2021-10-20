@@ -1,4 +1,10 @@
-# 3.0.1
+# Unrelease
+
+> Oct 20, 2021
+
+* :tada: **Enhancement** Added tab focus on switch toggle
+
+## 3.0.1
 
 > Oct 15, 2021
 
