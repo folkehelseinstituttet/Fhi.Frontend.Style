@@ -10,7 +10,7 @@
             display: block;
             position: absolute;
         }
-        &:before {
+        &::before {
             border: 1px solid;
             border-radius: 1em;
             top: $fhi-px * 7;
@@ -18,7 +18,7 @@
             width: $fhi-px * 48;
             height: $fhi-px * 12;
         }
-        &:after {
+        &::after {
             background-color: $white;
             border: 1px solid $fhi-custom-control-color;
             border-radius: $fhi-px * 12;
@@ -33,15 +33,25 @@
     .form-check-input {
         &, &:checked, &:focus, &:active {
             & ~ .form-check-label {
-                &:before {
+                &::before {
                     border-color: $fhi-custom-control-color;
                     background-color: $white;
                 }
             }
         }
+
+        &:focus {
+            [data-whatintent="keyboard"] & {
+                ~ .form-check-label {
+                    &::after {
+                        box-shadow: 0 0 0 2px $white, 0 0 0 7px $fhi-red-1;
+                    }
+                }
+            }
+        }
     }
     .form-check-input:checked ~ .form-check-label {
-        &:after {
+        &::after {
             background-color: $fhi-custom-control-color;
             transform: translateX($fhi-space-4);
         }
@@ -52,8 +62,8 @@
                 color: $fhi-disabled-color;
                 opacity: 1;
 
-                &:before,
-                &:after {
+                &::before,
+                &::after {
                     border-color: $fhi-disabled-color;
                 }
             }
