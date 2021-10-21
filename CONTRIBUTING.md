@@ -57,19 +57,20 @@ It is also a good idea to add a comment to an issue that you are working on to l
 
 #### Feature branches
 
-  1. Create a new branch named either `feature/*`, `bugfix/*` or `hotfix/*`
-  2. Before pull request, remember to update `CHANGELOG.md`
-     PS.If you are not releasing changes right away, add `Unreleased` instead of version number to `CHANGELOG.md`
-  3. Push feature branch, create pull request with a good name, and a comment if necessary
-  4. After approved review, squash and merge to `main`
+1. Create a new branch from `main`.
+2. Prefix your branch name with either `feature/`, `bugfix/` or `hotfix/`.
+3. Before pull request, remember to update `CHANGELOG.md`, and if this is the first pull request after a release, add an extra hash to the existing "version number heading", add a new heading called `# Unreleased`, a date, and then list your changes.
+4. Push feature branch, create pull request with a good name, and a comment if necessary
+5. After approved review, squash and merge to `main`, and delete your feature branch.
 
 #### Release branches
 
-  1. Create a new branch named `release/x.x.x`
-  2. Change text `Unreleased` to `x.x.x` i `CHANGELOG.md`
-  3. Run `npm version [patch, minor, major]` to upgrade `package.json`
-  4. Push release branch and create pull request
-  5. After approved review, squash and merge to `main` (deploy)
+1. Create a new branch from `main`.
+2. Name it `release/x.x.x`, where `x.x.x` is the version you're releasing.
+3. Change text `# Unreleased` to `# x.x.x` i `CHANGELOG.md`
+4. Run `npm version [patch, minor, major]` to upgrade `package.json` and automatically create a new commit.
+5. Push release branch and create pull request
+6. After approved review, squash and merge to `main` (deploy), delete the release branch for the previous release, but keep the latest release branch.
 
 #### PS. If you want to test the package before creating pull request
 
