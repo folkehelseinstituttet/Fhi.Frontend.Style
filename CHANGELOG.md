@@ -3,6 +3,7 @@
 > Oct 20, 2021
 
 * :tada: **Enhancement** Added tab focus on switch toggle
+* :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 
 ## 3.0.1
 
