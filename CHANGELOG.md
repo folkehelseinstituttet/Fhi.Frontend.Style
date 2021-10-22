@@ -1,7 +1,8 @@
 # Unrelease
 
-> Oct 20, 2021
+> Oct 22, 2021
 
+* :tada: **Enhancement** Buttons have the same height on all screen sizes (44px)
 * :tada: **Enhancement** Added tab focus on switch toggle
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 
