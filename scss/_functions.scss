@@ -1,3 +1,19 @@
-@function url-friendly-hash-in-color($color) {
-    @return '%23' + str-slice('#{$color}', 2, -1)
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+
+    @return $string;
+}
+
+$data-svg-prefix: 'data:image/svg+xml;utf-8,';
+
+@function get-icon($icon, $color: currentColor) {
+    $icon: map-get($icons, $icon);
+    $placeholder: '%%COLOR%%';
+    $data-uri: str-replace(url($data-svg-prefix + $icon), $placeholder, $color);
+
+    @return str-replace($data-uri, '#', '%23');
 }
