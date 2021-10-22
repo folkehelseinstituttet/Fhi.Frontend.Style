@@ -1,7 +1,8 @@
 # Unrelease
 
-> Oct 20, 2021
+> Oct 22, 2021
 
+* :bug: **Bugfix** Pagination focus background color changed
 * :tada: **Enhancement** Added tab focus on switch toggle
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 
