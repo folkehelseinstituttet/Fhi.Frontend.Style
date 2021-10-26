@@ -3,7 +3,9 @@
 > Oct 22, 2021
 
 * :tada: **Enhancement** Buttons have the same height on all screen sizes (44px)
+* :bug: **Bugfix** Pagination focus background color changed
 * :tada: **Enhancement** Added tab focus on switch toggle
+* :nut_and_bolt: **New** Added styles for table sorting
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 
 ## 3.0.1
