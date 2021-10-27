@@ -1,7 +1,8 @@
 # Unrelease
 
-> Oct 22, 2021
+> Nov 02, 2021
 
+* :nut_and_bolt: **New** Icons system setup
 * :tada: **Enhancement** Buttons have the same height on all screen sizes (44px)
 * :bug: **Bugfix** Pagination focus background color changed
 * :tada: **Enhancement** Added tab focus on switch toggle
