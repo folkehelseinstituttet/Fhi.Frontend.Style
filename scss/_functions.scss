@@ -1,3 +1,21 @@
+/**
+ * This is a mix of
+ *
+ * Tracy Rotton's "Creating a Maintainable Icon System with Sass"
+ * https://css-tricks.com/creating-a-maintainable-icon-system-with-sass/
+ *
+ * and
+ *
+ * Kevin Weber's "URL-encoded Inline SVG using SCSS mixin (no Base64 needed)"
+ * https://codepen.io/kevinweber/pen/dXWoRw
+ * @kevinweber (https://twitter.com/kevinweber)
+ * Website: http://kevinw.de
+ * License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+ *
+ *
+ * Both use Hugo Giraudel str-replace function (http://www.sassmeister.com/gist/1b4f2da5527830088e4d)
+ */
+
 @function str-replace($string, $search, $replace: '') {
     $index: str-index($string, $search);
 
@@ -10,10 +28,31 @@
 
 $data-svg-prefix: 'data:image/svg+xml;utf-8,';
 
-@function get-icon($icon, $color: currentColor) {
-    $icon: map-get($icons, $icon);
-    $placeholder: '%%COLOR%%';
-    $data-uri: str-replace(url($data-svg-prefix + $icon), $placeholder, $color);
+$encoding-reference: (
+    // this list might be expanded in the future, depending on needs
+    ('%','%25'),  // Encode "%" first, otherwise the "%" from encoded code would be encoded again (which would be bad)
+    ('<','%3C'),
+    ('>','%3E'),
+    ('"','\''),
+    ('#','%23'),
+    ('&','%26')
+);
 
-    @return str-replace($data-uri, '#', '%23');
+@function get-icon($iconName, $color: currentColor) {
+    $icon: map-get($icons, $iconName);
+
+    @if ($icon != '') {
+        $placeholder: '%%COLOR%%';
+        $data-uri: str-replace($icon, $placeholder, $color);
+
+        @each $char, $encoded in $encoding-reference {
+            $data-uri: str-replace($data-uri, $char, $encoded);
+        }
+
+        @return url($data-svg-prefix + $data-uri);
+    }
+
+    // if the icon is defined with a name, but the string is empty
+    @warn 'There seems to be a missing icon in the list: ' + $iconName;
+    @return null;
 }
