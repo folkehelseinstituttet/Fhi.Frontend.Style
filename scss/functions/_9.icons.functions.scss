@@ -13,18 +13,6 @@
  * License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 **/
 
-$data-svg-prefix: 'data:image/svg+xml;utf-8,';
-
-$encoding-reference: (
-    // this list might be expanded in the future, depending on needs
-    ('%','%25'),  // Encode "%" first, otherwise the "%" from encoded code would be encoded again (which would be bad)
-    ('<','%3C'),
-    ('>','%3E'),
-    ('"','\''),
-    ('#','%23'),
-    ('&','%26')
-);
-
 @function get-icon($iconName, $color: currentColor) {
     $icon: map-get($icons, $iconName);
 
@@ -32,7 +20,7 @@ $encoding-reference: (
         $placeholder: '%%COLOR%%';
         $data-uri: str-replace($icon, $placeholder, $color);
 
-        @each $char, $encoded in $encoding-reference {
+        @each $char, $encoded in $svg-encoding-reference {
             $data-uri: str-replace($data-uri, $char, $encoded);
         }
 
