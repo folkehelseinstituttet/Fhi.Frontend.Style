@@ -44,3 +44,20 @@
         border-right: 0;
     }
 }
+
+.table-striped-columns {
+    tbody {
+        tr:not([aria-selected="true"]) {
+            td:nth-child(2n + 3) {
+                background-color: var(--bs-table-striped-bg);
+            }
+        }
+    }
+}
+
+tr[aria-selected="true"] {
+    th,
+    td {
+        background-color: $fhi-pink-light-1;
+    }
+}
