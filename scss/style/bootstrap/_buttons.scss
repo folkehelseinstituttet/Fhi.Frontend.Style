@@ -1,8 +1,8 @@
 .btn {
     font-size: $btn-font-size;
     line-height: 1;
-    height: $fhi-btn-height-sm;
-    padding: $fhi-btn-padding-tb-sm $fhi-btn-padding-lr-sm;
+    height: $fhi-btn-height;
+    padding: $fhi-btn-padding-y $fhi-btn-padding-x;
     transition: all 0.1s linear;
 }
 .btn-sm {
@@ -18,11 +18,5 @@
 @include media-breakpoint-down(sm) {
     .btn-lg {
         width: 100%;
-    }
-}
-@include media-breakpoint-up(lg) {
-    .btn {
-        height: $fhi-btn-height-lg;
-        padding: $fhi-btn-padding-tb-lg $fhi-btn-padding-lr-lg;
     }
 }
