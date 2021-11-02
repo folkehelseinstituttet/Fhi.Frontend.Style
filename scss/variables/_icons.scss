@@ -3,9 +3,10 @@
 $icons-color: $fhi-grey-4 !default;
 
 // Map of icons used for the icons library
-// - there will be generated a class for each icon prefixed with .icon-, eg. .icon-chevron-down
-// - the original SVG should be saved in the /icons directory
+// - there will be generated a class for each icon prefixed with .icon-, eg. .icon-chevron-expand (ref. /scss/style/_icons.scss)
+// - the original SVG should be saved in the /icons/[source] directory (eg. /icons/bootstrap-icons)
 // - fill and/or stroke that should have a color should have the placeholder %%COLOR%%
+// - the $icons-color is the 
 
 $icons: (
     'chevron-down':
