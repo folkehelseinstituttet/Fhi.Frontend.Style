@@ -10,6 +10,7 @@
     }
 }
 
+// alternative accordion with a background color
 .accordion-boxed {
     .accordion-item {
         background-color: $fhi-blue-grey-2;
@@ -20,7 +21,18 @@
         margin-top: $fhi-space-1;
         margin-bottom: $fhi-space-1;
 
-        overflow: hidden;
+        &,
+        &:first-of-type,
+        &:last-of-type {
+            .accordion-button {
+                border-radius: $border-radius;
+
+                &:not(.collapsed) {
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+            }
+        }
     }
 
     .accordion-button {
