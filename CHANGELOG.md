@@ -1,7 +1,8 @@
 # Unrelease
 
-> Oct 22, 2021
+> Nov 04, 2021
 
+* :nut_and_bolt: **New** Added styles for accordions
 * :tada: **Enhancement** Buttons have the same height on all screen sizes (44px)
 * :bug: **Bugfix** Pagination focus background color changed
 * :tada: **Enhancement** Added tab focus on switch toggle
