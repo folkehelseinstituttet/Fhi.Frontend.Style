@@ -1,3 +1,5 @@
-@function url-friendly-hash-in-color($color) {
-    @return '%23' + str-slice('#{$color}', 2, -1)
-}
+// generic FHI functions
+@import "./functions/string.replace";
+
+// specific FHI functions
+@import "./functions/icons.functions";

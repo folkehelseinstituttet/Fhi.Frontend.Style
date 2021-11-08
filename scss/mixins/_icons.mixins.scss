@@ -1,0 +1,7 @@
+@mixin icon-classes-generator {
+    @each $iconName, $iconSVG in $icons {
+        &-#{$iconName} {
+            background-image: get-icon($iconName, $icons-color);
+        }
+    }
+}
