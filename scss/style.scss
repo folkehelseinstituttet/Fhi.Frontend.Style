@@ -1,10 +1,14 @@
 // Fonts
 @import "./style/fonts/fonts";
 
-@import "./functions";
-
 // FHI variables
 @import "./variables";
+
+// FHI mixins
+@import "./mixins.scss";
+
+// FHI functions
+@import "./functions";
 
 // Bootstrap
 @import "./node_modules/bootstrap/scss/bootstrap";
