@@ -2,78 +2,6 @@
  * Bootstrap variables (overrides)
  */
 
-$black:     $fhi-grey-4;
-
-$theme-colors: (
-  'primary':    $fhi-red-2,
-  'secondary':  $fhi-blue-grey-2,
-  'success':    $fhi-green-2,
-  'info':       $fhi-blue-light-2,
-  'warning':    $fhi-orange-2,
-  'danger':     $fhi-pink-dark-2,
-  'light':      $fhi-grey-light-1,
-  'dark':       $fhi-blue-dark-1,
-  'error':      $fhi-pink-dark-2,
-);
-
-$disabled-color: $fhi-grey-2;
-
-$body-color: $black;
-$text-muted: $disabled-color;
-$pre-color:  $fhi-red-2;
-$code-color: $fhi-red-2;
-
-$border-color: $fhi-grey-1;
-
-$inline-link-color:       $fhi-blue-1;
-$inline-link-hover-color: $fhi-red-2;
-
-$nav-link-color:          $fhi-blue-1;
-$nav-link-hover-color:    $fhi-red-2;
-
-$btn-link-disabled-color: $fhi-grey-3;
-
-$list-group-color:        $body-color;
-
-$pagination-focus-bg:     $fhi-pink-light-2;
-
-
-// form colors
-$input-border-color:      $fhi-grey-1;
-$input-placeholder-color: $fhi-grey-3;
-$input-color:             $black;
-
-$form-check-input-checked-bg-color: $fhi-charcoal-1;
-$form-check-input-width:            1.5rem;
-$form-check-padding-start:          $form-check-input-width + .5rem !default;
-$form-check-input-border:           1px solid $fhi-charcoal-1;
-$input-focus-border-color:          $fhi-charcoal-1;
-
-$form-select-indicator-color: $black;
-
-
-// Unused Bootsrap colors
-//   Annoying, I know, but helpful in preventing use of illegal colors ;)
-$gray-100: red;
-$gray-200: red;
-$gray-300: red;
-$gray-400: red;
-$gray-500: red;
-$gray-600: red;
-$gray-700: red;
-$gray-800: red;
-$gray-900: red;
-$blue:     red;
-$indigo:   red;
-$purple:   red;
-$pink:     red;
-$red:      red;
-$orange:   red;
-$yellow:   red;
-$green:    red;
-$teal:     red;
-$cyan:     red;
-
 $spacers: (
     0: 0,
     1: $fhi-space-1,
@@ -99,12 +27,47 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1620px
 );
-
 $grid-gutter-width: 1rem / 16 * 30;
+
+
+// Color (general)
+
+$black:     $fhi-grey-4;
+
+$theme-colors: (
+  'primary':    $fhi-red-2,
+  'secondary':  $fhi-blue-grey-2,
+  'success':    $fhi-green-2,
+  'info':       $fhi-blue-light-2,
+  'warning':    $fhi-orange-2,
+  'danger':     $fhi-pink-dark-2,
+  'light':      $fhi-grey-light-1,
+  'dark':       $fhi-blue-dark-1,
+  'error':      $fhi-pink-dark-2,
+);
+
+$border-color: $fhi-grey-1;
+$disabled-color: $fhi-grey-2;
+
+
+// Typography
 
 $line-height-base: 1.5;
 
 $font-family-monospace: Consolas, "Liberation Mono", monospace;
+
+$body-color: $black;
+$text-muted: $disabled-color;
+$pre-color:  $fhi-red-2;
+$code-color: $fhi-red-2;
+
+$inline-link-color:       $fhi-blue-1;
+$inline-link-hover-color: $fhi-red-2;
+
+$list-group-color:        $body-color;
+
+
+// Accordion
 
 $accordion-bg:                  $fhi-blue-grey-2;
 $accordion-border-color:        $fhi-grey-1;
@@ -115,14 +78,76 @@ $accordion-button-icon:         url('data:image/svg+xml,<svg xmlns="http://www.w
 $accordion-button-active-icon:  $accordion-button-icon;
 
 
-$input-btn-font-family: $fhi-font-family-sans-serif-regular-2;
+// Buttons
 
-$btn-font-family:      $fhi-font-family-sans-serif-medium;
-$btn-font-size:        $fhi-font-size-2;
-$btn-border-radius:    $fhi-px * 4;
-$btn-border-radius-sm: $btn-border-radius;
+$btn-link-disabled-color: $fhi-grey-3;
+$btn-link-disabled-color: $fhi-grey-3;
+$btn-font-family:         $fhi-font-family-sans-serif-medium;
+$btn-font-size:           $fhi-font-size-2;
+$btn-border-radius:       $fhi-px * 4;
+$btn-border-radius-sm:    $btn-border-radius;
 
-$input-border-radius: $fhi-px * 4;
+
+// Form
+
+$input-border-radius:      $fhi-px * 4;
+$input-border-color:       $fhi-grey-1;
+$input-placeholder-color:  $fhi-grey-3;
+$input-color:              $black;
+$input-btn-font-family:    $fhi-font-family-sans-serif-regular-2;
+$input-focus-border-color: $fhi-charcoal-1;
+
+$form-check-input-checked-bg-color: $fhi-charcoal-1;
+$form-check-input-width:            1.5rem;
+$form-check-padding-start:          $form-check-input-width + .5rem !default;
+$form-check-input-border:           1px solid $fhi-charcoal-1;
+
+$form-select-indicator-color: $black;
 
 $form-feedback-invalid-color: $fhi-pink-dark-3;
 $form-feedback-font-size:     $fhi-font-size-2;
+
+
+// Nav
+
+$nav-link-color:          $fhi-blue-1;
+$nav-link-hover-color:    $fhi-red-2;
+
+
+// Table
+
+$table-cell-padding-x:  1.5rem;
+$table-accent-bg:       transparent;
+$table-border-color:    $fhi-grey-1;
+$table-striped-bg:      $fhi-bg-color-6;
+$table-striped-order:   even;
+
+
+// Pagination
+
+$pagination-focus-bg:     $fhi-pink-light-2;
+
+
+
+
+// Unused Bootsrap colors
+//   Annoying, I know, but helpful in preventing use of illegal colors ;)
+$gray-100: red;
+$gray-200: red;
+$gray-300: red;
+$gray-400: red;
+$gray-500: red;
+$gray-600: red;
+$gray-700: red;
+$gray-800: red;
+$gray-900: red;
+$blue:     red;
+$indigo:   red;
+$purple:   red;
+$pink:     red;
+$red:      red;
+$orange:   red;
+$yellow:   red;
+$green:    red;
+$teal:     red;
+$cyan:     red;

@@ -1,0 +1,119 @@
+/**
+ * All colors used by FHI
+ */
+
+$fhi-white: white;
+$white: $fhi-white; // DEPRECATED! Use $fhi-white
+
+$fhi-grey-light-1: #fbfbfb;
+$fhi-grey-light-2: #f7f6f5;
+$fhi-grey-light-3: #f0edeb;
+$fhi-grey-light-4: #e0dddb;
+
+$fhi-grey-1: #cfd0cb;
+$fhi-grey-2: #9f9f9f;
+$fhi-grey-3: #767676;
+$fhi-grey-4: #222222;
+
+$fhi-charcoal-1: #333841;
+
+$fhi-blue-grey-1: #edf4f7;
+$fhi-blue-grey-2: #dbe6ec;
+$fhi-blue-grey-3: #cbd9df;
+$fhi-blue-grey-4: #afc0c7;
+$fhi-blue-grey-5: #879ba5;
+$fhi-blue-grey-6: #435c68;
+
+$fhi-blue-light-1: #65adc3;
+$fhi-blue-light-2: #057e9a;
+
+$fhi-blue-1: #386e84;
+
+$fhi-blue-dark-1: #393c61;
+$fhi-blue-dark-2: #2e3152;
+$fhi-blue-dark-3: #181B40;
+
+$fhi-green-1: #cceee4;
+$fhi-green-2: #04ab79;
+
+$fhi-yellow-1: #fffdce;
+
+$fhi-orange-1: #feeed9;
+$fhi-orange-2: #f7b665;
+
+$fhi-red-1: #fd7065;
+$fhi-red-2: #d14641;
+$fhi-red-3: #9f2b26;
+
+$fhi-pink-dark-1: #ff859d;
+$fhi-pink-dark-2: #e22867;
+$fhi-pink-dark-3: #b10640;
+
+$fhi-pink-light-1: #fdf4f2;
+$fhi-pink-light-2: #faedec;
+$fhi-pink-light-3: #ffe3e2;
+
+
+/**
+ * Color aliases
+ */
+
+$fhi-brand-color: $fhi-blue-dark-1;
+
+$fhi-bg-color-1:  $fhi-white;
+$fhi-bg-color-2:  $fhi-grey-light-1;
+$fhi-bg-color-3:  $fhi-grey-light-2;
+$fhi-bg-color-4:  $fhi-grey-light-3;
+$fhi-bg-color-5:  $fhi-grey-light-4;
+$fhi-bg-color-6:  $fhi-blue-grey-1;
+$fhi-bg-color-7:  $fhi-blue-grey-2;
+$fhi-bg-color-8:  $fhi-blue-grey-1;
+
+$fhi-disabled-color: $fhi-grey-2;
+$fhi-disabled-color-inverse: $fhi-grey-1;
+
+$fhi-text-ancillary:         $fhi-grey-3;
+$fhi-text-ancillary-inverse: $fhi-grey-1;
+$fhi-text-error-inverse:     $fhi-pink-dark-1;
+
+$fhi-main-menu-xs-color:        $fhi-white;
+$fhi-main-menu-xl-color:        $fhi-grey-4;
+$fhi-main-menu-xl-active-color: $fhi-red-2;
+$fhi-main-menu-xl-hover-color:  $fhi-red-2;
+
+$fhi-custom-control-color: $fhi-charcoal-1;
+$fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
+
+
+/**
+ * Spacing 
+ * - used for margin, padding, and also height and width
+ */
+
+$fhi-px: 1rem/16; // px to rem utility
+
+$fhi-space-1: $fhi-px *  4; // xxs
+$fhi-space-2: $fhi-px *  8; // xs
+$fhi-space-3: $fhi-px * 16; // sm
+$fhi-space-4: $fhi-px * 24; // md
+$fhi-space-5: $fhi-px * 32; // lg
+$fhi-space-6: $fhi-px * 40; // xl
+$fhi-space-7: $fhi-px * 56; // xxl
+
+
+/**
+ * Grid
+ */
+
+$fhi-container-padding-xs: 20px;
+$fhi-container-padding-sm: 15px;
+
+
+/**
+ * Forms
+ */
+
+$fhi-input-height-xs: $fhi-px * 48;
+$fhi-input-height-lg: $fhi-px * 40;
+
+$fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14px in diameter

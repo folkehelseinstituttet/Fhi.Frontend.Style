@@ -43,3 +43,9 @@
 @import "./style/blocks/fhi-btn-shortcut.block";
 @import "./style/blocks/fhi-main-menu.block";
 @import "./style/blocks/fhi-spinner-border.block";
+
+
+// PR v4.0.0
+// - Delete scss/
+// - Updaet package.json accordingly
+// - Delete "$white: $fhi-white; // DEPRECATED! Use $fhi-white"

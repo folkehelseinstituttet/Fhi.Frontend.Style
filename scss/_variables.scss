@@ -1,11 +1,12 @@
-@import "./variables/colors";
-@import "./variables/color-aliases";
-@import "./variables/spacers-and-height-width";
-@import "./variables/grid";
+@import "../src/core/core.variables";
+
+
+
+
 @import "./variables/typography";
+
 @import "./variables/buttons";
-@import "./variables/forms";
-@import "./variables/tables";
+
 @import "./variables/icons";
 
 @import "./variables/app-and-main-menu";
