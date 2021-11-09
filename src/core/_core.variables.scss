@@ -1,4 +1,71 @@
 /**
+ * Spacing 
+ * - used for margin, padding, and also height and width
+ */
+
+$fhi-px: 1rem/16; // px to rem utility
+
+$fhi-space-1: $fhi-px *  4; // xxs
+$fhi-space-2: $fhi-px *  8; // xs
+$fhi-space-3: $fhi-px * 16; // sm
+$fhi-space-4: $fhi-px * 24; // md
+$fhi-space-5: $fhi-px * 32; // lg
+$fhi-space-6: $fhi-px * 40; // xl
+$fhi-space-7: $fhi-px * 56; // xxl
+
+
+/**
+ * Grid
+ */
+
+$fhi-container-padding-xs: 20px;
+$fhi-container-padding-sm: 15px;
+
+
+/**
+ * Typography
+ */
+
+$fhi-font-size-1: $fhi-px * 15;
+$fhi-font-size-2: $fhi-px * 17;
+$fhi-font-size-3: $fhi-px * 19;
+$fhi-font-size-4: $fhi-px * 21;
+$fhi-font-size-5: $fhi-px * 25;
+$fhi-font-size-6: $fhi-px * 30;
+$fhi-font-size-7: $fhi-px * 36;
+$fhi-font-size-8: $fhi-px * 44;
+$fhi-font-size-9: $fhi-px * 70;
+
+$fhi-h1-font-size-xs:  $fhi-font-size-8;
+$fhi-h1-font-size-lg:  $fhi-font-size-9; // h1 larger on desktop
+$fhi-h2-font-size-xs:  $fhi-font-size-7;
+$fhi-h3-font-size-xs:  $fhi-font-size-6;
+$fhi-h4-font-size-xs:  $fhi-font-size-5;
+$fhi-h5-font-size-xs:  $fhi-font-size-4;
+
+$fhi-small-font-size-xs:  $fhi-font-size-1;
+$fhi-default-font-size-xs:  $fhi-font-size-3;
+$fhi-default-font-size-lg:  $fhi-font-size-2; // body text smaller on desktop
+$fhi-lead-font-size-xs:  $fhi-font-size-3;
+
+$fhi-font-family-serif-regular: 'CrimsonText Regular', serif;
+$fhi-font-family-serif-regular-italic: 'CrimsonText Regular Italic', serif;
+$fhi-font-family-serif-medium: 'CrimsonText Semi Bold', serif;
+$fhi-font-family-serif-medium-italic: 'CrimsonText Semi Bold Italic', serif;
+$fhi-font-family-serif-bold: 'CrimsonText Bold', serif;
+$fhi-font-family-serif-bold-italic: 'CrimsonText Bold Italic', serif;
+
+$fhi-font-family-sans-serif-regular: 'BrandonText Regular', 'SourceSansPro Regular', sans-serif;
+$fhi-font-family-sans-serif-regular-2: 'SourceSansPro Regular', sans-serif;
+$fhi-font-family-sans-serif-regular-2-bold: 'SourceSansPro Bold', sans-serif;
+$fhi-font-family-sans-serif-regular-italic: 'BrandonText Regular Italic', 'SourceSansPro Regular Italic', sans-serif;
+$fhi-font-family-sans-serif-medium: 'BrandonText Medium', 'SourceSansPro Semi Bold', sans-serif;
+$fhi-font-family-sans-serif-medium-italic: 'BrandonText Medium Italic', 'SourceSansPro Semi Bold Italic', sans-serif;
+$fhi-font-family-sans-serif-bold: 'BrandonText Bold', 'SourceSansPro Bold', sans-serif;
+$fhi-font-family-sans-serif-bold-italic: 'BrandonText Bold Italic', 'SourceSansPro Bold Italic', sans-serif;
+
+
+/**
  * All colors used by FHI
  */
 
@@ -86,27 +153,19 @@ $fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
 
 
 /**
- * Spacing 
- * - used for margin, padding, and also height and width
+ * Buttons
  */
 
-$fhi-px: 1rem/16; // px to rem utility
+$fhi-btn-font-family-bold: $fhi-font-family-sans-serif-medium;
 
-$fhi-space-1: $fhi-px *  4; // xxs
-$fhi-space-2: $fhi-px *  8; // xs
-$fhi-space-3: $fhi-px * 16; // sm
-$fhi-space-4: $fhi-px * 24; // md
-$fhi-space-5: $fhi-px * 32; // lg
-$fhi-space-6: $fhi-px * 40; // xl
-$fhi-space-7: $fhi-px * 56; // xxl
+$fhi-btn-height: $fhi-px * 44;
 
+$fhi-btn-padding-y: $fhi-px * 10;
+$fhi-btn-padding-x: $fhi-px * 12;
 
-/**
- * Grid
- */
-
-$fhi-container-padding-xs: 20px;
-$fhi-container-padding-sm: 15px;
+$fhi-btn-sm-width: $fhi-px * 120;
+$fhi-btn-md-width: $fhi-px * 170;
+$fhi-btn-lg-width: $fhi-px * 280;
 
 
 /**
