@@ -1,6 +1,6 @@
-# Unreleased
+# 3.1.0
 
-> Nov 04, 2021
+> Nov 09, 2021
 
 * :nut_and_bolt: **New** Added styles for accordions
 * :nut_and_bolt: **New** Icons system setup
