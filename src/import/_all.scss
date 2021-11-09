@@ -1,5 +1,23 @@
-@import "../core/fonts/font-face-declarations";
 @import "../core/core.variables";
+@import "../core/typography/typography.variables";
+@import "../core/bootstrap-customisations/variables";
+
+// Bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../core/bootstrap-customisations/mixins/button.mixins";
+@import "../core/bootstrap-customisations/mixins/form.mixins";
+@import "../core/bootstrap-customisations/accordion";
+// @import "../core/bootstrap-customisations/buttons";
+// @import "../core/bootstrap-customisations/forms.switch";
+// @import "../core/bootstrap-customisations/forms";
+// @import "../core/bootstrap-customisations/form-check";
+// @import "../core/bootstrap-customisations/grid";
+// @import "../core/bootstrap-customisations/pagination";
+// @import "../core/bootstrap-customisations/tables";
+
+@import "../core/typography/font-face-declarations";
+@import "../core/typography/typography";
+
 
 @import "../utilities/utility.variables";
-
+// icons
