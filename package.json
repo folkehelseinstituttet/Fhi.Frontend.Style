@@ -1,7 +1,11 @@
 {
   "name": "@folkehelseinstituttet/style",
   "version": "3.1.0",
-  "description": "Css and sass styling used by Folkehelseinstituttet",
+  "description": "CSS styling used by Folkehelseinstituttet",
+  "keywords": [
+    "css",
+    "sass"
+  ],
   "files": [
     "/css",
     "/fonts",

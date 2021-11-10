@@ -1,10 +1,21 @@
 # Fhi.Frontend.Style
 
-Package containing fhi styling in both css and scss form for easy use in projects
+CSS styling used by [Folkehelseinstituttet](https://www.fhi.no), based on [Bootstrap](https://getbootstrap.com) front-end framework.
 
-## Usage
+- [Get started](#get-started)
+  - [Install](#install)
+  - [Use in project](#use-in-project)
+- [Contribute](#contribute)
+- [Demo and documentation](#demo-and-documentation)
+- [Info about fonts](#info-about-fonts)
 
-**NB!** Only `SourceSansPro` and `CrimsonText` are distributed with this package. `BrandonText` are proprietary, and needs to be imported in projects where it's a design requirement.
+## Get started
+
+### Install
+
+Install with [npm](https://www.npmjs.com): `npm install @folkehelseinstituttet/style`
+
+### Use in project
 
 If you want the full style library
 
@@ -18,82 +29,15 @@ If you only need the variables for use in ex. a library
 @import "~@folkehelseinstituttet/style/scss/variables.scss";
 ```
 
+## Contribute
 
+Read about [how to contribute](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md)
 
+## Demo and documentation
 
-// Update README (merge the two README's and remove deprecated info)
+Live examples in our demo app: [https://frontendbibliotek.fhi.no](https://frontendbibliotek.fhi.no)
+Repo for demo app: [Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
 
-// PR v4.0.0
-// - Delete scss/
-// - Updaet package.json accordingly
-// - Delete "$white: $fhi-white; // DEPRECATED! Use $fhi-white"
+## Info about fonts
 
-
-
-
-
-
-
-
-# Syntax and folder structure
-
-- [Syntax](#syntax)
-  - [SASS](#sass)
-  - [BEM](#bem)
-    - [BEM in a nutshell](#bem-in-a-nutshell)
-- [Folder structure](#folder-structure)
-
-## Syntax
-
-### SASS
-
-This project is using [SCSS syntax](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax).
-
-### BEM
-
-This project is using BEM syntax, but only in the folder `style/blocks`
-
-#### BEM in a nutshell
-
-```css
-.person {}
-.person--female {}
-.person__hand {}
-.person__hand--left {}
-```
-
-```html
-<div class="person person--female">
-  <div class="person__hand person__hand--left"></div>
-</div>
-```
-
-More info about BEM: [getbem.com](http://getbem.com/introduction)
-
-## Folder structure
-
-```sh
-style/
-    blocks/ 
-        #BEM syntax in this folder only
-        _fhi.[BEM-block-name].block.scss
-        ...
-
-    bootstrap/
-        #All Bootstrap overrides
-        ...
-
-    fonts/
-        #PTSerif, SourceSansPro
-        _fonts.scss
-
-    #All "FHI basics" styles
-    _[file-name].scss
-    ...
-
-variables/
-    ...
-
-style.scss #All scss output
-variables.scss #Output for libraries
-```
+Only `SourceSansPro` and `CrimsonText` are distributed with this package. `BrandonText` are proprietary, and must be imported in projects where it's a design requirement.
