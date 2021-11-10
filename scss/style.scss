@@ -1,32 +1,18 @@
 @import "../src/import/all";
 
 
-
-// FHI variables
-@import "./variables";
-
-// FHI mixins
-@import "./mixins.scss";
-
-// FHI functions
-@import "./functions";
-
-// FHI basics
-// @import "./style/backdrops";
-// @import "./style/color-utilities";
-// @import "./style/keyboard-focus";
-
-@import "./style/icons";
-
 // FHI BEM blocks
+
+@import "./variables/app-and-main-menu";
 @import "./style/blocks/fhi-app.block";
+@import "./style/blocks/fhi-main-menu.block";
+
 // @import "./style/blocks/fhi-btn-flat.block";
 // @import "./style/blocks/fhi-btn-outline-primary.block";
 // @import "./style/blocks/fhi-btn-outline-secondary.block";
 // @import "./style/blocks/fhi-btn-primary.block";
 // @import "./style/blocks/fhi-btn-secondary.block";
 // @import "./style/blocks/fhi-btn-shortcut.block";
-@import "./style/blocks/fhi-main-menu.block";
 @import "./style/blocks/fhi-spinner-border.block";
 
 

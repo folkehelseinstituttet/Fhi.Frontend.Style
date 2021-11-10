@@ -1,0 +1,20 @@
+// use the placeholder %%COLOR%% for fill and/or stroke
+
+$icons-color: $fhi-grey-4 !default;
+
+// Map of icons used for the icons library
+// - there will be generated a class for each icon prefixed with .icon-, eg. .icon-chevron-expand (ref. /scss/style/_icons.scss)
+// - the original SVG should be saved in the /icons/[source] directory (eg. /icons/bootstrap-icons)
+// - fill and/or stroke that should have a color should have the placeholder %%COLOR%%
+// - the $icons-color is the 
+
+$icons: (
+    'chevron-down':
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%%COLOR%%" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>',
+
+    'chevron-expand':
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%%COLOR%%" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/></svg>',
+
+    'chevron-up':
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%%COLOR%%" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>',
+);

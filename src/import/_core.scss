@@ -3,7 +3,10 @@
 
 // Bootstrap
 @import "../core/bootstrap-customisations/variables";
+
+// TODO: only import parts of bootstrap we use
 @import "./node_modules/bootstrap/scss/bootstrap"; // vendor
+
 @import "../core/bootstrap-customisations/accordion";
 @import "../core/bootstrap-customisations/buttons";
 @import "../core/bootstrap-customisations/forms";
