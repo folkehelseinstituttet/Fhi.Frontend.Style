@@ -2,17 +2,14 @@
 @import "../core/core.variables";
 
 // Bootstrap
-@import "../core/bootstrap-customisations/variables";
-
-// TODO: only import parts of bootstrap we use
-@import "./node_modules/bootstrap/scss/bootstrap"; // vendor
-
-@import "../core/bootstrap-customisations/accordion";
-@import "../core/bootstrap-customisations/buttons";
-@import "../core/bootstrap-customisations/forms";
-@import "../core/bootstrap-customisations/grid";
-@import "../core/bootstrap-customisations/pagination";
-@import "../core/bootstrap-customisations/tables";
+@import "../core/bootstrap/fhi-custom.variables";
+@import "../core/bootstrap/vendor";
+@import "../core/bootstrap/fhi-custom/accordion";
+@import "../core/bootstrap/fhi-custom/buttons";
+@import "../core/bootstrap/fhi-custom/forms";
+@import "../core/bootstrap/fhi-custom/grid";
+@import "../core/bootstrap/fhi-custom/pagination";
+@import "../core/bootstrap/fhi-custom/tables";
 
 // FHI
 @import "../core/font-face-declarations";
