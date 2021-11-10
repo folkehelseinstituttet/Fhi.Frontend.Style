@@ -5,12 +5,9 @@
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 // Bootstrap customisations
-@import "../core/bootstrap-customisations/mixins/form.mixins";
 @import "../core/bootstrap-customisations/accordion";
 @import "../core/bootstrap-customisations/buttons";
-// @import "../core/bootstrap-customisations/forms.switch";
-// @import "../core/bootstrap-customisations/forms";
-// @import "../core/bootstrap-customisations/form-check";
+@import "../core/bootstrap-customisations/forms";
 @import "../core/bootstrap-customisations/grid";
 @import "../core/bootstrap-customisations/pagination";
 @import "../core/bootstrap-customisations/tables";
