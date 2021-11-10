@@ -1,22 +1,6 @@
-@import "../core/core.variables";
-@import "../core/bootstrap-customisations/variables";
+@import "./core";
 
-// Bootstrap
-@import "./node_modules/bootstrap/scss/bootstrap";
 
-// Bootstrap customisations
-@import "../core/bootstrap-customisations/accordion";
-@import "../core/bootstrap-customisations/buttons";
-@import "../core/bootstrap-customisations/forms";
-@import "../core/bootstrap-customisations/grid";
-@import "../core/bootstrap-customisations/pagination";
-@import "../core/bootstrap-customisations/tables";
-
-// Fonts and typography
-@import "../core/font-face-declarations";
-@import "../core/typography";
-
-//end of core
 
 
 @import "../utilities/utility.variables";
