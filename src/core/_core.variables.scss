@@ -1,9 +1,14 @@
 /**
+ * px to rem utility
+ */
+
+$fhi-px: 1rem/16;
+
+
+/**
  * Spacing 
  * - used for margin, padding, and also height and width
  */
-
-$fhi-px: 1rem/16; // px to rem utility
 
 $fhi-space-1: $fhi-px *  4; // xxs
 $fhi-space-2: $fhi-px *  8; // xs
@@ -18,8 +23,8 @@ $fhi-space-7: $fhi-px * 56; // xxl
  * Grid
  */
 
-$fhi-container-padding-xs: 20px;
-$fhi-container-padding-sm: 15px;
+$fhi-container-padding-xs: $fhi-px * 20;
+$fhi-container-padding-sm: $fhi-px * 15;
 
 
 /**
