@@ -2,13 +2,6 @@
 
 CSS styling used by [Folkehelseinstituttet](https://www.fhi.no), based on [Bootstrap](https://getbootstrap.com) front-end framework.
 
-- [Get started](#get-started)
-  - [Install](#install)
-  - [Use in project](#use-in-project)
-- [Contribute](#contribute)
-- [Demo and documentation](#demo-and-documentation)
-- [Info about fonts](#info-about-fonts)
-
 ## Get started
 
 ### Install
@@ -29,9 +22,17 @@ If you only need the variables for use in ex. a library
 @import "~@folkehelseinstituttet/style/scss/variables.scss";
 ```
 
+If you want to use CSS instead of SCSS
+
+- run `npm pack`
+- add `~@folkehelseinstituttet/style/css/style.css` to your project
+
 ## Contribute
 
-Read about [how to contribute](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md)
+Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md). These two chapters are especially important:
+
+- [Coding conventions](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#coding-conventions)  
+- [Pull request guidelines](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#pull-request-guidelines-for)  
 
 ## Demo and documentation
 
