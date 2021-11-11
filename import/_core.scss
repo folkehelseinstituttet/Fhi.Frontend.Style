@@ -1,19 +1,19 @@
 // FHI
-@import "../core/core.variables";
+@import "../src/core/core.variables";
 
 // Bootstrap
-@import "../core/bootstrap/fhi-custom.variables";
-@import "../core/bootstrap/vendor";
-@import "../core/bootstrap/fhi-custom/accordion";
-@import "../core/bootstrap/fhi-custom/buttons";
-@import "../core/bootstrap/fhi-custom/forms";
-@import "../core/bootstrap/fhi-custom/grid";
-@import "../core/bootstrap/fhi-custom/pagination";
-@import "../core/bootstrap/fhi-custom/tables";
+@import "../src/core/bootstrap/fhi-custom.variables";
+@import "../src/core/bootstrap/vendor";
+@import "../src/core/bootstrap/fhi-custom/accordion";
+@import "../src/core/bootstrap/fhi-custom/buttons";
+@import "../src/core/bootstrap/fhi-custom/forms";
+@import "../src/core/bootstrap/fhi-custom/grid";
+@import "../src/core/bootstrap/fhi-custom/pagination";
+@import "../src/core/bootstrap/fhi-custom/tables";
 
 // FHI
-@import "../core/font-face-declarations";
-@import "../core/typography";
-@import "../core/backdrops";
-@import "../core/color-utilities";
-@import "../core/keyboard-focus";
+@import "../src/core/font-face-declarations";
+@import "../src/core/typography";
+@import "../src/core/backdrops";
+@import "../src/core/color-utilities";
+@import "../src/core/keyboard-focus";
