@@ -1,10 +1,14 @@
 # Fhi.Frontend.Style
 
-Package containing fhi styling in both css and scss form for easy use in projects
+CSS styling used by [Folkehelseinstituttet](https://www.fhi.no), based on [Bootstrap](https://getbootstrap.com) front-end framework.
 
-## Usage
+## Get started
 
-**NB!** Only `SourceSansPro` and `CrimsonText` are distributed with this package. `BrandonText` are proprietary, and needs to be imported in projects where it's a design requirement.
+### Install
+
+Install with [npm](https://www.npmjs.com): `npm install @folkehelseinstituttet/style`
+
+### Use in project
 
 If you want the full style library
 
@@ -17,3 +21,24 @@ If you only need the variables for use in ex. a library
 ```scss
 @import "~@folkehelseinstituttet/style/scss/variables.scss";
 ```
+
+If you want to use CSS instead of SCSS
+
+- run `npm pack`
+- add `~@folkehelseinstituttet/style/css/style.css` to your project
+
+## Contribute
+
+Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md). These two chapters are especially important:
+
+- [Coding conventions](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#coding-conventions)  
+- [Pull request guidelines](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#pull-request-guidelines-for)  
+
+## Demo and documentation
+
+Live examples in our demo app: [https://frontendbibliotek.fhi.no](https://frontendbibliotek.fhi.no)
+Repo for demo app: [Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
+
+## Info about fonts
+
+Only `SourceSansPro` and `CrimsonText` are distributed with this package. `BrandonText` are proprietary, and must be imported in projects where it's a design requirement.

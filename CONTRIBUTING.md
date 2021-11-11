@@ -2,14 +2,16 @@
 
 So you're thinking about contributing to Fhi.Frontend.Style? Great! Maintaining and enhancing Fhi.Frontend.Style is a big job, so **the community's help is really appreciated.** Helping out isn't just writing code, it also includes submitting issues, helping confirm issues and improving the documentation.
 
-Table of contents:
-
 - [Submitting Issues](#submitting-issues)
   - [Before you submit an issue](#before-you-submit-an-issue)
   - [Submitting a good issue](#submitting-a-good-issue)
 - [Confirming Issues](#confirming-issues)
 - [Documentation](#documentation)
 - [Fixing Bugs and Adding Features](#fixing-bugs-and-adding-features)
+  - [Coding conventions](#coding-conventions)
+    - [SASS](#sass)
+    - [BEM](#bem)
+      - [BEM in a nutshell](#bem-in-a-nutshell)
   - [Pull request guidelines for](#pull-request-guidelines-for)
     - [Feature branches](#feature-branches)
     - [Release branches](#release-branches)
@@ -52,6 +54,33 @@ Great documentation is essential for any open source project and Fhi.Frontend.St
 We love pull requests, but would prefer that new contributors start with smaller issues and let us know before you contribute to prevent duplication of work.
 
 It is also a good idea to add a comment to an issue that you are working on to let everyone know. If you stop working on it, also please let us know.
+
+### Coding conventions
+
+#### SASS
+
+This project is using [SCSS syntax](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax).
+
+#### BEM
+
+This project is using BEM syntax, but only in the folder `style/blocks`
+
+##### BEM in a nutshell
+
+```css
+.person {}
+.person--female {}
+.person__hand {}
+.person__hand--left {}
+```
+
+```html
+<div class="person person--female">
+  <div class="person__hand person__hand--left"></div>
+</div>
+```
+
+More info about BEM: [getbem.com](http://getbem.com/introduction)
 
 ### Pull request guidelines for
 

@@ -1,4 +1,11 @@
-# 3.1.0
+# Unreleased
+
+> Nov 11, 2021
+
+* :tada: **Enhancement** Revise the projects folder structure
+* :tada: **Enhancement** Update README and CONTRIBUTING
+
+## 3.1.0
 
 > Nov 09, 2021
 
