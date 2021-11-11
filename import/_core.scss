@@ -2,14 +2,9 @@
 @import "../src/core/core.variables";
 
 // Bootstrap
-@import "../src/core/bootstrap/fhi-custom.variables";
-@import "../src/core/bootstrap/vendor";
-@import "../src/core/bootstrap/fhi-custom/accordion";
-@import "../src/core/bootstrap/fhi-custom/buttons";
-@import "../src/core/bootstrap/fhi-custom/forms";
-@import "../src/core/bootstrap/fhi-custom/grid";
-@import "../src/core/bootstrap/fhi-custom/pagination";
-@import "../src/core/bootstrap/fhi-custom/tables";
+@import "../src/bootstrap-customisations/variables";
+@import "./bootstrap-core";
+@import "../src/bootstrap-customisations/grid";
 
 // FHI
 @import "../src/core/font-face-declarations";
