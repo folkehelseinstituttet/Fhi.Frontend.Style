@@ -9,12 +9,12 @@ let iconsCounter = 0;
 
 
 const generateIconsSASS = function() {
-  fs.writeFile(iconsMapOutput, '$icons:(', error => {
-    if (error) {
-      console.error(error);
-      return;
-    }
-  });
+  // fs.writeFile(iconsMapOutput, '$icons:(', error => {
+  //   if (error) {
+  //     console.error(error);
+  //     return;
+  //   }
+  // });
 
   getTheFiles(iconsPath);
 };
