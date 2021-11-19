@@ -26,39 +26,43 @@ const getTheFiles = function(dirPath, arrayOfFiles) {
   arrayOfFiles = arrayOfFiles || [];
 
   files.forEach(function(file, index) {
+    let currentFile = path.join(__dirname, dirPath, '/', file);
     if (fs.statSync(dirPath + '/' + file).isDirectory()) {
       arrayOfFiles = getTheFiles(dirPath + '/' + file, arrayOfFiles);
-    } else if (path.parse(path.join(__dirname, dirPath, '/', file)).ext === '.svg') {
-      arrayOfFiles.push(path.join(__dirname, dirPath, '/', file));
+    } else if (path.parse(currentFile).ext === '.svg') {
+      arrayOfFiles.push(currentFile);
 
-      fs.readFile(arrayOfFiles[index], { encoding: 'utf-8' }, (error, data) => {
+      fs.readFile(currentFile, { encoding: 'utf-8' }, (error, data) => {
         if (error) {
           console.error(error);
           return;
         }
 
-        if (path.parse(arrayOfFiles[index]).ext === '.svg') {
-          // removing newlines
+        if (path.parse(currentFile).ext === '.svg') {
+          // removing all kinds of newlines
           data = data.replace(/(\r\n|\n|\r)/gm, '');
-          const content = `'${path.parse(arrayOfFiles[index]).name}':'${data}',\n`;
-          fs.appendFile(iconsMapOutput, content, 'utf-8', closeMap, error => {
-            if (error) {
-              console.error(error);
-              return;
-            }
-          });
+          // const content = `'${path.parse(arrayOfFiles[index]).name}':'${data}',\n`;
+          const content = `['${path.parse(currentFile).name}', '${data}']`;
+          // fs.appendFile(iconsMapOutput, content, 'utf-8', closeTheMap, error => {
+          //   if (error) {
+          //     console.error(error);
+          //     return;
+          //   }
+          // });
 
-          console.info(iconsCounter, totalNumberOfIcons);
+          arrayOfFiles[index] = content;
 
           iconsCounter ++;
         }
       });
     };
   });
+
+  // console.info(arrayOfFiles);
 };
 
 
-const closeMap = function() {
+const closeTheMap = function() {
   if (iconsCounter === totalNumberOfIcons) {
     fs.appendFile(iconsMapOutput, ');\n', 'utf8', error => {
       if (error) {
