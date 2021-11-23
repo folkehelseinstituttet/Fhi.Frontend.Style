@@ -1,0 +1,8 @@
+```scss
+$included-icons:(
+  'chevron-down',
+  'chevron-down-fat',
+  'chevron-expand',
+  'chevron-up',
+)
+```

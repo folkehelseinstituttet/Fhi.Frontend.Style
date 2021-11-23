@@ -8,5 +8,5 @@
 
 // generate classes with prefix .icon- using the $icons map, eg. .icon-chevron-expand
 .icon {
-    @include icon-classes-generator();
+    @include icon-classes-generator(); // (mixin)
 }

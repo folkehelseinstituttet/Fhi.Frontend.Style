@@ -1,7 +1,19 @@
+@import "./generated-icon-names";
+
 @mixin icon-classes-generator {
     @each $iconName, $iconSVG in $icons {
-        &-#{$iconName} {
-            background-image: get-icon($iconName, $icons-color);
+        @if variable-exists(included-icons) {
+            @each $iconNameToUse in $included-icons {
+                @if $iconName == $iconNameToUse {
+                    &-#{$iconName} {
+                        background-image: get-icon($iconName, $icons-color);
+                    }
+                }
+            }
+        } @else {
+            &-#{$iconName} {
+                background-image: get-icon($iconName, $icons-color);
+            }
         }
     }
 }

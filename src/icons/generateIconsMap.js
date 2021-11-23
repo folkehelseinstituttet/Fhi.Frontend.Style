@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const iconsPath = path.join(__dirname, 'svg-icons');
-const iconsNameList = path.join(__dirname, '_generated-icon-names.scss');
+const iconsNameList = path.join(__dirname, 'ICONS-LIST.md');
 const iconsMapOutput = path.join(__dirname, '_generated-icons-map.scss');
 
 let iconsCounter = 0;
@@ -16,7 +16,7 @@ const generateIconsSASS = function() {
   });
 
   // start wrinting list of file names
-  fs.writeFile(iconsNameList, '$included-icons:(\n', error => {
+  fs.writeFile(iconsNameList, '```scss\n$included-icons:(\n', error => {
     checkForErrors(error);
   });
 
@@ -65,7 +65,7 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
                     checkForErrors(error);
                   });
 
-                  fs.appendFile(iconsNameList, `'${svgNameAndContent[i][0]}',\n`, 'utf-8', error => {
+                  fs.appendFile(iconsNameList, `  '${svgNameAndContent[i][0]}',\n`, 'utf-8', error => {
                     checkForErrors(error);
                   });
                   i ++;
@@ -89,7 +89,7 @@ const closeTheMap = function() {
     checkForErrors(error);
   });
 
-  fs.appendFile(iconsNameList, ') !default;\n', 'utf-8', error => {
+  fs.appendFile(iconsNameList, ')\n```\n', 'utf-8', error => {
     checkForErrors(error);
   });
 
