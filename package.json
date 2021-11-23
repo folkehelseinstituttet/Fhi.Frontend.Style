@@ -17,8 +17,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
+    "generate-icons-map": "node ./src/icons/generateIconsMap",
     "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
-    "prepack": "npm run compile-css && npm run minify-css",
+    "prepack": "npm run generate-icons-map && npm run compile-css && npm run minify-css",
     "postversion": "git add package.json package-lock.json && git commit -mv%npm_package_version%"
   },
   "author": "",

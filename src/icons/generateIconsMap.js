@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const iconsPath = './src/icons/svg-icons/';
-const iconsMapOutput = './src/icons/_generated-icons-map.scss';
+const iconsPath = path.join(__dirname, 'svg-icons');
+const iconsMapOutput = path.join(__dirname, '_generated-icons-map.scss');
 
 let iconsCounter = 0;
 const svgNameAndContent = [];
@@ -20,23 +20,23 @@ const generateIconsSASS = function() {
 };
 
 
-const getTheFiles = function(dirPath, arrayOfFiles) {
-  const files = fs.readdirSync(dirPath);
+const getTheFiles = function(iconsPath, arrayOfFiles) {
+  const files = fs.readdirSync(iconsPath);
   const numberOfFilesInDir = files.length;
 
   let fileCounter = 0;
   arrayOfFiles = arrayOfFiles || [];
 
   files.forEach(function(file) {
-    let currentFile = path.join(__dirname, dirPath, '/', file);
-    if (fs.statSync(dirPath + '/' + file).isDirectory()) {
-      arrayOfFiles = getTheFiles(dirPath + '/' + file, arrayOfFiles);
+    let currentFile = path.join(iconsPath, '/', file);
+    if (fs.statSync(iconsPath + '/' + file).isDirectory()) {
+      arrayOfFiles = getTheFiles(iconsPath + '/' + file, arrayOfFiles);
     } else if (path.parse(currentFile).ext === '.svg') {
       fileCounter ++;
 
       fs.readFile(currentFile, { encoding: 'utf-8' }, (error, data) => {
         if (error) {
-          console.error(error);
+          console.error(currentFile, error);
           return;
         }
 
@@ -93,14 +93,14 @@ const closeTheMap = function() {
 }
 
 
-const getNumberOfSVGs = function(dirPath, svgCount) {
-  files = fs.readdirSync(dirPath);
+const getNumberOfSVGs = function(iconsPath, svgCount) {
+  files = fs.readdirSync(iconsPath);
 
   svgCount = svgCount || 0;
 
   files.forEach(function(file) {
-    if (fs.statSync(dirPath + '/' + file).isDirectory()) {
-      svgCount = getNumberOfSVGs(dirPath + '/' + file, svgCount);
+    if (fs.statSync(iconsPath + '/' + file).isDirectory()) {
+      svgCount = getNumberOfSVGs(iconsPath + '/' + file, svgCount);
     } else if (path.parse(file).ext === '.svg') {
       svgCount ++;
     }
