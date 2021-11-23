@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const iconsPath = path.join(__dirname, 'svg-icons');
+const iconsNameList = path.join(__dirname, '_generated-icon-names.scss');
 const iconsMapOutput = path.join(__dirname, '_generated-icons-map.scss');
 
 let iconsCounter = 0;
@@ -9,11 +10,14 @@ const svgNameAndContent = [];
 
 
 const generateIconsSASS = function() {
-  fs.writeFile(iconsMapOutput, '$icons:(', error => {
-    if (error) {
-      console.error(error);
-      return;
-    }
+  // start writing icons map
+  fs.writeFile(iconsMapOutput, '$icons:(\n', error => {
+    checkForErrors(error);
+  });
+
+  // start wrinting list of file names
+  fs.writeFile(iconsNameList, '$included-icons:(\n', error => {
+    checkForErrors(error);
   });
 
   getTheFiles(iconsPath);
@@ -35,10 +39,7 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
       fileCounter ++;
 
       fs.readFile(currentFile, { encoding: 'utf-8' }, (error, data) => {
-        if (error) {
-          console.error(currentFile, error);
-          return;
-        }
+        checkForErrors(error);
 
         const currentSVG = [];
 
@@ -61,10 +62,11 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
                 if (i < svgNameAndContent.length) {
                   const content = `'${svgNameAndContent[i][0]}':'${svgNameAndContent[i][1]}',\n`;
                   fs.appendFile(iconsMapOutput, content, 'utf-8', error => {
-                    if (error) {
-                      console.error(error);
-                      return;
-                    }
+                    checkForErrors(error);
+                  });
+
+                  fs.appendFile(iconsNameList, `'${svgNameAndContent[i][0]}',\n`, 'utf-8', error => {
+                    checkForErrors(error);
                   });
                   i ++;
                   printList(i);
@@ -83,13 +85,15 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
 
 
 const closeTheMap = function() {
-  fs.appendFile(iconsMapOutput, ');\n', 'utf8', error => {
-    if (error) {
-      console.error(error);
-      return;
-    }
-    console.info(' * * * [' + iconsMapOutput + '] is generated * * *\n');
+  fs.appendFile(iconsMapOutput, ');\n', 'utf-8', error => {
+    checkForErrors(error);
   });
+
+  fs.appendFile(iconsNameList, ') !default;\n', 'utf-8', error => {
+    checkForErrors(error);
+  });
+
+  console.info(' * * * [' + iconsMapOutput + '] is generated * * *\n');
 }
 
 
@@ -117,6 +121,14 @@ function sortSVGName(a, b) {
     return 0;
   } else {
     return (a[0] < b[0]) ? -1 : 1;
+  }
+}
+
+
+function checkForErrors(error) {
+  if (error) {
+    console.error(error);
+    return;
   }
 }
 
