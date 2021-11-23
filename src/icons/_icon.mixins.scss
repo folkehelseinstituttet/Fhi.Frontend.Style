@@ -1,5 +1,3 @@
-@import "./generated-icon-names";
-
 @mixin icon-classes-generator {
     @each $iconName, $iconSVG in $icons {
         @if variable-exists(included-icons) {
