@@ -116,7 +116,7 @@ const totalNumberOfIcons = getNumberOfSVGs(iconsPath);
 console.info('\n * * * ' + totalNumberOfIcons + ' SVG icons are found in ' + iconsPath);
 
 
-function sortSVGName(a, b) {
+const sortSVGName = function(a, b) {
   if (a[0] === b[0]) {
     return 0;
   } else {
@@ -125,7 +125,7 @@ function sortSVGName(a, b) {
 }
 
 
-function checkForErrors(error) {
+const checkForErrors = function(error) {
   if (error) {
     console.error(error);
     return;
