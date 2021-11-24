@@ -11,7 +11,7 @@ const svgNameAndContent = [];
 
 const generateIconsSASS = function() {
   // start writing icons map
-  fs.writeFile(iconsMapOutput, '$icons:(\n', error => {
+  fs.writeFile(iconsMapOutput, '$icons: (\n', error => {
     checkForErrors(error);
   });
 
