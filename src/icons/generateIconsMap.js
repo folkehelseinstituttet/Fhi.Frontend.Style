@@ -85,10 +85,12 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
 
 
 const closeTheMap = function() {
+  // close up the icons map
   fs.appendFile(iconsMapOutput, ');\n', 'utf-8', error => {
     checkForErrors(error);
   });
 
+  // close up the file names list (for reference)
   fs.appendFile(iconsNameList, ')\n```\n', 'utf-8', error => {
     checkForErrors(error);
   });
