@@ -44,8 +44,8 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
         const currentSVG = [];
 
         if (path.parse(currentFile).ext === '.svg') {
-          // removing all kinds of newlines
-          data = data.replace(/(\r\n|\n|\r)/gm, '');
+          // removing all kinds of newlines, comments, xml definition and description
+          data = data.replace(/(\r\n|\n|\r|<!--(.*?)-->|<\?xml.*?\?>|<desc>(.*?)<\/desc>)/gm, '');
 
           currentSVG.push(`${path.parse(currentFile).name}`);
           currentSVG.push(`${data}`);

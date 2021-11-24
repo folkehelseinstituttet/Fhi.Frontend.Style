@@ -6,6 +6,8 @@ Icons are generated using the `generateIconsMap.js` node script. This generates 
 ### Source files
 Icons should only be of SVG type, placed in the `/src/icons/svg-icons/[source-type]/` directory.
 
+The color of the icon, if it's either fill or stroke should be set with the placeholder %%COLOR%% like this: `fill="%%COLOR%%"` / `stroke="%%COLOR%%`. It will be replaced by the default `$icons-color` SASS variable that might be overridden before importing this library in your project.
+
 When new icon files are added, run `npm run generate-icons-map` to re-generate a new `_generated-icons-map.scss` that should be pushed and merged to repo.
 
 ## Icons sub selection
@@ -18,6 +20,6 @@ $included-icons: (
   'chevron-up',
 );
 ```
-This will generate icon classes for these two icons only.
+This will generate icon classes for these two icons only. To be added before the import of this library to your project.
 
 [Find the current list of icons in the ICONS-LIST.md](ICONS-LIST.md).
