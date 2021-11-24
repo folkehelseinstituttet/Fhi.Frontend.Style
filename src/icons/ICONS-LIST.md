@@ -1,5 +1,5 @@
 ```scss
-$included-icons:(
+$included-icons: (
   'chevron-down',
   'chevron-down-fat',
   'chevron-expand',
