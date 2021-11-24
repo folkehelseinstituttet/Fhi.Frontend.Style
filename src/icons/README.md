@@ -20,6 +20,7 @@ $included-icons: (
   'chevron-up',
 );
 ```
-This will generate icon classes for these two icons only. To be added before the import of this library to your project.
+This will generate icon classes for these two icons only.
+**Note**: must be added before the import of this library in your project.
 
-[Find the current list of icons in the ICONS-LIST.md](ICONS-LIST.md).
+Please find the [full set of available icons in ICONS-LIST.md](ICONS-LIST.md).
