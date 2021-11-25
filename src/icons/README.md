@@ -1,10 +1,10 @@
 # Icons setup
 
 ## Principle
-Icons are generated using the `generateIconsMap.js` node script. This generates a SASS file `_generated-icons-map.scss` that holds a SASS map variable, which is imported in the `_icon.variables.scss`.
+A list of file names and content is generated using the `generateIconsMap.js` node script, which fetches all the svg files in the `svg-icons` directory here. This generates a SASS file `_generated-icons-map.scss` that holds a SASS map variable, which in turn is used to generate icon css classes like this; `.icon-[file-name]` with property `background-image: url([encoded svg content]);`.
 
 ### Source files
-Icons should only be of SVG type, placed in the `/src/icons/svg-icons/[source-type]/` directory. The file names must be uniqe, even if in different directories. The file names will be the name of the icon classes. Eg. the `chevron-down.svg` will end up in an `.icon-chevron-down` css class in the style sheet.
+Icons should only be of SVG type, placed in the `/src/icons/svg-icons/[source-type]/` directory. The file names must be uniqe, even if in different sub directories.
 
 The color of the icon, either fill or stroke, should be set with the placeholder `%%COLOR%%` like this: `fill="%%COLOR%%"` / `stroke="%%COLOR%%`. It will be replaced by the default `$icons-color` SASS variable that might be overridden before importing this library in your project.
 

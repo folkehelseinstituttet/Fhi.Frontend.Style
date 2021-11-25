@@ -16,7 +16,7 @@ const generateIconsSASS = function() {
   });
 
   // start wrinting list of file names
-  fs.writeFile(iconsNameList, '```scss\n$included-icons:(\n', error => {
+  fs.writeFile(iconsNameList, '```scss\n$included-icons: (\n', error => {
     checkForErrors(error);
   });
 
