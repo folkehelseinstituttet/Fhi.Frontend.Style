@@ -23,4 +23,5 @@ $included-icons: (
 This will generate icon classes for these two icons only.
 **Note**: must be added before the import of this library in your project.
 
+### Icon set
 Please find the [current set of available icons in ICONS-LIST.md here](ICONS-LIST.md).
