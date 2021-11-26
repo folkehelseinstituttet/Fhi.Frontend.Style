@@ -34,19 +34,22 @@
     }
 }
 
-.table-striped-columns {
-    // tbody {
-    //     tr:not([aria-selected="true"]) {
-    //         td:nth-child(2n + 3) {
-    //             background-color: var(--bs-table-striped-bg);
-    //         }
-    //     }
-    // }
+
+@for $i from 1 through 20 { // allowing for a table up to 20 columns to be sorted
+    [data-sort-column="#{$i}"] tbody {
+        tr > *:nth-child(#{$i}) {
+            background-color: $fhi-pink-light-1;
+        }
+    }
 }
 
-tr[aria-selected="true"] {
+
+.table tr[aria-selected="true"] {
     th,
     td {
-        background-color: $fhi-pink-light-1;
+        background-color: $fhi-blue-grey-2;
     }
+}
+.table-striped > tbody > tr[aria-selected="true"] > * {
+    --bs-table-accent-bg: $fhi-blue-grey-2;
 }
