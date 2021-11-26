@@ -1,18 +1,15 @@
 .table {
+    border-top: 1px solid $fhi-grey-1;
     font-family: $fhi-font-family-sans-serif-regular-2;
     width: auto;
 
-    &:not(.table-bordered) {
+    th,
+    td {
         border-bottom: 1px solid $fhi-grey-1;
-
-        th,
-        td {
-            border: 0;
-        }
     }
 
     thead {
-        background-color: $fhi-bg-color-7;
+        background-color: $fhi-blue-grey-3;
 
         th {
             border-bottom-width: 1px;
@@ -37,22 +34,14 @@
     }
 }
 
-.table-bordered {
-    th,
-    td {
-        border-left: 0;
-        border-right: 0;
-    }
-}
-
 .table-striped-columns {
-    tbody {
-        tr:not([aria-selected="true"]) {
-            td:nth-child(2n + 3) {
-                background-color: var(--bs-table-striped-bg);
-            }
-        }
-    }
+    // tbody {
+    //     tr:not([aria-selected="true"]) {
+    //         td:nth-child(2n + 3) {
+    //             background-color: var(--bs-table-striped-bg);
+    //         }
+    //     }
+    // }
 }
 
 tr[aria-selected="true"] {
