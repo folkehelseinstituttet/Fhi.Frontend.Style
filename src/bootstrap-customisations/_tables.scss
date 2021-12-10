@@ -1,18 +1,15 @@
 .table {
+    border-top: 1px solid $fhi-grey-1;
     font-family: $fhi-font-family-sans-serif-regular-2;
     width: auto;
 
-    &:not(.table-bordered) {
+    th,
+    td {
         border-bottom: 1px solid $fhi-grey-1;
-
-        th,
-        td {
-            border: 0;
-        }
     }
 
     thead {
-        background-color: $fhi-bg-color-7;
+        background-color: $fhi-blue-grey-3;
 
         th {
             border-bottom-width: 1px;
@@ -37,10 +34,22 @@
     }
 }
 
-.table-bordered {
+
+@for $i from 1 through 20 { // allowing for a table up to 20 columns to be sorted
+    [data-sort-column="#{$i}"] tbody {
+        tr > *:nth-child(#{$i}) {
+            background-color: $fhi-pink-light-1;
+        }
+    }
+}
+
+
+.table tr[aria-selected="true"] {
     th,
     td {
-        border-left: 0;
-        border-right: 0;
+        background-color: $fhi-blue-grey-2;
     }
+}
+.table-striped > tbody > tr[aria-selected="true"] > * {
+    --bs-table-accent-bg: $fhi-blue-grey-2;
 }
