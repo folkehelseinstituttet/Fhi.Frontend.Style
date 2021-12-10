@@ -43,40 +43,38 @@ const getTheFiles = function(iconsPath, arrayOfFiles) {
 
         const currentSVG = [];
 
-        if (path.parse(currentFile).ext === '.svg') {
-          // removing all kinds of newlines, comments, xml definition and description
-          data = data.replace(/(\r\n|\n|\r|<!--(.*?)-->|<\?xml.*?\?>|<desc>(.*?)<\/desc>)/gm, '');
+        // removing all kinds of newlines, comments, xml definition and description
+        data = data.replace(/(\r\n|\n|\r|<!--(.*?)-->|<\?xml.*?\?>|<desc>(.*?)<\/desc>)/gm, '');
 
-          currentSVG.push(`${path.parse(currentFile).name}`);
-          currentSVG.push(`${data}`);
+        currentSVG.push(`${path.parse(currentFile).name}`);
+        currentSVG.push(`${data}`);
 
-          svgNameAndContent.push(currentSVG);
+        svgNameAndContent.push(currentSVG);
 
-          iconsCounter ++;
+        iconsCounter ++;
 
-          if (iconsCounter === totalNumberOfIcons) {
-            svgNameAndContent.sort(sortSVGName);
+        if (iconsCounter === totalNumberOfIcons) {
+          svgNameAndContent.sort(sortSVGName);
 
-            function printList(i) {
-              setTimeout(function() {
-                if (i < svgNameAndContent.length) {
-                  const content = `'${svgNameAndContent[i][0]}':'${svgNameAndContent[i][1]}',\n`;
-                  fs.appendFile(iconsMapOutput, content, 'utf-8', error => {
-                    checkForErrors(error);
-                  });
+          function printList(i) {
+            setTimeout(function() {
+              if (i < svgNameAndContent.length) {
+                const content = `'${svgNameAndContent[i][0]}':'${svgNameAndContent[i][1]}',\n`;
+                fs.appendFile(iconsMapOutput, content, 'utf-8', error => {
+                  checkForErrors(error);
+                });
 
-                  fs.appendFile(iconsNameList, `  '${svgNameAndContent[i][0]}',\n`, 'utf-8', error => {
-                    checkForErrors(error);
-                  });
-                  i ++;
-                  printList(i);
-                } else {
-                  closeTheMap();
-                }
-              }, 25);// a small timeout makes sure all icons gets generated correctly
-            }
-            printList(0);
+                fs.appendFile(iconsNameList, `  '${svgNameAndContent[i][0]}',\n`, 'utf-8', error => {
+                  checkForErrors(error);
+                });
+                i ++;
+                printList(i);
+              } else {
+                closeTheMap();
+              }
+            }, 25);// a small timeout makes sure all icons gets generated correctly
           }
+          printList(0);
         }
       });
     };
