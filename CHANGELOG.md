@@ -1,8 +1,8 @@
 # Unreleased
 
-> Nov 29, 2021
+> Des 15, 2021
 
-* :tada: **Enhancement** Icons system is now generated when adding icon files
+* :tada: **Enhancement** Icon system is now generated when adding icon files
 * :tada: **Enhancement** Revise the projects folder structure
 * :tada: **Enhancement** Update README and CONTRIBUTING
 
