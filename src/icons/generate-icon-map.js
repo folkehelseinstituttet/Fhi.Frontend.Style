@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const iconsPath = path.join(__dirname, 'svg-icons');
-const iconsNameList = path.join(__dirname, 'ICONS-LIST.md');
-const iconsMapOutput = path.join(__dirname, '_generated-icons-map.scss');
+const iconsNameList = path.join(__dirname, 'icon-list.GENERATED.md');
+const iconsMapOutput = path.join(__dirname, '_icon-map.GENERATED.scss');
 
 let iconsCounter = 0;
 const svgNameAndContent = [];
@@ -26,7 +26,6 @@ const generateIconsSASS = function() {
 
 const getTheFiles = function(iconsPath, arrayOfFiles) {
   const files = fs.readdirSync(iconsPath);
-  const numberOfFilesInDir = files.length;
 
   let fileCounter = 0;
   arrayOfFiles = arrayOfFiles || [];
