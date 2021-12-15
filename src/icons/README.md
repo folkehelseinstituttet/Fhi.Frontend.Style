@@ -1,4 +1,4 @@
-# Icons setup
+# Icon setup
 
 ## Principle
 A list of file names and content is generated using the `generateIconsMap.js` node script, which fetches all the svg files in the `./svg-icons` directory. This generates a SASS file `_generated-icons-map.scss` that holds a SASS map variable, which in turn is used to generate icon css classes like this; `.icon-[file-name]` with property `background-image: url([encoded svg content]);`.
