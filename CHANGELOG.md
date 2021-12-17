@@ -1,8 +1,9 @@
-# Unreleased
+# 3.2.0
 
-> Des 15, 2021
+> Des 17, 2021
 
 * :tada: **Enhancement** Icon system is now generated when adding icon files
+* :nut_and_bolt: **New** Added styles for table with selectable rows
 * :tada: **Enhancement** Revise the projects folder structure
 * :tada: **Enhancement** Update README and CONTRIBUTING
 
