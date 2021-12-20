@@ -8,7 +8,8 @@
   ],
   "files": [
     "/css",
-    "/fonts",
+    "/src/fonts",
+    "/import",
     "/scss"
   ],
   "main": "./scss/style.scss",
