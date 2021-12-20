@@ -1,4 +1,4 @@
-# Unreleased
+# 3.2.1
 
 * :bug: **Bugfix** Make sure `/import` is part of npm and update path for fonts
 
