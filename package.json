@@ -8,9 +8,9 @@
   ],
   "files": [
     "/css",
-    "/src/fonts",
     "/import",
-    "/scss"
+    "/scss",
+    "/src"
   ],
   "main": "./scss/style.scss",
   "unpkg": "./css/styles.css",
