@@ -1,4 +1,8 @@
-# 3.2.1
+#Unreleased
+
+* :bug: **Bugfix** Export all files and folders to npm
+
+## 3.2.1
 
 * :bug: **Bugfix** Make sure `/import` is part of npm and update path for fonts
 
