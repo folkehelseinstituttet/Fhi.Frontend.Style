@@ -1,4 +1,10 @@
-# 3.2.2
+# 3.2.3
+
+> Jan 27, 2022
+
+* :bug: **Bugfix** Removed the switching of double quotes to single quotes on svg encoding
+
+## 3.2.2
 
 > Des 21, 2021
 
