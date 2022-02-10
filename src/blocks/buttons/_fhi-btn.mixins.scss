@@ -12,6 +12,10 @@
     text-decoration: underline;
 }
 
+@mixin fhi-btn-round-hover($background-color, $border-color, $color) {
+    @include fhi-btn($background-color, $border-color, $color);
+}
+
 @mixin fhi-btn-focus($background-color, $border-color, $color) {
     @include fhi-btn-hover($background-color, $border-color, $color);
 }
