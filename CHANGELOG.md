@@ -1,3 +1,9 @@
+# unreleased
+
+> Feb 14, 2022
+
+*  :tada: **Enhancement** You no longer have to explicitly import ~bootstrap/scss/functions when loading variables in your lib
+
 # 3.2.3
 
 > Jan 27, 2022
