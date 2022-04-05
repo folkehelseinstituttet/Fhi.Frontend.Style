@@ -1,5 +1,5 @@
 # Unreleased
-* :bug: **Bugfix** Prevent toggler icon to fall down below text
+* :bug: **Bugfix** Prevent toggler icon on sortable table to fall down below text
 
 ## 3.2.3
 
