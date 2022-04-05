@@ -1,4 +1,7 @@
-# 3.2.3
+# Unreleased
+* :bug: **Bugfix** Prevent toggler icon to fall down below text
+
+## 3.2.3
 
 > Jan 27, 2022
 
