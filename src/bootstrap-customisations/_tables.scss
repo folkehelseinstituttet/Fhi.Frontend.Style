@@ -20,17 +20,26 @@
     > :not(:first-child) {
         border-top: 0;
     }
+}
 
-    th[aria-sort] {
-        color: $fhi-blue-grey-6;
-        cursor: pointer;
-        padding-right: $fhi-space-5;
 
-        [class*="icon-"] {
-            position: relative;
-            transform: translateX($fhi-space-2);
-            vertical-align: top;
-        }
+th[aria-sort] {
+    color: $fhi-blue-grey-6;
+    cursor: pointer;
+    padding-right: $fhi-space-5;
+    user-select: none;
+    vertical-align: bottom;
+
+    span {
+        line-height: 1.5rem;
+        padding-right: 1.75rem;
+    }
+
+    [class*="icon-"] {
+        margin-left: -1.75rem;
+        position: absolute;
+        transform: translateX($fhi-space-1);
+        vertical-align: bottom;
     }
 }
 
