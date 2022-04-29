@@ -3,6 +3,7 @@
 > Apr 28, 2022
 
 * :nut_and_bolt: **New** Increased font size on Accordion toggler
+* :bug: **Bugfix** Issue with sorting icons on sorting table
 * :bug: **Bugfix** Prevent toggler icon on sortable table to fall down below text
 * :nut_and_bolt: **New** Added round button
 
