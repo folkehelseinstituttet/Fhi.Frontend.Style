@@ -1,6 +1,6 @@
-# Unreleased
+# 3.3.0
 
-> Apr 28, 2022
+> May 3, 2022
 
 * :nut_and_bolt: **New** Increased font size on Accordion toggler
 * :bug: **Bugfix** Issue with sorting icons on sorting table
