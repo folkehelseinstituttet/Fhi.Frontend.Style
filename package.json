@@ -17,7 +17,7 @@
   "style": "./css/styles.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
+    "compile-css": "sass --style=expanded --source-map --precision 6 scss/style.scss css/styles.css",
     "generate-icon-map": "node ./src/icons/generate-icon-map",
     "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
     "prepack": "npm run generate-icon-map && npm run compile-css && npm run minify-css",
@@ -32,6 +32,6 @@
     "bootstrap": "^5.1.3",
     "clean-css-cli": "^4.3.0",
     "ncp": "^2.0.0",
-    "node-sass": "^5.0.0"
+    "sass": "^1.50.0"
   }
 }

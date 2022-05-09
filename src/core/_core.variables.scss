@@ -1,8 +1,10 @@
+@use 'sass:math';
+
 /**
  * px to rem utility
  */
 
-$fhi-px: 1rem/16;
+$fhi-px: math.div(1rem, 16);
 
 
 /**
