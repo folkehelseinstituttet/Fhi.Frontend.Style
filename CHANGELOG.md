@@ -1,9 +1,8 @@
-# Unreleased
+# 3.3.1
 
 > May 12, 2022
 
 * :bug: **Bugfix** Remove DartSass because of some reference issues
-
 
 ## 3.3.0
 
