@@ -1,7 +1,15 @@
-# 3.3.0
+# Unreleased
+
+> May 12, 2022
+
+* :bug: **Bugfix** Remove DartSass because of some reference issues
+
+
+## 3.3.0
 
 > May 3, 2022
 
+* :nut_and_bolt: **New** Changed from NodeSass to DartSass
 * :tada: **Enhancement** Increased font size on Accordion toggler
 * :bug: **Bugfix** Issue with sorting icons on sorting table
 * :bug: **Bugfix** Prevent toggler icon on sortable table to fall down below text

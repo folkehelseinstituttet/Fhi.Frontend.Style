@@ -1,5 +1,3 @@
-@use 'sass:math';
-
 /**
  * Bootstrap variables (overrides)
  */
@@ -29,7 +27,7 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1620px
 );
-$grid-gutter-width: math.div(1rem, 16) * 30;
+$grid-gutter-width: 1rem / 16 * 30;
 
 
 // Color (general)

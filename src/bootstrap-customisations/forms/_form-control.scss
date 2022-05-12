@@ -1,5 +1,3 @@
-@use 'sass:math';
-
 .form-control {
     @include fhi-border-transition();
     border-radius: $input-border-radius;
@@ -11,7 +9,7 @@
     min-height: $fhi-input-height-xs;
 }
 .form-control:focus {
-    border-radius: math.div($fhi-input-height-xs, 2);
+    border-radius: $fhi-input-height-xs / 2;
     border-color: $fhi-grey-3;
 }
 select.form-control:focus {
@@ -38,6 +36,6 @@ textarea.form-control {
         min-height: $fhi-input-height-lg;
     }
     .form-control:focus {
-        border-radius: math.div($fhi-input-height-lg, 2);
+        border-radius: $fhi-input-height-lg / 2;
     }
 }
