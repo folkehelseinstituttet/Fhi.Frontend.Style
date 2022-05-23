@@ -1,0 +1,142 @@
+// based on ~@circlon/angular-tree-component/css/angular-tree-component.css
+// package.json dependency: "@circlon/angular-tree-component": "^11.0.4"
+
+.tree-children.tree-children-no-padding { padding-left: 0 }
+.tree-children { padding-left: 20px; }
+.node-drop-slot { display: block; height: 2px; transition: height .125s; }
+.node-drop-slot.is-dragging-over { background: $fhi-green-1; height: 20px; border: 2px dotted $fhi-grey-2; margin-left: $fhi-space-6; }
+.toggle-children-wrapper-expanded .toggle-children { transform: rotate(90deg) }
+.toggle-children-wrapper-collapsed .toggle-children { transform: rotate(0); }
+.toggle-children-wrapper {
+  padding: 2px 3px 5px 1px;
+}
+/* tslint:disable */
+.toggle-children {
+  background-image: url('../icons/svg-icons/font-awesome/circle-chevron-right-solid.svg');
+  height: 25px;
+  width: 25px;
+  background-size: contain;
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.toggle-children-placeholder {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.node-content-wrapper {
+  background-color: $fhi-white;
+  transition: background-color .15s,box-shadow .15s;
+}
+.node-wrapper {display: flex; align-items: flex-start;}
+.node-content-wrapper-active,
+.node-content-wrapper.node-content-wrapper-active:hover,
+.node-content-wrapper-active.node-content-wrapper-focused {
+  background: $fhi-blue-grey-3;
+}
+.node-content-wrapper-focused { background: $fhi-blue-grey-2; }
+.node-content-wrapper:hover { background: $fhi-blue-grey-1; }
+.node-content-wrapper-active, .node-content-wrapper-focused, .node-content-wrapper:hover {
+  box-shadow: inset 0 0 1px #999;
+}
+.node-content-wrapper.is-dragging-over { background: #ddffee; box-shadow: inset 0 0 1px #999; }
+.node-content-wrapper.is-dragging-over-disabled { opacity: 0.5 }
+
+tree-viewport {
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  overflow-y: auto;
+  display: block;
+}
+.tree-children { padding-left: 20px }
+.empty-tree-drop-slot .node-drop-slot { height: 20px; min-width: 100px }
+.angular-tree-component {
+  width: 100%;
+  position:relative;
+}
+
+tree-root .angular-tree-component-rtl {
+  direction: rtl;
+}
+tree-root .angular-tree-component-rtl .toggle-children-wrapper-collapsed .toggle-children {
+  transform: rotate(180deg) !important;
+}
+tree-root .angular-tree-component-rtl .tree-children {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+tree-node-checkbox {
+  padding: 1px;
+}
+
+
+// *****************
+// FHI customization
+
+.tree-node-wrapper,
+.toggle-children-wrapper,
+tree-node-expander,
+.tree-column,
+.tree-column span {
+    display: flex;
+}
+
+.toggle-children-wrapper {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.node-content-wrapper {
+    border: 1px solid $fhi-grey-1;
+    flex: 1;
+    margin-left: $fhi-space-2;
+
+    @include media-breakpoint-up(lg) {
+        margin-left: $fhi-space-3;
+    }
+}
+
+.tree-column {
+    cursor: pointer;
+    padding-left: $fhi-space-2;
+    user-select: none;
+
+    span {
+        flex-direction: column;
+        font-size: $fhi-font-size-3;
+        justify-content: center;
+        margin-right: auto;
+        padding-right: $fhi-space-2;
+    }
+
+    .btn {
+        background-color: $fhi-white;
+        border-left: 1px solid $fhi-grey-1;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:focus-visible {
+            z-index: 1;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding-left: $fhi-space-3;
+    }
+}
+
+.tree-node-wrapper {
+    margin: $fhi-space-1 0;
+}
+
+tree-viewport {
+    // overflow fix for keyboard focus on "add (+)" button
+    padding-right: 4px;
+    margin-right: -4px;
+}
