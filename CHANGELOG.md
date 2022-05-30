@@ -1,8 +1,8 @@
-# Unreleased
+# 3.4.0
 
 > May 30, 2022
 
-* :nut_and_bolt: **New** Syling for Circloin Angular Tree Structure component
+* :nut_and_bolt: **New** Styling for Circloin Angular Tree Structure component
 
 ## 3.3.1
 
