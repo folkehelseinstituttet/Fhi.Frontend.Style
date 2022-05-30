@@ -12,6 +12,7 @@ $included-icons: (
   'chevron-down-fat',
   'chevron-expand',
   'chevron-up',
+  'circle-chevron-right-solid',
   'circle-regular',
   'clap',
   'description',
