@@ -91,88 +91,97 @@ tree-node-checkbox {
 // *****************
 // FHI customization
 
+.node-content-wrapper {
+  border: 1px solid $gray-4;
+  flex: 1;
+  margin-left: $space-2;
+  padding: 0;
+
+  @include media-breakpoint-up(lg) {
+      margin-left: $space-3;
+  }
+}
+
+.node-drop-slot {
+  margin-left: $space-6;
+}
+
 .tree-node-wrapper,
 .toggle-children-wrapper,
 tree-node-expander,
 .tree-column,
 .tree-column span {
-    display: flex;
+  display: flex;
 }
 
 .tree-children {
-  padding-left: 1.5rem;
+padding-left: $space-3;
 
-  @include media-breakpoint-up(sm) {
-    padding-left: 2.5rem;
-  }
+@include media-breakpoint-up(sm) {
+  padding-left: $space-6;
+}
 }
 
 .toggle-children-wrapper {
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .toggle-children {
-  background-image: url('../icons/svg-icons/font-awesome/circle-chevron-right-solid.svg');
-  height: calc(1rem / 16 * 25);
-  width: calc(1rem / 16 * 25);
-  transition: transform .15s;
+background-image: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"%3E%3Cpath d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM358.6 278.6l-112 112c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L290.8 256L201.4 166.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l112 112C364.9 239.6 368 247.8 368 256S364.9 272.4 358.6 278.6z" fill="%23393c61"/%3E%3C/svg%3E');
+height: calc(1rem / 16 * 25);
+width: calc(1rem / 16 * 25);
+transition: transform .15s;
 }
 
 .toggle-children-placeholder {
-  width: calc(1rem / 16 * 25);
+width: calc(1rem / 16 * 25);
 }
 
-.node-content-wrapper {
-    border: 1px solid $fhi-grey-1;
-    flex: 1;
-    margin-left: $fhi-space-2;
-    padding: 0;
-
-    @include media-breakpoint-up(lg) {
-        margin-left: $fhi-space-3;
-    }
+.toggle-children-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
 }
 
 .tree-column {
-    cursor: pointer;
-    padding-left: $fhi-space-2;
-    user-select: none;
+  cursor: pointer;
+  padding-left: $space-2;
+  user-select: none;
 
-    span {
-        flex-direction: column;
-        font-size: $fhi-font-size-3;
-        justify-content: center;
-        margin-right: auto;
-        padding-right: $fhi-space-2;
-    }
+  span {
+      flex-direction: column;
+      font-size: $font-size-2;
+      justify-content: center;
+      margin-right: auto;
+      padding-right: $space-2;
+  }
 
-    .btn {
-        background-color: $fhi-white;
-        border-left: 1px solid $fhi-grey-1;
-        border-radius: 0;
+  .btn {
+      background-color: $white;
+      border-left: 1px solid $gray-4;
+      border-radius: 0;
 
-        &:focus {
-            box-shadow: none;
-        }
+      &:focus {
+          box-shadow: none;
+      }
 
-        &:focus-visible {
-            z-index: 1;
-        }
-    }
+      &:focus-visible {
+          z-index: 1;
+      }
+  }
 
-    @include media-breakpoint-up(lg) {
-        padding-left: $fhi-space-3;
-    }
+  @include media-breakpoint-up(lg) {
+      padding-left: $space-3;
+  }
 }
 
 .tree-node-wrapper {
-    margin: $fhi-space-1 0;
+  margin: $space-1 0;
 }
 
 tree-viewport {
-    // overflow fix for keyboard focus on "add (+)" button
-    padding-right: 4px;
-    margin-right: -4px;
+  // overflow fix for keyboard focus on "add (+)" button
+  padding-right: 4px;
+  margin-right: -4px;
 }
