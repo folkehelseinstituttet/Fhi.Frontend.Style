@@ -2,7 +2,7 @@
 
 > May 30, 2022
 
-* :nut_and_bolt: **New** Styling for Circloin Angular Tree Structure component
+* :nut_and_bolt: **New** Styling for Circlon Angular Tree Structure component
 
 ## 3.3.1
 
