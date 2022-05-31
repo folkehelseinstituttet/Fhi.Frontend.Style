@@ -169,6 +169,7 @@ tree-node-expander,
 }
 
 .node-content-wrapper {
+  background-color: $fhi-white;
   border: 1px solid $fhi-grey-1;
   display: flex;
   flex-direction: column;
@@ -230,12 +231,16 @@ tree-node-expander,
   }
 
   .btn {
-    background-color: $fhi-white;
+    background-color: inherit;
     border-left: 1px solid $fhi-grey-1;
     border-radius: 0;
 
     &:focus {
       box-shadow: none;
+    }
+
+    &:hover {
+      background-color: $fhi-white;
     }
 
     &:focus-visible {
