@@ -1,6 +1,12 @@
-# 3.4.0
+# 3.4.1
 
-> May 30, 2022
+> May 31, 2022
+
+* :tada: **Enhancement** Made styling for Circlon Angular Tree Structure component independent of custom FHI css classes
+
+## 3.4.0
+
+> June 1, 2022
 
 * :nut_and_bolt: **New** Styling for Circlon Angular Tree Structure component
 
