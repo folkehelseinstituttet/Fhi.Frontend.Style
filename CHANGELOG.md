@@ -6,7 +6,7 @@
 
 ## 3.4.0
 
-> May 30, 2022
+> June 1, 2022
 
 * :nut_and_bolt: **New** Styling for Circlon Angular Tree Structure component
 
