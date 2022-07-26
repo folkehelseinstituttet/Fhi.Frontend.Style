@@ -1,3 +1,8 @@
+# Unreleased
+
+* :bug: **Bugfix** Added Maps to Bootstrap-core as it contains variables used in utilities from version 5.2.0
+
+
 # 3.4.1
 
 > May 31, 2022
