@@ -132,9 +132,13 @@ $pagination-focus-bg:     $fhi-pink-light-2;
 
 
 // Toasts
-
+$toast-max-width:                   380px;
+$toast-padding-x:                   $fhi-space-3;
+$toast-padding-y:                   $fhi-space-2;
+$toast-font-size:                   $fhi-font-size-3;
 $toast-border-width:                0;
 $toast-background-color:            $fhi-blue-grey-2;
+$toast-spacing:                     $fhi-space-3;
 
 $toast-header-color:                $body-color;
 $toast-header-background-color:     transparent;
