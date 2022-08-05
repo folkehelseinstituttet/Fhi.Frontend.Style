@@ -1,10 +1,16 @@
-# 3.4.2
+# Unreleased
+
+> Aug 5, 2022
+
+* :nut_and_bolt: **New** Added toasts
+
+## 3.4.2
 
 > Jul 26, 2022
 
 * :bug: **Bugfix** Added Maps to Bootstrap-core as it contains variables used in utilities from version 5.2.0
 
-# 3.4.1
+## 3.4.1
 
 > May 31, 2022
 
