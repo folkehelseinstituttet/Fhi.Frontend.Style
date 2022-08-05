@@ -10,9 +10,9 @@
 
     .btn-close {
         font-size: .5rem;
-        margin-right: 0;
-        margin-left: calc(var(--bs-toast-padding-x) / 2);
+        margin: 0 (-$fhi-space-2) 0 0;
         opacity: 1;
+        padding: $fhi-space-3;
     }
 }
 
