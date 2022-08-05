@@ -44,6 +44,9 @@ $theme-colors: (
   'light':      $fhi-grey-light-1,
   'dark':       $fhi-blue-dark-1,
   'error':      $fhi-pink-dark-2,
+  'success-light':  $fhi-green-1,
+  'warning-light':  $fhi-orange-1,
+  'danger-light':   $fhi-pink-light-3,
 );
 
 $border-color: $fhi-grey-1;
@@ -126,6 +129,19 @@ $table-striped-order:   even;
 // Pagination
 
 $pagination-focus-bg:     $fhi-pink-light-2;
+
+
+// Toasts
+$toast-max-width:                   380px;
+$toast-padding-x:                   $fhi-space-3;
+$toast-padding-y:                   $fhi-space-2;
+$toast-font-size:                   $fhi-font-size-3;
+$toast-border-width:                0;
+$toast-background-color:            $fhi-blue-grey-2;
+$toast-spacing:                     $fhi-space-3;
+
+$toast-header-color:                $body-color;
+$toast-header-background-color:     transparent;
 
 
 
