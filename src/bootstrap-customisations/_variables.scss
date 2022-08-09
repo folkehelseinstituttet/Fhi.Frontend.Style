@@ -132,6 +132,7 @@ $pagination-focus-bg:     $fhi-pink-light-2;
 
 
 // Toasts
+
 $toast-max-width:                   380px;
 $toast-padding-x:                   $fhi-space-3;
 $toast-padding-y:                   $fhi-space-2;
@@ -142,6 +143,16 @@ $toast-spacing:                     $fhi-space-3;
 
 $toast-header-color:                $body-color;
 $toast-header-background-color:     transparent;
+
+
+// Tooltip
+
+
+$tooltip-bg:                        $fhi-charcoal-1;
+$tooltip-border-radius:             4px;
+$tooltip-opacity:                   1;
+$tooltip-padding-y:                 $fhi-space-3;
+$tooltip-padding-x:                 $fhi-space-3;
 
 
 
