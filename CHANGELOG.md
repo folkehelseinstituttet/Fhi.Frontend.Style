@@ -1,8 +1,9 @@
 # Unreleased
 
-> Aug 5, 2022
+> Aug 13, 2022
 
 * :nut_and_bolt: **New** Added toasts
+* :nut_and_bolt: **New** Added tooltip
 
 ## 3.4.2
 
