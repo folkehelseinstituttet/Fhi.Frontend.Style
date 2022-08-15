@@ -11,9 +11,3 @@
 .icon {
     @include icon-classes-generator(); // (mixin)
 }
-
-.icon-md {
-    background-size: 2rem;
-    height: 2rem;
-    width: 2rem;
-}
