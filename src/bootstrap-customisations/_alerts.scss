@@ -1,0 +1,18 @@
+.alert {
+    border-color: transparent;
+    color: $body-color;
+    display: flex;
+    font-size: $fhi-font-size-3;
+    line-height: 1.35;
+
+    [class*="icon-"] {
+        background-size: contain;
+        flex-shrink: 0;
+        margin-right: $fhi-space-2;
+    }
+}
+
+.alert-dismissible .btn-close {
+    top: -1px;
+    right: $fhi-space-2;
+}
