@@ -16,3 +16,20 @@
     top: -1px;
     right: $fhi-space-2;
 }
+
+[class*="alert-fhi-"] {
+    border: 2px solid;
+}
+
+.alert-fhi-info-bordered {
+    border-color: map-get($theme-colors, 'info-dark');
+}
+.alert-fhi-success-bordered {
+    border-color: map-get($theme-colors, 'success-dark');
+}
+.alert-fhi-warning-bordered {
+    border-color: map-get($theme-colors, 'warning-dark');
+}
+.alert-fhi-error-bordered {
+    border-color: map-get($theme-colors, 'error-dark');
+}
