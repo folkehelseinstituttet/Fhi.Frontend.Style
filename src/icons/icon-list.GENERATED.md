@@ -21,6 +21,7 @@ $included-icons: (
   'envelope-regular',
   'environment',
   'file-excel-regular',
+  'info-circle',
   'insight',
   'muscle',
   'no-handwash',
