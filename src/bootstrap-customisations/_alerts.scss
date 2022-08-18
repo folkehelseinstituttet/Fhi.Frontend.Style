@@ -22,20 +22,20 @@
 }
 
 
-[class*="fhi-alert-bordered-"] {
+.fhi-alert-bordered {
     background-color: $fhi-white;
     border: 2px solid;
-}
 
-.fhi-alert-bordered-info {
-    border-color: map-get($theme-colors, 'info-dark');
-}
-.fhi-alert-bordered-success {
-    border-color: map-get($theme-colors, 'success-dark');
-}
-.fhi-alert-bordered-warning {
-    border-color: map-get($theme-colors, 'warning-dark');
-}
-.fhi-alert-bordered-error {
-    border-color: map-get($theme-colors, 'error-dark');
+    &.alert-info {
+        border-color: map-get($theme-colors, 'info-dark');
+    }
+    &.alert-success {
+        border-color: map-get($theme-colors, 'success-dark');
+    }
+    &.alert-warning {
+        border-color: map-get($theme-colors, 'warning-dark');
+    }
+    &.alert-error {
+        border-color: map-get($theme-colors, 'error-dark');
+    }
 }
