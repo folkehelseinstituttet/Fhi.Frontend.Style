@@ -10,6 +10,10 @@
         flex-shrink: 0;
         margin-right: $fhi-space-2;
     }
+
+    &:not([class*="alert-"]) {
+        background-color: $fhi-blue-grey-2;
+    }
 }
 
 .alert-dismissible .btn-close {
@@ -17,19 +21,21 @@
     right: $fhi-space-2;
 }
 
-[class*="alert-fhi-"] {
+
+[class*="fhi-alert-bordered-"] {
+    background-color: $fhi-white;
     border: 2px solid;
 }
 
-.alert-fhi-info-bordered {
+.fhi-alert-bordered-info {
     border-color: map-get($theme-colors, 'info-dark');
 }
-.alert-fhi-success-bordered {
+.fhi-alert-bordered-success {
     border-color: map-get($theme-colors, 'success-dark');
 }
-.alert-fhi-warning-bordered {
+.fhi-alert-bordered-warning {
     border-color: map-get($theme-colors, 'warning-dark');
 }
-.alert-fhi-error-bordered {
+.fhi-alert-bordered-error {
     border-color: map-get($theme-colors, 'error-dark');
 }
