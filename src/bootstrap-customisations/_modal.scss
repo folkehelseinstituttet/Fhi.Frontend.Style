@@ -3,6 +3,22 @@
     padding-bottom: 0;
 }
 
-.modal-footer > * + * {
-    margin-left: $fhi-space-3;
+.modal-dialog {
+    @include media-breakpoint-up(sm) {
+        padding-right: calc(var(--bs-modal-margin) / 4);
+        padding-left: calc(var(--bs-modal-margin) / 4);
+    }
 }
+
+.modal-footer > * {
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+    }
+    
+    @include media-breakpoint-up(sm) {
+        + * {
+            margin-left: $fhi-space-3;
+        }
+    }
+}
+
