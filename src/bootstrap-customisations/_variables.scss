@@ -176,6 +176,22 @@ $alert-padding-y:               $alert-padding-x;
 $alert-bg-scale:                0;
 
 
+// Modal
+
+$modal-inner-padding:               $fhi-space-5;
+
+$modal-header-border-width:         0;
+$modal-header-padding-x:            $fhi-space-5;
+$modal-header-padding-y:            $fhi-space-3;
+
+$modal-content-border-width:        0;
+$modal-content-border-radius:       $fhi-space-1;
+
+$modal-sm:                          496px;
+$modal-md:                          734px;
+$modal-lg:                          900px;
+
+
 
 // Unused Bootsrap colors
 //   Annoying, I know, but helpful in preventing use of illegal colors ;)

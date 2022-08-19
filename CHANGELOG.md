@@ -1,7 +1,8 @@
 # Unreleased
 
-> Aug 17, 2022
+> Aug 19, 2022
 
+* :nut_and_bolt: **New** Added modal
 * :nut_and_bolt: **New** Added alerts
 
 ## 3.5.0
