@@ -1,10 +1,29 @@
 .accordion-button {
     font-family: $btn-font-family;
     font-size: $fhi-font-size-3;
+    padding-right: calc(#{$fhi-space-3} - #{$fhi-space-1});
+
+    &:hover {
+        background-color: $fhi-pink-dark-1;
+    }
 
     &,
     &:not(.collapsed) {
         box-shadow: none;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: $fhi-accordion-visual-trigger-width;
+    }
+
+    &::after {
+        z-index: 1;
     }
 }
 
@@ -38,7 +57,30 @@
     }
 
     .accordion-item,
-    .accordion-button {
+    .accordion-button:not(:hover) {
         background-color: $fhi-white;
+    }
+}
+
+.fhi-accordion-flush-alt {
+    .accordion-button {
+        &::before {
+            background-color: $fhi-charcoal-1;
+        }
+
+        &::after {
+            background-image: $fhi-accordion-button-icon-inverted;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .accordion-button {
+        padding-right: calc(#{$accordion-padding-x} + #{$fhi-px * 2});
+
+        &::before {
+            width: $fhi-accordion-visual-trigger-width-md;
+        }
     }
 }

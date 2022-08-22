@@ -117,7 +117,7 @@ $fhi-red-1: #fd7065;
 $fhi-red-2: #d14641;
 $fhi-red-3: #9f2b26;
 
-$fhi-pink-dark-1: #ff859d;
+$fhi-pink-dark-1: #fba39b;
 $fhi-pink-dark-2: #e22867;
 $fhi-pink-dark-3: #b10640;
 
@@ -183,3 +183,11 @@ $fhi-input-height-xs: $fhi-px * 48;
 $fhi-input-height-lg: $fhi-px * 40;
 
 $fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14px in diameter
+
+
+/**
+ * Accordions
+ */
+
+ $fhi-accordion-visual-trigger-width: $fhi-px * 40;
+ $fhi-accordion-visual-trigger-width-md: $fhi-px * 60;
