@@ -1,7 +1,8 @@
 # Unreleased
 
-> Aug 19, 2022
+> Aug 22, 2022
 
+* :bug: **Bugfix** Border-radius on large buttons reset to same as other buttons
 * :nut_and_bolt: **New** Added modal
 * :nut_and_bolt: **New** Added alerts
 
