@@ -61,16 +61,6 @@
     }
 }
 
-.fhi-accordion-flush-alt .accordion-button {
-    &::before {
-        background-color: $fhi-charcoal-1;
-    }
-
-    &::after {
-        background-image: $fhi-accordion-button-icon-inverted;
-    }
-}
-
 
 @include media-breakpoint-up(md) {
     .accordion-button {
@@ -83,18 +73,6 @@
 
         &:hover {
             background-color: $fhi-hover;
-        }
-    }
-
-    .fhi-accordion-flush-alt .accordion-button {
-        &:hover {
-            &::before {
-                background-color: $fhi-hover;
-            }
-        
-            &::after {
-                background-image: var(--bs-accordion-btn-icon);
-            }
         }
     }
 }
