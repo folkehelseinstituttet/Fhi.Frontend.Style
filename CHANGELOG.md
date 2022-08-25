@@ -1,7 +1,8 @@
 # Unreleased
 
-> Aug 22, 2022
+> Aug 23, 2022
 
+* :tada: **Enhancement** Third accordion variant added. Accordions getting new hover color.
 * :bug: **Bugfix** Border-radius on large buttons reset to same as other buttons
 * :nut_and_bolt: **New** Added modal
 * :nut_and_bolt: **New** Added alerts
