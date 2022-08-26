@@ -1,6 +1,6 @@
-# Unreleased
+# 3.6.0
 
-> Aug 23, 2022
+> Aug 26, 2022
 
 * :tada: **Enhancement** Third accordion variant added. Accordions getting new hover color.
 * :bug: **Bugfix** Border-radius on large buttons reset to same as other buttons
