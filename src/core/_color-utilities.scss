@@ -1,3 +1,7 @@
+.text-error {
+    color: $fhi-red-2 !important;// TEMP fix before color updates on next (breaking) release!
+}
+
 .fhi-text {
     &-ancillary,
     &-placeholder {
