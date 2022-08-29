@@ -2,7 +2,7 @@
     font-family: $btn-font-family;
     font-size: $fhi-font-size-3;
     overflow: hidden;
-    padding-right: calc(#{$fhi-space-3} - #{$fhi-space-1});
+    padding-right: calc(#{$fhi-accordion-visual-trigger-width} + #{$fhi-space-3});
 
     &,
     &:not(.collapsed) {
@@ -20,6 +20,8 @@
     }
 
     &::after {
+        position: relative;
+        right: calc(((#{$fhi-accordion-visual-trigger-width} / 2) + #{$fhi-space-4}) * -1);
         z-index: 1;
     }
 
@@ -69,11 +71,15 @@
 
 @include media-breakpoint-up(md) {
     .accordion-button {
-        padding-right: calc(#{$accordion-padding-x} + #{$fhi-px * 2});
+        padding-right: calc(#{$fhi-accordion-visual-trigger-width-md} + #{$fhi-space-3});
 
         &::before {
             width: $fhi-accordion-visual-trigger-width-md;
             transition: background-color .15s;
+        }
+
+        &::after {
+            right: calc(((#{$fhi-accordion-visual-trigger-width-md} / 2) + #{$fhi-space-4}) * -1);
         }
     }
 }
