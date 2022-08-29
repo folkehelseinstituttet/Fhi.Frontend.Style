@@ -6,11 +6,8 @@
     &::after {
         background-image: $fhi-accordion-button-icon-inverted;
     }
-}
-
-
-@include media-breakpoint-up(md) {
-    .fhi-accordion-flush .accordion-button:hover {
+    
+    &:hover {
         &::before {
             background-color: $fhi-hover;
         }
