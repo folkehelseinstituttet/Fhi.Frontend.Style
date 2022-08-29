@@ -1,6 +1,7 @@
 .accordion-button {
     font-family: $btn-font-family;
     font-size: $fhi-font-size-3;
+    overflow: hidden;
     padding-right: calc(#{$fhi-space-3} - #{$fhi-space-1});
 
     &,
@@ -20,6 +21,10 @@
 
     &::after {
         z-index: 1;
+    }
+
+    &:hover::before {
+        background-color: $fhi-hover;
     }
 }
 
@@ -69,10 +74,6 @@
         &::before {
             width: $fhi-accordion-visual-trigger-width-md;
             transition: background-color .15s;
-        }
-
-        &:hover {
-            background-color: $fhi-hover;
         }
     }
 }
