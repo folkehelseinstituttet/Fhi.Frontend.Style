@@ -124,6 +124,7 @@ $fhi-pink-dark-3: #b10640;
 $fhi-pink-light-1: #fdf4f2;
 $fhi-pink-light-2: #faedec;
 $fhi-pink-light-3: #ffe3e2;
+$fhi-pink-light-4: #fad1cd;
 
 
 /**
@@ -156,7 +157,16 @@ $fhi-main-menu-xl-hover-color:  $fhi-red-2;
 $fhi-custom-control-color: $fhi-charcoal-1;
 $fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
 
-$fhi-hover: $fhi-pink-dark-1;
+$fhi-hover:     $fhi-pink-dark-1;
+$fhi-hover-2:   $fhi-pink-light-4;
+
+
+/**
+ * Color filter
+ */
+
+//calculations of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
+$fhi-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
 
 
 /**

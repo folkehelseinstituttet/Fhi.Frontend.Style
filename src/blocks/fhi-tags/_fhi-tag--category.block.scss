@@ -1,0 +1,20 @@
+.fhi-tag--category {
+    border: 1px solid;
+
+    [class*="icon"] {
+        background-position: left center;
+        filter: $fhi-red-filter;
+        height: 1rem;
+        position: relative;
+        top: $fhi-px * 2;
+        transition: filter .15s;
+    }
+}
+
+a.fhi-tag--category {
+    &:hover {
+        [class*="icon"] {
+            filter: none;
+        }
+    }
+}
