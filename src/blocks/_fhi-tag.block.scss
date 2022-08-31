@@ -1,0 +1,46 @@
+.fhi-tag {
+    background-color: $fhi-white;
+    border-radius: $fhi-tag-border-radius;
+    display: inline-block;
+    font-size: $fhi-tag-font-size;
+    font-family: $fhi-font-family-sans-serif-regular;
+    line-height: 1.25;
+    padding: $fhi-tag-padding-y $fhi-tag-padding-x;
+    transition: background-color .15s ease-in-out;
+}
+
+a.fhi-tag {
+    text-decoration: none;
+
+    &,
+    &:hover {
+        color: $body-color;
+    }
+
+    &:hover {
+        background-color: $fhi-hover-2;
+    }
+}
+
+
+.fhi-tag--category {
+    border: 1px solid;
+
+    [class*="icon"] {
+        background-position: left center;
+        filter: $fhi-red-filter;
+        height: $fhi-px * 16;
+        position: relative;
+        top: $fhi-px * 2;
+        transition: filter .15s;
+    }
+}
+
+a.fhi-tag--category {
+    &:hover {
+        [class*="icon"] {
+            filter: none;
+        }
+    }
+}
+
