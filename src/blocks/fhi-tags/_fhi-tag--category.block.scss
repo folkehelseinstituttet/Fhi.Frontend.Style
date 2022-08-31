@@ -4,7 +4,7 @@
     [class*="icon"] {
         background-position: left center;
         filter: $fhi-red-filter;
-        height: 1rem;
+        height: $fhi-px * 16;
         position: relative;
         top: $fhi-px * 2;
         transition: filter .15s;
