@@ -1,5 +1,6 @@
 .fhi-tag {
     background-color: $fhi-white;
+    border: 0;
     border-radius: $fhi-tag-border-radius;
     display: inline-block;
     font-size: $fhi-tag-font-size;
@@ -9,7 +10,8 @@
     transition: background-color .15s ease-in-out;
 }
 
-a.fhi-tag {
+a.fhi-tag,
+button.fhi-tag {
     text-decoration: none;
 
     &,
@@ -44,3 +46,21 @@ a.fhi-tag--category {
     }
 }
 
+
+.fhi-tag--filter-option {
+    border: 1px dashed currentColor;
+    // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='18' ry='18' stroke='black' stroke-width='1' stroke-dasharray='1%2c 4' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+
+    padding-right: $fhi-space-6;
+    position: relative;
+
+    [class*="icon-"] {
+        background-size: $fhi-px * 12;
+        height: $fhi-px * 16;
+        position: absolute;
+        right: calc(#{$fhi-space-2 + $fhi-space-1});
+        top: 50%;
+        transform: translateY(-50%);
+        width: $fhi-px * 16;
+    }
+}
