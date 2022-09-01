@@ -9,11 +9,13 @@ h4, .h4,
 h5, .h5 {
     font-family: $fhi-font-family-serif-medium;
     font-weight: 600;
+    letter-spacing: $fhi-px * -0.4;
 }
 h1, .h1 {
     font-family: $fhi-font-family-serif-regular;
     font-size: $fhi-h1-font-size-xs;
     font-weight: 400;
+    letter-spacing: $fhi-px * -1.25;
 }
 h2, .h2 {
     font-size: $fhi-h2-font-size-xs;
@@ -23,9 +25,11 @@ h3, .h3 {
 }
 h4, .h4 {
     font-size: $fhi-h4-font-size-xs;
+    letter-spacing: $fhi-px * -0.15;
 }
 h5, .h5 {
     font-size: $fhi-h5-font-size-xs;
+    letter-spacing: normal;
 }
 h6, .h6 {
     color: red; // don't use h6 
