@@ -1,6 +1,6 @@
 .fhi-tag {
     background-color: $fhi-white;
-    border: 0;
+    border-width: 0;
     border-radius: $fhi-tag-border-radius;
     display: inline-block;
     font-size: $fhi-tag-font-size;
@@ -26,7 +26,7 @@ button.fhi-tag {
 
 
 .fhi-tag--category {
-    border: 1px solid;
+    border: 1px solid $fhi-grey-4;
 
     [class*="icon"] {
         background-position: left center;
@@ -44,6 +44,11 @@ a.fhi-tag--category {
             filter: none;
         }
     }
+}
+
+
+.fhi-tag--selector {
+    padding: 0;
 }
 
 
