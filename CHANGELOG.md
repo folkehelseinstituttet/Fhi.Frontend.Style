@@ -4,6 +4,7 @@
 
 * :nut_and_bolt: **New** Added Tag system
 * :bug: **Bugfix** Remove z-index on main menu when not open
+* :tada: **Enhancement** Some adjustments to heading fonts
 
 ## 3.6.0
 
