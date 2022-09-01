@@ -26,7 +26,7 @@ button.fhi-tag {
 
 
 .fhi-tag--category {
-    border: 1px solid;
+    border: 1px solid $fhi-grey-4;
 
     [class*="icon"] {
         background-position: left center;
@@ -48,7 +48,8 @@ a.fhi-tag--category {
 
 
 .fhi-tag--filter-option {
-    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='#{$fhi-px * 18}' ry='#{$fhi-px * 18}' stroke='black' stroke-width='1' stroke-dasharray='1%2c 4' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");//https://kovart.github.io/dashed-border-generator/
+    /* https://kovart.github.io/dashed-border-generator/ */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='#{$fhi-px * 18}' ry='#{$fhi-px * 18}' stroke='black' stroke-width='1' stroke-dasharray='1%2c 4' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
 
     padding-right: $fhi-space-6;
     position: relative;

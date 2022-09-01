@@ -8,7 +8,8 @@
     }
 }
 [data-whatintent="keyboard"] {
-    *:focus {
+    *:focus,
+    .fhi-tag-selector__input:focus + .fhi-tag-selector__label {
         outline: solid 5px $fhi-red-1 !important;
         border-color: transparent !important;
     }
