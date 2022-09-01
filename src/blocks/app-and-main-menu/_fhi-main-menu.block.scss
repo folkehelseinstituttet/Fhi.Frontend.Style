@@ -4,7 +4,6 @@
         top: 0;
         left: 0;
         right: 0;
-        z-index: 1041;
 
         &__container {
             position: relative;
@@ -59,6 +58,7 @@
     }
     .fhi-main-menu--open {
         background-color: $fhi-brand-color;
+        z-index: 1041;
 
         .fhi-main-menu {
             &__container {
