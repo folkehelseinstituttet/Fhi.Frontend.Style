@@ -32,5 +32,6 @@ $included-icons: (
   'swap',
   'trash-alt-regular',
   'user-regular',
+  'xmark',
 )
 ```
