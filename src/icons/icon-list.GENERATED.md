@@ -10,7 +10,6 @@ $included-icons: (
   'cards',
   'check',
   'check-circle-regular',
-  'check-inverted',
   'chevron-down',
   'chevron-down-fat',
   'chevron-expand',
