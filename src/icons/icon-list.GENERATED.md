@@ -8,6 +8,7 @@ $included-icons: (
   'cancer-cell-2',
   'cardio',
   'cards',
+  'check',
   'check-circle-regular',
   'chevron-down',
   'chevron-down-fat',
