@@ -3,18 +3,18 @@
     height: $fhi-px * 30;
 }
 
-.fhi-badge--context1 {
+.fhi-badge--circle-dark {
     background-color: $fhi-charcoal-1;
     color: $fhi-white;
     width: $fhi-px * 30;
 }
 
-.fhi-badge--context2 {
+.fhi-badge--circle-light {
     background-color: $fhi-orange-2;
     width: $fhi-px * 30;
 }
 
-.fhi-badge--context3 {
+.fhi-badge--rounded {
     border: $fhi-px * 1 solid $fhi-charcoal-1;
     font-size: $fhi-font-size-2;
     padding-left: $fhi-space-4;
