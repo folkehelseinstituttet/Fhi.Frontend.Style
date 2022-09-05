@@ -2,12 +2,21 @@
     display: inline-block;
     margin-right: $fhi-space-3;
     margin-bottom: $fhi-space-4;
+    white-space: nowrap;
 
     &__label {
         @extend .fhi-tag;
         border: 1px solid $fhi-grey-4;
         padding-right: $fhi-space-4;
         padding-left: $fhi-space-4;
+        position: relative;
+        user-select: none;
+
+        [class*="icon-"] {
+            left: $fhi-px * 16;
+            position: absolute;
+            top: $fhi-px * 4;
+        }
 
         &:hover {
             background: $fhi-hover-2;
@@ -18,10 +27,25 @@
     &__input {
         @include visually-hidden;
 
+        &[type="checkbox"] {
+            ~ .fhi-tag-selector__label {
+                padding-left: $fhi-space-4 * 2;
+            }
+        }
+
         &:checked {
             ~ .fhi-tag-selector__label {
                 background-color: $fhi-charcoal-1;
                 color: $fhi-white;
+
+                [class*="icon-"] {
+                    filter: brightness(100);
+                }
+            }
+        }
+
+        &[type="radio"]:checked {
+            ~ .fhi-tag-selector__label {
                 cursor: default;
             }
         }

@@ -6,6 +6,7 @@
 * :nut_and_bolt: **New** Added Tag system
 * :bug: **Bugfix** Remove z-index on main menu when not open
 * :tada: **Enhancement** Some adjustments to heading fonts
+* :tada: **Enhancement** Adjusted checkmark graphic on checkboxes
 
 ## 3.6.0
 
