@@ -1,7 +1,8 @@
 # Unreleased
 
-> Sep 2, 2022
+> Sep 5, 2022
 
+* :nut_and_bolt: **New** Added Badge
 * :nut_and_bolt: **New** Added Tag system
 * :bug: **Bugfix** Remove z-index on main menu when not open
 * :tada: **Enhancement** Some adjustments to heading fonts
