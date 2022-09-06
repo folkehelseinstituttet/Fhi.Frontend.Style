@@ -1,6 +1,6 @@
-# Unreleased
+# 3.7.0
 
-> Sep 5, 2022
+> Sep 6, 2022
 
 * :nut_and_bolt: **New** Added Badge
 * :nut_and_bolt: **New** Added Tag system
