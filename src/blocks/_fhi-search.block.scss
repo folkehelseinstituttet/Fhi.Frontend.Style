@@ -10,6 +10,7 @@
 .fhi-search {
   &__form-control {
     height: 100%;
+    min-height: 0;
 
     &:focus {
       border-radius: $fhi-px * 22;
@@ -17,6 +18,7 @@
   }
 
   &__btn {
+    @extend .ms-1;
     border-radius: $fhi-px * 22;
     white-space: nowrap;
 
@@ -60,5 +62,12 @@
   .fhi-search__btn {
     margin-top: $fhi-px * 12;
     margin-bottom: $fhi-px * 12;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  .fhi-search__btn {
+    @extend .ms-sm-2;
   }
 }
