@@ -10,6 +10,10 @@
 .fhi-search {
   &__form-control {
     height: 100%;
+
+    &:focus {
+      border-radius: $fhi-px * 22;
+    }
   }
 
   &__btn {
@@ -46,7 +50,7 @@
 }
 
 
-.fhi-search--tall {
+.fhi-search--xl {
   .fhi-search__form-control {
     &:focus {
       border-radius: $fhi-px * 34;
