@@ -18,7 +18,10 @@
 
     &:focus-visible {
       .fhi-search-bar__btn-icon {
-        filter: invert(100);
+        // TODO: remove data-whatintent when we get rid of the programmatic focus logic
+        [data-whatintent="keyboard"] & {
+          filter: invert(100);
+        }
       }
     }
   }
