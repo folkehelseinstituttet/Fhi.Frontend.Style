@@ -1,5 +1,4 @@
 .dropdown-menu {
-  max-height: 300px;
-  overflow: auto;
+  box-shadow: var(--bs-dropdown-box-shadow);
   width: 100%;
 }

@@ -214,6 +214,17 @@ $fhi-tag-padding-x:       $fhi-px * 12;
 $fhi-tag-padding-y:       $fhi-px * 6;
 
 
+// Dropdowns
+
+$dropdown-padding-y:          0;
+$dropdown-border-color:       $fhi-grey-3;
+$dropdown-border-radius:      $fhi-px * 4;
+$dropdown-link-color:         $body-color;
+$dropdown-link-active-color:  $body-color;
+$dropdown-link-active-bg:     $fhi-pink-dark-1;
+$dropdown-box-shadow:         ($fhi-px * 3) ($fhi-px * 3) ($fhi-px * 10) rgba($fhi-grey-4, .16);
+
+
 
 // Unused Bootsrap colors
 //   Annoying, I know, but helpful in preventing use of illegal colors ;)
