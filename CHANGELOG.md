@@ -2,7 +2,7 @@
 
 > Sep 6, 2022
 
-* :nut_and_bolt: **New** Added search bar with autocomplete (Bootstrap dropdown-menu)
+* :nut_and_bolt: **New** Added search bar with autocomplete
 
 
 # 3.7.0
