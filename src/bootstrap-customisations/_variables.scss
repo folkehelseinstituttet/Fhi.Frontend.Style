@@ -58,6 +58,11 @@ $border-color: $fhi-grey-1;
 $disabled-color: $fhi-grey-2;
 
 
+
+$box-shadow:  ($fhi-px * 3) ($fhi-px * 3) ($fhi-px * 10) rgba($fhi-grey-4, .16);
+
+
+
 // Typography
 
 $line-height-base: 1.5;
@@ -212,6 +217,16 @@ $fhi-tag-font-size:       $fhi-font-size-2;
 $fhi-tag-border-radius:   $fhi-px * 18;
 $fhi-tag-padding-x:       $fhi-px * 12;
 $fhi-tag-padding-y:       $fhi-px * 6;
+
+
+// Dropdowns
+
+$dropdown-padding-y:          0;
+$dropdown-border-color:       $fhi-grey-3;
+$dropdown-border-radius:      $fhi-px * 4;
+$dropdown-link-color:         $body-color;
+$dropdown-link-active-color:  $body-color;
+$dropdown-link-active-bg:     $fhi-pink-dark-1;
 
 
 
