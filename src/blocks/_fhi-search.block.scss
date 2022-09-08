@@ -52,22 +52,21 @@
 }
 
 
-.fhi-search--xl {
-  .fhi-search__form-control {
-    &:focus {
-      border-radius: $fhi-px * 34;
-    }
-  }
-
-  .fhi-search__btn {
-    margin-top: $fhi-px * 12;
-    margin-bottom: $fhi-px * 12;
-  }
-}
-
-
 @include media-breakpoint-up(sm) {
   .fhi-search__btn {
     @extend .ms-sm-2;
+  }
+  
+  .fhi-search--xl {
+    .fhi-search__form-control {
+      &:focus {
+        border-radius: $fhi-px * 34;
+      }
+    }
+
+    .fhi-search__btn {
+      margin-top: $fhi-px * 12;
+      margin-bottom: $fhi-px * 12;
+    }
   }
 }
