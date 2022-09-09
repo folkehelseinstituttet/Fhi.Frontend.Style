@@ -1,11 +1,11 @@
-# Unreleased
+# 3.8.0
 
-> Sep 6, 2022
+> Sep 9, 2022
 
 * :nut_and_bolt: **New** Added search bar with autocomplete
 
 
-# 3.7.0
+## 3.7.0
 
 > Sep 6, 2022
 
