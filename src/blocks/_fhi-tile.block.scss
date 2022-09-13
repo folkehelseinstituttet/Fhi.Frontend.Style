@@ -1,0 +1,38 @@
+.fhi-tile {
+    border: 1px solid $fhi-grey-3;
+    border-radius: $border-radius-sm;
+    color: $body-color;
+    display: block;
+    text-decoration: none;
+    transition: background-color .15s;
+
+    &__description {
+        display: none;
+    }
+}
+
+a.fhi-tile {
+    &:hover {
+        background-color: $fhi-blue-grey-2;
+        color: $body-color;
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+    .fhi-tile {
+        text-align: center;
+
+        &__icon {
+            background-color: $fhi-blue-grey-2;
+            border-radius: 50%;
+            display: inline-block;
+            height: $fhi-px * 70;
+            width: $fhi-px * 70;
+        }
+
+        &__description {
+            display: block;
+        }
+    }
+}
