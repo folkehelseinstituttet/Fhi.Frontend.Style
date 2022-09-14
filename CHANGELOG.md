@@ -2,6 +2,7 @@
 
 > Sep 14, 2022
 
+* :tada: **Enhancement** Using bootstrap button css classes instead of fhi- prefixed ones
 * :Nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
 
