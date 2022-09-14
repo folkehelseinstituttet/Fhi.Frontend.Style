@@ -36,7 +36,7 @@ $black:     $fhi-grey-4;
 
 $theme-colors: (
   'primary':    $fhi-red-2,
-  'secondary':  $fhi-blue-grey-2,
+  'secondary':  $fhi-charcoal-1,
   'success':    $fhi-green-1,
   'info':       $fhi-blue-grey-2,
   'warning':    $fhi-orange-1,
@@ -106,20 +106,25 @@ $badge-border-radius:               50%;
 
 // Buttons
 
-$btn-link-disabled-color: $fhi-grey-3;
-$btn-link-disabled-color: $fhi-grey-3;
-$btn-font-family:         $fhi-font-family-sans-serif-medium;
-$btn-font-size:           $fhi-font-size-2;
-$btn-border-radius:       $fhi-px * 4;
-$btn-border-radius-sm:    $btn-border-radius;
-$btn-border-radius-lg:    $btn-border-radius;
+$btn-link-disabled-color:           $fhi-grey-3;
+$btn-font-family:                   $fhi-font-family-sans-serif-regular;
+$btn-font-size:                     $fhi-font-size-2;
+$btn-white-space:                   nowrap;
+
+$btn-border-radius:                 $fhi-px * 4;
+$btn-border-radius-sm:              $btn-border-radius;
+$btn-border-radius-lg:              $btn-border-radius;
+
+$btn-link-color:                    $inline-link-color;
+
+$btn-transition:                    all .15s linear;
 
 
 // Close
 
-$btn-close-opacity:       1;
-$btn-close-width:         $fhi-font-size-1;
-$btn-close-height:        $btn-close-width;
+$btn-close-opacity:         1;
+$btn-close-width:           $fhi-font-size-1;
+$btn-close-height:          $btn-close-width;
 
 
 // Form
