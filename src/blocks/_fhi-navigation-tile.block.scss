@@ -1,5 +1,5 @@
 @include media-breakpoint-down(sm) {
-    .fhi-tile {
+    .fhi-navigation-tile {
         &__icon {
             [class*="icon-"] {
                 background-position: left center;
@@ -9,7 +9,7 @@
 }
 
 
-.fhi-tile {
+.fhi-navigation-tile {
     border: 1px solid $fhi-grey-3;
     border-radius: $border-radius-sm;
     color: $body-color;
@@ -36,7 +36,7 @@
     }
 }
 
-a.fhi-tile {
+a.fhi-navigation-tile {
     &:hover {
         background-color: $fhi-blue-grey-2;
         color: $body-color;
@@ -45,7 +45,7 @@ a.fhi-tile {
 
 
 @include media-breakpoint-up(sm) {
-    .fhi-tile {
+    .fhi-navigation-tile {
         display: inline-block;
         height: 100%;
         padding: $fhi-space-4;
