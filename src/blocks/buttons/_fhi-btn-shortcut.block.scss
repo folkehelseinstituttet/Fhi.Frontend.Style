@@ -1,25 +1,25 @@
-// .fhi-btn-shortcut {
-//     @include fhi-btn-shortcut(transparent, $border-color, $body-color);
+.fhi-btn-shortcut {
+    @include fhi-btn-shortcut(transparent, $border-color, $body-color);
 
-//     &:hover {
-//         @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
-//     }
-//     &:focus {
-//         @include fhi-btn-shortcut-focus(transparent, $border-color, $body-color);
+    &:hover {
+        @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
+    }
+    &:focus {
+        @include fhi-btn-shortcut-focus(transparent, $border-color, $body-color);
 
-//         &:hover {
-//             @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
-//         }
-//     }
-//     &:active {
-//         @include fhi-btn-shortcut-active(transparent, $border-color, $body-color);
-//     }
-// }
+        &:hover {
+            @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
+        }
+    }
+    &:active {
+        @include fhi-btn-shortcut-active(transparent, $border-color, $body-color);
+    }
+}
 
-// [data-whatintent="keyboard"] {
-//     .fhi-btn-shortcut {
-//         &:focus {
-//             @include fhi-btn-keyboard-focus();
-//        }
-//     }
-// }
+[data-whatintent="keyboard"] {
+    .fhi-btn-shortcut {
+        &:focus {
+            @include fhi-btn-keyboard-focus();
+       }
+    }
+}
