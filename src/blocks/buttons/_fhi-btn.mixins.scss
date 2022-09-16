@@ -1,67 +1,35 @@
-@mixin fhi-btn($background-color, $border-color, $color) {
+@mixin fhi-btn(
+    $background-color,
+    $border-color,
+    $color,
+    $font-family: $fhi-font-family-sans-serif-regular,
+    $hover-bg: $fhi-pink-dark-1
+) {
     background-color: $background-color;
     border-color: $border-color;
     box-shadow: none;
     color: $color;
-    font-family: $btn-font-family;
+    font-family: $font-family;
     text-decoration: unset;
-}
 
-@mixin fhi-btn-hover($background-color, $border-color, $color) {
-    @include fhi-btn($background-color, $border-color, $color);
-    text-decoration: underline;
-}
+    &:active,
+    &:hover {
+        background-color: $hover-bg;
+        border-color: $border-color;
 
-@mixin fhi-btn-round-hover($background-color, $border-color, $color) {
-    @include fhi-btn($background-color, $border-color, $color);
-}
-
-@mixin fhi-btn-focus($background-color, $border-color, $color) {
-    @include fhi-btn-hover($background-color, $border-color, $color);
-}
-
-@mixin fhi-btn-active($background-color, $border-color, $color) {
-    @include fhi-btn-hover($background-color, $border-color, $color);
-}
-
-@mixin fhi-btn-shortcut-base() {
-    text-align: left;
-
-    &__icon {
-        color: $fhi-red-2;
-        display: inline-block;
-        font-size: $fhi-font-size-3;
-        padding: 0 $fhi-space-2 0 $fhi-space-1;
-    }
-    &__text {
-        vertical-align: top;
+        @if (#{$background-color} == #{$border-color}) {
+            border-color: $hover-bg;
+        } @else {
+            border-color: $border-color;
+        }
     }
 }
 
-@mixin fhi-btn-shortcut($background-color, $border-color, $body-color) {
-    @include fhi-btn($background-color, $border-color, $body-color);
-    @include fhi-btn-shortcut-base();
-}
-
-@mixin fhi-btn-shortcut-hover($background-color, $border-color, $body-color) {
-    @include fhi-btn-hover($background-color, $border-color, $body-color);
-    @include fhi-btn-shortcut-base();
-}
-
-@mixin fhi-btn-shortcut-focus($background-color, $border-color, $body-color) {
-    @include fhi-btn-focus($background-color, $border-color, $body-color);
-    @include fhi-btn-shortcut-base();
-}
-
-@mixin fhi-btn-shortcut-active($background-color, $border-color, $body-color) {
-    @include fhi-btn-active($background-color, $border-color, $body-color);
-    @include fhi-btn-shortcut-base();
-}
-
-@mixin fhi-btn-keyboard-focus() {
-    &:focus {
-        background-color: $white;
-        border-radius: 0;
-        color: $body-color;
+@mixin fhi-btn-dark {
+    &,
+    &:hover {
+        background-color: $fhi-charcoal-1;
+        border-color: $fhi-charcoal-1;
+        color: $fhi-white;
     }
 }

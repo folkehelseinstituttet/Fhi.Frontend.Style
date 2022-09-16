@@ -2,12 +2,12 @@
     line-height: 1;
     height: $fhi-btn-height;
     max-width: 100%;
-    overflow: hidden;
     padding: $fhi-btn-padding-y $fhi-btn-padding-x;
     text-decoration-thickness: 1px;
     text-overflow: ellipsis;
     text-underline-offset: 4px;
 
+    &:focus,
     &:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
@@ -15,12 +15,6 @@
     }
 
     &:focus {
-        background-color: $white;
-        border-radius: 0;
         color: $body-color;
     }
-}
-
-[class*="btn-outline"] {
-    color: $body-color;
 }
