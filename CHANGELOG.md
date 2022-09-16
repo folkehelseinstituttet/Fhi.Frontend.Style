@@ -2,7 +2,7 @@
 
 > Sep 14, 2022
 
-* :tada: **Enhancement** Using bootstrap button css classes instead of fhi- prefixed ones
+* :tada: **Enhancement** Update button system. Getting rid of buttons with outline type classes (breaking)
 * :Nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
 
