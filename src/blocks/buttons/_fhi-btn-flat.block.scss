@@ -1,5 +1,5 @@
 .fhi-btn-flat {
-    @include fhi-btn(transparent, transparent, $inline-link-color, $fhi-font-family-sans-serif-regular);
+    @include fhi-btn(transparent, transparent, $inline-link-color);
     text-decoration: underline;
 
     &:focus,
