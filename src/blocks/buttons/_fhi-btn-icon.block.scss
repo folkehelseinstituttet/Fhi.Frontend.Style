@@ -1,0 +1,23 @@
+.fhi-btn-icon {
+    border-radius: $fhi-px * 22;
+    padding-right: $fhi-space-4;
+    padding-left: $fhi-space-4;
+
+    [class*="icon-"] {
+        @extend .me-1;
+        background-position: left center;
+        background-size: contain;
+        margin-top: $fhi-px * -1;
+        vertical-align: text-top;
+    }
+
+    &:focus,
+    &:hover {
+        border-color: transparent;
+        text-decoration: none;
+
+        .fhi-btn-icon__text {
+            text-decoration: underline;
+        }
+    }
+}
