@@ -19,25 +19,27 @@
 
     &__btn {
         @extend .ms-1;
+        @include fhi-btn-dark;
         border-radius: $fhi-px * 22;
+        flex-shrink: 0;
+        text-overflow: unset;
         white-space: nowrap;
 
-        &,
-        &:hover,
-        &:focus,
-        &:active,
-        &:focus:hover {
-            font-family: $fhi-font-family-sans-serif-regular;
-            text-decoration: none;
+        &__text {
+            @extend .ms-1;
         }
 
-        &:focus-visible {
-            .fhi-search__btn-icon {
-                filter: invert(100);
+        &:focus,
+        &:hover {
+            text-decoration: none;
 
-                // TODO: remove data-whatintent when we get rid of the programmatic focus logic
-                [data-whatintent="mouse"] & {
-                    filter: invert(0);
+            .fhi-search {
+                &__btn-icon {
+                    filter: invert(100);
+                }
+
+                &__btn__text {
+                    text-decoration: underline;
                 }
             }
         }

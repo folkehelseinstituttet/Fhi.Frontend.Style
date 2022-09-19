@@ -1,25 +1,3 @@
 .fhi-btn-secondary {
-    @include fhi-btn($fhi-charcoal-1, $fhi-charcoal-1, $white);
-
-    &:hover {
-        @include fhi-btn-hover($fhi-grey-3, $fhi-grey-3, $white);
-    }
-    &:focus {
-        @include fhi-btn-focus($fhi-charcoal-1, $fhi-grey-3, $white);
-
-        &:hover {
-            @include fhi-btn-hover($fhi-grey-3, $fhi-grey-3, $white);
-        }
-    }
-    &:active {
-        @include fhi-btn-active($fhi-charcoal-1, $fhi-grey-3, $white);
-    }
-}
-
-[data-whatintent="keyboard"] {
-    .fhi-btn-secondary {
-        &:focus {
-            @include fhi-btn-keyboard-focus();
-       }
-    }
+    @include fhi-btn($fhi-white, $fhi-red-2, $body-color);
 }

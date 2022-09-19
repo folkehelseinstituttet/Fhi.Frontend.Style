@@ -1,8 +1,10 @@
 # Unreleased
 
-> Sep 14, 2022
+> Sep 19, 2022
 
-* :Nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
+* :boom: **Breaking** Update button system. Getting rid of buttons with outline type classes
+* :tada: **Enhancement** New wrapper on search text in search button
+* :nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
 
 ## 3.8.0

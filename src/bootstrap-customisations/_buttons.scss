@@ -1,22 +1,24 @@
 .btn {
-    font-size: $btn-font-size;
     line-height: 1;
     height: $fhi-btn-height;
+    max-width: 100%;
     padding: $fhi-btn-padding-y $fhi-btn-padding-x;
-    transition: all 0.1s linear;
-}
-.btn-sm {
-    width: $fhi-btn-sm-width;
-}
-.btn-md {
-    width: $fhi-btn-md-width;
-}
-.btn-lg {
-    width: $fhi-btn-lg-width;
-}
+    text-decoration-thickness: 1px;
+    text-overflow: ellipsis;
+    text-underline-offset: 4px;
 
-@include media-breakpoint-down(sm) {
-    .btn-lg {
-        width: 100%;
+    &:focus,
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 4px;
+    }
+
+    &:focus {
+        color: $body-color;
+    }
+
+    &:hover {
+        background-color: $fhi-pink-dark-1;
     }
 }
