@@ -3,7 +3,8 @@
 > Sep 14, 2022
 
 * :tada: **Enhancement** Update button system. Getting rid of buttons with outline type classes (breaking)
-* :Nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
+* :tada: **Enhancement** New wrapper on search text in search button
+* :nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
 
 ## 3.8.0
