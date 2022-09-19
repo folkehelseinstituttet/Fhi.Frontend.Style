@@ -1,6 +1,6 @@
 # Unreleased
 
-> Sep 14, 2022
+> Sep 19, 2022
 
 * :boom: **Breaking** Update button system. Getting rid of buttons with outline type classes (breaking)
 * :tada: **Enhancement** New wrapper on search text in search button
