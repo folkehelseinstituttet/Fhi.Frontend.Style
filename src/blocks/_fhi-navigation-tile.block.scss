@@ -38,13 +38,13 @@
 
 a.fhi-navigation-tile {
     &:hover {
-        background-color: $fhi-blue-grey-2;
+        background-color: $fhi-pink-light-4;
         color: $body-color;
     }
 }
 
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
     .fhi-navigation-tile {
         display: inline-block;
         height: 100%;
