@@ -25,18 +25,22 @@
         text-overflow: unset;
         white-space: nowrap;
 
-        &:focus {
-            text-decoration: none;
-
-            .fhi-search__btn-icon {
-                filter: invert(100);
-            }
+        &__text {
+            @extend .ms-1;
         }
+
+        &:focus,
         &:hover {
             text-decoration: none;
-            
-            .fhi-search__btn-icon {
-                filter: invert(0);
+
+            .fhi-search {
+                &__btn-icon {
+                    filter: invert(100);
+                }
+
+                &__btn__text {
+                    text-decoration: underline;
+                }
             }
         }
     }

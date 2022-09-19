@@ -1,11 +1,10 @@
 .fhi-btn-flat {
-    @include fhi-btn(transparent, transparent, $inline-link-color);
+    @include fhi-btn(transparent, transparent, $inline-link-color, $fhi-font-family-sans-serif-regular);
     text-decoration: underline;
 
     &:focus,
     &:hover {
         background-color: transparent;
-        border-color: transparent;
         color: $fhi-red-2;
     }
 }

@@ -17,4 +17,8 @@
     &:focus {
         color: $body-color;
     }
+
+    &:hover {
+        background-color: $fhi-pink-dark-1;
+    }
 }

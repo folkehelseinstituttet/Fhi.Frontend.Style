@@ -2,8 +2,7 @@
     $background-color,
     $border-color,
     $color,
-    $font-family: $fhi-font-family-sans-serif-regular,
-    $hover-bg: $fhi-pink-dark-1
+    $font-family: $fhi-font-family-sans-serif-regular
 ) {
     background-color: $background-color;
     border-color: $border-color;
@@ -14,22 +13,20 @@
 
     &:active,
     &:hover {
-        background-color: $hover-bg;
         border-color: $border-color;
 
         @if (#{$background-color} == #{$border-color}) {
-            border-color: $hover-bg;
-        } @else {
-            border-color: $border-color;
+            border-color: transparent;
         }
     }
 }
 
 @mixin fhi-btn-dark {
-    &,
+    background-color: $fhi-charcoal-1;
+    border-color: $fhi-charcoal-1;
+    color: $fhi-white;
+
     &:hover {
-        background-color: $fhi-charcoal-1;
-        border-color: $fhi-charcoal-1;
-        color: $fhi-white;
+        border-color: transparent;
     }
 }
