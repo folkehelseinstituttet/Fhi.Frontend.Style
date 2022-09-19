@@ -1,6 +1,7 @@
 .btn {
-    line-height: 1;
+    font-family: $fhi-font-family-sans-serif-medium;
     height: $fhi-btn-height;
+    line-height: 1;
     max-width: 100%;
     padding: $fhi-btn-padding-y $fhi-btn-padding-x;
     text-decoration-thickness: 1px;

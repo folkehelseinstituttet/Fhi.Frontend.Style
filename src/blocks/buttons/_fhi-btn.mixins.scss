@@ -1,14 +1,12 @@
 @mixin fhi-btn(
     $background-color,
     $border-color,
-    $color,
-    $font-family: $fhi-font-family-sans-serif-regular
+    $color
 ) {
     background-color: $background-color;
     border-color: $border-color;
     box-shadow: none;
     color: $color;
-    font-family: $font-family;
     text-decoration: unset;
 
     &:active,
