@@ -2,8 +2,9 @@
 
 > Sep 19, 2022
 
-* :boom: **Breaking** Update button system. Getting rid of buttons with outline type classes
+* :nut_and_bolt: **New** Added icon button
 * :tada: **Enhancement** New wrapper on search text in search button
+* :boom: **Breaking** Update button system. Getting rid of buttons with outline type classes
 * :nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
 
