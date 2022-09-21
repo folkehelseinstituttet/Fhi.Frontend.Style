@@ -8,6 +8,15 @@
     text-overflow: ellipsis;
     text-underline-offset: 4px;
 
+    [class*="icon-"] {
+        @extend .me-2;
+        background-position: left center;
+        background-size: contain;
+        position: relative;
+        top: $fhi-px* -1;
+        vertical-align: middle;
+    }
+
     &:focus,
     &:hover {
         text-decoration: underline;

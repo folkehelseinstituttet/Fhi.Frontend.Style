@@ -1,15 +1,8 @@
 .fhi-btn-icon {
+    background-color: $fhi-white;
     border-radius: $fhi-px * 22;
-    padding-right: $fhi-space-4;
-    padding-left: $fhi-space-4;
-
-    [class*="icon-"] {
-        @extend .me-1;
-        background-position: left center;
-        background-size: contain;
-        margin-top: $fhi-px * -1;
-        vertical-align: text-top;
-    }
+    padding-right: $fhi-space-3;
+    padding-left: $fhi-space-3;
 
     &:focus,
     &:hover {
