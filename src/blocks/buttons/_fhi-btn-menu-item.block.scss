@@ -1,10 +1,17 @@
-.fhi-nav-menu-btn {
+.fhi-btn-menu-item {
     @include fhi-btn($fhi-white, $fhi-charcoal-1, $body-color);
+    padding-left: $fhi-space-2;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 
-.fhi-nav-menu-btn--active {
+.fhi-btn-menu-item--active {
     &,
+    &:focus,
     &:hover {
         @include fhi-btn($fhi-charcoal-1, $fhi-charcoal-1, $fhi-white);
 
