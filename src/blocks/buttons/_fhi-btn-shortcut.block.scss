@@ -1,25 +1,29 @@
-// .fhi-btn-shortcut {
-//     @include fhi-btn-shortcut(transparent, $border-color, $body-color);
+.fhi-btn-shortcut {
+    @include fhi-btn($fhi-white, $fhi-grey-3);
+    padding-right: $fhi-space-4;
+    padding-left: $fhi-space-2;
+    
+    [class*="icon-"] {
+        filter: $fhi-red-filter;
+    }
+}
 
-//     &:hover {
-//         @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
-//     }
-//     &:focus {
-//         @include fhi-btn-shortcut-focus(transparent, $border-color, $body-color);
 
-//         &:hover {
-//             @include fhi-btn-shortcut-hover($fhi-pink-light-2, $border-color, $body-color);
-//         }
-//     }
-//     &:active {
-//         @include fhi-btn-shortcut-active(transparent, $border-color, $body-color);
-//     }
-// }
+.fhi-btn-shortcut-link {
+    padding-left: $fhi-space-2;
+    padding-right: $fhi-space-2;
 
-// [data-whatintent="keyboard"] {
-//     .fhi-btn-shortcut {
-//         &:focus {
-//             @include fhi-btn-keyboard-focus();
-//        }
-//     }
-// }
+    &:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+
+.fhi-btn-shortcut,
+.fhi-btn-shortcut-link {
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}

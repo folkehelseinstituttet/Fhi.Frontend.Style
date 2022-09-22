@@ -5,3 +5,11 @@
 @import "./fhi-btn-primary.block";
 @import "./fhi-btn-secondary.block";
 @import "./fhi-btn-shortcut.block";
+
+
+// TODO: delete on next breaking change
+// ! Prevent buttons to break on forthcoming release
+.fhi-btn-outline-primary,
+.fhi-btn-outline-secondary {
+    @extend .fhi-btn-secondary;
+}
