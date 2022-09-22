@@ -8,11 +8,24 @@
     text-overflow: ellipsis;
     text-underline-offset: 4px;
 
+    [class*="icon-"] {
+        background-position: left center;
+        background-size: contain;
+        margin-right: $fhi-space-2;
+        position: relative;
+        top: $fhi-px* -1;
+        vertical-align: middle;
+    }
+
     &:focus,
     &:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: 4px;
+
+        .btn__text {
+            text-decoration: underline;
+        }
     }
 
     &:focus {

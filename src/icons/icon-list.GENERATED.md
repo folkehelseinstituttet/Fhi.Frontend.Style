@@ -1,7 +1,9 @@
 ```scss
 $included-icons: (
   'alcohol-drugs',
-  'arrow-left-long',
+  'arrow-left',
+  'arrow-left-red',
+  'arrow-right',
   'bell-regular',
   'cancer',
   'cancer-cell',
