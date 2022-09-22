@@ -1,0 +1,15 @@
+.fhi-nav-menu-btn {
+    @include fhi-btn($fhi-white, $fhi-charcoal-1, $body-color);
+}
+
+
+.fhi-nav-menu-btn--active {
+    &,
+    &:hover {
+        @include fhi-btn($fhi-charcoal-1, $fhi-charcoal-1, $fhi-white);
+
+        [class*="icon-"] {
+            filter: brightness(100);
+        }
+    }
+}
