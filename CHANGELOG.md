@@ -1,6 +1,6 @@
-# Unreleased
+# 3.9.0
 
-> Sep 19, 2022
+> Sep 22, 2022
 
 * :nut_and_bolt: **New** Added shortcut buttons
 * :nut_and_bolt: **New** Added icon button
@@ -8,13 +8,11 @@
 * :tada: **Enhancement** Update button system. Outline type classes is deprecated
 * :nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
 
-
 ## 3.8.0
 
 > Sep 9, 2022
 
 * :nut_and_bolt: **New** Added search bar with autocomplete
-
 
 ## 3.7.0
 
