@@ -18,10 +18,10 @@
     }
 
     &__btn {
-        @extend .ms-1;
         @include fhi-btn-dark;
         border-radius: $fhi-px * 22;
         flex-shrink: 0;
+        margin-left: $fhi-space-1;
         padding-right: $fhi-space-3;
         padding-left: $fhi-space-3;
         text-overflow: unset;
@@ -52,7 +52,7 @@
 
 @include media-breakpoint-up(sm) {
     .fhi-search__btn {
-        @extend .ms-sm-2;
+        margin-left: $fhi-space-2;
     }
 
     .fhi-search--xl {
