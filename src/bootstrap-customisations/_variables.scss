@@ -163,7 +163,25 @@ $table-striped-order:   even;
 
 // Pagination
 
-$pagination-focus-bg:     $fhi-pink-light-2;
+$pagination-padding-x:              $fhi-space-2;
+
+$pagination-font-size:              $fhi-font-size-2;
+
+$pagination-color:                  $body-color;
+$pagination-bg:                     transparent;
+$pagination-border-radius:          0;
+$pagination-border-width:           0;
+
+$pagination-focus-color:            inherit;
+$pagination-focus-bg:               $pagination-bg;
+
+$pagination-hover-color:            inherit;
+$pagination-hover-bg:               $pagination-bg;
+
+$pagination-active-color:           $body-color;
+$pagination-active-bg:              $pagination-bg;
+
+$pagination-disabled-color:         $fhi-grey-2;
 
 
 // Toasts
