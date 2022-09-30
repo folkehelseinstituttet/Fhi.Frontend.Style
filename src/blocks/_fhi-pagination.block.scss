@@ -8,7 +8,7 @@
 .fhi-custom-page-item {
     order: -1;
 
-    .page-link {
-        font-family: $fhi-font-family-sans-serif-medium;
+    &__number {
+        text-shadow: 0 0 .75px currentColor;
     }
 }
