@@ -3,12 +3,12 @@
         background-size: 1rem 1rem;
         filter: none;
     }
-}
 
-.fhi-custom-page-item {
-    order: -1;
-
-    &__number {
+    &__page-item {
+        order: -1;
+    }
+    
+    &__page-item-number {
         text-shadow: 0 0 .75px currentColor;
     }
 }
