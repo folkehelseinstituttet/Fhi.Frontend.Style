@@ -1,0 +1,11 @@
+.nav-tabs {
+    .nav-item {
+        margin-top: $fhi-space-2;
+    }
+
+    .nav-link {
+        border-bottom: $fhi-px * 3 solid transparent;
+        color: inherit;
+        font-size: $fhi-font-size-3;
+    }
+}
