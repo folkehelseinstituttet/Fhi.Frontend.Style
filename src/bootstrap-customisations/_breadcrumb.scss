@@ -1,4 +1,5 @@
 .breadcrumb {
+    flex-flow: row-reverse;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: $fhi-space-2;
@@ -31,6 +32,17 @@
             margin-right: $fhi-space-2;
             width: 8px;
         }
+    }
+
+    &:last-child {
+        margin-right: auto;
+    }
+}
+
+
+@for $i from 1 through 6 {
+    .breadcrumb-item:nth-child(#{$i}) {
+        order: -$i;
     }
 }
 
