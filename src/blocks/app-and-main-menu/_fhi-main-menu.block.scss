@@ -83,14 +83,7 @@
                 padding: $fhi-brand-height-xs 0 $fhi-space-7;
             }
             &__nav-link {
-                border-radius: $fhi-px * 4;
                 color: $fhi-main-menu-xs-color;
-                font-size: $fhi-font-size-3;
-                text-decoration: none;
-
-                &:hover {
-                    background-color: $fhi-blue-dark-2;
-                }
             }
         }
     }
@@ -109,32 +102,6 @@
         }
         &__collapse:not(.show) {
             display: block;
-        }
-        &__nav-link {
-            color: $fhi-main-menu-xl-color;
-            font-size: $fhi-font-size-3;
-            padding-top: unset;
-            text-decoration: unset;
-        }
-        &__nav-link:hover {
-            text-decoration: underline;
-            color: $fhi-main-menu-xl-hover-color;
-        }
-        &__nav-link.active {
-            cursor: default;
-            color: $fhi-main-menu-xl-active-color;
-            text-decoration: unset;
-
-            .fhi-main-menu {
-                &__nav-link-text {
-                    border-color: $fhi-main-menu-xl-active-color;
-                }
-            }
-        }
-        &__nav-link-text {
-            border-top: 2px solid transparent;
-            display: block;
-            padding-top: $fhi-space-2;
         }
     }
 }
