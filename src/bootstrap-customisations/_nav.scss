@@ -7,5 +7,13 @@
         border-bottom: $fhi-px * 3 solid transparent;
         color: inherit;
         font-size: $fhi-font-size-3;
+
+        &.active {
+            cursor: default;
+        }
+
+        &:hover:not(.active) {
+            background-color: $fhi-hover-2;
+        }
     }
 }
