@@ -6,10 +6,12 @@
     .nav-link {
         border-bottom: $fhi-px * 3 solid transparent;
         color: inherit;
+        font-family: $fhi-font-family-sans-serif-regular;
         font-size: $fhi-font-size-3;
 
         &.active {
             cursor: default;
+            font-family: $fhi-font-family-sans-serif-medium;
         }
 
         &:hover:not(.active) {
