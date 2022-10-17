@@ -154,9 +154,7 @@ $nav-link-hover-color:              $fhi-red-2;
 $nav-tabs-border-width:             0;
 $nav-tabs-border-radius:            0;
 $nav-tabs-link-hover-border-color:  transparent;
-$nav-tabs-link-active-color:        currentColor;
-// $nav-tabs-link-active-bg:           $body-bg;
-$nav-tabs-link-active-border-color: currentColor;
+$nav-tabs-link-active-color:        $nav-link-color;
 
 
 // Table
@@ -222,6 +220,15 @@ $alert-border-radius:           $fhi-space-1;
 $alert-padding-x:               $fhi-space-4;
 $alert-padding-y:               $alert-padding-x;
 $alert-bg-scale:                0;
+
+
+// Breadcrumb
+
+$breadcrumb-font-size:              $fhi-font-size-2;
+$breadcrumb-margin-bottom:          $fhi-space-2;
+$breadcrumb-divider-color:          $body-color;
+$breadcrumb-active-color:           $fhi-grey-3;
+$breadcrumb-divider:                quote("");
 
 
 // Modal
