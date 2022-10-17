@@ -1,34 +1,39 @@
 .nav-tabs {
     .nav-item {
-        margin-top: $fhi-space-2;
+        margin-bottom: $fhi-space-2;
+        margin-bottom: 0;
     }
-
+    
     .nav-link {
-        border-bottom: $fhi-px * 3 solid transparent;
-        color: inherit;
+        border-top: $fhi-px * 3 solid transparent;
+        border-bottom: 0;
         font-family: $fhi-font-family-sans-serif-regular;
         font-size: $fhi-font-size-3;
-        min-width: $fhi-px * 54;
-        text-align: center;
+        
+        &,
+        &.active {
+            color: $body-color;
+        }
 
         &.active {
+            border-top-color: $fhi-red-1;
             font-family: $fhi-font-family-sans-serif-medium;
-            position: relative;
 
             &::before {
-                background-color: $fhi-red-1;
-                bottom: $fhi-px * 3 * -1;
-                content: "";
-                display: block;
-                height: $fhi-px * 3;
-                left: 50%;
-                position: absolute;
-                transform: translateX(-50%);
-                width: $fhi-px * 54;
+                content: none;
             }
         }
 
         &:hover:not(.active) {
+            background-color: $fhi-hover-2;
+        }
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .nav-tabs {
+        .nav-link.active {
             background-color: $fhi-hover-2;
         }
     }
