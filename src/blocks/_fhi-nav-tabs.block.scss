@@ -7,10 +7,13 @@
     .nav-link {
         border-top: $fhi-px * 3 solid transparent;
         border-bottom: 0;
-        // padding-top: 0;
         
         &.active {
             border-top-color: $fhi-red-1;
+
+            &::before {
+                content: none;
+            }
         }
     }
 }
