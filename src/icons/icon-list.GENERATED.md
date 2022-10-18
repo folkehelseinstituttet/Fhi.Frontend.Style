@@ -29,6 +29,7 @@ $included-icons: (
   'file-excel-regular',
   'info-circle',
   'insight',
+  'list',
   'magnifying-glass',
   'muscle',
   'no-handwash',
