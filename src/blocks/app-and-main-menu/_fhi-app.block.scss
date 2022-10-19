@@ -27,6 +27,7 @@
     }
     &__brand-content {
         margin-left: $fhi-container-padding-xs;
+        max-width: calc(100% - #{$fhi-px * 100})
     }
     &__logo {
         display: inline-block;
@@ -66,13 +67,16 @@
         &__brand-content {
             margin-left: unset;
         }
+        &__logo {
+            margin-right: $fhi-space-5;
+        }
         &__project {
             border-left: 2px solid $fhi-red-1;
             display: inline-block;
             font-size: $fhi-font-size-5;
             line-height: 0.92;
             height: $fhi-project-height-xl;
-            margin-left: $fhi-space-5;
+            // margin-left: $fhi-space-5;
             padding-left: $fhi-space-3;
             vertical-align: bottom;
         }
