@@ -1,6 +1,6 @@
 # Fhi.Frontend.Style
 
-CSS styling used by [Folkehelseinstituttet](https://www.fhi.no), based on [Bootstrap](https://getbootstrap.com) front-end framework.
+CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getbootstrap.com) frontend framework.
 
 ## Get started
 
@@ -36,7 +36,7 @@ Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi
 
 ## Demo and documentation
 
-Live examples in our demo app: [https://frontendbibliotek.fhi.no](https://frontendbibliotek.fhi.no)
+Live examples in our demo app: [https://designsystem.fhi.no](https://designsystem.fhi.no)
 Repo for demo app: [Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
 
 ## Info about fonts
