@@ -1,19 +1,25 @@
-.container,
-.container-xs,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl {
-    padding: 0 $fhi-container-padding-xs;
+.container {
+    padding: 0 $fhi-space-2;
 }
 
-@include media-breakpoint-up(sm) {
-    .container,
-    .container-xs,
-    .container-sm,
-    .container-md,
-    .container-lg,
-    .container-xl {
-        padding: 0 $fhi-container-padding-sm;
+.row {
+    margin: 0 -$fhi-space-2;
+
+    > * {
+        padding: 0 $fhi-space-2;
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    .container {
+        padding: 0 $fhi-space-3;
+    }
+
+    .row {
+        margin: 0 -$fhi-space-3;
+
+        > * {
+            padding: 0 $fhi-space-3;
+        }
     }
 }
