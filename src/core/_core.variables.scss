@@ -2,8 +2,7 @@
  * px to rem utility
  */
 
-$rem: 1rem;
-$fhi-px: calc($rem / 16);
+$fhi-px: 1rem / 16;
 
 
 /**
