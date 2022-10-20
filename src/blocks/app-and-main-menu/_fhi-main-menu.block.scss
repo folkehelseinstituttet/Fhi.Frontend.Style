@@ -56,8 +56,7 @@
             }
         }
 
-        // need the full class name and not just the BEM nested notation for specificity due to inheritance of the nav tabs styling
-        .fhi-main-menu__nav-link {
+        &__nav-link.nav-link {
             &.active {
                 position: relative;
 
@@ -110,8 +109,7 @@
 
 
 .fhi-main-menu {
-    // need the full class name and not just the BEM nested notation for specificity due to inheritance of the nav tabs styling
-    .fhi-main-menu__nav-link {
+    &__nav-link.nav-link {
         border-top: 0;
         border-bottom: $fhi-px * 3 solid transparent;
         line-height: normal;
@@ -137,8 +135,7 @@
             display: block;
         }
 
-        // need the full class name and not just the BEM nested notation for specificity due to inheritance of the nav tabs styling
-        .fhi-main-menu__nav-link {
+        &__nav-link.nav-link {
             padding-right: $fhi-space-4;
             padding-left: $fhi-space-4;
 
