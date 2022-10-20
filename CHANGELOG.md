@@ -1,25 +1,34 @@
-# 3.9.0
+# Unreleased
+
+> Okt 19, 2022
+
+* :tada: **Enhancement** Update README (and change "New" icon :wink:)
+* :gift: **New** Add tabs
+* :gift: **New** Add breadcrumb
+* :tada: **Enhancement** Update design for pagination
+
+## 3.9.0
 
 > Sep 22, 2022
 
-* :nut_and_bolt: **New** Added shortcut buttons
-* :nut_and_bolt: **New** Added icon button
+* :gift: **New** Added shortcut buttons
+* :gift: **New** Added icon button
 * :tada: **Enhancement** New wrapper on search text in search button
 * :tada: **Enhancement** Update button system. Outline type classes is deprecated
-* :nut_and_bolt: **New** Added navigation tile, CTA for main entry navigation
+* :gift: **New** Added navigation tile, CTA for main entry navigation
 
 ## 3.8.0
 
 > Sep 9, 2022
 
-* :nut_and_bolt: **New** Added search bar with autocomplete
+* :gift: **New** Added search bar with autocomplete
 
 ## 3.7.0
 
 > Sep 6, 2022
 
-* :nut_and_bolt: **New** Added Badge
-* :nut_and_bolt: **New** Added Tag system
+* :gift: **New** Added Badge
+* :gift: **New** Added Tag system
 * :bug: **Bugfix** Remove z-index on main menu when not open
 * :tada: **Enhancement** Some adjustments to heading fonts
 * :tada: **Enhancement** Adjusted checkmark graphic on checkboxes
@@ -30,15 +39,15 @@
 
 * :tada: **Enhancement** Third accordion variant added. Accordions getting new hover color.
 * :bug: **Bugfix** Border-radius on large buttons reset to same as other buttons
-* :nut_and_bolt: **New** Added modal
-* :nut_and_bolt: **New** Added alerts
+* :gift: **New** Added modal
+* :gift: **New** Added alerts
 
 ## 3.5.0
 
 > Aug 13, 2022
 
-* :nut_and_bolt: **New** Added toasts
-* :nut_and_bolt: **New** Added tooltip
+* :gift: **New** Added toasts
+* :gift: **New** Added tooltip
 
 ## 3.4.2
 
@@ -56,7 +65,7 @@
 
 > June 1, 2022
 
-* :nut_and_bolt: **New** Styling for Circlon Angular Tree Structure component
+* :gift: **New** Styling for Circlon Angular Tree Structure component
 
 ## 3.3.1
 
@@ -68,11 +77,11 @@
 
 > May 3, 2022
 
-* :nut_and_bolt: **New** Changed from NodeSass to DartSass
+* :gift: **New** Changed from NodeSass to DartSass
 * :tada: **Enhancement** Increased font size on Accordion toggler
 * :bug: **Bugfix** Issue with sorting icons on sorting table
 * :bug: **Bugfix** Prevent toggler icon on sortable table to fall down below text
-* :nut_and_bolt: **New** Added round button
+* :gift: **New** Added round button
 
 ## 3.2.3
 
@@ -97,7 +106,7 @@
 > Des 17, 2021
 
 * :tada: **Enhancement** Icon system is now generated when adding icon files
-* :nut_and_bolt: **New** Added styles for table with selectable rows
+* :gift: **New** Added styles for table with selectable rows
 * :tada: **Enhancement** Revise the projects folder structure
 * :tada: **Enhancement** Update README and CONTRIBUTING
 
@@ -105,12 +114,12 @@
 
 > Nov 09, 2021
 
-* :nut_and_bolt: **New** Added styles for accordions
-* :nut_and_bolt: **New** Icons system setup
+* :gift: **New** Added styles for accordions
+* :gift: **New** Icons system setup
 * :tada: **Enhancement** Buttons have the same height on all screen sizes (44px)
 * :bug: **Bugfix** Pagination focus background color changed
 * :tada: **Enhancement** Added tab focus on switch toggle
-* :nut_and_bolt: **New** Added styles for table sorting
+* :gift: **New** Added styles for table sorting
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 
 ## 3.0.1
@@ -124,7 +133,7 @@
 > Oct 14, 2021
 
 * :boom: **Breaking** Upgrading to Bootstrap 5 (5.1.2).
-* :nut_and_bolt: **New** Added styling to bootstrap table.
+* :gift: **New** Added styling to bootstrap table.
 * :tada: **Enhancement** Rename switch-file.
 * :bug: **Bugfix** Radio buttons showing state also on Windows high contrast.
 
@@ -135,7 +144,7 @@
 * :tada: **Enhancement** Reintroduce the fhi-app and fhi-main-menu blocks into the package
 * :tada: **Enhancement** Remove ngDatepicker variables
 * :boom: **Breaking** Remove _fhi-app.block.scss and assosiated variables
-* :nut_and_bolt: **New** Establish CI build that runs on every push and pull-request.
+* :gift: **New** Establish CI build that runs on every push and pull-request.
 * :tada: **Enhancement** Rename Release workflow. Remove unused publish workflow.
 
 ## 2.0.3
@@ -182,15 +191,15 @@
 * :tada: **Enhancement** Update color palette
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING
 * :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING
-* :nut_and_bolt: **New** Add custom form switch
+* :gift: **New** Add custom form switch
 
 ## 1.3.0
 
 > Mar 5, 2021
 
-* :nut_and_bolt: **New** Added styling to bootstrap checkbox
-* :nut_and_bolt: **New** Added styling to bootstrap radio-button
-* :nut_and_bolt: **New** Added styling to bootstrap pagination
+* :gift: **New** Added styling to bootstrap checkbox
+* :gift: **New** Added styling to bootstrap radio-button
+* :gift: **New** Added styling to bootstrap pagination
 
 ## 1.2.1
 
@@ -219,11 +228,11 @@
 > Feb 04, 2021
 
 * :boom: **Breaking** Created `@folkehelseinstituttet/style`
-* :nut_and_bolt: **New** Added SCSS to package
+* :gift: **New** Added SCSS to package
 
 ## Examples
 
-* :nut_and_bolt: **New**
+* :gift: **New**
 * :tada: **Enhancement**
 * :bug: **Bugfix**
 * :boom: **Breaking**
