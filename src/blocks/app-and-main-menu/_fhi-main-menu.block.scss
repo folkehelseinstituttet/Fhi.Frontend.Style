@@ -49,10 +49,14 @@
         }
         &__collapse.show {
             .fhi-main-menu__nav-link {
-                background-color: transparent;
                 border-bottom: 0;
                 color: $fhi-white;
                 text-align: left;
+                
+                &,
+                &:hover {
+                    background-color: transparent;
+                }
             }
         }
 
