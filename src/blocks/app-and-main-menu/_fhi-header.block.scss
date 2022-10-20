@@ -1,16 +1,8 @@
-.fhi-app {
-    background-color: $fhi-bg-color-1;
-    display: block;
-    min-height: 100vh;
+.fhi-header {
+    margin-bottom: $fhi-space-6;
 
-    &__header {
-        margin-bottom: $fhi-space-6;
-    }
     &__brand {
         padding: $fhi-brand-padding-top-xs 0 $fhi-brand-padding-bottom-xs;
-    }
-    &__brand--blue {
-        background-color: $fhi-bg-color-7;
     }
     &__brand-container {
         display: block;
@@ -27,16 +19,19 @@
     }
     &__brand-content {
         margin-left: $fhi-container-padding-xs;
-        max-width: calc(100% - #{$fhi-px * 100})
+        max-width: calc(100% - #{$fhi-px * 100});
+        z-index: 1;
     }
     &__logo {
         display: inline-block;
         width: $fhi-px * 82;
         height: $fhi-brand-container-height;
-
-        img {
-            margin-top: -($fhi-px * 2);
-        }
+    }
+    &__logo-gfx {
+        background-size: contain;
+        height: 100%;
+        vertical-align: bottom;
+        width: 100%;
     }
     &__project {
         display: none;
@@ -53,7 +48,7 @@
 }
 
 @include media-breakpoint-down(lg) {
-    .fhi-app {
+    .fhi-header {
         &__brand-content {
             position: absolute;
             top: 0;
@@ -63,7 +58,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-    .fhi-app {
+    .fhi-header {
         &__brand-content {
             margin-left: unset;
         }
@@ -76,7 +71,6 @@
             font-size: $fhi-font-size-5;
             line-height: 0.92;
             height: $fhi-project-height-xl;
-            // margin-left: $fhi-space-5;
             padding-left: $fhi-space-3;
             vertical-align: bottom;
         }
@@ -95,7 +89,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-    .fhi-app {
+    .fhi-header {
         &__project-description {
             display: inline-block;
             font-family: $fhi-font-family-sans-serif-regular;
@@ -104,10 +98,15 @@
 }
 
 @include media-breakpoint-up(xl) {
-    .fhi-app {
+    .fhi-header {
         &__brand {
+            padding: $fhi-brand-padding-top-xl 0 0;
+        }
+        &__brand-container {
             border-bottom: 1px solid $border-color;
-            padding: $fhi-brand-padding-top-xl 0 $fhi-brand-padding-bottom-xl;
+            height: calc(#{$fhi-brand-container-height + $fhi-brand-padding-bottom-xl});
+            padding-bottom: $fhi-brand-padding-bottom-xl;
+            padding-left: 0;
         }
         &__utility-menu {
             display: block;
@@ -119,6 +118,11 @@
                  - $fhi-project-height-xl;
             right: $fhi-container-padding-sm;
             height: $fhi-project-height-xl;
+        }
+        &__main-menu-container {
+            border-bottom: 1px solid $border-color;
+            padding-right: 0;
+            padding-left: 0;
         }
     }
 }

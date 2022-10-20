@@ -1,7 +1,8 @@
 # Unreleased
 
-> Okt 19, 2022
+> Okt 20, 2022
 
+* :gift: **New** Added module for global header
 * :tada: **Enhancement** Update README (and change "New" icon :wink:)
 * :gift: **New** Add tabs
 * :gift: **New** Add breadcrumb
