@@ -26,6 +26,7 @@ $included-icons: (
   'ellipsis-v',
   'envelope-regular',
   'environment',
+  'fhi-logo',
   'file-excel-regular',
   'info-circle',
   'insight',
