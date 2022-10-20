@@ -12,26 +12,22 @@ $spacers: (
     6: $fhi-space-6,
     7: $fhi-space-7
 );
-
-$grid-gutter-width: $fhi-space-5;
-
 $grid-breakpoints: (
-    xxs: 0,
-    xs: $fhi-px * 375,
-    sm: $fhi-px * 576,
-    md: $fhi-px * 768,
-    lg: $fhi-px * 992,
-    xl: $fhi-px * 1200,
-    xxl: $fhi-px * 1680
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1680px
 );
-
 $container-max-widths: (
-    sm: map-get($grid-breakpoints, 'sm') - calc($grid-gutter-width / 2),
-    md: map-get($grid-breakpoints, 'md') - calc($grid-gutter-width / 2),
-    lg: map-get($grid-breakpoints, 'lg') - calc($grid-gutter-width / 2),
-    xl: map-get($grid-breakpoints, 'xl') - calc($grid-gutter-width / 2),
-    xxl: map-get($grid-breakpoints, 'xxl') - calc($grid-gutter-width / 2)
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1620px
 );
+$grid-gutter-width: 1rem / 16 * 30;
 
 
 // Color (general)
