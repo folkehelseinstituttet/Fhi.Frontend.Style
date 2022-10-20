@@ -36,6 +36,12 @@
     &__project {
         display: none;
     }
+    &__utility-menu {
+        display: none;
+    }
+    &__utility-menu-container {
+        position: relative;
+    }
 }
 
 @include media-breakpoint-down(lg) {
@@ -98,6 +104,17 @@
             height: calc(#{$fhi-brand-container-height + $fhi-brand-padding-bottom-xl});
             padding-bottom: $fhi-brand-padding-bottom-xl;
             padding-left: 0;
+        }
+        &__utility-menu {
+            display: block;
+        }
+        &__utility-menu-content {
+            position: absolute;
+            top: - $fhi-main-menu-height-xl
+                 - $fhi-brand-padding-bottom-xl
+                 - $fhi-project-height-xl;
+            right: $fhi-container-padding-sm;
+            height: $fhi-project-height-xl;
         }
         &__main-menu-container {
             border-bottom: 1px solid $border-color;
