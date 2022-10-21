@@ -3,8 +3,6 @@
 > Okt 20, 2022
 
 * :gift: **New** Added module for global header
-* :bug: **Bugfix** Add calc() to remove build warnings
-* :tada: **Enhancement** Update grid
 * :tada: **Enhancement** Update README (and change "New" icon :wink:)
 * :gift: **New** Add tabs
 * :gift: **New** Add breadcrumb
