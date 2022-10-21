@@ -12,14 +12,19 @@ $spacers: (
     6: $fhi-space-6,
     7: $fhi-space-7
 );
+
+$grid-gutter-width: $fhi-space-5;
+
 $grid-breakpoints: (
-    xs: 0,
+    xxs: 0,
+    xs: 375px,
     sm: 576px,
     md: 768px,
     lg: 992px,
     xl: 1200px,
     xxl: 1680px
 );
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -27,7 +32,6 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1620px
 );
-$grid-gutter-width: 1rem / 16 * 30;
 
 
 // Color (general)
