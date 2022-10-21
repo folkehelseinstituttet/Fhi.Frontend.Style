@@ -1,25 +1,25 @@
 .container {
-    padding: 0 $fhi-container-padding-xxs;
+    padding: 0 $fhi-space-2;
 }
 
 .row {
-    margin: 0 -$fhi-container-padding-xxs;
+    margin: 0 -$fhi-space-2;
 
     > * {
-        padding: 0 $fhi-container-padding-xxs;
+        padding: 0 $fhi-space-2;
     }
 }
 
 @include media-breakpoint-up(xs) {
     .container {
-        padding: 0 $fhi-container-padding-xs;
+        padding: 0 $fhi-space-3;
     }
 
     .row {
-        margin: 0 -$fhi-container-padding-xs;
+        margin: 0 -$fhi-space-3;
 
         > * {
-            padding: 0 $fhi-container-padding-xs;
+            padding: 0 $fhi-space-3;
         }
     }
 }
