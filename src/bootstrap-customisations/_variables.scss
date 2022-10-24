@@ -61,6 +61,8 @@ $theme-colors: (
 $border-color: $fhi-grey-1;
 $disabled-color: $fhi-grey-2;
 
+$min-contrast-ratio: 1;// sic
+
 
 
 $box-shadow:  ($fhi-px * 3) ($fhi-px * 3) ($fhi-px * 10) rgba($fhi-grey-4, .16);
