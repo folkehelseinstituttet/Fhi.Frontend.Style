@@ -1,4 +1,10 @@
-# 3.10.0
+# Unreleased
+
+> Okt 24, 2022
+
+* :bug: **Bugfix** Secondary color variable reset
+
+## 3.10.0
 
 > Okt 24, 2022
 
