@@ -1,6 +1,6 @@
-# Unreleased
+# 3.10.0
 
-> Okt 20, 2022
+> Okt 24, 2022
 
 * :gift: **New** Added module for global header
 * :bug: **Bugfix** Add calc() to remove build warnings
