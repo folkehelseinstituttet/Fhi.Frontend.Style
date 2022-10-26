@@ -1,7 +1,8 @@
 # Unreleased
 
-> Okt 24, 2022
+> Okt 26, 2022
 
+* :tada: **Enhancement** Update CONTRIBUTING
 * :bug: **Bugfix** Secondary color variable reset
 
 ## 3.10.0
