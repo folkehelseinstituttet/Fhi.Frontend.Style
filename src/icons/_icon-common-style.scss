@@ -11,3 +11,7 @@
 .icon {
     @include icon-classes-generator(); // (mixin)
 }
+
+.icon-white {
+    filter: brightness(1000%);
+}
