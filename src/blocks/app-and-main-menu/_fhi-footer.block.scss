@@ -19,6 +19,9 @@ $fhi-footer-wave-left-position-end-xl: -2%;
 
 
 .fhi-footer--arch {
+    --fhi-footer-wave-left-position-start: -24%;
+    --fhi-footer-wave-left-position-end: -6%;
+    
     overflow: hidden;
     position: relative;
 
@@ -33,7 +36,7 @@ $fhi-footer-wave-left-position-end-xl: -2%;
         border-top-right-radius: 100%;
         border-top-left-radius: 100%;
         height: $fhi-px * 214;
-        left: $fhi-footer-wave-left-position-start-sm;
+        left: var(--fhi-footer-wave-left-position-start);
         top: $fhi-space-3;
         width: 130%;
     }
@@ -86,50 +89,32 @@ $fhi-footer-wave-left-position-end-xl: -2%;
 
 @media (prefers-reduced-motion: no-preference) {
     .fhi-footer--arch::before {
-        animation: fhi-footer-wave-sm 60s infinite;
+        animation: fhi-footer-wave 60s infinite;
     }
 
     @include media-breakpoint-up(xxl) {
-        .fhi-footer--arch::before {
-            animation: fhi-footer-wave-xxl 60s infinite;
+        .fhi-footer--arch {
+            --fhi-footer-wave-left-position-start: -18%;
+            --fhi-footer-wave-left-position-end: -2%;
         }
     }
 }
 
 
-@keyframes fhi-footer-wave-sm {
+@keyframes fhi-footer-wave {
     5% {
-        left: $fhi-footer-wave-left-position-start-sm;
+        left: var(--fhi-footer-wave-left-position-start);
     }
     45% {
-        left: $fhi-footer-wave-left-position-end-sm;
+        left: var(--fhi-footer-wave-left-position-end);
     }
     50% {
-        left: $fhi-footer-wave-left-position-end-sm;
+        left: var(--fhi-footer-wave-left-position-end);
     }
     55% {
-        left: $fhi-footer-wave-left-position-end-sm;
+        left: var(--fhi-footer-wave-left-position-end);
     }
     95% {
-        left: $fhi-footer-wave-left-position-start-sm;
-    }
-}
-
-
-@keyframes fhi-footer-wave-xxl {
-    5% {
-        left: $fhi-footer-wave-left-position-start-xl;
-    }
-    45% {
-        left: $fhi-footer-wave-left-position-end-xl;
-    }
-    50% {
-        left: $fhi-footer-wave-left-position-end-xl;
-    }
-    55% {
-        left: $fhi-footer-wave-left-position-end-xl;
-    }
-    95% {
-        left: $fhi-footer-wave-left-position-start-xl;
+        left: var(--fhi-footer-wave-left-position-start);
     }
 }
