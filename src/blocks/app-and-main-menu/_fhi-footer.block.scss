@@ -76,7 +76,7 @@
         }
 
         &::after {
-            content: none;
+            top: $fhi-px * 200;
         }
     }
 }
