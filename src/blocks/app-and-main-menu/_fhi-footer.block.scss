@@ -1,10 +1,3 @@
-$fhi-footer-wave-left-position-start-sm: -24%;
-$fhi-footer-wave-left-position-end-sm: -6%;
-
-$fhi-footer-wave-left-position-start-xl: -18%;
-$fhi-footer-wave-left-position-end-xl: -2%;
-
-
 .fhi-footer {
     margin-top: auto;
     
@@ -74,9 +67,11 @@ $fhi-footer-wave-left-position-end-xl: -2%;
 
 @include media-breakpoint-up(xxl) {
     .fhi-footer--arch {
+        --fhi-footer-wave-left-position-start: -18%;
+        --fhi-footer-wave-left-position-end: -2%;
+
         &::before {
             height: $fhi-px * 492;
-            left: $fhi-footer-wave-left-position-start-xl;
             width: 120%;
         }
 
@@ -90,13 +85,6 @@ $fhi-footer-wave-left-position-end-xl: -2%;
 @media (prefers-reduced-motion: no-preference) {
     .fhi-footer--arch::before {
         animation: fhi-footer-wave 60s infinite;
-    }
-
-    @include media-breakpoint-up(xxl) {
-        .fhi-footer--arch {
-            --fhi-footer-wave-left-position-start: -18%;
-            --fhi-footer-wave-left-position-end: -2%;
-        }
     }
 }
 
