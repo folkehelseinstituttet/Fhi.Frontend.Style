@@ -12,9 +12,6 @@
 
 
 .fhi-footer--arch {
-    --fhi-footer-wave-left-position-start: -24%;
-    --fhi-footer-wave-left-position-end: -6%;
-    
     overflow: hidden;
     position: relative;
 
@@ -29,9 +26,9 @@
         border-top-right-radius: 100%;
         border-top-left-radius: 100%;
         height: $fhi-px * 214;
-        left: var(--fhi-footer-wave-left-position-start);
+        left: -14%;
         top: $fhi-space-3;
-        width: 130%;
+        width: 120%;
     }
 
     &::after {
@@ -43,7 +40,7 @@
         transition: all .2s;
     }
 
-    &__container {
+    .fhi-footer__container {
         border-top: 0;
         max-width: map-get($container-max-widths, 'lg');
         padding-top: $fhi-space-7;
@@ -55,7 +52,9 @@
 @include media-breakpoint-up(xl) {
     .fhi-footer--arch {
         &::before {
+            left: -5%;
             height: $fhi-px * 380;
+            width: 108%;
         }
         
         &::after {
@@ -67,39 +66,14 @@
 
 @include media-breakpoint-up(xxl) {
     .fhi-footer--arch {
-        --fhi-footer-wave-left-position-start: -18%;
-        --fhi-footer-wave-left-position-end: -2%;
-
         &::before {
+            left: -2%;
             height: $fhi-px * 492;
-            width: 120%;
+            width: 104%;
         }
 
         &::after {
             top: $fhi-px * 200;
         }
-    }
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-    .fhi-footer--arch::before {
-        animation: fhi-footer-wave 60s infinite;
-    }
-}
-
-
-@keyframes fhi-footer-wave {
-    5% {
-        left: var(--fhi-footer-wave-left-position-start);
-    }
-    45% {
-        left: var(--fhi-footer-wave-left-position-end);
-    }
-    55% {
-        left: var(--fhi-footer-wave-left-position-end);
-    }
-    95% {
-        left: var(--fhi-footer-wave-left-position-start);
     }
 }
