@@ -1,7 +1,8 @@
 # Unreleased
 
-> Okt 24, 2022
+> Okt 28, 2022
 
+* :gift: **New** Added module for global footer
 * :bug: **Bugfix** Secondary color variable reset
 
 ## 3.10.0
