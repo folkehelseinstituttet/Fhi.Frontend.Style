@@ -1,3 +1,43 @@
 .fhi-drawer {
+    left: 0;
+    min-height: 2rem;
+    min-width: 5rem;
+    overflow: hidden;
     position: absolute;
+    top: 0;
+    width: 100%;
+
+    &__content {
+        margin-left: ($fhi-px * 320 * -1);
+        transition: margin-left .2s;
+        width: $fhi-px * 320;
+
+        .open & {
+            margin-left: 0;
+        }
+    }
+
+    &__trigger {
+        border: 0;
+        font-family: $fhi-font-family-sans-serif-regular;
+        padding: 0;
+        text-decoration: none;
+
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        [class*="icon-"] {
+            margin-right: $fhi-space-1;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .fhi-drawer {
+        position: relative;
+    }
 }
