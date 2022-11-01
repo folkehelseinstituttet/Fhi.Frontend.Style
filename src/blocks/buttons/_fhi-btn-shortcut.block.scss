@@ -22,6 +22,9 @@
 
 .fhi-btn-shortcut,
 .fhi-btn-shortcut-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     &:focus,
     &:hover {
         text-decoration: none;

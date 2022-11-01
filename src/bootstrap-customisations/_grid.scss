@@ -3,7 +3,7 @@
 }
 
 .row {
-    margin: 0 -$fhi-container-padding-xxs;
+    margin: 0 ($fhi-container-padding-xxs * -1);
 
     > * {
         padding: 0 $fhi-container-padding-xxs;
@@ -16,7 +16,7 @@
     }
 
     .row {
-        margin: 0 -$fhi-container-padding-xs;
+        margin: 0 ($fhi-container-padding-xs * -1);
 
         > * {
             padding: 0 $fhi-container-padding-xs;
