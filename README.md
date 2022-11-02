@@ -2,6 +2,16 @@
 
 CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getbootstrap.com) frontend framework.
 
+## Dependencies
+
+| Fhi.Frontend.Style | Bootstrap |
+| ------------------ | --------- |
+| 3.10.0             | 5         |
+
+## Changelog
+
+You find the [changelog here](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CHANGELOG.md)
+
 ## Get started
 
 ### Install
@@ -29,10 +39,7 @@ If you want to use CSS instead of SCSS
 
 ## Contribute
 
-Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md). These two chapters are especially important:
-
-- [Coding conventions](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#coding-conventions)  
-- [Pull request guidelines](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/blob/main/CONTRIBUTING.md#pull-request-guidelines-for)  
+Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo/blob/dev/CONTRIBUTING.md)
 
 ## Demo and documentation
 
