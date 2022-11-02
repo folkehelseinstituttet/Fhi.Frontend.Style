@@ -1,8 +1,9 @@
 # Unreleased
 
-> Okt 26, 2022
+> Okt 28, 2022
 
-* :tada: **Enhancement** Update CONTRIBUTING
+* :gift: **New** Added module for global footer
+* :tada: **Enhancement** Update CONTRIBUTING and README
 * :bug: **Bugfix** Secondary color variable reset
 
 ## 3.10.0
