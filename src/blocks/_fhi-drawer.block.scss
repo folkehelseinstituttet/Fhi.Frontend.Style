@@ -3,23 +3,28 @@
     min-height: 2rem;
     min-width: 5rem;
     overflow: hidden;
-    position: absolute;
     top: 0;
     width: 100%;
 
     &__content {
-        margin-left: ($fhi-px * 320 * -1);
-        transition: margin-left .2s;
-        width: $fhi-px * 320;
+        margin-left: -100%;
+        max-height: 0;
+        max-width: 100%;
+        overflow-y: auto;
+        padding-bottom: $fhi-space-2;
+        transition: margin-left .3s, max-height .3s;
+        width: 100%;
 
         .open & {
             margin-left: 0;
+            max-height: 100vh;
         }
     }
 
     &__trigger {
         border: 0;
         font-family: $fhi-font-family-sans-serif-regular;
+        margin: $fhi-space-1;
         padding: 0;
         text-decoration: none;
 
@@ -39,5 +44,22 @@
 @include media-breakpoint-up(md) {
     .fhi-drawer {
         position: relative;
+
+        &__content {
+            margin-left: -33vw;
+            max-width: 33vw;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .fhi-drawer {
+        position: relative;
+
+        &__content {
+            margin-left: -25vw;
+            max-width: 25vw;
+        }
     }
 }
