@@ -1,21 +1,29 @@
 .fhi-drawer {
-    left: 0;
-    min-height: 2rem;
-    min-width: 5rem;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
+    .row {
+        overflow: hidden;
+    }
+
+    &__drawer {
+        left: 0;
+        min-height: 2rem;
+        min-width: 5rem;
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
 
     &__content {
+        left: ($fhi-container-padding-xs * -1);
+        margin-bottom: $fhi-space-2;
         margin-left: -100%;
-        max-height: 0;
         max-width: 100%;
         overflow-y: auto;
-        padding-bottom: $fhi-space-2;
-        transition: margin-left .3s, max-height .3s;
+        position: absolute;
+        transition: margin-left .3s, max-height .3s, opacity .3s;
         width: 100%;
 
         .open & {
+            left: 0;
             margin-left: 0;
             max-height: 100vh;
         }
@@ -41,13 +49,36 @@
 }
 
 
+// .fhi-drawer--overlayed {
+//     padding-left: $fhi-space-3;
+//     position: absolute;
+
+//     .fhi-drawer__content {
+//         max-width: 100%;
+//         width: $fhi-px * 284;
+//     }
+
+//     &.open {
+//         background-color: $fhi-white;
+//         width: $fhi-px * 300;
+//     }
+// }
+
+
+// .fhi-drawer-overlayed-container {
+//     width: $fhi-px * 114;
+// }
+
+
 @include media-breakpoint-up(md) {
     .fhi-drawer {
-        position: relative;
-
         &__content {
+            left: 0;
             margin-left: -33vw;
+            max-height: 0;
             max-width: 33vw;
+            position: relative;
+            width: 33vw;
         }
     }
 }
@@ -55,8 +86,6 @@
 
 @include media-breakpoint-up(lg) {
     .fhi-drawer {
-        position: relative;
-
         &__content {
             margin-left: -25vw;
             max-width: 25vw;
