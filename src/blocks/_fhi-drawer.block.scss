@@ -84,11 +84,11 @@
 }
 
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
     .fhi-drawer {
         &__content {
-            margin-left: -25vw;
-            max-width: 25vw;
+            margin-left: ($fhi-px * 400 * -1);
+            max-width: $fhi-px * 400;
         }
     }
 }
