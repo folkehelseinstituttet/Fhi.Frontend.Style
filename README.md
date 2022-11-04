@@ -4,9 +4,11 @@ CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getboots
 
 ## Dependencies
 
-| Fhi.Frontend.Style | Bootstrap |
-| ------------------ | --------- |
-| 3.10.0             | 5         |
+| Fhi.Frontend.Style | Bootstrap | Node/NPM |
+| ------------------ | --------- | -------- |
+| 3.10.0             | 5         | 16/8*    |
+
+_* [designsystem.fhi.no](https://designsystem.fhi.no) uses these Node/NPM versions, older versions may work, but then your on your own :wink:_
 
 ## Changelog
 
