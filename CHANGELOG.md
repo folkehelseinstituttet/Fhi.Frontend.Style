@@ -1,8 +1,9 @@
 # Unreleased
 
-> Okt 28, 2022
+> Nov 04, 2022
 
-* :gift: **New** Added module for global footer
+* :gift: **New** Add spinners
+* :gift: **New** Add module for global footer
 * :tada: **Enhancement** Update CONTRIBUTING and README
 * :bug: **Bugfix** Secondary color variable reset
 
