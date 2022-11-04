@@ -19,13 +19,13 @@
         max-width: 100%;
         overflow-y: auto;
         position: absolute;
-        transition: margin-left .3s, max-height .3s, opacity .3s;
+        transition: margin-left $fhi-drawer-animation-speed, max-height $fhi-drawer-animation-speed, opacity $fhi-drawer-animation-speed;
+        transition-timing-function: ease-in-out;
         width: 100%;
 
         .open & {
             left: 0;
             margin-left: 0;
-            max-height: 100vh;
         }
     }
 
@@ -34,6 +34,7 @@
         font-family: $fhi-font-family-sans-serif-regular;
         margin: $fhi-space-1;
         padding: 0;
+        position: relative;
         text-decoration: none;
 
         &:focus,
@@ -46,39 +47,50 @@
             margin-right: $fhi-space-1;
         }
     }
+
+    &__outside-content {
+        transition: min-height $fhi-drawer-animation-speed;
+    }
 }
-
-
-// .fhi-drawer--overlayed {
-//     padding-left: $fhi-space-3;
-//     position: absolute;
-
-//     .fhi-drawer__content {
-//         max-width: 100%;
-//         width: $fhi-px * 284;
-//     }
-
-//     &.open {
-//         background-color: $fhi-white;
-//         width: $fhi-px * 300;
-//     }
-// }
-
-
-// .fhi-drawer-overlayed-container {
-//     width: $fhi-px * 114;
-// }
 
 
 @include media-breakpoint-up(md) {
     .fhi-drawer {
+        &__drawer--overlayed {
+            &::before {
+                background-color: $fhi-white;
+                content: "";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                transition: width $fhi-drawer-animation-speed ease-in-out;
+                width: 0;
+                z-index: 0;
+            }
+
+            &.open {
+                &::before {
+                    width: $fhi-drawer-width-md;
+                }
+            }
+        }
+
         &__content {
             left: 0;
-            margin-left: -33vw;
+            margin-left: ($fhi-drawer-width-md * -1);
             max-height: 0;
-            max-width: 33vw;
+            max-width: $fhi-drawer-width-md;
             position: relative;
-            width: 33vw;
+            width: $fhi-drawer-width-md;
+
+            .open & {
+                max-height: 100vh;
+            }
+        }
+
+        &__content--overlayed {
+            max-height: 100vh;
+            position: absolute;
         }
     }
 }
@@ -87,8 +99,16 @@
 @include media-breakpoint-up(xl) {
     .fhi-drawer {
         &__content {
-            margin-left: ($fhi-px * 400 * -1);
-            max-width: $fhi-px * 400;
+            margin-left: ($fhi-drawer-width-xl * -1);
+            max-width: $fhi-drawer-width-xl;
+        }
+
+        &__drawer--overlayed {
+            &.open {
+                &::before {
+                    width: $fhi-drawer-width-xl;
+                }
+            }
         }
     }
 }
