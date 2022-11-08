@@ -1,7 +1,8 @@
 # Unreleased
 
-> Nov 04, 2022
+> Nov 07, 2022
 
+* :gift: **New** Add drawer
 * :gift: **New** Add spinners
 * :gift: **New** Add module for global footer
 * :tada: **Enhancement** Update CONTRIBUTING and README
