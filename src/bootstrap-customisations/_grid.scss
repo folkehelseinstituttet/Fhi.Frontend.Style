@@ -1,4 +1,5 @@
-.container {
+.container,
+.container-fluid {
     padding: 0 $fhi-container-padding-xxs;
 }
 
@@ -11,7 +12,8 @@
 }
 
 @include media-breakpoint-up(xs) {
-    .container {
+    .container,
+    .container-fluid {
         padding: 0 $fhi-container-padding-xs;
     }
 

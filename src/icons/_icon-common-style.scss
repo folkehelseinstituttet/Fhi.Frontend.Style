@@ -15,3 +15,7 @@
 .icon-white {
     filter: brightness(1000%); // sic
 }
+
+.icon-red {
+    filter: $fhi-red-filter;
+}
