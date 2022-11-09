@@ -2,6 +2,7 @@
 
 > Nov 08, 2022
 
+* :gift: **New** Add button group
 * :tada: **Enhancement** Contrast fix for links in arch footer
 * :gift: **New** Add spinners
 * :gift: **New** Add module for global footer
