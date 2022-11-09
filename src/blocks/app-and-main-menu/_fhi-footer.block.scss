@@ -40,6 +40,18 @@
         transition: all .2s;
     }
 
+    a:not([class]) {
+        color: currentColor;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+
+        &:focus {
+            [data-whatinput=keyboard] & {
+                outline: solid 5px white !important;
+            }
+        }
+    }
+
     .fhi-footer__container {
         border-top: 0;
         max-width: map-get($container-max-widths, 'lg');

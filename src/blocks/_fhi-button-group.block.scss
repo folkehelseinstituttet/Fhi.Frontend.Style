@@ -1,0 +1,21 @@
+.fhi-btn-group {
+    &__btn {
+        border-color: $fhi-charcoal-1;
+    }
+
+    &__btn.active,
+    &__check:checked + .fhi-btn-group__btn {
+        background-color: $fhi-charcoal-1;
+        border-color: $fhi-charcoal-1;
+        color: $fhi-white;
+    }
+
+    &__btn.active,
+    &__check:not([type="checkbox"]):checked + .fhi-btn-group__btn {
+        &:hover,
+        &:focus {
+            cursor: default;
+            text-decoration: none;
+        }
+    }
+}
