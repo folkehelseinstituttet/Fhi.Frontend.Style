@@ -1,0 +1,27 @@
+.fhi-angular-tree-navigation {
+
+    &__link {
+        display: block;
+    }
+
+    tree-node-wrapper {
+        margin: 0;
+    }
+
+    .node-content-wrapper {
+        border: 0;
+        margin-left: 0;
+        padding: 0;
+        
+        &:hover {
+            box-shadow: none;
+        }
+    }
+
+    .node-content-wrapper.node-content-wrapper-active:hover,
+    .node-content-wrapper-active.node-content-wrapper-focused,
+    .node-content-wrapper-focused,
+    .node-content-wrapper:hover {
+        background-color: $fhi-white;
+    }
+}
