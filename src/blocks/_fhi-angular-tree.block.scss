@@ -1,0 +1,112 @@
+.fhi-angular-tree-navigation {
+    &__link {
+        color: currentColor;
+        display: flex;
+        flex-direction: column;
+        font-family: $fhi-font-family-sans-serif-regular;
+        font-size: inherit;
+        justify-content: center;
+        line-height: 1.25;
+        min-height: $fhi-px * 44;
+        padding: $fhi-space-2 0 $fhi-space-2 $fhi-space-3;
+        text-decoration: none;
+
+        &:hover {
+            color: currentColor;
+            background-color: $fhi-hover-2;
+        }
+        
+        &:focus-visible {
+            box-shadow: 0 0 0 3px $fhi-red-1 inset;
+            outline: none !important;// override data-whatinput
+        }
+    }
+
+    // tree-node-expander + .node-content-wrapper .fhi-angular-tree-navigation__link:focus-visible {
+    //     box-shadow: 0 0 0 3px $fhi-red-1 inset, ($fhi-px * -44) 0 0 3px $fhi-red-1 inset;
+    // }
+
+    tree-node-wrapper {
+        margin: 0;
+    }
+
+    .node-wrapper {
+        position: relative;
+    }
+
+    .node-content-wrapper {
+        display: block;
+    }
+
+    .tree-node:not(.tree-node-leaf) {
+        .fhi-angular-tree-navigation__link {
+            padding-right: $fhi-space-7;
+        }
+    }
+
+    .tree-children {
+        padding-left: 0;
+    }
+
+    .toggle-children-wrapper {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    .toggle-children-placeholder {
+        display: none;
+    }
+
+    .toggle-children {
+        background-color: $fhi-white;
+        background-image: url("../icons/svg-icons/bootstrap-icons/chevron-down.svg");
+        background-size: ($fhi-px * 17) auto;
+        height: 100%;
+        top: 0;
+        width: $fhi-px * 44;
+    }
+
+    .toggle-children-wrapper-expanded .toggle-children {
+        transform: rotate(180deg);
+    }
+
+    .tree-node-level-2 .fhi-angular-tree-navigation__link {
+        padding-left: ($fhi-space-3 + $fhi-space-4);
+    }
+
+    .tree-node-level-3 .fhi-angular-tree-navigation__link {
+        padding-left: ($fhi-space-3 + ($fhi-space-4 * 2));
+    }
+
+    .tree-node-level-4 .fhi-angular-tree-navigation__link {
+        padding-left: ($fhi-space-3 + ($fhi-space-4 * 3));
+    }
+
+    .node-content-wrapper {
+        border: 0;
+        margin-left: 0;
+        padding: 0;
+        position: relative;
+        
+        &:hover {
+            box-shadow: none;
+        }
+    }
+
+    .node-content-wrapper.node-content-wrapper-active:hover,
+    .node-content-wrapper-active.node-content-wrapper-focused,
+    .node-content-wrapper-focused,
+    .node-content-wrapper:hover {
+        background-color: $fhi-white;
+    }
+}
+
+
+.fhi-angular-tree-no-drop-slots {
+    .node-drop-slot {
+        display: none;
+    }
+}
