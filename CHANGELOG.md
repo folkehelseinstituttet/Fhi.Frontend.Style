@@ -2,7 +2,7 @@
 
 > Nov 14, 2022
 
-* :gift* **New** Add Tree view navigation
+* :gift: **New** Add Tree view navigation
 * :gift: **New** Add button group
 * :gift: **New** Add drawer
 * :tada: **Enhancement** Contrast fix for links in arch footer
