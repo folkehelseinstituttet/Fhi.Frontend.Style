@@ -61,6 +61,7 @@ $theme-colors: (
 $border-color: $fhi-grey-1;
 $disabled-color: $fhi-grey-2;
 
+$enable-negative-margins: true;
 
 
 $box-shadow:  ($fhi-px * 3) ($fhi-px * 3) ($fhi-px * 10) rgba($fhi-grey-4, .16);

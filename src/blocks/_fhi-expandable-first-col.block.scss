@@ -1,0 +1,11 @@
+.fhi-expandable-first-col {
+    position: relative;
+    
+    > .row {
+        overflow: hidden;
+    }
+
+    &__main {
+        transition: min-height $fhi-drawer-animation-speed;
+    }
+}

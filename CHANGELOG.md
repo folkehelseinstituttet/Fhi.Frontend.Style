@@ -4,6 +4,7 @@
 
 * :gift* **New** Add Tree view navigation
 * :gift: **New** Add button group
+* :gift: **New** Add drawer
 * :tada: **Enhancement** Contrast fix for links in arch footer
 * :gift: **New** Add spinners
 * :gift: **New** Add module for global footer

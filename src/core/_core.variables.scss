@@ -198,3 +198,12 @@ $fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14p
 
  $fhi-accordion-visual-trigger-width: $fhi-px * 40;
  $fhi-accordion-visual-trigger-width-md: $fhi-px * 60;
+
+
+ /**
+  * Drawer
+  */
+
+$fhi-drawer-width-md: 40vw;
+$fhi-drawer-width-xl: $fhi-px * 500;
+$fhi-drawer-animation-speed: .3s;
