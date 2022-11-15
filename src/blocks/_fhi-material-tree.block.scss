@@ -30,11 +30,13 @@
         background-color: $fhi-white;
         border: 0;
         display: flex;
-        flex-basis: $fhi-px * 44;
         flex-direction: column;
         flex-shrink: 0;
         justify-content: center;
-        order: 1;
+    }
+    
+    &__toggler--chevron {
+        flex-basis: $fhi-px * 44;
         width: $fhi-px * 44;
 
         [class*="icon-"] {
@@ -43,6 +45,15 @@
 
         &:hover {
             background-color: $fhi-hover-2;
+        }
+    }
+
+    &__toggler--plus {
+        margin-right: $fhi-space-2;
+        padding: 0;
+
+        [class*="icon-"] {
+            background-size: 1.5rem;
         }
     }
 
@@ -66,6 +77,22 @@
 
     &__invisible {
         display: none;
+    }
+
+    &--check {
+        .fhi-material-tree {
+            &__nested-group {
+                padding-left: $fhi-space-7;
+            }
+        }
+
+        .form-check {
+            margin-bottom: 0;
+        }
+
+        .form-check-input {
+            margin-top: $fhi-px * 2;
+        }
     }
 
     .mat-tree-node {
