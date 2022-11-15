@@ -5,6 +5,7 @@
         flex-direction: column;
         flex-grow: 1;
         font-family: $fhi-font-family-sans-serif-regular;
+        font-size: inherit;
         justify-content: center;
         line-height: 1.125;
         padding: $fhi-space-1 $fhi-space-2 $fhi-space-1 $fhi-space-3;
@@ -70,6 +71,7 @@
     .mat-tree-node {
         align-items: unset;
         display: flex;
+        font-size: $fhi-font-size-3;
         min-height: $fhi-px * 44;
     }
 }
