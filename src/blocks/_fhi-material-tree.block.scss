@@ -73,3 +73,12 @@
         min-height: $fhi-px * 44;
     }
 }
+
+
+@include media-breakpoint-up(sm) {
+    .fhi-material-tree {
+        &__link {
+            font-size: $fhi-font-size-3;
+        }
+    }
+}
