@@ -63,14 +63,13 @@
         }
     }
 
+    &__invisible {
+        display: none;
+    }
+
     .mat-tree-node {
         align-items: unset;
         display: flex;
         min-height: $fhi-px * 44;
     }
-}
-
-
-.fhi-material-tree__invisible {
-    display: none;
 }
