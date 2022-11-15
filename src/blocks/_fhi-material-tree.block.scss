@@ -1,0 +1,77 @@
+.fhi-material-tree {
+    &__link {
+        color: currentColor;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        font-family: $fhi-font-family-sans-serif-regular;
+        font-size: inherit;
+        justify-content: center;
+        line-height: 1.125;
+        padding: $fhi-space-1 $fhi-space-2 $fhi-space-1 $fhi-space-3;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $fhi-hover-2;
+            color: currentColor;
+        }
+
+        &:focus-visible {
+            box-shadow: 0 0 0 3px $fhi-red-1 inset;
+            outline: none !important;// override data-whatinput
+        }
+
+        &.active {
+            font-family: $fhi-font-family-sans-serif-medium;
+        }
+    }
+
+    &__toggler {
+        background-color: $fhi-white;
+        border: 0;
+        display: flex;
+        flex-basis: $fhi-px * 44;
+        flex-direction: column;
+        flex-shrink: 0;
+        justify-content: center;
+        order: 1;
+        width: $fhi-px * 44;
+
+        [class*="icon-"] {
+            margin: auto;
+        }
+
+        &:hover {
+            background-color: $fhi-hover-2;
+        }
+    }
+
+    &__nested-group {
+        .fhi-material-tree__link {
+            padding-left: ($fhi-space-3 + $fhi-space-4);
+        }
+
+        .fhi-material-tree__nested-group {
+            .fhi-material-tree__link {
+                padding-left: ($fhi-space-3 + ($fhi-space-4 * 2));
+            }
+            
+            .fhi-material-tree__nested-group {
+                .fhi-material-tree__link {
+                    padding-left: ($fhi-space-3 + ($fhi-space-4 * 3));
+                }
+            }
+        }
+    }
+
+    &__invisible {
+        display: none;
+    }
+
+    .mat-tree-node {
+        align-items: unset;
+        display: flex;
+        font-size: $fhi-font-size-3;
+        min-height: $fhi-px * 44;
+    }
+}
