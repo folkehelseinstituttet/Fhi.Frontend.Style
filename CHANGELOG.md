@@ -1,7 +1,8 @@
 # Unreleased
 
-> Nov 14, 2022
+> Nov 16, 2022
 
+* :gift: **New** Add Tree view checkboxes
 * :gift: **New** Add Tree view navigation
 * :gift: **New** Add button group
 * :gift: **New** Add drawer
