@@ -82,8 +82,16 @@
     &--check {
         .fhi-material-tree {
             &__nested-group {
-                padding-left: $fhi-space-7;
+                padding-left: $fhi-space-4;
             }
+        }
+
+        .mat-tree-node {
+            padding-left: $fhi-space-5;
+        }
+
+        .mat-nested-tree-node > .mat-tree-node {
+            padding-left: 0;
         }
 
         .form-check {
