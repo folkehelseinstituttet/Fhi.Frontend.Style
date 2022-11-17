@@ -46,7 +46,6 @@ $included-icons: (
   'question-circle-regular',
   'suicide',
   'swap',
-  'trash-alt-regular',
   'trash-can',
   'user-regular',
   'xmark',
