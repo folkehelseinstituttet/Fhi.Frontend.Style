@@ -182,7 +182,7 @@ tree-node-expander,
 }
 
 .toggle-children {
-    background-image: url("../icons/svg-icons/font-awesome/circle-chevron-right-solid.svg");
+    background-image: url("../icons/svg-icons/bootstrap-icons/arrow-right-circle-fill.svg");
     cursor: pointer;
     height: calc(1rem / 16 * 25);
     width: calc(1rem / 16 * 25);
@@ -215,11 +215,6 @@ tree-node-expander,
         &:active {
             cursor: grabbing;
         }
-    }
-
-    @include media-breakpoint-up(lg) {
-        margin-left: $fhi-space-3;
-        padding-left: $fhi-space-3;
     }
 }
 
@@ -258,8 +253,16 @@ tree-node-expander,
 
     .btn {
         background-color: inherit;
+        border: 0;
         border-left: 1px solid $fhi-grey-1;
         border-radius: 0;
+        padding: 0;
+        width: $fhi-px * 44;
+
+        [class*="icon-"] {
+            margin: 0;
+            top: 0;
+        }
 
         &:focus {
             box-shadow: none;
@@ -275,6 +278,15 @@ tree-node-expander,
     }
 }
 
+.fhi-btn-add-tree-node {
+    border: 0;
+    font-family: $fhi-font-family-sans-serif-regular;
+    
+    &:hover {
+        background-color: transparent;
+    }
+}
+
 tree-node-wrapper {
     display: block;
     margin: $fhi-space-1 0;
@@ -284,4 +296,11 @@ tree-viewport {
     // overflow fix for keyboard focus on "add (+)" button
     padding-right: 4px;
     margin-right: -4px;
+}
+
+@include media-breakpoint-up(lg) {
+    .node-content-wrapper {
+        margin-left: $fhi-space-2;
+        padding-left: $fhi-space-2;
+    }
 }

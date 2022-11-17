@@ -4,6 +4,7 @@ $included-icons: (
   'arrow-left',
   'arrow-left-red',
   'arrow-right',
+  'arrow-right-circle-fill',
   'bell-regular',
   'cancer',
   'cancer-cell',
@@ -38,6 +39,7 @@ $included-icons: (
   'magnifying-glass',
   'muscle',
   'no-handwash',
+  'pencil',
   'plus-circle',
   'plus-circle-fill',
   'population',
@@ -45,6 +47,7 @@ $included-icons: (
   'suicide',
   'swap',
   'trash-alt-regular',
+  'trash-can',
   'user-regular',
   'xmark',
 )
