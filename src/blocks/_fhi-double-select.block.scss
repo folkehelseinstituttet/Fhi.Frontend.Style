@@ -1,0 +1,59 @@
+.fhi-double-select {
+    display: flex;
+
+    &__item {
+        flex-basis: $fhi-px * 170;
+        position: relative;
+
+        &:first-child {
+            padding-right: $fhi-space-2;
+        }
+
+        &:last-child {
+            padding-left: $fhi-space-2;
+        }
+    }
+
+    &__dash::before {
+        bottom: $fhi-px * 24;
+        content: "\2013";
+        left: 0;
+        line-height: $fhi-px * 2;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+
+    .fhi-autosuggest {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        > .ng-select:last-child {
+            margin-top: auto;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+    .fhi-double-select {
+        &__item {
+            &:first-child {
+                padding-right: $fhi-space-3;
+            }
+
+            &:last-child {
+                padding-left: $fhi-space-3;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .fhi-double-select {
+        &__dash::before {
+            bottom:$fhi-px * 20;
+        }
+    }
+}
