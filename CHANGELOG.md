@@ -1,7 +1,8 @@
 # Unreleased
 
-> Nov 16, 2022
+> Nov 23, 2022
 
+* :tada: **Enhancement** Added double select component (year interval and week selections)
 * :gift: **New** Add Tree view checkboxes
 * :gift: **New** Add Tree view navigation
 * :gift: **New** Add button group
