@@ -1,8 +1,9 @@
 # Unreleased
 
-> Nov 23, 2022
+> Nov 24, 2022
 
-* :gift: **New** Added double select component (year interval and week selections)
+* :gift: **New** Add datepicker
+* :gift: **New** Add double select component (year interval and week selections)
 * :gift: **New** Add Tree view checkboxes
 * :gift: **New** Add Tree view navigation
 * :gift: **New** Add button group
