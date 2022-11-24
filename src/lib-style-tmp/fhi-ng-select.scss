@@ -28,6 +28,10 @@
                     box-sizing: border-box;
                 }
 
+                .ng-input[aria-expanded="true"] > input {
+                    border-radius: calc(#{$fhi-input-height-xs} / 2);
+                }
+
                 .ng-placeholder {
                     color:  $fhi-grey-3; // TODO: need $fhi-input-placeholder-color in core.variables and $input-placeholder-color: $fhi-input-placeholder-color
                 }
@@ -111,6 +115,10 @@
             .ng-select-container {
                 .ng-value-container {
                     height: $fhi-px * 40;
+
+                    .ng-input[aria-expanded="true"] > input {
+                        border-radius: calc(#{$fhi-input-height-lg} / 2);
+                    }
                 }
 
                 .ng-arrow-wrapper {

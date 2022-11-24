@@ -1,8 +1,10 @@
+$fhi-double-select-width : $fhi-px * 110;
+
 .fhi-double-select {
     display: flex;
 
     &__item {
-        flex-basis: $fhi-px * 170;
+        flex-basis: $fhi-double-select-width;
         position: relative;
 
         &:first-child {
@@ -31,6 +33,11 @@
         > .ng-select:last-child {
             margin-top: auto;
         }
+    }
+
+    .ng-select-container {
+        min-width: $fhi-double-select-width;
+        width: $fhi-double-select-width;
     }
 }
 
