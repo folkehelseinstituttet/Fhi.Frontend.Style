@@ -1,6 +1,6 @@
-# Unreleased
+# 3.11.0
 
-> Nov 23, 2022
+> Nov 24, 2022
 
 * :gift: **New** Added double select component (year interval and week selections)
 * :gift: **New** Add Tree view checkboxes
