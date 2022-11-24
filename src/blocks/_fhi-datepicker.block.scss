@@ -134,7 +134,7 @@
         }
 
         &.active {
-            background-color: transparent;
+            background-color: transparent !important;
             outline: solid 3px $fhi-hover-color !important;
             outline: 0;
         }
