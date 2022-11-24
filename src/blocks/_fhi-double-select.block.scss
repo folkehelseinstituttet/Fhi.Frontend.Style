@@ -9,11 +9,11 @@ $fhi-double-select-width : $fhi-px * 110;
         position: relative;
 
         &:first-child {
-            padding-right: $fhi-space-2;
+            padding-right: $fhi-space-3;
         }
 
         &:last-child {
-            padding-left: $fhi-space-2;
+            padding-left: $fhi-space-3;
         }
     }
 
@@ -39,21 +39,6 @@ $fhi-double-select-width : $fhi-px * 110;
     .ng-select-container {
         min-width: $fhi-double-select-width;
         width: $fhi-double-select-width;
-    }
-}
-
-
-@include media-breakpoint-up(sm) {
-    .fhi-double-select {
-        &__item {
-            &:first-child {
-                padding-right: $fhi-space-3;
-            }
-
-            &:last-child {
-                padding-left: $fhi-space-3;
-            }
-        }
     }
 }
 
