@@ -120,6 +120,16 @@
         padding-bottom: 50%;
         width: 100%;
     }
+
+    [ngbDatepickerDayView] {
+        &:hover,
+        &.active {
+            &:not(.bg-primary) {
+                background-color: $fhi-hover-color;
+                outline: 0;
+            }
+        }
+    }
 }
 
 

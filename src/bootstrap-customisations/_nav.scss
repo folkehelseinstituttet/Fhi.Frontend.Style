@@ -25,7 +25,7 @@
         }
 
         &:hover:not(.active) {
-            background-color: $fhi-hover-2;
+            background-color: $fhi-hover-color-2;
         }
     }
 }
@@ -34,7 +34,7 @@
 @include media-breakpoint-down(sm) {
     .nav-tabs {
         .nav-link.active {
-            background-color: $fhi-hover-2;
+            background-color: $fhi-hover-color-2;
         }
     }
 }
