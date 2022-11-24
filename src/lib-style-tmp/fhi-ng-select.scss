@@ -95,19 +95,6 @@
     }
 }
 
-.fhi-ng-select-has-connection-indicator {
-    .ng-select-container {
-        &::before {
-            content: "\2013";
-            left: ($fhi-space-3 * -1);
-            line-height: 0;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, ($fhi-px * -2));
-        }
-    }
-}
-
 
 @include media-breakpoint-up(lg) {
     .fhi-ng-select-wrapper {
