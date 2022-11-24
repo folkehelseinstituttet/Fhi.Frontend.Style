@@ -122,13 +122,22 @@
     }
 
     [ngbDatepickerDayView] {
-        &:hover,
-        &.active {
+        transition: background-color .15s;
+
+        &:hover {
             &:not(.bg-primary) {
                 background-color: $fhi-hover-color;
                 outline: 0;
             }
         }
+
+        &.bg-primary {
+            background-color: $fhi-blue-dark-1 !important;// BS override
+        }
+    }
+
+    .ngb-dp-today > .btn-light {
+        box-shadow: 0 0 0 1px $fhi-blue-dark-1 inset;
     }
 }
 
