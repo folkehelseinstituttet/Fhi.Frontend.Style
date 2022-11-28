@@ -24,10 +24,26 @@
             background-size: contain;
             margin: auto;
         }
+
+        &:focus-visible {
+            box-shadow: 0 0 0 4px $fhi-red-1 inset;
+            outline: none !important;
+            
+            + .form-control {
+                border-top-left-radius: $fhi-input-height-lg;
+                border-bottom-left-radius: $fhi-input-height-lg;
+
+                [data-whatintent="mouse"] & { // TODO: remove when focus state is css only
+                    border-top-left-radius: $input-border-radius;
+                    border-bottom-left-radius: $input-border-radius;
+                }
+            }
+        }
     }
 
     &__form-control {
         padding-left: $fhi-px * 44;
+        padding-right: 0;
         max-width: $fhi-px * 155;
     }
 
@@ -36,11 +52,8 @@
         background-color: transparent;
     }
 
+    ngb-datepicker,
     .ngb-dp-weekdays {
-        border: 0;
-    }
-
-    ngb-datepicker {
         border: 0;
     }
 
@@ -88,6 +101,9 @@
     .ngb-dp-arrow-btn {
         &:hover {
             background: transparent;
+        }
+        &:focus {
+            box-shadow: none;
         }
     }
     
