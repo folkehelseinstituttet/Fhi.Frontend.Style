@@ -1,4 +1,10 @@
-# 3.11.0
+# Unreleased
+
+> Nov 29, 2022
+
+:tada: **Enhancement** Tags - filter option border change
+
+## 3.11.0
 
 > Nov 24, 2022
 
