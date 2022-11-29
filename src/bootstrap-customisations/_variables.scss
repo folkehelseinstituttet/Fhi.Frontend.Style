@@ -54,8 +54,8 @@ $theme-colors: (
   'info-dark':    $fhi-blue-1,
   'success-dark': $fhi-green-2,
   'warning-dark': $fhi-orange-2,
-  'danger-dark':  $fhi-pink-dark-2,
-  'error-dark':   $fhi-pink-dark-2,
+  'danger-dark':  $fhi-pink-dark-1,
+  'error-dark':   $fhi-pink-dark-1,
 );
 
 $border-color: $fhi-grey-1;
@@ -147,7 +147,7 @@ $form-check-input-border:           1px solid $fhi-charcoal-1;
 
 $form-select-indicator-color: $black;
 
-$form-feedback-invalid-color: $fhi-pink-dark-3;
+$form-feedback-invalid-color: $fhi-pink-dark-1;
 $form-feedback-font-size:     $fhi-font-size-2;
 
 
