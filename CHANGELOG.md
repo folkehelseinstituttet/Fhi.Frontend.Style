@@ -3,12 +3,14 @@
 > Nov 29, 2022
 
 * :boom: **Breaking** Color adjustments
+* :tada: **Enhancement** Tags - filter option border change
+* :gift: **New** Add datepicker
 
 ## 3.11.0
 
 > Nov 24, 2022
 
-* :gift: **New** Added double select component (year interval and week selections)
+* :gift: **New** Add double select component (year interval and week selections)
 * :gift: **New** Add Tree view checkboxes
 * :gift: **New** Add Tree view navigation
 * :gift: **New** Add button group
