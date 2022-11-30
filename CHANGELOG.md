@@ -1,8 +1,14 @@
 # Unreleased
 
+> Nov 29, 2022
+
+* :tada: **Enhancement** Tags - filter option border change
+* :gift: **New** Add datepicker
+
+## 4.11.0
+
 > Nov 24, 2022
 
-* :gift: **New** Add datepicker
 * :gift: **New** Add double select component (year interval and week selections)
 * :gift: **New** Add Tree view checkboxes
 * :gift: **New** Add Tree view navigation

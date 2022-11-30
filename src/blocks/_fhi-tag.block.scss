@@ -1,11 +1,12 @@
 .fhi-tag {
     background-color: $fhi-white;
-    border: 0;
+    border: 1px solid transparent;
     border-radius: $fhi-tag-border-radius;
     display: inline-block;
     font-size: $fhi-tag-font-size;
     font-family: $fhi-font-family-sans-serif-regular;
-    line-height: 1.25;
+    line-height: $fhi-px * 22;
+    min-height: $fhi-px * 36;
     padding: $fhi-tag-padding-y $fhi-tag-padding-x;
     transition: background-color .15s ease-in-out;
 }
@@ -26,7 +27,7 @@ button.fhi-tag {
 
 
 .fhi-tag--category {
-    border: 1px solid $fhi-grey-4;
+    border-color: $fhi-grey-4;
 
     [class*="icon"] {
         background-position: left center;
@@ -48,9 +49,7 @@ a.fhi-tag--category {
 
 
 .fhi-tag--filter-option {
-    /* https://kovart.github.io/dashed-border-generator/ */
-    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='#{$fhi-px * 18}' ry='#{$fhi-px * 18}' stroke='black' stroke-width='1' stroke-dasharray='1%2c 4' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
-
+    border: 1px dashed $fhi-charcoal-1;
     padding-right: $fhi-space-6;
     position: relative;
 
