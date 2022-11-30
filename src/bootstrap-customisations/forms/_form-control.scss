@@ -7,10 +7,12 @@
     font-size: $fhi-default-font-size-xs;
     height: $fhi-input-height-xs;
     min-height: $fhi-input-height-xs;
-}
-.form-control:focus {
-    border-radius: calc(#{$fhi-input-height-xs} / 2);
-    border-color: $fhi-grey-3;
+
+    &:focus,
+    &.active {
+        border-radius: calc(#{$fhi-input-height-xs} / 2);
+        border-color: $fhi-grey-3;
+    }
 }
 select.form-control:focus {
     border-radius: $input-border-radius;
