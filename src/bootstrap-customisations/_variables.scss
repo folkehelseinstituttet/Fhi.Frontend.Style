@@ -42,7 +42,7 @@ $theme-colors: (
   'primary':    $fhi-red-2,
   'secondary':  $fhi-blue-grey-2,
   'success':    $fhi-green-1,
-  'info':       $fhi-blue-grey-2,
+  'info':       $fhi-blue-grey-3,
   'warning':    $fhi-orange-1,
   'danger':     $fhi-pink-light-3,
   'light':      $fhi-grey-light-1,
@@ -84,7 +84,7 @@ $list-group-color:        $body-color;
 
 // Accordion
 
-$accordion-bg:                  $fhi-blue-grey-2;
+$accordion-bg:                  $fhi-blue-grey-3;
 $accordion-border-color:        $fhi-grey-1;
 $accordion-button-active-bg:    $accordion-bg;
 $accordion-button-active-color: $body-color;
