@@ -12,7 +12,11 @@
     }
 
     &:not([class*="alert-"]) {
-        background-color: $fhi-blue-grey-2;
+        background-color: $fhi-blue-grey-3;
+    }
+
+    a {
+        color: currentColor;
     }
 }
 

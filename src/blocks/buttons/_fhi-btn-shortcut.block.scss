@@ -1,5 +1,5 @@
 .fhi-btn-shortcut {
-    @include fhi-btn($fhi-white, $fhi-grey-3);
+    @include fhi-btn($fhi-white);
     padding-right: $fhi-space-4;
     padding-left: $fhi-space-2;
     
@@ -10,6 +10,7 @@
 
 
 .fhi-btn-shortcut-link {
+    color: $fhi-charcoal-1;
     padding-left: $fhi-space-2;
     padding-right: $fhi-space-2;
 

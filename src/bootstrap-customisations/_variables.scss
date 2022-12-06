@@ -42,24 +42,21 @@ $theme-colors: (
   'primary':    $fhi-red-2,
   'secondary':  $fhi-blue-grey-2,
   'success':    $fhi-green-1,
-  'info':       $fhi-blue-grey-2,
+  'info':       $fhi-blue-grey-3,
   'warning':    $fhi-orange-1,
   'danger':     $fhi-pink-light-3,
   'light':      $fhi-grey-light-1,
-  'dark':       $fhi-blue-dark-1,
+  'dark':       $fhi-blue-2,
   'error':      $fhi-pink-light-3,
-  'success-light':  $fhi-green-1,       // to be removed after update of toasts
-  'warning-light':  $fhi-orange-1,      // to be removed after update of toasts
-  'danger-light':   $fhi-pink-light-3,  // to be removed after update of toasts
   'info-dark':    $fhi-blue-1,
   'success-dark': $fhi-green-2,
   'warning-dark': $fhi-orange-2,
-  'danger-dark':  $fhi-pink-dark-2,
-  'error-dark':   $fhi-pink-dark-2,
+  'danger-dark':  $fhi-pink-dark-1,
+  'error-dark':   $fhi-pink-dark-1,
 );
 
 $border-color: $fhi-grey-1;
-$disabled-color: $fhi-grey-2;
+$disabled-color: $fhi-grey-3;
 
 $enable-negative-margins: true;
 
@@ -87,7 +84,7 @@ $list-group-color:        $body-color;
 
 // Accordion
 
-$accordion-bg:                  $fhi-blue-grey-2;
+$accordion-bg:                  $fhi-blue-grey-3;
 $accordion-border-color:        $fhi-grey-1;
 $accordion-button-active-bg:    $accordion-bg;
 $accordion-button-active-color: $body-color;
@@ -147,7 +144,7 @@ $form-check-input-border:           1px solid $fhi-charcoal-1;
 
 $form-select-indicator-color: $black;
 
-$form-feedback-invalid-color: $fhi-pink-dark-3;
+$form-feedback-invalid-color: $fhi-pink-dark-1;
 $form-feedback-font-size:     $fhi-font-size-2;
 
 
@@ -191,7 +188,7 @@ $pagination-hover-bg:               $pagination-bg;
 $pagination-active-color:           $body-color;
 $pagination-active-bg:              $pagination-bg;
 
-$pagination-disabled-color:         $fhi-grey-2;
+$pagination-disabled-color:         $fhi-grey-3;
 
 
 // Toasts
@@ -201,7 +198,7 @@ $toast-padding-x:                   $fhi-space-3;
 $toast-padding-y:                   $fhi-space-2;
 $toast-font-size:                   $fhi-font-size-3;
 $toast-border-width:                0;
-$toast-background-color:            $fhi-blue-grey-2;
+$toast-background-color:            $fhi-blue-grey-3;
 $toast-spacing:                     $fhi-space-3;
 $toast-box-shadow:                  0 3px 6px rgba($fhi-grey-4, .16);
 
