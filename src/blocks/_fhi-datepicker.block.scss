@@ -1,6 +1,5 @@
 .fhi-datepicker {
     position: relative;
-    max-width: $fhi-px * 308;
 
     &__label {
         display: block;
@@ -52,12 +51,16 @@
         background-color: transparent;
     }
 
+    ngb-datepicker {
+        max-width: 88vw;
+        width: $fhi-px * 308;
+    }
+
     ngb-datepicker,
     .ngb-dp-weekdays {
         border: 0;
     }
 
-    ngb-datepicker,
     .ngb-dp-month,
     .ngb-dp-week,
     .ngb-dp-day,
