@@ -1,7 +1,7 @@
 @mixin fhi-btn(
     $background-color,
-    $border-color,
-    $color: $body-color
+    $border-color: $fhi-charcoal-1,
+    $color: $fhi-charcoal-1
 ) {
     background-color: $background-color;
     border-color: $border-color;

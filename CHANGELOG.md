@@ -2,6 +2,7 @@
 
 > Nov 29, 2022
 
+* :boom: **Breaking** Color adjustments
 * :tada: **Enhancement** Tags - filter option border change
 * :gift: **New** Add datepicker
 
