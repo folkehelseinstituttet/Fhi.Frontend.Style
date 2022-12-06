@@ -1,0 +1,31 @@
+.fhi-double-datepicker {
+    display: flex;
+
+    &__item {
+        &:first-child {
+            padding-right: $fhi-space-3;
+        }
+
+        &:last-child {
+            padding-left: $fhi-space-3;
+        }
+    }
+
+    &__dash::before {
+        bottom: $fhi-px * 24;
+        content: "\2013";
+        left: 0;
+        line-height: $fhi-px * 2;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
+
+
+@include media-breakpoint-down(xs) {
+    .fhi-double-datepicker {
+        .fhi-datepicker__form-control {
+            padding-left: $fhi-px * 38;
+        }
+    }
+}
