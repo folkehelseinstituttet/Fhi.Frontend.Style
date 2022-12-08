@@ -1,6 +1,6 @@
 .fhi-btn-menu-item {
     @include fhi-btn($fhi-white);
-    padding-left: $fhi-space-2;
+    padding-left: $fhi-space-3;
 
     &:focus,
     &:hover {
@@ -18,5 +18,13 @@
         [class*="icon-"] {
             filter: brightness(100);
         }
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .fhi-btn-menu-item {
+        height: $fhi-px * 60;
+        padding-top: $fhi-space-4 - $fhi-space-1;
     }
 }
