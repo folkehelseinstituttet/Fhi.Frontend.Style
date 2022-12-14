@@ -1,7 +1,8 @@
 # Unreleased
 
-> Nov 29, 2022
+> Dec 14, 2022
 
+* :tada: **Enhancement** Minor visual adjustments to global header and navigation tile
 * :boom: **Breaking** Color adjustments
 * :tada: **Enhancement** Tags - filter option border change
 * :gift: **New** Add datepicker
