@@ -1,8 +1,12 @@
 .fhi-header {
     margin-bottom: $fhi-space-6;
+    position: relative;
 
     &__brand {
+        max-height: $fhi-px * 112;
+        overflow: hidden;
         padding: $fhi-brand-padding-top-xs 0 $fhi-brand-padding-bottom-xs;
+        position: relative;
     }
 
     &__brand-container {
