@@ -8,12 +8,13 @@
         padding: $fhi-brand-padding-top-xs 0 $fhi-brand-padding-bottom-xs;
         position: relative;
     }
+
     &__brand-container {
         display: block;
         color: $body-color;
         font-size: $fhi-font-size-2;
-        position: relative;
         height: $fhi-brand-container-height;
+        position: relative;
         text-decoration: none;
 
         &:hover {
@@ -21,29 +22,67 @@
             text-decoration: none;
         }
     }
+
     &__brand-content {
         margin-left: $fhi-container-padding-xs;
         max-width: calc(100% - #{$fhi-px * 100});
-        z-index: 1;
     }
+
     &__logo {
         display: inline-block;
         width: $fhi-px * 82;
         height: $fhi-brand-container-height;
     }
+
     &__logo-icon {
         background-size: contain;
         height: 100%;
         vertical-align: bottom;
         width: 100%;
     }
+
     &__project {
+        border-left: 1px solid $fhi-red-1;
         display: none;
+        font-size: $fhi-font-size-5;
+        line-height: 0.92;
+        height: $fhi-project-height-xl;
+        padding-left: $fhi-space-3;
+        vertical-align: bottom;
     }
+
+    &__project-name {
+        display: inline-block;
+        font-family: $fhi-font-family-sans-serif-medium;
+    }
+
+    &__project-description {
+        display: none;
+        font-family: $fhi-font-family-sans-serif-regular;
+    }
+
+    &__project-name,
+    &__project-description {
+        vertical-align: middle;
+    }
+
     &__utility-menu {
         display: none;
     }
+
+    &__utility-menu-content {
+        height: $fhi-project-height-xl;
+        position: absolute;
+        top: - $fhi-main-menu-height-xl
+                - $fhi-brand-padding-bottom-xl
+                - $fhi-project-height-xl;
+        right: $fhi-container-padding-sm;
+    }
+
     &__utility-menu-container {
+        border-bottom: 1px solid $border-color;
+        padding-right: 0;
+        padding-left: 0;
         position: relative;
     }
 }
@@ -54,6 +93,19 @@
             position: absolute;
             top: 0;
             left: 0;
+            z-index: 1;
+        }
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    .fhi-header {
+        &__logo {
+            margin-right: $fhi-space-3;
+        }
+
+        &__project {
+            display: inline-block;
         }
     }
 }
@@ -63,29 +115,6 @@
         &__brand-content {
             margin-left: unset;
         }
-        &__logo {
-            margin-right: $fhi-space-3;
-        }
-        &__project {
-            border-left: 1px solid $fhi-red-1;
-            display: inline-block;
-            font-size: $fhi-font-size-5;
-            line-height: 0.92;
-            height: $fhi-project-height-xl;
-            padding-left: $fhi-space-3;
-            vertical-align: bottom;
-        }
-        &__project-name {
-            display: inline-block;
-            font-family: $fhi-font-family-sans-serif-medium;
-        }
-        &__project-name,
-        &__project-description {
-            vertical-align: middle;
-        }
-        &__project-description {
-            display: none;
-        }
     }
 }
 
@@ -93,7 +122,6 @@
     .fhi-header {
         &__project-description {
             display: inline-block;
-            font-family: $fhi-font-family-sans-serif-regular;
         }
     }
 }
@@ -103,23 +131,18 @@
         &__brand {
             padding: $fhi-brand-padding-top-xl 0 0;
         }
+
         &__brand-container {
             border-bottom: 1px solid $border-color;
             height: calc(#{$fhi-brand-container-height + $fhi-brand-padding-bottom-xl});
             padding-bottom: $fhi-brand-padding-bottom-xl;
             padding-left: 0;
         }
+
         &__utility-menu {
             display: block;
         }
-        &__utility-menu-content {
-            position: absolute;
-            top: - $fhi-main-menu-height-xl
-                 - $fhi-brand-padding-bottom-xl
-                 - $fhi-project-height-xl;
-            right: $fhi-container-padding-sm;
-            height: $fhi-project-height-xl;
-        }
+
         &__main-menu-container {
             border-bottom: 1px solid $border-color;
             padding-right: 0;
