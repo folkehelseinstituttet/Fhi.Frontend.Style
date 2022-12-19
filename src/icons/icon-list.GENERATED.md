@@ -1,10 +1,13 @@
 ```scss
 $included-icons: (
   'alcohol-drugs',
+  'arrow-down',
   'arrow-left',
   'arrow-left-red',
   'arrow-right',
   'arrow-right-circle-fill',
+  'arrow-up',
+  'arrows-up-down',
   'bell-regular',
   'calendar',
   'cancer',
@@ -14,8 +17,8 @@ $included-icons: (
   'cards',
   'check',
   'check-circle-regular',
-  'chevron-double-right',
   'chevron-double-left',
+  'chevron-double-right',
   'chevron-down',
   'chevron-down-fat',
   'chevron-expand',
