@@ -3,7 +3,7 @@
     *:focus {
         outline: none !important;
     }
-    *:not(.btn, .form-check-input):focus {
+    *:not(.btn, .form-check-input, [aria-sort]):focus {
         box-shadow: none !important;
     }
 }
