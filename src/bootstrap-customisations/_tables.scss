@@ -2,7 +2,10 @@
     font-family: $fhi-font-family-sans-serif-regular-2;
 
     thead {
-        background-color: $fhi-blue-grey-4;
+        th,
+        td {
+            background-color: $fhi-blue-grey-4;
+        }
 
         th {
             border-bottom-width: 1px;
@@ -12,6 +15,11 @@
 
     > :not(:first-child) {
         border-top: 0;
+    }
+
+    th[aria-sort="ascending"],
+    th[aria-sort="descending"] {
+        box-shadow: 0 0 0 1px currentColor inset !important;
     }
 }
 
