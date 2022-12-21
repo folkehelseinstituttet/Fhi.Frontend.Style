@@ -20,6 +20,10 @@
     th[aria-sort="ascending"],
     th[aria-sort="descending"] {
         box-shadow: 0 0 0 1px currentColor inset !important;
+
+        &:focus-visible {
+            box-shadow: 0 0 0 4px $fhi-red-1 inset !important;
+        }
     }
 }
 
