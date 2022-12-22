@@ -1,0 +1,24 @@
+[contentEditable="true"] {
+    border: 1px solid transparent;
+    display: block;
+    margin-right: ($fhi-space-1 * -1);
+    margin-left: ($fhi-space-1 * -1);
+    padding: $fhi-space-1;
+    transition: all .25s ease-in-out;
+
+    &:focus,
+    &:hover,
+    tr:hover & {
+        background-color: $fhi-white;
+        border-color: $fhi-grey-3;
+    }
+
+    &:active,
+    &:focus {
+        border-radius: calc(#{$fhi-input-height-xs} / 2);
+        margin-right: ($fhi-space-2 * -1);
+        margin-left: ($fhi-space-2 * -1);
+        padding-right: $fhi-space-2;
+        padding-left: $fhi-space-2;
+    }
+}
