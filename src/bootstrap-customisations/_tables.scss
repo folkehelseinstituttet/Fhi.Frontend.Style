@@ -75,10 +75,12 @@ th[aria-sort="descending"] {
 }
 
 
-.table tbody .table-hover-row:hover {
-    td,
-    th {
-        --bs-table-accent-bg: $fhi-pink-light-2;
-        background-color: $fhi-pink-light-2;
+.table tbody .table-hover-row {
+    &:hover {
+        td,
+        th {
+            --bs-table-accent-bg: $fhi-pink-light-2;
+            background-color: $fhi-pink-light-2;
+        }
     }
 }
