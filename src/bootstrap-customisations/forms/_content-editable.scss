@@ -1,5 +1,6 @@
 [contentEditable="true"] {
     border: 1px solid transparent;
+    border-radius: $input-border-radius;
     display: block;
     margin-right: ($fhi-space-1 * -1);
     margin-left: ($fhi-space-1 * -1);

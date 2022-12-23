@@ -26,12 +26,19 @@
         font-size: $fhi-font-size-2;
         height: $fhi-btn-height * 0.75;
         padding-top: $fhi-space-1;
+        padding-bottom: $fhi-space-1;
 
         [class*="icon-"] {
             background-size: 1rem auto;
             margin-right: 0;
         }
     }
+}
+
+
+th,
+td {
+    transition: background-color .25s ease;
 }
 
 
