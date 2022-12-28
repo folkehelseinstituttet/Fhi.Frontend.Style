@@ -22,4 +22,10 @@
         padding-right: $fhi-space-2;
         padding-left: $fhi-space-2;
     }
+
+    .table-sm & {
+        margin-top: $fhi-px * 3;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
