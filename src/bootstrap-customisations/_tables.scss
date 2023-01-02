@@ -23,7 +23,6 @@
     }
 
     .btn {
-        font-size: $fhi-font-size-2;
         height: $fhi-btn-height * 0.75;
         padding-top: $fhi-space-1;
         padding-bottom: $fhi-space-1;
@@ -39,6 +38,12 @@
 th,
 td {
     transition: background-color .25s ease;
+}
+
+
+td .invalid-feedback {
+    font-family: $fhi-font-family-sans-serif-regular;
+    font-size: $fhi-font-size-1;
 }
 
 
