@@ -175,6 +175,18 @@ $table-striped-order:     even;
 
 $table-hover-bg:          $fhi-pink-light-2;
 
+$table-variants: (
+  'primary':    map-get($theme-colors, 'primary'),
+  'secondary':  map-get($theme-colors, 'secondary'),
+  'success':    map-get($theme-colors, 'success'),
+  'info':       map-get($theme-colors, 'info'),
+  'warning':    map-get($theme-colors, 'warning'),
+  'danger':     map-get($theme-colors, 'danger'),
+  'error':      map-get($theme-colors, 'error'),
+  'light':      map-get($theme-colors, 'light'),
+  'dark':       map-get($theme-colors, 'dark'),
+);
+
 
 // Pagination
 
