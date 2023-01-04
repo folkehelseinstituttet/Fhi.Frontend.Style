@@ -161,11 +161,31 @@ $nav-tabs-link-active-color:        $nav-link-color;
 
 // Table
 
-$table-cell-padding-x:  1.5rem;
-$table-accent-bg:       transparent;
-$table-border-color:    $fhi-grey-1;
-$table-striped-bg:      $fhi-grey-light-2;
-$table-striped-order:   even;
+$table-cell-padding-y:    $fhi-space-2;
+$table-cell-padding-x:    $fhi-space-3;
+$table-cell-padding-y-sm: $fhi-space-1;
+$table-cell-padding-x-sm: $fhi-space-2;
+
+$table-accent-bg:         transparent;
+
+$table-border-color:      $fhi-grey-1;
+
+$table-striped-bg:        $fhi-blue-grey-1;
+$table-striped-order:     even;
+
+$table-hover-bg:          $fhi-pink-light-2;
+
+$table-variants: (
+  'primary':    map-get($theme-colors, 'primary'),
+  'secondary':  map-get($theme-colors, 'secondary'),
+  'success':    map-get($theme-colors, 'success'),
+  'info':       map-get($theme-colors, 'info'),
+  'warning':    map-get($theme-colors, 'warning'),
+  'danger':     map-get($theme-colors, 'danger'),
+  'error':      map-get($theme-colors, 'error'),
+  'light':      map-get($theme-colors, 'light'),
+  'dark':       map-get($theme-colors, 'dark'),
+);
 
 
 // Pagination

@@ -27,8 +27,6 @@ textarea.form-control {
 }
 .invalid-feedback {
     font-family: $fhi-font-family-sans-serif-medium;
-    font-style: italic;
-    padding-left: $fhi-px * 12;
 }
 
 @include media-breakpoint-up(lg) {
