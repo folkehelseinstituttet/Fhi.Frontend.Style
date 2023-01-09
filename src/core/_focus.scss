@@ -1,0 +1,8 @@
+*:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+*:focus-visible {
+    box-shadow: $input-focus-box-shadow !important;
+}
