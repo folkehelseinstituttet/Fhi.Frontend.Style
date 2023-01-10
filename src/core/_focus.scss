@@ -4,5 +4,13 @@
 }
 
 *:focus-visible {
-    box-shadow: $input-focus-box-shadow !important;
+    box-shadow: $input-focus-box-shadow;
+}
+
+a,
+.btn,
+.form-control {
+    &:focus-visible {
+        box-shadow: $input-focus-box-shadow !important;
+    }
 }

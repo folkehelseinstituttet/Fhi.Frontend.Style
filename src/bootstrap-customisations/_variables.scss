@@ -150,9 +150,10 @@ $form-feedback-font-size:     $fhi-font-size-2;
 
 // Focus marker
 
-// $input-focus-box-shadow:              0 0 0 1px white, 0 0 0 3px $fhi-blue-1;
 $input-focus-box-shadow:              0 0 0 2px $fhi-blue-1;
-$form-check-input-focus-box-shadow:   $input-focus-box-shadow;
+$form-check-input-focus-box-shadow:   0 0 0 1px white, 0 0 0 3px $fhi-blue-1;
+$form-select-focus-box-shadow:        $input-focus-box-shadow;
+$focus-box-shadow:                    $input-focus-box-shadow;
 
 
 // Nav
