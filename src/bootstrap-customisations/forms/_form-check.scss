@@ -75,20 +75,9 @@
         &, &:checked, &:focus, &:active {
             & ~ .form-check-label {
                 &::before {
-                    // border-color: $fhi-custom-control-color;
                     background-color: $white;
                 }
             }
-        }
-
-        &:focus {
-            // [data-whatintent="keyboard"] & {
-            //     ~ .form-check-label {
-            //         &::after {
-            //             box-shadow: 0 0 0 2px $white, 0 0 0 7px $fhi-red-1;
-            //         }
-            //     }
-            // }
         }
     }
     .form-check-input:checked ~ .form-check-label {

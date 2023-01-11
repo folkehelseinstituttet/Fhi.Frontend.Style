@@ -1,16 +1,26 @@
 *:focus {
-    box-shadow: none;
+    box-shadow: none !important;
     outline: none;
 }
 
 *:focus-visible {
-    box-shadow: $input-focus-box-shadow;
+    box-shadow: $input-focus-box-shadow !important;
+
+    .bg-dark & {
+        box-shadow: 0 0 0 2px white !important;
+    }
 }
 
-a,
-.btn,
-.form-control {
+th[tabindex="0"],
+.fhi-btn-expand-table {
     &:focus-visible {
-        box-shadow: $input-focus-box-shadow !important;
+        box-shadow: $input-focus-box-shadow inset !important;
     }
+}
+
+.form-check-input:focus-visible,
+.fhi-btn-menu-item--active:focus-visible,
+.fhi-tag-selector__input:focus-visible + label,
+.form-switch .form-check-input:focus-visible ~ .form-check-label::after {
+    box-shadow: $form-check-input-focus-box-shadow !important;
 }
