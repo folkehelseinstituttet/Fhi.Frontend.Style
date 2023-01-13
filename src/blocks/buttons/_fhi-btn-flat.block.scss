@@ -1,5 +1,6 @@
 .fhi-btn-flat {
     @include fhi-btn(transparent, transparent, $inline-link-color);
+    border: 0;
     padding-right: $fhi-space-2;
     padding-left: $fhi-space-2;
     text-decoration: underline;
