@@ -1,7 +1,8 @@
 # Unreleased
 
-> Dec 21, 2022
+> Jan 11, 2022
 
+* :tada: **Enhancement** Focus state no longer depending on what-input library, color of focus changed from red to blue
 * :tada: **Enhancement** Table visuals adjusted
 * :tada: **Enhancement** Minor visual adjustments to global header and navigation tile
 * :boom: **Breaking** Color adjustments

@@ -25,17 +25,9 @@
         }
 
         &:focus-visible {
-            box-shadow: 0 0 0 4px $fhi-red-1 inset;
-            outline: none !important;
-            
             + .form-control {
                 border-top-left-radius: $fhi-input-height-lg;
                 border-bottom-left-radius: $fhi-input-height-lg;
-
-                [data-whatintent="mouse"] & { // TODO: remove when focus state is css only
-                    border-top-left-radius: $input-border-radius;
-                    border-bottom-left-radius: $input-border-radius;
-                }
             }
         }
     }
@@ -81,8 +73,8 @@
         font-style: normal;
     }
 
-    .ngb-dp-day:focus {
-        outline: 0 !important;
+    .ngb-dp-day:focus-visible {
+        box-shadow: none !important;
     }
 
     ngb-datepicker-navigation-select > .form-select {
@@ -154,8 +146,7 @@
 
         &.active {
             background-color: transparent !important;
-            outline: solid 3px $fhi-hover-color !important;
-            outline: 0;
+            box-shadow: 0 0 0 2px $fhi-blue-1 inset, 0 0 0 3px $fhi-white inset !important;
         }
 
         &.bg-primary {

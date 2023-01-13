@@ -19,6 +19,10 @@
             filter: brightness(100);
         }
     }
+
+    &:focus-visible {
+        box-shadow: $form-check-input-focus-box-shadow !important;
+    }
 }
 
 

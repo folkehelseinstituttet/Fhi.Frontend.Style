@@ -27,27 +27,25 @@
     &__input {
         @include visually-hidden;
 
-        &[type="checkbox"] {
-            ~ .fhi-tag-selector__label {
-                padding-left: $fhi-space-4 * 2;
+        &:focus-visible + .fhi-tag-selector__label {
+            box-shadow: $form-check-input-focus-box-shadow !important;
+        }
+
+        &:checked ~ .fhi-tag-selector__label {
+            background-color: $fhi-charcoal-1;
+            color: $fhi-white;
+
+            [class*="icon-"] {
+                filter: brightness(100);
             }
         }
 
-        &:checked {
-            ~ .fhi-tag-selector__label {
-                background-color: $fhi-charcoal-1;
-                color: $fhi-white;
-
-                [class*="icon-"] {
-                    filter: brightness(100);
-                }
-            }
+        &[type="checkbox"] ~ .fhi-tag-selector__label {
+            padding-left: $fhi-space-4 * 2;
         }
 
-        &[type="radio"]:checked {
-            ~ .fhi-tag-selector__label {
-                cursor: default;
-            }
+        &[type="radio"]:checked  ~ .fhi-tag-selector__label {
+            cursor: default;
         }
     }
 }
