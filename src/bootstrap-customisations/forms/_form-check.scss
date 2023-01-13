@@ -32,6 +32,10 @@
             }
         }
     }
+
+    &:focus-visible {
+        box-shadow: $form-check-input-focus-box-shadow !important;
+    }
 }
 
 
@@ -71,6 +75,7 @@
             transition: transform .15s ease-out;
         }
     }
+
     .form-check-input {
         &, &:checked, &:focus, &:active {
             & ~ .form-check-label {
@@ -79,14 +84,11 @@
                 }
             }
         }
-    }
-    .form-check-input:checked ~ .form-check-label {
-        &::after {
-            background-color: $fhi-custom-control-color;
-            transform: translateX($fhi-space-4);
+
+        &:focus-visible ~ .form-check-label::after {
+            box-shadow: $form-check-input-focus-box-shadow !important;
         }
-    }
-    .form-check-input {
+
         &:disabled, &[disabled] {
             & ~ .form-check-label {
                 color: $fhi-disabled-color;
@@ -97,6 +99,13 @@
                     border-color: $fhi-disabled-color;
                 }
             }
+        }
+    }
+
+    .form-check-input:checked ~ .form-check-label {
+        &::after {
+            background-color: $fhi-custom-control-color;
+            transform: translateX($fhi-space-4);
         }
     }
 }

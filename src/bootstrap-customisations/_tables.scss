@@ -48,6 +48,11 @@ td .invalid-feedback {
 }
 
 
+th[tabindex]:focus-visible {
+    box-shadow: $input-focus-box-shadow inset !important;
+}
+
+
 th[aria-sort] {
     color: $fhi-blue-grey-7;
     cursor: pointer;
