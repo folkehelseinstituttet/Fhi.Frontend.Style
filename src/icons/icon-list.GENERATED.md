@@ -17,6 +17,7 @@ $included-icons: (
   'cards',
   'check',
   'check-circle-regular',
+  'check-white',
   'chevron-double-left',
   'chevron-double-right',
   'chevron-down',
