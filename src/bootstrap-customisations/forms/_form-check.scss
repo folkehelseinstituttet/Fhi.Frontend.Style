@@ -56,7 +56,8 @@
             position: absolute;
         }
         &::before {
-            border: 1px solid;
+            background-color: $fhi-white;
+            border: 2px solid;
             border-radius: 1em;
             top: $fhi-px * 7;
             left: -$fhi-space-7;
@@ -64,10 +65,9 @@
             height: $fhi-px * 12;
         }
         &::after {
-            background-color: $white;
-            border: 1px solid $fhi-custom-control-color;
+            background: $white url(../../icons/svg-icons/bootstrap-icons/check-white.svg) no-repeat center center;
+            border: 2px solid $fhi-custom-control-color;
             border-radius: $fhi-px * 12;
-            box-shadow: 0px 3px 6px $fhi-custom-control-shadow-color;
             top: $fhi-px * 1;
             left: -$fhi-space-7;
             width: $fhi-px * 24;
@@ -77,14 +77,6 @@
     }
 
     .form-check-input {
-        &, &:checked, &:focus, &:active {
-            & ~ .form-check-label {
-                &::before {
-                    background-color: $white;
-                }
-            }
-        }
-
         &:focus-visible ~ .form-check-label::after {
             box-shadow: $form-check-input-focus-box-shadow !important;
         }
@@ -97,12 +89,19 @@
                 &::before,
                 &::after {
                     border-color: $fhi-disabled-color;
+                    border-width: 1px;
                 }
+            }
+            &:checked ~ .form-check-label::after {
+                background-color: $fhi-grey-3;
             }
         }
     }
 
     .form-check-input:checked ~ .form-check-label {
+        &::before {
+            background-color: $fhi-grey-1;
+        }
         &::after {
             background-color: $fhi-custom-control-color;
             transform: translateX($fhi-space-4);
