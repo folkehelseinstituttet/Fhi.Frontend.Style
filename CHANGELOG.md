@@ -3,6 +3,7 @@
 > Jan 16, 2022
 
 * :tada: **Enhancement** Improved state visibility on switch toggler
+* :gift: **New** Added utility section on global header
 * :tada: **Enhancement** Focus state no longer depending on what-input library, color of focus changed from red to blue
 * :tada: **Enhancement** Table visuals adjusted
 * :tada: **Enhancement** Minor visual adjustments to global header and navigation tile
