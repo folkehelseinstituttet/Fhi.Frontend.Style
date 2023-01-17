@@ -1,0 +1,42 @@
+.fhi-utility-section {
+    z-index: 1;
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+
+        a {
+            color: $body-color;
+            font-family: $fhi-font-family-sans-serif-regular;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        
+        [class*="icon-"] {
+            background-size: contain;
+        }
+    }
+
+    &__divider {
+        border-left: 1px solid $fhi-charcoal-1;
+        margin: 0 $fhi-space-2;
+    }
+
+    &__btn {
+        background: transparent;
+        border: 0;
+        line-height: .667;//sic
+        margin: 0 $fhi-space-2;
+        padding: 0;
+    }
+}
+
+.fhi-utility-section--megamenu {
+    border-top: 1px solid $fhi-white;
+    flex: none;
+    margin-top: $fhi-space-3;
+    padding-top: $fhi-space-3;
+    width: 100%;
+}
