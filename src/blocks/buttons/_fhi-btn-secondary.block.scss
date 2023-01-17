@@ -1,3 +1,7 @@
 .fhi-btn-secondary {
-    @include fhi-btn($fhi-white, $fhi-red-2, $body-color);
+    @include fhi-btn($fhi-white, $fhi-blue-1, $body-color, $fhi-blue-grey-3);
+
+    &:focus-visible {
+        background-color: $fhi-blue-grey-3;
+    }
 }
