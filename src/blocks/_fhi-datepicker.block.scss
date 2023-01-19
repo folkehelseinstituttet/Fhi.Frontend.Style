@@ -5,6 +5,16 @@
         display: block;
     }
 
+    &__description {
+        color: $fhi-grey-3;
+        display: block;
+        margin-bottom: $fhi-space-1;
+
+        .fhi-datepicker__label + & {
+            margin-top: ($fhi-space-2 * -1);
+        }
+    }
+
     &__toggler {
         background-color: transparent;
         border: 0;
@@ -33,9 +43,9 @@
     }
 
     &__form-control {
+        max-width: $fhi-px * 155;
         padding-left: $fhi-px * 44;
         padding-right: 0;
-        max-width: $fhi-px * 155;
     }
 
     .ngb-dp-header,
