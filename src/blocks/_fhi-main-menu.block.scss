@@ -7,16 +7,18 @@
 
         &__container {
             position: relative;
-            height: $fhi-brand-height-xs;
+            height: $fhi-space-6
+                    + $fhi-px * 32
+                    + $fhi-space-3;
         }
         &__home-link {
             display: none;
             position: absolute;
-            top: $fhi-brand-padding-top-xs;
+            top: $fhi-space-6;
         }
         &__toggler {
             position: absolute;
-            top: $fhi-brand-padding-top-xs;
+            top: $fhi-space-6;
             right: 0;
             background-color: transparent;
             border: unset;
@@ -98,14 +100,14 @@
             }
             &__home-link {
                 display: block;
-                height: $fhi-brand-container-height;
+                height: $fhi-px * 32;
                 width: $fhi-px * 82;
             }
             &__home-link-img {
                 margin-top: -($fhi-px * 2);
            }
             &__collapse {
-                padding: $fhi-brand-height-xs 0 $fhi-space-7;
+                padding: ($fhi-space-6 + $fhi-px * 32 + $fhi-space-3) 0 $fhi-space-7;
             }
         }
     }

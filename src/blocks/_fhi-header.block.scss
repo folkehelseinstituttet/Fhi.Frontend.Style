@@ -5,7 +5,7 @@
     &__brand {
         max-height: $fhi-px * 112;
         overflow: hidden;
-        padding: $fhi-brand-padding-top-xs 0 $fhi-brand-padding-bottom-xs;
+        padding: $fhi-space-6 0 $fhi-space-3;
         position: relative;
     }
 
@@ -13,7 +13,7 @@
         display: block;
         color: $body-color;
         font-size: $fhi-font-size-2;
-        height: $fhi-brand-container-height;
+        height: $fhi-px * 32;
         position: relative;
         text-decoration: none;
 
@@ -31,7 +31,7 @@
     &__logo {
         display: inline-block;
         width: $fhi-px * 82;
-        height: $fhi-brand-container-height;
+        height: $fhi-px * 32;
     }
 
     &__logo-icon {
@@ -46,7 +46,7 @@
         display: none;
         font-size: $fhi-font-size-5;
         line-height: 0.92;
-        height: $fhi-project-height-xl;
+        height: $fhi-px * 25;
         padding-left: $fhi-space-3;
         vertical-align: bottom;
     }
@@ -71,11 +71,11 @@
     }
 
     &__utility-menu-content {
-        height: $fhi-project-height-xl;
+        height: $fhi-px * 25;
         position: absolute;
-        top: - $fhi-main-menu-height-xl
-                - $fhi-brand-padding-bottom-xl
-                - $fhi-project-height-xl;
+        top: - $fhi-px * 46
+             - $fhi-space-4
+             - $fhi-px * 25;
         right: $fhi-container-padding-sm;
     }
 
@@ -129,13 +129,13 @@
 @include media-breakpoint-up(xl) {
     .fhi-header {
         &__brand {
-            padding: $fhi-brand-padding-top-xl 0 0;
+            padding: $fhi-space-7 0 0;
         }
 
         &__brand-container {
             border-bottom: 1px solid $border-color;
-            height: calc(#{$fhi-brand-container-height + $fhi-brand-padding-bottom-xl});
-            padding-bottom: $fhi-brand-padding-bottom-xl;
+            height: calc(#{$fhi-px * 32 + $fhi-space-4});
+            padding-bottom: $fhi-space-4;
             padding-left: 0;
             padding-right: 0;
         }
