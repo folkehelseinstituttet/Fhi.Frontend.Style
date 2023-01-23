@@ -1,7 +1,8 @@
 # Unreleased
 
-> Jan 16, 2022
+> Jan 23, 2022
 
+* :tada: **Enhancement** Main menu and pageheader file structure improved
 * :tada: **Enhancement** Improved state visibility on switch toggler
 * :gift: **New** Added utility section on global header
 * :tada: **Enhancement** Focus state no longer depending on what-input library, color of focus changed from red to blue
