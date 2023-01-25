@@ -27,6 +27,7 @@ textarea.form-control {
 }
 .invalid-feedback {
     font-family: $fhi-font-family-sans-serif-medium;
+    margin-bottom: 0;
 }
 
 @include media-breakpoint-up(lg) {
