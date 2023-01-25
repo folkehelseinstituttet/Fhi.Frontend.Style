@@ -1,7 +1,8 @@
 # Unreleased
 
-> Jan 23, 2023
+> Jan 25, 2023
 
+* :tada: **Enhancement** Support for forms with left aligned labels
 * :tada: **Enhancement** Main menu and pageheader file structure improved
 * :tada: **Enhancement** Improved state visibility on switch toggler
 * :gift: **New** Added utility section on global header
