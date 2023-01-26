@@ -30,6 +30,20 @@ textarea.form-control {
     margin-bottom: 0;
 }
 
+@include media-breakpoint-up(sm) {
+    .form-control-xs {
+        max-width: $fhi-px * 80;
+    }
+    
+    .form-control-sm {
+        max-width: $fhi-px * 180;
+    }
+    
+    .form-control-md {
+        max-width: $fhi-px * 360;
+    }
+}
+
 @include media-breakpoint-up(lg) {
     .form-control {
         font-size: $fhi-default-font-size-lg;
