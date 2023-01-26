@@ -1,6 +1,9 @@
 .fhi-btn-group {
     &__btn {
         border-color: $fhi-charcoal-1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &__btn.active,
@@ -17,5 +20,9 @@
             cursor: default;
             text-decoration: none;
         }
+    }
+
+    &__check:focus-visible + .fhi-btn-group__btn {
+        box-shadow: $form-check-input-focus-box-shadow !important;
     }
 }
