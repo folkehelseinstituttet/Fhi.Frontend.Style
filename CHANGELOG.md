@@ -1,15 +1,27 @@
 # Unreleased
 
-> Jan 25, 2023
+> Jan 26, 2023
 
 * :tada: **Enhancement** Support for forms with left aligned labels
 * :tada: **Enhancement** Main menu and pageheader file structure improved
+  * _Global headers with markup prior to 3.10 will break in **v5** :boom:_
 * :tada: **Enhancement** Improved state visibility on switch toggler
 * :gift: **New** Added utility section on global header
 * :tada: **Enhancement** Focus state no longer depending on what-input library, color of focus changed from red to blue
 * :tada: **Enhancement** Table visuals adjusted
 * :tada: **Enhancement** Minor visual adjustments to global header and navigation tile
 * :boom: **Breaking** Color adjustments
+  * _Removed color variables:_
+    * ![#65adc3](https://via.placeholder.com/10/65adc3/000000?text=+) `$fhi-blue-light-1`
+    * ![#057e9a](https://via.placeholder.com/10/057e9a/000000?text=+) `$fhi-blue-light-2`
+    * ![#2e3152](https://via.placeholder.com/10/2e3152/000000?text=+) `$fhi-blue-dark-2`
+    * ![#181B40](https://via.placeholder.com/10/181B40/000000?text=+) `$fhi-blue-dark-3`
+    * ![#e22867](https://via.placeholder.com/10/e22867/000000?text=+) `$fhi-pink-dark-2`
+    * ![#b10640](https://via.placeholder.com/10/b10640/000000?text=+) `$fhi-pink-dark-3`
+  * _Renamed color variables:_
+    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-2`
+    * ![#faedec](https://via.placeholder.com/10/faedec/000000?text=+) `$fhi-pink-light-2` => `$fhi-pink-light-1`
+    * ![#fad1cd](https://via.placeholder.com/10/fad1cd/000000?text=+) `$fhi-pink-light-4` => `$fhi-pink-light-2`
 * :tada: **Enhancement** Tags - filter option border change
 * :gift: **New** Add datepicker
 
