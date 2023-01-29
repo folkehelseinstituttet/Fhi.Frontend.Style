@@ -4,7 +4,121 @@
     flex-direction: column;
     min-height: 100vh;
 
+    &__header {
+        margin-bottom: $fhi-space-6;
+    }
+    &__brand {
+        padding: $fhi-space-6 0 $fhi-space-3;
+    }
+    &__brand--blue {
+        background-color: $fhi-bg-color-7;
+    }
+    &__brand-container {
+        display: block;
+        color: $body-color;
+        font-size: $fhi-font-size-2;
+        position: relative;
+        height: $fhi-px * 32;
+        text-decoration: none;
+
+        &:hover {
+            color: $body-color;
+            text-decoration: none;
+        }
+    }
+    &__brand-content {
+        margin-left: $fhi-container-padding-xs;
+        max-width: calc(100% - #{$fhi-px * 100})
+    }
+    &__logo {
+        display: inline-block;
+        width: $fhi-px * 82;
+        height: $fhi-px * 32;
+
+        img {
+            margin-top: -($fhi-px * 2);
+        }
+    }
+    &__project {
+        display: none;
+    }
+    &__utility-menu {
+        display: none;
+    }
+    &__utility-menu-container {
+        position: relative;
+    }
     &__main-content {
         margin-bottom: $fhi-space-7;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .fhi-app {
+        &__brand-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .fhi-app {
+        &__brand-content {
+            margin-left: unset;
+        }
+        &__logo {
+            margin-right: $fhi-space-3;
+        }
+        &__project {
+            border-left: 1px solid $fhi-red-1;
+            display: inline-block;
+            font-size: $fhi-font-size-5;
+            line-height: 0.92;
+            height: $fhi-px * 25;
+            padding-left: $fhi-space-3;
+            vertical-align: bottom;
+        }
+        &__project-name {
+            display: inline-block;
+            font-family: $fhi-font-family-sans-serif-medium;
+        }
+        &__project-name,
+        &__project-description {
+            vertical-align: middle;
+        }
+        &__project-description {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .fhi-app {
+        &__project-description {
+            display: inline-block;
+            font-family: $fhi-font-family-sans-serif-regular;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .fhi-app {
+        &__brand {
+            border-bottom: 1px solid $border-color;
+            padding: $fhi-space-7 0 $fhi-space-4;
+        }
+        &__utility-menu {
+            display: block;
+        }
+        &__utility-menu-content {
+            position: absolute;
+            top: - $fhi-px * 46
+                 - $fhi-space-4
+                 - $fhi-px * 25;
+            right: $fhi-container-padding-sm;
+            height: $fhi-px * 25;
+        }
     }
 }
