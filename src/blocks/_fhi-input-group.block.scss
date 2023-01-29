@@ -4,11 +4,11 @@
 
 @include media-breakpoint-down(sm) {
     .fhi-input-group {
-        &__col-1 {
+        &__col-label {
             width: 100% !important;
         }
 
-        &__col-2 {
+        &__col-form-control {
             display: flex;
             flex-direction: column;
 
@@ -24,7 +24,7 @@
     .fhi-input-group {
         display: flex;
         
-        &__col-1 {
+        &__col-label {
             margin-right: $fhi-space-3;
             max-width: 33.3%;
             padding-top: $fhi-space-1;
@@ -35,7 +35,7 @@
             }
         }
 
-        &__col-2 {
+        &__col-form-control {
             display: flex;
             flex-direction: column;
             flex: 1;
