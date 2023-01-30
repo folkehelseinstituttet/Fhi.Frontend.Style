@@ -18,7 +18,7 @@
     * ![#e22867](https://via.placeholder.com/10/e22867/000000?text=+) `$fhi-pink-dark-2`
     * ![#b10640](https://via.placeholder.com/10/b10640/000000?text=+) `$fhi-pink-dark-3`
   * _Renamed color variables:_
-    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-2`
+    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-3`
     * ![#faedec](https://via.placeholder.com/10/faedec/000000?text=+) `$fhi-pink-light-2` => `$fhi-pink-light-1`
     * ![#fad1cd](https://via.placeholder.com/10/fad1cd/000000?text=+) `$fhi-pink-light-4` => `$fhi-pink-light-2`
 * :tada: **Enhancement** Tags - filter option border change
