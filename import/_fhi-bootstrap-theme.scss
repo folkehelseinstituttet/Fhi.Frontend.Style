@@ -1,0 +1,44 @@
+@import "../src/fhi-core-variables";
+
+
+// Native Bootstrap
+// ----------------
+
+@import "./node_modules/bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+// scss-docs-start import-stack
+// Configuration
+@import "./node_modules/bootstrap/scss/functions";
+
+// FHI variable default overrides
+@import "../src/bootstrap-theme/variables";
+
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/maps";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/utilities";
+
+// Layout & components
+@import "./node_modules/bootstrap/scss/root";
+@import "./node_modules/bootstrap/scss/reboot";
+@import "./node_modules/bootstrap/scss/type";
+@import "./node_modules/bootstrap/scss/containers";
+@import "./node_modules/bootstrap/scss/grid";
+@import "./node_modules/bootstrap/scss/nav";
+@import "./node_modules/bootstrap/scss/navbar";
+
+// Helpers
+@import "./node_modules/bootstrap/scss/helpers";
+
+// Utilities
+@import "./node_modules/bootstrap/scss/utilities/api";
+
+
+// Bootstrap theme classes 
+// ------------------------
+// @import "../src/bootstrap-theme/accordion";
+// @import "../src/bootstrap-theme/alerts";
+// @import "../src/bootstrap-theme/buttons";
+
+// @import "../src/fhi-core-styles";
