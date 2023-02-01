@@ -1,6 +1,6 @@
-# Unreleased
+# 4.0.0
 
-> Jan 26, 2023
+> Feb 1, 2023
 
 * :tada: **Enhancement** Support for forms with left aligned labels
 * :tada: **Enhancement** Main menu and pageheader file structure improved
