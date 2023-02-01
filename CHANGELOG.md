@@ -1,4 +1,10 @@
-# 4.0.0
+# 4.0.1
+
+> Feb 1, 2023
+
+* :bug: **Bugfix** Remove import of obsolete variable file
+
+## 4.0.0
 
 > Feb 1, 2023
 
