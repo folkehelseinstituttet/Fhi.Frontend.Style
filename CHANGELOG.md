@@ -2,6 +2,7 @@
 
 > Jan 26, 2023
 
+* :tada: **Enhancement** Support for forms with left aligned labels
 * :tada: **Enhancement** Main menu and pageheader file structure improved
   * _Global headers with markup prior to 3.10 will break in **v5** :boom:_
 * :tada: **Enhancement** Improved state visibility on switch toggler
