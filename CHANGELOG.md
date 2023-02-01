@@ -2,6 +2,7 @@
 
 > Jan 26, 2023
 
+* :tada: **Enhancement** Support for forms with left aligned labels
 * :tada: **Enhancement** Main menu and pageheader file structure improved
   * _Global headers with markup prior to 3.10 will break in **v5** :boom:_
 * :tada: **Enhancement** Improved state visibility on switch toggler
@@ -18,7 +19,7 @@
     * ![#e22867](https://via.placeholder.com/10/e22867/000000?text=+) `$fhi-pink-dark-2`
     * ![#b10640](https://via.placeholder.com/10/b10640/000000?text=+) `$fhi-pink-dark-3`
   * _Renamed color variables:_
-    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-2`
+    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-3`
     * ![#faedec](https://via.placeholder.com/10/faedec/000000?text=+) `$fhi-pink-light-2` => `$fhi-pink-light-1`
     * ![#fad1cd](https://via.placeholder.com/10/fad1cd/000000?text=+) `$fhi-pink-light-4` => `$fhi-pink-light-2`
 * :tada: **Enhancement** Tags - filter option border change

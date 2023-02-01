@@ -160,12 +160,12 @@
         }
 
         &.bg-primary {
-            background-color: $fhi-blue-2 !important;// BS override
+            background-color: $fhi-blue-3 !important;// BS override
         }
     }
 
     .ngb-dp-today > [ngbDatepickerDayView].btn-light {
-        box-shadow: 0 0 0 1px $fhi-blue-2 inset;
+        box-shadow: 0 0 0 1px $fhi-blue-3 inset;
     }
 }
 
