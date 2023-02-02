@@ -1,0 +1,23 @@
+.modal-body {
+    padding-top: calc(#{$modal-inner-padding}/4);
+    padding-bottom: 0;
+}
+
+
+@include media-breakpoint-down(sm) {
+    .modal-footer .btn {
+        width: 100%;
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+    .modal-dialog {
+        padding-right: $fhi-space-2;
+        padding-left: $fhi-space-2;
+    }
+
+    .modal-footer .btn + .btn {
+        margin-left: $fhi-space-3;
+    }
+}
