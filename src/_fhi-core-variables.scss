@@ -98,8 +98,8 @@
  $fhi-blue-grey-7: #435c68;
  
  $fhi-blue-1: #0067c4;
- $fhi-blue-2: #393c61;
- $fhi-blue-3: #0e4485;
+ $fhi-blue-2: #0e4485;
+ $fhi-blue-3: #393c61;
  
  $fhi-green-1: #cceee4;
  $fhi-green-2: #04ab79;
@@ -124,34 +124,34 @@
   * Color aliases
   */
  
- $fhi-brand-color: $fhi-blue-2;
+//  $fhi-brand-color: $fhi-blue-3;
  
- $fhi-bg-color-1:  $fhi-white;
- $fhi-bg-color-2:  $fhi-grey-light-1;
- $fhi-bg-color-3:  $fhi-grey-light-2;
- $fhi-bg-color-4:  $fhi-grey-light-3;
- $fhi-bg-color-5:  $fhi-grey-light-4;
- $fhi-bg-color-6:  $fhi-blue-grey-1;
- $fhi-bg-color-7:  $fhi-blue-grey-2;
- $fhi-bg-color-8:  $fhi-blue-grey-1;
+//  $fhi-bg-color-1:  $fhi-white;
+//  $fhi-bg-color-2:  $fhi-grey-light-1;
+//  $fhi-bg-color-3:  $fhi-grey-light-2;
+//  $fhi-bg-color-4:  $fhi-grey-light-3;
+//  $fhi-bg-color-5:  $fhi-grey-light-4;
+//  $fhi-bg-color-6:  $fhi-blue-grey-1;
+//  $fhi-bg-color-7:  $fhi-blue-grey-2;
+//  $fhi-bg-color-8:  $fhi-blue-grey-1;
  
- $fhi-disabled-color: $fhi-grey-3;
- $fhi-disabled-color-inverse: $fhi-grey-1;
+//  $fhi-disabled-color: $fhi-grey-3;
+//  $fhi-disabled-color-inverse: $fhi-grey-1;
  
- $fhi-text-ancillary:         $fhi-grey-3;
- $fhi-text-ancillary-inverse: $fhi-grey-1;
- $fhi-text-error-inverse:     $fhi-pink-light-3;
+//  $fhi-text-ancillary:         $fhi-grey-3;
+//  $fhi-text-ancillary-inverse: $fhi-grey-1;
+//  $fhi-text-error-inverse:     $fhi-pink-light-3;
  
- $fhi-main-menu-xs-color:        $fhi-white;
- $fhi-main-menu-xl-color:        $fhi-grey-4;
- $fhi-main-menu-xl-active-color: $fhi-red-2;
- $fhi-main-menu-xl-hover-color:  $fhi-red-2;
+//  $fhi-main-menu-xs-color:        $fhi-white;
+//  $fhi-main-menu-xl-color:        $fhi-grey-4;
+//  $fhi-main-menu-xl-active-color: $fhi-red-2;
+//  $fhi-main-menu-xl-hover-color:  $fhi-red-2;
  
- $fhi-custom-control-color: $fhi-charcoal-1;
- $fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
+//  $fhi-custom-control-color: $fhi-charcoal-1;
+//  $fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
  
- $fhi-hover-color:     $fhi-pink-light-3;
- $fhi-hover-color-2:   $fhi-pink-light-2;
+//  $fhi-hover-color:     $fhi-pink-light-3;
+//  $fhi-hover-color-2:   $fhi-pink-light-2;
  
  
  /**
@@ -168,37 +168,37 @@
   * Buttons
   */
  
- $fhi-btn-font-family-bold: $fhi-font-family-sans-serif-medium;
+//  $fhi-btn-font-family-bold: $fhi-font-family-sans-serif-medium;
  
- $fhi-btn-height: $fhi-px * 44;
+//  $fhi-btn-height: $fhi-px * 44;
  
- $fhi-btn-padding-y: $fhi-px * 10;
- $fhi-btn-padding-x: $fhi-px * 24;
+//  $fhi-btn-padding-y: $fhi-px * 10;
+//  $fhi-btn-padding-x: $fhi-px * 24;
  
  
  /**
   * Forms
   */
  
- $fhi-input-height-xs: $fhi-px * 48;
- $fhi-input-height-lg: $fhi-px * 40;
+//  $fhi-input-height-xs: $fhi-px * 48;
+//  $fhi-input-height-lg: $fhi-px * 40;
  
- $fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14px in diameter
+//  $fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14px in diameter
  
  
  /**
   * Accordions
   */
  
-  $fhi-accordion-visual-trigger-width: $fhi-px * 40;
-  $fhi-accordion-visual-trigger-width-md: $fhi-px * 60;
+  // $fhi-accordion-visual-trigger-width: $fhi-px * 40;
+  // $fhi-accordion-visual-trigger-width-md: $fhi-px * 60;
  
  
   /**
    * Drawer
    */
  
- $fhi-drawer-width-md: 40vw;
- $fhi-drawer-width-xl: $fhi-px * 500;
- $fhi-drawer-animation-speed: .3s;
+//  $fhi-drawer-width-md: 40vw;
+//  $fhi-drawer-width-xl: $fhi-px * 500;
+//  $fhi-drawer-animation-speed: .3s;
  
