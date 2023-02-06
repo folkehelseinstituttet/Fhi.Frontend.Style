@@ -77,7 +77,7 @@
 // $code-color: $fhi-red-2;
 
 // $inline-link-color:       $fhi-blue-1;
-$inline-link-hover-color: $fhi-red-2;
+// $inline-link-hover-color: $fhi-red-2;
 
 // $list-group-color:        $body-color;
 
@@ -93,7 +93,7 @@ $inline-link-hover-color: $fhi-red-2;
 // $accordion-icon-width:          1rem;
 // $accordion-button-icon:         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$body-color}"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>');
 // $accordion-button-active-icon:  $accordion-button-icon;
-$fhi-accordion-button-icon-inverted: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$fhi-white}"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>');
+// $fhi-accordion-button-icon-inverted: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$fhi-white}"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>');
 
 
 // Badges
@@ -283,10 +283,10 @@ $fhi-accordion-button-icon-inverted: url('data:image/svg+xml,<svg xmlns="http://
 
 // Tags
 
-$fhi-tag-font-size:       $fhi-font-size-2;
-$fhi-tag-border-radius:   $fhi-px * 18;
-$fhi-tag-padding-x:       $fhi-px * 12;
-$fhi-tag-padding-y:       $fhi-px * 6;
+// $fhi-tag-font-size:       $fhi-font-size-2;
+// $fhi-tag-border-radius:   $fhi-px * 18;
+// $fhi-tag-padding-x:       $fhi-px * 12;
+// $fhi-tag-padding-y:       $fhi-px * 6;
 
 
 // Dropdowns

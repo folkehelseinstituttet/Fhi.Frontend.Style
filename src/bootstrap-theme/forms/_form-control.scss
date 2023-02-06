@@ -1,0 +1,42 @@
+.form-control {
+    border-radius: $input-border-radius;
+    border: 1px solid $fhi-core-grey-3;
+    box-shadow: none;
+    color: $body-color;
+    font-size: $fhi-core-default-font-size-xs;
+    height: $input-height-xs;
+    min-height: $input-height-xs;
+    transition: border-radius 0.2s ease;
+
+    &:focus,
+    &.active {
+        border-radius: calc(#{$input-height-xs} / 2);
+        border-color: $fhi-core-grey-3;
+    }
+}
+select.form-control:focus {
+    border-radius: $input-border-radius;
+}
+textarea.form-control {
+    height: auto;
+}
+
+.form-control.is-invalid {
+    background-image: unset;
+    color: $form-feedback-invalid-color;
+}
+.invalid-feedback {
+    font-family: $fhi-core-font-family-sans-serif-medium;
+    margin-bottom: 0;
+}
+
+@include media-breakpoint-up(lg) {
+    .form-control {
+        font-size: $fhi-core-default-font-size-lg;
+        height: $input-height-lg;
+        min-height: $input-height-lg;
+    }
+    .form-control:focus {
+        border-radius: calc(#{$input-height-lg} / 2);
+    }
+}

@@ -1,0 +1,48 @@
+.fhi-input-group {
+    margin-bottom: $fhi-core-space-3;
+}
+
+@include media-breakpoint-down(sm) {
+    .fhi-input-group {
+        &__col-label {
+            width: 100% !important;
+        }
+
+        &__col-form-control {
+            display: flex;
+            flex-direction: column;
+
+            .form-text {
+                display: inline-flex;
+                order: -1;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .fhi-input-group {
+        display: flex;
+        
+        &__col-label {
+            margin-right: $fhi-core-space-3;
+            max-width: 33.3%;
+            padding-top: $fhi-core-space-1;
+            width: $fhi-core-px * 180;
+
+            .form-label {
+                margin-bottom: 0;
+            }
+        }
+
+        &__col-form-control {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .form-text {
+                order: 1;
+            }
+        }
+    }
+}

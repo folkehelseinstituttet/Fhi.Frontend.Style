@@ -2,17 +2,17 @@
     border-color: transparent;
     color: $body-color;
     display: flex;
-    font-size: $fhi-font-size-3;
+    font-size: $fhi-core-font-size-3;
     line-height: 1.35;
 
     [class*="icon-"] {
         background-size: contain;
         flex-shrink: 0;
-        margin-right: $fhi-space-2;
+        margin-right: $fhi-core-space-2;
     }
 
     &:not([class*="alert-"]) {
-        background-color: $fhi-blue-grey-3;
+        background-color: $fhi-core-blue-grey-3;
     }
 
     a {
@@ -22,12 +22,12 @@
 
 .alert-dismissible .btn-close {
     top: -1px;
-    right: $fhi-space-2;
+    right: $fhi-core-space-2;
 }
 
 
 .fhi-alert-bordered {
-    background-color: $fhi-white;
+    background-color: $fhi-core-white;
     border: 2px solid;
 
     &.alert-info {

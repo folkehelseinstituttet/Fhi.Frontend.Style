@@ -1,0 +1,19 @@
+.fhi-accordion-flush .accordion-button {
+    &::before {
+        background-color: $fhi-core-charcoal-1;
+    }
+
+    &::after {
+        background-image: $fhi-accordion-button-icon-inverted;
+    }
+    
+    &:hover {
+        &::before {
+            background-color: $fhi-core-pink-light-3;
+        }
+    
+        &::after {
+            background-image: var(--bs-accordion-btn-icon);
+        }
+    }
+}

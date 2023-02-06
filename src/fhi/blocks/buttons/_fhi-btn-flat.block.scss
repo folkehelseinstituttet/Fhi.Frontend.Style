@@ -1,0 +1,14 @@
+.fhi-btn-flat {
+    @include fhi-btn(transparent, transparent, $fhi-core-blue-1);
+    border: 0;
+    padding-right: $fhi-core-space-2;
+    padding-left: $fhi-core-space-2;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+    &:focus,
+    &:hover {
+        background-color: transparent;
+        color: $fhi-core-red-2;
+    }
+}

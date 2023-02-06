@@ -24,8 +24,8 @@
         }
 
         &:not(:first-child):not(:last-child) {
-            margin-right: $fhi-px * 20 * -1;
-            margin-left: $fhi-px * 20 * -1;
+            margin-right: $fhi-core-px * 20 * -1;
+            margin-left: $fhi-core-px * 20 * -1;
         }
     }
 
@@ -56,7 +56,7 @@
 }
 
 .page-link {
-    font-family: $fhi-font-family-sans-serif-regular;
-    min-width: $fhi-px * 44;
+    font-family: $fhi-core-font-family-sans-serif-regular;
+    min-width: $fhi-core-px * 44;
     text-align: center;
 }

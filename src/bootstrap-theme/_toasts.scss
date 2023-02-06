@@ -7,8 +7,8 @@
     padding-bottom: 0;
     
     strong {
-        font-family: $fhi-font-family-sans-serif-medium;
-        font-size: $fhi-font-size-4;
+        font-family: $fhi-core-font-family-sans-serif-medium;
+        font-size: $fhi-core-font-size-4;
     }
 
     small {
@@ -17,8 +17,8 @@
 
     .btn-close {
         font-size: .75rem;
-        margin: 0 (-$fhi-space-3) 0 0;
-        padding: $fhi-space-3;
+        margin: 0 (-$fhi-core-space-3) 0 0;
+        padding: $fhi-core-space-3;
     }
 }
 

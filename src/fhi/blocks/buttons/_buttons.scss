@@ -1,0 +1,15 @@
+@import "./fhi-btn.mixins";
+@import "./fhi-btn-flat.block";
+@import "./fhi-btn-icon.block";
+@import "./fhi-btn-menu-item.block";
+@import "./fhi-btn-primary.block";
+@import "./fhi-btn-secondary.block";
+@import "./fhi-btn-shortcut.block";
+
+
+// TODO: delete on next breaking change
+// ! Prevent buttons to break on forthcoming release
+.fhi-btn-outline-primary,
+.fhi-btn-outline-secondary {
+    @extend .fhi-btn-secondary;
+}

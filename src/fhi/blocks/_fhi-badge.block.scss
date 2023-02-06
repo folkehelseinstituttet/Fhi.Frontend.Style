@@ -1,0 +1,22 @@
+.fhi-badge {
+    font-family: $fhi-core-font-family-sans-serif-regular;
+    height: $fhi-core-px * 30;
+}
+
+.fhi-badge--circle-dark {
+    background-color: $fhi-core-charcoal-1;
+    color: $fhi-core-white;
+    width: $fhi-core-px * 30;
+}
+
+.fhi-badge--circle-light {
+    background-color: $fhi-core-orange-2;
+    width: $fhi-core-px * 30;
+}
+
+.fhi-badge--rounded {
+    border: $fhi-core-px * 1 solid $fhi-core-charcoal-1;
+    font-size: $fhi-core-font-size-2;
+    padding-left: $fhi-core-space-4;
+    padding-right: $fhi-core-space-4;
+}

@@ -18,7 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
-    "generate-icon-map": "node ./src/icons/generate-icon-map",
+    "generate-icon-map": "node ./src/fhi/icons/generate-icon-map",
     "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
     "prepack": "npm run generate-icon-map && npm run compile-css && npm run minify-css",
     "postversion": "git add package.json package-lock.json && git commit -mv%npm_package_version%"

@@ -22,14 +22,14 @@
       display: none;
   }
 }
-// Color utilities end
+// Backdrops end
 
 
 
 // Color utilities
 // ---------------
 .text-error {
-  color: $fhi-red-2 !important;
+  color: $fhi-core-red-2 !important;
 }
 
 .fhi-text {
@@ -41,7 +41,7 @@
       }
   }
   &-disabled {
-      color: $fhi-grey-3;
+      color: $fhi-core-grey-3;
       &-inverse {
           color: $fhi-disabled-color-inverse;
       }
@@ -68,7 +68,7 @@
   box-shadow: $input-focus-box-shadow !important;
 
   .bg-dark & {
-      box-shadow: 0 0 0 2px $fhi-white !important;
+      box-shadow: 0 0 0 2px $fhi-core-white !important;
   }
 }
 // Focus end

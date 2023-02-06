@@ -1,0 +1,34 @@
+.fhi-btn-shortcut {
+    @include fhi-btn($fhi-core-white);
+    padding-right: $fhi-core-space-4;
+    padding-left: $fhi-core-space-2;
+    
+    [class*="icon-"] {
+        filter: $fhi-red-filter;
+    }
+}
+
+
+.fhi-btn-shortcut-link {
+    border: 0;
+    color: $fhi-core-charcoal-1;
+    padding-left: $fhi-core-space-2;
+    padding-right: $fhi-core-space-2;
+
+    &:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+
+.fhi-btn-shortcut,
+.fhi-btn-shortcut-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,7 @@
+.fhi-btn-primary {
+    @include fhi-btn($fhi-core-blue-1, $fhi-core-blue-1, $fhi-core-white, $fhi-core-blue-2);
+
+    &:focus-visible {
+        box-shadow: $form-check-input-focus-box-shadow !important;
+    }
+}

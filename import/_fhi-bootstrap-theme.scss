@@ -59,13 +59,21 @@
 @import "./node_modules/bootstrap/scss/utilities/api";
 
 
-// Bootstrap theme fhi additional classes
-@import "../src/bootstrap-theme/fhi-variables";
+// TEMP: these variables should be moved to import/all below fhi-bootstrap-theme
+@import "../src/fhi/fhi-variables";
 
 // Bootstrap theme classes 
 // ------------------------
 @import "../src/bootstrap-theme/accordion";
 @import "../src/bootstrap-theme/alerts";
 @import "../src/bootstrap-theme/breadcrumb";
-// @import "../src/bootstrap-theme/buttons";
+@import "../src/bootstrap-theme/buttons";
 @import "../src/bootstrap-theme/dropdown";
+@import "../src/bootstrap-theme/forms";
+@import "../src/bootstrap-theme/grid";
+@import "../src/bootstrap-theme/modal";
+@import "../src/bootstrap-theme/nav";
+@import "../src/bootstrap-theme/pagination";
+@import "../src/bootstrap-theme/tables";
+@import "../src/bootstrap-theme/toasts";
+@import "../src/bootstrap-theme/tooltip";

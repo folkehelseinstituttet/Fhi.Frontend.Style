@@ -1,0 +1,51 @@
+.fhi-tag-selector {
+    display: inline-block;
+    margin-right: $fhi-core-space-3;
+    margin-bottom: $fhi-core-space-4;
+    white-space: nowrap;
+
+    &__label {
+        @extend .fhi-tag;
+        border: 1px solid $fhi-core-grey-4;
+        padding-right: $fhi-core-space-4;
+        padding-left: $fhi-core-space-4;
+        position: relative;
+        user-select: none;
+
+        [class*="icon-"] {
+            left: $fhi-core-px * 16;
+            position: absolute;
+            top: $fhi-core-px * 4;
+        }
+
+        &:hover {
+            background: $fhi-core-pink-light-2;
+            cursor: pointer;
+        }
+    }
+
+    &__input {
+        @include visually-hidden;
+
+        &:focus-visible + .fhi-tag-selector__label {
+            box-shadow: $form-check-input-focus-box-shadow !important;
+        }
+
+        &:checked ~ .fhi-tag-selector__label {
+            background-color: $fhi-core-charcoal-1;
+            color: $fhi-core-white;
+
+            [class*="icon-"] {
+                filter: brightness(100);
+            }
+        }
+
+        &[type="checkbox"] ~ .fhi-tag-selector__label {
+            padding-left: $fhi-core-space-4 * 2;
+        }
+
+        &[type="radio"]:checked  ~ .fhi-tag-selector__label {
+            cursor: default;
+        }
+    }
+}

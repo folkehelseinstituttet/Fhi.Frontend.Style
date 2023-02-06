@@ -1,0 +1,65 @@
+.fhi-tag {
+    background-color: $fhi-core-white;
+    border: 1px solid transparent;
+    border-radius: $fhi-tag-border-radius;
+    display: inline-block;
+    font-size: $fhi-tag-font-size;
+    font-family: $fhi-core-font-family-sans-serif-regular;
+    line-height: $fhi-core-px * 22;
+    min-height: $fhi-core-px * 36;
+    padding: $fhi-tag-padding-y $fhi-tag-padding-x;
+    transition: background-color .15s ease-in-out;
+}
+
+a.fhi-tag,
+button.fhi-tag {
+    text-decoration: none;
+
+    &,
+    &:hover {
+        color: $body-color;
+    }
+
+    &:hover {
+        background-color: $fhi-core-pink-light-2;
+    }
+}
+
+
+.fhi-tag--category {
+    border-color: $fhi-core-grey-4;
+
+    [class*="icon"] {
+        background-position: left center;
+        filter: $fhi-red-filter;
+        height: $fhi-core-px * 16;
+        position: relative;
+        top: $fhi-core-px * 2;
+        transition: filter .15s;
+    }
+}
+
+a.fhi-tag--category {
+    &:hover {
+        [class*="icon"] {
+            filter: none;
+        }
+    }
+}
+
+
+.fhi-tag--filter-option {
+    border: 1px dashed $fhi-core-charcoal-1;
+    padding-right: $fhi-core-space-6;
+    position: relative;
+
+    [class*="icon-"] {
+        background-size: $fhi-core-px * 12;
+        height: $fhi-core-px * 16;
+        position: absolute;
+        right: calc(#{$fhi-core-space-2 + $fhi-core-space-1});
+        top: 50%;
+        transform: translateY(-50%);
+        width: $fhi-core-px * 16;
+    }
+}

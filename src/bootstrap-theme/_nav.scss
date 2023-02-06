@@ -1,14 +1,14 @@
 .nav-tabs {
     .nav-item {
-        margin-bottom: $fhi-space-2;
+        margin-bottom: $fhi-core-space-2;
         margin-bottom: 0;
     }
     
     .nav-link {
-        border-top: $fhi-px * 3 solid transparent;
+        border-top: $fhi-core-px * 3 solid transparent;
         border-bottom: 0;
-        font-family: $fhi-font-family-sans-serif-regular;
-        font-size: $fhi-font-size-3;
+        font-family: $fhi-core-font-family-sans-serif-regular;
+        font-size: $fhi-core-font-size-3;
         
         &,
         &.active {
@@ -16,8 +16,8 @@
         }
 
         &.active {
-            border-top-color: $fhi-red-1;
-            font-family: $fhi-font-family-sans-serif-medium;
+            border-top-color: $fhi-core-red-1;
+            font-family: $fhi-core-font-family-sans-serif-medium;
 
             &::before {
                 content: none;
@@ -25,7 +25,7 @@
         }
 
         &:hover:not(.active) {
-            background-color: $fhi-hover-color-2;
+            background-color: $fhi-core-pink-light-2;
         }
     }
 }
@@ -34,7 +34,7 @@
 @include media-breakpoint-down(sm) {
     .nav-tabs {
         .nav-link.active {
-            background-color: $fhi-hover-color-2;
+            background-color: $fhi-core-pink-light-2;
         }
     }
 }

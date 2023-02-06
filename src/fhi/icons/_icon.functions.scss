@@ -1,0 +1,33 @@
+/**
+ * This is a mix of
+ *
+ * Tracy Rotton's "Creating a Maintainable Icon System with Sass"
+ * https://css-tricks.com/creating-a-maintainable-icon-system-with-sass/
+ *
+ * and
+ *
+ * Kevin Weber's "URL-encoded Inline SVG using SCSS mixin (no Base64 needed)"
+ * https://codepen.io/kevinweber/pen/dXWoRw
+ * @kevinweber (https://twitter.com/kevinweber)
+ * Website: http://kevinw.de
+ * License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+**/
+
+@function get-icon($iconName, $color: currentColor) {
+    $icon: map-get($icons, $iconName);
+
+    @if ($icon != '') {
+        $placeholder: '%%COLOR%%';
+        $data-uri: str-replace($icon, $placeholder, $color);
+
+        @each $char, $encoded in $svg-encoding-reference {
+            $data-uri: str-replace($data-uri, $char, $encoded);
+        }
+
+        @return url($data-svg-prefix + $data-uri);
+    }
+
+    // if the icon is defined with a name, but the string is empty
+    @warn 'There seems to be a missing icon in the list: ' + $iconName;
+    @return null;
+}
