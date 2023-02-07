@@ -9,7 +9,7 @@ CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getboots
 | 4.x.x              | 5         | 16/8*    |
 | 3.x.x              | 5         | 16/8*    |
 
-_* [designsystem.fhi.no](https://designsystem.fhi.no) uses these Node/NPM versions, older versions may work, but then your on your own :wink:_
+_* [designsystem.fhi.no](https://designsystem.fhi.no) uses these Node/NPM versions, older versions may work, but then you're on your own_ :wink:
 
 ## Changelog
 
@@ -26,13 +26,13 @@ Install with [npm](https://www.npmjs.com): `npm install @folkehelseinstituttet/s
 If you want the full style library
 
 ```scss
-@import "~@folkehelseinstituttet/style/scss/style.scss";
+@import "~@folkehelseinstituttet/import/all.scss";
 ```
 
 If you only need the variables for use in ex. a library
 
 ```scss
-@import "~@folkehelseinstituttet/style/scss/variables.scss";
+@import "~@folkehelseinstituttet/import/all-variables.scss";
 ```
 
 If you want to use CSS instead of SCSS
