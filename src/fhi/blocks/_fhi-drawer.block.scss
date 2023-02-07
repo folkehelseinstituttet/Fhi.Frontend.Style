@@ -1,3 +1,7 @@
+$fhi-drawer-width-md: 40vw;
+$fhi-drawer-width-xl: $fhi-px * 500;
+$fhi-drawer-animation-speed: .3s;
+
 .fhi-drawer {
     left: 0;
     min-height: 2rem;

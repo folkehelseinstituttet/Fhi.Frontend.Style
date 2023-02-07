@@ -1,0 +1,10 @@
+// FHI variables used to set Bootstrap Theme
+@import "../src/fhi-core-variables";
+// TODO: to be removed in v5
+@import "../src/fhi-core-variables.v4.deprecation";
+
+// Theming of Bootstrap (!default overrides)
+@import "../src/bootstrap-theme/variables";
+
+// FHI specific variables
+@import "../src/fhi/fhi-variables";

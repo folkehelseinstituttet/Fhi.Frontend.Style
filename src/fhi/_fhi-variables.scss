@@ -1,5 +1,5 @@
 /**
-  * Color aliases
+  * Color aliases 
   */
  
 $fhi-brand-color: $fhi-core-blue-3;
@@ -25,73 +25,5 @@ $fhi-main-menu-xl-color:            $fhi-core-grey-4;
 $fhi-main-menu-xl-active-color:     $fhi-core-red-2;
 $fhi-main-menu-xl-hover-color:      $fhi-core-red-2;
 
-$fhi-custom-control-color:          $fhi-core-charcoal-1;
-$fhi-custom-control-shadow-color:   lighten($fhi-core-grey-4, 65%);
-
 $fhi-inline-link-color:             $fhi-core-blue-1;
 $fhi-inline-link-hover-color:       $fhi-core-red-2;
-
-$disabled-color:                    $fhi-core-grey-3; // TODO: DEPRECATED: breaking in v5
-
-
-/**
-  * Accordion
-  */
-
-$fhi-accordion-button-icon-inverted: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$fhi-core-white}"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg>');
-
-
-
-/**
-  * Buttons
-  */
-
-$fhi-btn-font-family-bold:          $fhi-core-font-family-sans-serif-medium;
-
-$fhi-btn-height:                    $fhi-core-px * 44;
-
-$fhi-btn-padding-y:                 $fhi-core-px * 10;
-$fhi-btn-padding-x:                 $fhi-core-px * 24;
-
- 
- 
-/**
-  * Color filter
-  */
-
-// filter calculation of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
-$fhi-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
-// filter calculation of #04ab79 on same url as above
-$fhi-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%);
-
-
-
-/**
-  * Drawer
-  */
-
-$fhi-drawer-width-md:          40vw;
-$fhi-drawer-width-xl:          $fhi-core-px * 500;
-$fhi-drawer-animation-speed:   .3s;
-
-
-
-/**
-  * Forms
-  */
-
-$fhi-input-height-xs:              $fhi-core-px * 48;
-$fhi-input-height-lg:              $fhi-core-px * 40;
-
-$fhi-radio-checked-marker-radius:  $fhi-core-px * 7; // the checked marker will be 14px in diameter
-
-
-
-/**
-  * Tags
-  */
-
-$fhi-tag-font-size:       $fhi-core-font-size-2;
-$fhi-tag-border-radius:   $fhi-core-px * 18;
-$fhi-tag-padding-x:       $fhi-core-px * 12;
-$fhi-tag-padding-y:       $fhi-core-px * 6;

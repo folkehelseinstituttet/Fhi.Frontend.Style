@@ -1,13 +1,13 @@
 .fhi-tag {
     background-color: $fhi-core-white;
     border: 1px solid transparent;
-    border-radius: $fhi-tag-border-radius;
+    border-radius: $fhi-core-px * 18;
     display: inline-block;
-    font-size: $fhi-tag-font-size;
+    font-size: $fhi-core-font-size-2;
     font-family: $fhi-core-font-family-sans-serif-regular;
     line-height: $fhi-core-px * 22;
     min-height: $fhi-core-px * 36;
-    padding: $fhi-tag-padding-y $fhi-tag-padding-x;
+    padding: ($fhi-core-px * 6) ($fhi-core-px * 12);
     transition: background-color .15s ease-in-out;
 }
 

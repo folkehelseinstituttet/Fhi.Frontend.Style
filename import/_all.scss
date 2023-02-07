@@ -1,13 +1,12 @@
 @import "./fhi-bootstrap-theme";
 
-// @import "../src/fhi/fhi-variables";
+@import "../src/fhi/fhi-variables";
 
 @import "../src/fhi-core-styles"; // TODO: aiming to get rid of this
 
 @import "../src/fhi/typography/typography";
-
-@import "./fhi-utilities";
-@import "./fhi-icons";
+@import "../src/fhi/utilities/utilities";
+@import "../src/fhi/icons/icons";
 
 @import "../src/fhi/blocks/buttons/buttons";
 @import "../src/fhi/blocks/fhi-accordion-flush.block";
