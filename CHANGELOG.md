@@ -2,7 +2,13 @@
 
 > Feb 6, 2023
 
-* :boom: **Breaking** SASS imports and variables updated ... TODO: SPECIFY
+* :tada: **Enhancement** Updated SASS imports, see [README.md](README.md#use-in-project)
+  * _`@import "~@folkehelseinstituttet/style/scss/style.scss";` and \
+  `@import "~@folkehelseinstituttet/style/scss/variables.scss";` are deprecated_
+Will break in **v5** :boom:
+* :tada: **Enhancement** Updated variable naming conventions. Core variables prefixed `$fhi-` used for Bootstrap Theming are now prefixed `$fhi-core-`.
+  * See diff for reference.
+  Will break in **v5** :boom:
 
 ## 4.0.1
 
