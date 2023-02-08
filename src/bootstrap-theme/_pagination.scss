@@ -20,7 +20,7 @@
         z-index: 0;
 
         [class*="icon-"] {
-            filter: brightness(435%);
+            filter: brightness(350%) saturate(0);
         }
 
         &:not(:first-child):not(:last-child) {

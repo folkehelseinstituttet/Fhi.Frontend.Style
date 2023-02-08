@@ -517,7 +517,7 @@ $box-shadow:                  ($fhi-core-px * 3) ($fhi-core-px * 3) ($fhi-core-p
 // // scss-docs-end box-shadow-variables
 
 // $component-active-color:      $white !default;
-// $component-active-bg:         $primary !default;
+$component-active-bg:         $fhi-core-pink-light-2;
 
 // // scss-docs-start caret-variables
 // $caret-width:                 .3em !default;
@@ -1159,7 +1159,7 @@ $dropdown-link-color:               $body-color;
 // $dropdown-link-hover-bg:            $gray-200 !default;
 
 $dropdown-link-active-color:        $body-color;
-$dropdown-link-active-bg:           $fhi-core-pink-dark-1;
+$dropdown-link-active-bg:           $fhi-core-pink-light-2;
 
 // $dropdown-link-disabled-color:      $gray-500 !default;
 

@@ -145,9 +145,9 @@ $disabled-color:      $fhi-core-grey-3;
   */
 
 // filter calculation of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
-$fhi-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
+$fhi-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%); // TODO: part of the icons setup only and not accessible for bootstrap theme
 // filter calculation of #04ab79 on same url as above
-$fhi-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%);
+$fhi-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%); // TODO: part of the icons setup only and not accessible for bootstrap theme
 
 
 
