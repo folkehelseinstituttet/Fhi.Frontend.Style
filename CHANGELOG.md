@@ -5,7 +5,7 @@
 * :tada: **Enhancement** Updated SASS imports, see [README.md](README.md#use-in-project)
   * _`@import "~@folkehelseinstituttet/style/scss/style.scss";` and \
   `@import "~@folkehelseinstituttet/style/scss/variables.scss";` are deprecated_
-Will break in **v5** :boom:
+  Will break in **v5** :boom:
 * :tada: **Enhancement** Updated variable naming conventions. Core variables prefixed `$fhi-` used for Bootstrap Theming are now prefixed `$fhi-core-`.
   * See diff for reference.
   Will break in **v5** :boom:
