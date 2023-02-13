@@ -24,22 +24,3 @@
     top: -1px;
     right: $fhi-core-space-2;
 }
-
-
-.fhi-alert-bordered {
-    background-color: $fhi-core-white;
-    border: 2px solid;
-
-    &.alert-info {
-        border-color: map-get($theme-colors, 'info-dark');
-    }
-    &.alert-success {
-        border-color: map-get($theme-colors, 'success-dark');
-    }
-    &.alert-warning {
-        border-color: map-get($theme-colors, 'warning-dark');
-    }
-    &.alert-error {
-        border-color: map-get($theme-colors, 'error-dark');
-    }
-}
