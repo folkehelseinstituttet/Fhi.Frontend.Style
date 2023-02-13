@@ -18,7 +18,7 @@
 
                 &::after {
                     background-color: $fhi-core-charcoal-1;
-                    border: $radio-checked-marker-radius solid $fhi-core-charcoal-1;
+                    border: ($fhi-core-px * 7) solid $fhi-core-charcoal-1;
                     border-radius: 50%;
                     content: "";
                     position: absolute;

@@ -1,10 +1,5 @@
-$radio-checked-marker-radius: $fhi-core-px * 7; // the checked marker will be 14px in diameter
-
-$input-height-xs: $fhi-core-px * 48;
-$input-height-lg: $fhi-core-px * 40;
-
-@import "./forms/content-editable";
-@import "./forms/form-check";
-@import "./forms/form-control";
-@import "./forms/form-label";
+@import "./forms/labels";
 @import "./forms/form-text";
+@import "./forms/form-control";
+@import "./forms/form-check";
+@import "./forms/content-editable"; // TODO: should be changed to a fhi block
