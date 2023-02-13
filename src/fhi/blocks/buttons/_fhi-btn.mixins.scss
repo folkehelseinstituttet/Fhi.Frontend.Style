@@ -1,0 +1,43 @@
+@mixin fhi-btn(
+    $background-color,
+    $border-color: $fhi-core-charcoal-1,
+    $color: $fhi-core-charcoal-1,
+    $hover-background: $fhi-core-pink-light-3
+) {
+    box-shadow: none;
+    text-decoration: unset;
+
+    &,
+    &:active,
+    &:focus {
+        background-color: $background-color;
+        border-color: $border-color;
+        color: $color;
+    }
+
+    &:active,
+    &:hover {
+        @if (#{$background-color} != #{$border-color}) {
+            border-color: $border-color;
+        }
+
+        @if (#{$background-color} == #{$border-color}) {
+            border-color: transparent;
+        }
+    }
+
+    &:hover {
+        background-color: $hover-background;
+        color: $color;
+    }
+}
+
+@mixin fhi-btn-dark {
+    background-color: $fhi-core-charcoal-1;
+    border-color: $fhi-core-charcoal-1;
+    color: $fhi-core-white;
+
+    &:hover {
+        border-color: transparent;
+    }
+}

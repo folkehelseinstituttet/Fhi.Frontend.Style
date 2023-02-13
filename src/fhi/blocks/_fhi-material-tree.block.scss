@@ -1,0 +1,112 @@
+.fhi-material-tree {
+    &__link {
+        color: currentColor;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        font-family: $fhi-core-font-family-sans-serif-regular;
+        font-size: inherit;
+        justify-content: center;
+        line-height: 1.125;
+        padding: $fhi-core-space-1 $fhi-core-space-2 $fhi-core-space-1 $fhi-core-space-3;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $fhi-core-pink-light-2;
+            color: currentColor;
+        }
+
+        &:focus-visible {
+            box-shadow: 0 0 0 3px $fhi-core-red-1 inset;
+            outline: none !important;// override data-whatinput
+        }
+
+        &.active {
+            font-family: $fhi-core-font-family-sans-serif-medium;
+        }
+    }
+
+    &__toggler {
+        background-color: $fhi-core-white;
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        justify-content: center;
+    }
+    
+    &__toggler--chevron {
+        flex-basis: $fhi-core-px * 44;
+        width: $fhi-core-px * 44;
+
+        [class*="icon-"] {
+            margin: auto;
+        }
+
+        &:hover {
+            background-color: $fhi-core-pink-light-2;
+        }
+    }
+
+    &__toggler--plus {
+        margin-right: $fhi-core-space-2;
+        padding: 0;
+
+        [class*="icon-"] {
+            background-size: 1.5rem;
+        }
+    }
+
+    &__nested-group {
+        .fhi-material-tree__link {
+            padding-left: ($fhi-core-space-3 + $fhi-core-space-4);
+        }
+
+        .fhi-material-tree__nested-group {
+            .fhi-material-tree__link {
+                padding-left: ($fhi-core-space-3 + ($fhi-core-space-4 * 2));
+            }
+            
+            .fhi-material-tree__nested-group {
+                .fhi-material-tree__link {
+                    padding-left: ($fhi-core-space-3 + ($fhi-core-space-4 * 3));
+                }
+            }
+        }
+    }
+
+    &__invisible {
+        display: none;
+    }
+
+    .mat-tree-node {
+        align-items: unset;
+        display: flex;
+        font-size: $fhi-core-font-size-3;
+        min-height: $fhi-core-px * 44;
+    }
+}
+
+.fhi-material-tree--check {
+    .fhi-material-tree {
+        &__nested-group {
+            padding-left: $fhi-core-space-4;
+        }
+    }
+
+    .mat-tree-node {
+        padding-left: $fhi-core-space-5;
+    }
+
+    .mat-nested-tree-node > .mat-tree-node {
+        padding-left: 0;
+    }
+
+    .form-check {
+        margin-bottom: 0;
+    }
+
+    .form-check-input {
+        margin-top: $fhi-core-px * 2;
+    }
+}

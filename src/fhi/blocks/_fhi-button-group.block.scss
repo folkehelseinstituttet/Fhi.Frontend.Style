@@ -1,0 +1,28 @@
+.fhi-btn-group {
+    &__btn {
+        border-color: $fhi-core-charcoal-1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__btn.active,
+    &__check:checked + .fhi-btn-group__btn {
+        background-color: $fhi-core-charcoal-1;
+        border-color: $fhi-core-charcoal-1;
+        color: $fhi-core-white;
+    }
+
+    &__btn.active,
+    &__check:not([type="checkbox"]):checked + .fhi-btn-group__btn {
+        &:hover,
+        &:focus {
+            cursor: default;
+            text-decoration: none;
+        }
+    }
+
+    &__check:focus-visible + .fhi-btn-group__btn {
+        box-shadow: $form-check-input-focus-box-shadow !important;
+    }
+}

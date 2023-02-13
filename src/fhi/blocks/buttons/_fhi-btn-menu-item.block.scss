@@ -1,0 +1,34 @@
+.fhi-btn-menu-item {
+    @include fhi-btn($fhi-core-white);
+    padding-left: $fhi-core-space-3;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+.fhi-btn-menu-item--active {
+    &,
+    &:focus,
+    &:hover {
+        @include fhi-btn($fhi-core-charcoal-1, $fhi-core-charcoal-1, $fhi-core-white, $fhi-core-charcoal-1);
+
+        [class*="icon-"] {
+            filter: brightness(100);
+        }
+    }
+
+    &:focus-visible {
+        box-shadow: $form-check-input-focus-box-shadow !important;
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .fhi-btn-menu-item {
+        height: $fhi-core-px * 60;
+        padding-top: $fhi-core-space-4 - $fhi-core-space-1;
+    }
+}

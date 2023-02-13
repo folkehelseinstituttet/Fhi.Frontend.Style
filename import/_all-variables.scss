@@ -1,0 +1,15 @@
+// FHI core variables for Bootstrap theming
+@import "../src/fhi-core-variables";
+
+// TODO: remove in v5
+@import "../src/fhi-core-variables.v4.deprecation";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "../src/bootstrap-theme/variables";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/maps";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/utilities";
+
+// FHI specific variables
+@import "../src/fhi/fhi-variables";

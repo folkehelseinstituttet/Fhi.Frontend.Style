@@ -1,0 +1,27 @@
+.container,
+.container-fluid {
+    padding: 0 $fhi-core-container-padding-xxs;
+}
+
+.row {
+    margin: 0 ($fhi-core-container-padding-xxs * -1);
+
+    > * {
+        padding: 0 $fhi-core-container-padding-xxs;
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    .container,
+    .container-fluid {
+        padding: 0 $fhi-core-container-padding-xs;
+    }
+
+    .row {
+        margin: 0 ($fhi-core-container-padding-xs * -1);
+
+        > * {
+            padding: 0 $fhi-core-container-padding-xs;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+[contentEditable="true"] {
+    border: 1px solid transparent;
+    border-radius: $input-border-radius;
+    display: block;
+    margin-right: ($fhi-core-space-1 * -1);
+    margin-left: ($fhi-core-space-1 * -1);
+    padding: $fhi-core-space-1;
+    transition: all .25s ease-in-out;
+
+    &:focus,
+    &:hover,
+    tr:hover & {
+        background-color: $fhi-core-white;
+        border-color: $fhi-core-grey-3;
+    }
+
+    &:active,
+    &:focus {
+        border-radius: calc(#{$fhi-core-input-height-xs} / 2);
+        margin-right: ($fhi-core-space-2 * -1);
+        margin-left: ($fhi-core-space-2 * -1);
+        padding-right: $fhi-core-space-2;
+        padding-left: $fhi-core-space-2;
+    }
+
+    .table-sm & {
+        margin-top: $fhi-core-px * 3;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

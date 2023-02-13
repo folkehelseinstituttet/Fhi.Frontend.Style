@@ -1,0 +1,14 @@
+$data-svg-prefix: 'data:image/svg+xml;utf-8,';
+
+$svg-encoding-reference: (
+    ('%','%25'),  // Encode "%" first, otherwise the "%" from encoded code would be encoded again (which would be bad)
+    ('<','%3C'),
+    ('>','%3E'),
+    ('#','%23'),
+    ('&','%26')
+);
+
+
+// the placeholder %%COLOR%% for fill and/or stroke
+// in the [svg-icons] source folder will be replaced by this
+$icon-color: $fhi-core-charcoal-1 !default;

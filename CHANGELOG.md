@@ -1,4 +1,16 @@
-# 4.0.1
+# Unreleased
+
+> Feb 6, 2023
+
+* :tada: **Enhancement** Updated SASS imports, see [README.md](README.md#use-in-project)
+  * _`@import "~@folkehelseinstituttet/style/scss/style.scss";` and \
+  `@import "~@folkehelseinstituttet/style/scss/variables.scss";` are deprecated_
+  Will break in **v5** :boom:
+* :tada: **Enhancement** Updated variable naming conventions.
+  * See diff for reference.
+  Will break in **v5** :boom:
+
+## 4.0.1
 
 > Feb 1, 2023
 

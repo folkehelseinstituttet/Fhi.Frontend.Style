@@ -1,0 +1,94 @@
+$fhi-drawer-width-md: 40vw;
+$fhi-drawer-width-xl: $fhi-px * 500;
+$fhi-drawer-animation-speed: .3s;
+
+.fhi-drawer {
+    left: 0;
+    min-height: 2rem;
+    min-width: 5rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+
+    &__trigger {
+        border: 0;
+        font-family: $fhi-core-font-family-sans-serif-regular;
+        margin: $fhi-core-space-1;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        z-index: 1;
+
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        [class*="icon-"] {
+            margin-right: $fhi-core-space-1;
+        }
+    }
+
+    &__content {
+        left: ($fhi-core-container-padding-xs * -1);
+        margin-bottom: $fhi-core-space-2;
+        margin-left: -100%;
+        max-width: 100%;
+        overflow-y: auto;
+        padding-left: $fhi-core-px * 50;
+        position: absolute;
+        transition: margin-left $fhi-drawer-animation-speed, max-height $fhi-drawer-animation-speed;
+        transition-timing-function: ease-in-out;
+        width: 100%;
+
+        .open & {
+            left: 0;
+            margin-left: 0;
+        }
+
+        // remove scrollbars (because of transition)
+        scrollbar-color: transparent transparent;
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: transparent;
+        }
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .fhi-drawer {
+        &__content {
+            left: -16px;//make sure scrollbar is hidden when closed
+            margin-left: ($fhi-drawer-width-md * -1);
+            max-height: 0;
+            max-width: $fhi-drawer-width-md;
+            padding-top: $fhi-core-space-2;
+            padding-left: $fhi-core-px * 100;
+            position: relative;
+            width: $fhi-drawer-width-md;
+
+            .open & {
+                left: 0;
+                max-height: 2000px;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-up(xl) {
+    .fhi-drawer {
+        &__content {
+            margin-left: ($fhi-drawer-width-xl * -1);
+            max-width: $fhi-drawer-width-xl;
+        }
+    }
+}

@@ -1,0 +1,179 @@
+.fhi-datepicker {
+    position: relative;
+
+    &__label {
+        display: block;
+    }
+
+    &__description {
+        color: $fhi-core-grey-3;
+        display: block;
+        margin-bottom: $fhi-core-space-1;
+
+        .fhi-datepicker__label + & {
+            margin-top: ($fhi-core-space-2 * -1);
+        }
+    }
+
+    &__toggler {
+        background-color: transparent;
+        border: 0;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        height: $fhi-core-px * 44;
+        justify-content: center;
+        margin-right: ($fhi-core-px * -44);
+        position: relative;
+        top: $fhi-core-px * 2;
+        width: $fhi-core-px * 44;
+
+        [class*="icon-"] {
+            background-size: contain;
+            margin: auto;
+        }
+
+        &:focus-visible {
+            + .form-control {
+                border-top-left-radius: $fhi-input-height-lg;
+                border-bottom-left-radius: $fhi-input-height-lg;
+            }
+        }
+    }
+
+    &__form-control {
+        max-width: $fhi-core-px * 155;
+        padding-left: $fhi-core-px * 44;
+        padding-right: 0;
+    }
+
+    .ngb-dp-header,
+    .ngb-dp-weekdays {
+        background-color: transparent;
+    }
+
+    ngb-datepicker {
+        max-width: 88vw;
+        width: $fhi-core-px * 308;
+    }
+
+    ngb-datepicker,
+    .ngb-dp-weekdays {
+        border: 0;
+    }
+
+    .ngb-dp-month,
+    .ngb-dp-week,
+    .ngb-dp-day,
+    .ngb-dp-weekday,
+    .ngb-dp-week-number {
+        width: 100%;
+    }
+
+    .ngb-dp-day,
+    .ngb-dp-weekday,
+    .ngb-dp-week-number {
+        height: auto;
+    }
+
+    .ngb-dp-weekday,
+    .ngb-dp-week-number {
+        color: $body-color;
+        font-style: normal;
+    }
+
+    .ngb-dp-day:focus-visible {
+        box-shadow: none !important;
+    }
+
+    ngb-datepicker-navigation-select > .form-select {
+        font-size: $fhi-core-font-size-2;
+        height: $fhi-core-px * 44;
+    }
+
+    .ngb-dp-navigation-select {
+        .form-select {
+            &:first-child {
+                margin-right: ($fhi-core-space-1 * .5);
+            }
+            &:last-child {
+                margin-left: ($fhi-core-space-1 * .5);
+            }
+        }
+    }
+
+    .ngb-dp-arrow-btn {
+        &:hover {
+            background: transparent;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    
+    .ngb-dp-navigation-chevron {
+        @extend .icon-arrow-left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 0;
+        filter: $fhi-red-filter;
+        height: $fhi-core-px * 24;
+        margin: 0;
+        transform: none;
+        width: $fhi-core-px * 24;
+    }
+
+    .ngb-dp-arrow {
+        height: auto;
+    }
+    
+    .ngb-dp-arrow.right .ngb-dp-navigation-chevron {
+        margin: 0;
+        transform: rotate(180deg);
+    }
+
+    [ngbDatepickerDayView] {
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        justify-content: center;
+        margin: auto;
+        max-width: $fhi-core-px * 44;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        width: 100%;
+    }
+
+    [ngbDatepickerDayView] {
+        transition: background-color .15s;
+
+        &:hover:not(.bg-primary) {
+            background-color: $fhi-core-pink-light-3;
+            outline: 0;
+        }
+
+        &.active {
+            background-color: transparent !important;
+            box-shadow: 0 0 0 2px $fhi-core-blue-1 inset, 0 0 0 3px $fhi-core-white inset !important;
+        }
+
+        &.bg-primary {
+            background-color: $fhi-core-blue-3 !important;// BS override
+        }
+    }
+
+    .ngb-dp-today > [ngbDatepickerDayView].btn-light {
+        box-shadow: 0 0 0 1px $fhi-core-blue-3 inset;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .fhi-datepicker {
+        &__toggler {
+            top: $fhi-core-px * -2;
+        }
+    }
+}

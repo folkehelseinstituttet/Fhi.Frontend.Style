@@ -1,0 +1,165 @@
+@include media-breakpoint-down(xl) {
+    .fhi-main-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        &__container {
+            position: relative;
+            height: $fhi-core-space-6
+                    + $fhi-core-px * 32
+                    + $fhi-core-space-3;
+        }
+        &__home-link {
+            display: none;
+            position: absolute;
+            top: $fhi-core-space-6;
+        }
+        &__toggler {
+            position: absolute;
+            top: $fhi-core-space-6;
+            right: 0;
+            background-color: transparent;
+            border: unset;
+            border-radius: $fhi-core-px * 4;
+            display: block;
+            font-size: $fhi-core-font-size-3;
+            margin-right: $fhi-core-container-padding-xs;
+            padding: ($fhi-core-px * 5) 0 $fhi-core-space-1 $fhi-core-space-2;
+        }
+        &__toggler-close-icon {
+            display: none;
+        }
+        &__toggler-menu-icon {
+            background-size: ($fhi-core-px * 21) auto;
+        }
+        &__toggler-text {
+            display: inline-block;
+            line-height: 1.3;
+            margin-left: $fhi-core-space-2;
+            vertical-align: top;
+        }
+        &__nav {
+            margin-top: $fhi-core-space-6;
+        }
+        &__nav-item {
+            width: 100%;
+        }
+        &__logo-icon {
+            filter: brightness(1000%);
+        }
+        &__collapse.show {
+            .fhi-main-menu__nav-link {
+                border-bottom: 0;
+                color: $fhi-core-white;
+                text-align: left;
+                
+                &,
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
+
+        &__nav-link.nav-link {
+            &.active {
+                position: relative;
+
+                &::before {
+                    background-color: $fhi-core-red-1;
+                    content: "";
+                    height: 1em;
+                    left: 0;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 3px;
+                }
+            }
+        }
+    }
+    .fhi-main-menu--open {
+        background-color: $fhi-core-charcoal-1;
+        z-index: 1041;
+
+        .fhi-main-menu {
+            &__container {
+                height: unset;
+            }
+            &__toggler {
+                color: $white;
+            }
+            &__toggler-close-icon {
+                background-size: ($fhi-core-px * 14) auto;
+                display: inline-block;
+                filter: brightness(1000%);
+            }
+            &__toggler-menu-icon {
+                display: none;
+            }
+            &__home-link {
+                display: block;
+                height: $fhi-core-px * 32;
+                width: $fhi-core-px * 82;
+            }
+            &__home-link-img {
+                margin-top: -($fhi-core-px * 2);
+           }
+            &__collapse {
+                padding: ($fhi-core-space-6 + $fhi-core-px * 32 + $fhi-core-space-3) 0 $fhi-core-space-7;
+            }
+        }
+    }
+}
+
+
+.fhi-main-menu {
+    &__nav-link.nav-link {
+        border-top: 0;
+        border-bottom: $fhi-core-px * 2 solid transparent;
+        line-height: normal;
+        min-width: $fhi-core-px * 54;
+        position: relative;
+        text-align: center;
+    }
+}
+
+
+@include media-breakpoint-up(xl) {
+    .fhi-main-menu {
+        &__container {
+            padding: unset;
+        }
+        &__toggler {
+            display: none;
+        }
+        &__home-link {
+            display: none;
+        }
+        &__collapse:not(.show) {
+            display: block;
+        }
+
+        &__nav-link.nav-link {
+            padding-right: $fhi-core-space-4;
+            padding-left: $fhi-core-space-4;
+
+            &.active {
+                background-color: $fhi-core-white;
+
+                &::before {
+                    background-color: $fhi-core-red-1;
+                    bottom: $fhi-core-px * 3 * -1;
+                    content: "";
+                    display: block;
+                    height: $fhi-core-px * 3;
+                    left: 50%;
+                    position: absolute;
+                    transform: translateX(-50%);
+                    width: $fhi-core-px * 54;
+                }
+            }
+        }
+    }
+}

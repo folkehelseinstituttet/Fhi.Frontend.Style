@@ -1,0 +1,185 @@
+// SourceSansPro
+
+@font-face {
+    font-family: 'SourceSansPro Bold';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-Bold.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-BoldItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-BoldItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBold.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Regular';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-Regular.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro Regular Italic';
+    font-weight: 400;
+    font-style: italic;
+    src:
+        url('./fonts/SourceSansPro/SourceSansPro-Italic.woff2') format('woff2'),
+        url('./fonts/SourceSansPro/SourceSansPro-Italic.woff') format('woff'),
+        url('./fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+}
+
+// CrimsonText
+
+@font-face {
+    font-family: 'CrimsonText Bold';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700italic.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700italic.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-700italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600italic.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600italic.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-600italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Regular';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-regular.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-regular.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CrimsonText Regular Italic';
+    font-weight: 400;
+    font-style: italic;
+    src:
+        url('./fonts/CrimsonText/crimson-text-v11-latin-italic.woff2') format('woff2'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-italic.woff') format('woff'),
+        url('./fonts/CrimsonText/crimson-text-v11-latin-italic.ttf') format('truetype');
+}
+
+
+body {
+    font-family: $fhi-core-font-family-sans-serif-regular;
+    font-size: $fhi-core-default-font-size-xs;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+    font-family: $fhi-core-font-family-serif-medium;
+    font-weight: 600;
+    letter-spacing: $fhi-core-px * -0.4;
+}
+h1, .h1 {
+    font-family: $fhi-core-font-family-serif-regular;
+    font-size: $fhi-core-h1-font-size-xs;
+    font-weight: 400;
+    letter-spacing: $fhi-core-px * -1.25;
+}
+h2, .h2 {
+    font-size: $fhi-core-h2-font-size-xs;
+}
+h3, .h3 {
+    font-size: $fhi-core-h3-font-size-xs;
+}
+h4, .h4 {
+    font-size: $fhi-core-h4-font-size-xs;
+    letter-spacing: $fhi-core-px * -0.15;
+}
+h5, .h5 {
+    font-size: $fhi-core-h5-font-size-xs;
+    letter-spacing: normal;
+}
+h6, .h6 {
+    color: red; // don't use h6 
+}
+.lead {
+    font-family: $fhi-core-font-family-sans-serif-medium;
+    font-size: $fhi-core-lead-font-size-xs;
+}
+p, .p {
+    font-family: $fhi-core-font-family-sans-serif-regular;
+    font-size: $fhi-core-default-font-size-xs;
+}
+small, .small {
+    font-size: $fhi-core-small-font-size-xs;
+}
+b, .b,
+strong,
+.font-weight-bold {
+    font-family: $fhi-core-font-family-sans-serif-bold;
+}
+a {
+    font-family: $fhi-core-font-family-sans-serif-medium;
+    font-size: $fhi-core-default-font-size-xs;
+    color: $fhi-inline-link-color;
+    text-decoration: underline;
+    &:hover {
+        color: $fhi-inline-link-hover-color;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h1, .h1 {
+        font-size: $fhi-core-h1-font-size-lg;
+    }
+    body, p, .p, a {
+        font-size: $fhi-core-default-font-size-lg;
+    }
+}

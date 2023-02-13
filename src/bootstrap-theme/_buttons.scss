@@ -1,0 +1,29 @@
+.btn {
+    font-family: $fhi-core-font-family-sans-serif-medium;
+    height: $fhi-core-px * 44;
+    line-height: 1;
+    max-width: 100%;
+    padding: ($fhi-core-px * 10) ($fhi-core-px * 24);
+    text-decoration-thickness: 1px;
+    text-overflow: ellipsis;
+    text-underline-offset: 4px;
+
+    [class*="icon-"] {
+        background-position: left center;
+        background-size: contain;
+        margin-right: $fhi-core-space-2;
+        position: relative;
+        top: $fhi-core-px* -1;
+        vertical-align: middle;
+    }
+
+    &:focus,
+    &:hover {
+        &,
+        .btn__text {
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 4px;
+        }
+    }
+}

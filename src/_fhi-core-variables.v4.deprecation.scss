@@ -1,0 +1,198 @@
+/**
+  * * * * * * * * * * * * * * * * * * * * * * * * *
+   * TODO: DEPRECATED variable names. DELETE in v5 *
+   * * * * * * * * * * * * * * * * * * * * * * * * *
+   */ 
+
+
+
+/**
+  * px to rem utility
+  */
+
+$fhi-px: $fhi-core-px;
+
+
+/**
+  * Spacing
+  * - used for margin, padding, and also height and width
+ */
+
+$fhi-space-1: $fhi-core-space-1; // xxs
+$fhi-space-2: $fhi-core-space-2; // xs
+$fhi-space-3: $fhi-core-space-3; // sm
+$fhi-space-4: $fhi-core-space-4; // md
+$fhi-space-5: $fhi-core-space-5; // lg
+$fhi-space-6: $fhi-core-space-6; // xl
+$fhi-space-7: $fhi-core-space-7; // xxl
+
+
+/**
+  * Grid
+  */
+
+$fhi-container-padding-xxs: $fhi-core-container-padding-xxs;
+$fhi-container-padding-xs: $fhi-core-container-padding-xs;
+
+
+/**
+  * Typography
+  */
+
+$fhi-font-size-1: $fhi-core-font-size-1;
+$fhi-font-size-2: $fhi-core-font-size-2;
+$fhi-font-size-3: $fhi-core-font-size-3;
+$fhi-font-size-4: $fhi-core-font-size-4;
+$fhi-font-size-5: $fhi-core-font-size-5;
+$fhi-font-size-6: $fhi-core-font-size-6;
+$fhi-font-size-7: $fhi-core-font-size-7;
+$fhi-font-size-8: $fhi-core-font-size-8;
+$fhi-font-size-9: $fhi-core-font-size-9;
+
+$fhi-h1-font-size-xs:  $fhi-core-font-size-8;
+$fhi-h1-font-size-lg:  $fhi-core-font-size-9; // h1 larger on desktop
+$fhi-h2-font-size-xs:  $fhi-core-font-size-7;
+$fhi-h3-font-size-xs:  $fhi-core-font-size-6;
+$fhi-h4-font-size-xs:  $fhi-core-font-size-5;
+$fhi-h5-font-size-xs:  $fhi-core-font-size-4;
+
+$fhi-small-font-size-xs:    $fhi-core-small-font-size-xs;
+$fhi-default-font-size-xs:  $fhi-core-default-font-size-xs;
+$fhi-default-font-size-lg:  $fhi-core-default-font-size-lg; // body text smaller on desktop
+$fhi-lead-font-size-xs:     $fhi-core-lead-font-size-xs;
+
+$fhi-font-family-serif-regular:         $fhi-core-font-family-serif-regular;
+$fhi-font-family-serif-regular-italic:  $fhi-core-font-family-serif-regular-italic;
+$fhi-font-family-serif-medium:          $fhi-core-font-family-serif-medium;
+$fhi-font-family-serif-medium-italic:   $fhi-core-font-family-serif-medium-italic;
+$fhi-font-family-serif-bold:            $fhi-core-font-family-serif-bold;
+$fhi-font-family-serif-bold-italic:     $fhi-core-font-family-serif-bold-italic;
+
+$fhi-font-family-sans-serif-regular: 'BrandonText Regular', 'SourceSansPro Regular', sans-serif;
+$fhi-font-family-sans-serif-regular-2: 'SourceSansPro Regular', sans-serif;
+$fhi-font-family-sans-serif-regular-2-bold: 'SourceSansPro Bold', sans-serif;
+$fhi-font-family-sans-serif-regular-italic: 'BrandonText Regular Italic', 'SourceSansPro Regular Italic', sans-serif;
+$fhi-font-family-sans-serif-medium: 'BrandonText Medium', 'SourceSansPro Semi Bold', sans-serif;
+$fhi-font-family-sans-serif-medium-italic: 'BrandonText Medium Italic', 'SourceSansPro Semi Bold Italic', sans-serif;
+$fhi-font-family-sans-serif-bold: 'BrandonText Bold', 'SourceSansPro Bold', sans-serif;
+$fhi-font-family-sans-serif-bold-italic: 'BrandonText Bold Italic', 'SourceSansPro Bold Italic', sans-serif;
+
+
+/**
+  * All colors used by FHI
+  */
+
+$fhi-white: $fhi-core-white;
+
+$fhi-grey-light-1: $fhi-core-grey-light-1;
+$fhi-grey-light-2: $fhi-core-grey-light-2;
+$fhi-grey-light-3: $fhi-core-grey-light-3;
+$fhi-grey-light-4: $fhi-core-grey-light-4;
+
+$fhi-grey-1: $fhi-core-grey-1;
+$fhi-grey-2: $fhi-core-grey-2;
+$fhi-grey-3: $fhi-core-grey-3;
+$fhi-grey-4: $fhi-core-grey-4;
+
+$fhi-charcoal-1: $fhi-core-charcoal-1;
+
+$fhi-blue-grey-1: $fhi-core-blue-grey-1;
+$fhi-blue-grey-2: $fhi-core-blue-grey-2;
+$fhi-blue-grey-3: $fhi-core-blue-grey-3;
+$fhi-blue-grey-4: $fhi-core-blue-grey-4;
+$fhi-blue-grey-5: $fhi-core-blue-grey-5;
+$fhi-blue-grey-6: $fhi-core-blue-grey-6;
+$fhi-blue-grey-7: $fhi-core-blue-grey-7;
+
+$fhi-blue-1: $fhi-core-blue-1;
+$fhi-blue-2: $fhi-core-blue-2;
+$fhi-blue-3: $fhi-core-blue-3;
+
+$fhi-green-1: $fhi-core-green-1;
+$fhi-green-2: $fhi-core-green-2;
+
+$fhi-yellow-1: $fhi-core-yellow-1;
+
+$fhi-orange-1: $fhi-core-orange-1;
+$fhi-orange-2: $fhi-core-orange-2;
+
+$fhi-red-1: $fhi-core-red-1;
+$fhi-red-2: $fhi-core-red-2;
+$fhi-red-3: $fhi-core-red-3;
+
+$fhi-pink-dark-1: $fhi-core-pink-dark-1;
+
+$fhi-pink-light-1: $fhi-core-pink-light-1;
+$fhi-pink-light-2: $fhi-core-pink-light-2;
+$fhi-pink-light-3: $fhi-core-pink-light-3;
+
+
+/**
+  * Color aliases
+  */
+
+$fhi-custom-control-color: $fhi-charcoal-1;
+$fhi-custom-control-shadow-color: lighten($fhi-grey-4, 65%);
+
+$fhi-hover-color:     $fhi-core-pink-light-3;
+$fhi-hover-color-2:   $fhi-core-pink-light-2;
+
+$disabled-color:      $fhi-core-grey-3;
+
+
+/**
+  * Color filter
+  */
+
+// filter calculation of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
+$fhi-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%); // TODO: part of the icons setup only and not accessible for bootstrap theme
+// filter calculation of #04ab79 on same url as above
+$fhi-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%); // TODO: part of the icons setup only and not accessible for bootstrap theme
+
+
+
+/**
+  * Buttons
+  */
+
+$fhi-btn-font-family-bold:  $fhi-font-family-sans-serif-medium;
+$fhi-btn-height:            $fhi-px * 44;
+$fhi-btn-padding-y:         $fhi-px * 10;
+$fhi-btn-padding-x:         $fhi-px * 24;
+
+
+/**
+  * Forms
+  */
+
+$fhi-input-height-xs: $fhi-px * 48;
+$fhi-input-height-lg: $fhi-px * 40;
+
+$fhi-radio-checked-marker-radius: $fhi-px * 7; // the checked marker will be 14px in diameter
+
+
+/**
+  * Accordions
+  */
+
+ $fhi-accordion-visual-trigger-width: $fhi-px * 40;
+ $fhi-accordion-visual-trigger-width-md: $fhi-px * 60;
+
+
+/**
+  * Drawer
+  */
+
+$fhi-drawer-width-md: 40vw;
+$fhi-drawer-width-xl: $fhi-px * 500;
+$fhi-drawer-animation-speed: .3s;
+
+
+/**
+  * Tags
+  */
+
+$fhi-tag-font-size:       $fhi-core-font-size-2;
+$fhi-tag-border-radius:   $fhi-core-px * 18;
+$fhi-tag-padding-x:       $fhi-core-px * 12;
+$fhi-tag-padding-y:       $fhi-core-px * 6;

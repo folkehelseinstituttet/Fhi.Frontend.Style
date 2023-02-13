@@ -1,36 +1,31 @@
-@import "./core";
+@import "./fhi-bootstrap-theme";
 
-@import "./bootstrap-extend";
-@import "../src/bootstrap-customisations/accordion";
-@import "../src/bootstrap-customisations/alerts";
-@import "../src/bootstrap-customisations/buttons";
-@import "../src/bootstrap-customisations/breadcrumb";
-@import "../src/bootstrap-customisations/dropdown";
-@import "../src/bootstrap-customisations/forms";
-@import "../src/bootstrap-customisations/modal";
-@import "../src/bootstrap-customisations/nav";
-@import "../src/bootstrap-customisations/pagination";
-@import "../src/bootstrap-customisations/tables";
-@import "../src/bootstrap-customisations/toasts";
-@import "../src/bootstrap-customisations/tooltip";
+@import "../src/fhi/fhi-variables";
 
-@import "../src/ng-bootstrap-customisations/ng-bootstrap";
+@import "../src/fhi-core-styles"; // TODO: aiming to get rid of this
 
-@import "./utilities";
-@import "./icons";
-@import "./blocks";
+@import "../src/fhi/typography/typography";
+@import "../src/fhi/icons/icons";
 
-
-
-
-
-//    Disclaimer!
-//
-//    We need to make some changes to https://github.com/folkehelseinstituttet/Fhi.Frontend.Style
-//    (See https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/issues/234) before all
-//    todo's in this file can be removed. The Designsystem team is woring hard to get this
-//    done as soon as possible.
-//
-@import "../src/lib-style-tmp/fhi-ng-select";
-@import "../src/lib-style-tmp/fhi-autosuggest.component";
-@import "../src/lib-style-tmp/fhi-multiselect.component";
+@import "../src/fhi/blocks/buttons/buttons";
+@import "../src/fhi/blocks/fhi-accordion-flush.block";
+@import "../src/fhi/blocks/fhi-angular-tree-component.block";
+@import "../src/fhi/blocks/fhi-app.block";
+@import "../src/fhi/blocks/fhi-badge.block";
+@import "../src/fhi/blocks/fhi-button-group.block";
+@import "../src/fhi/blocks/fhi-datepicker.block";
+@import "../src/fhi/blocks/fhi-double-datepicker.block";
+@import "../src/fhi/blocks/fhi-double-select.block";
+@import "../src/fhi/blocks/fhi-drawer.block";
+@import "../src/fhi/blocks/fhi-expandable-first-col.block";
+@import "../src/fhi/blocks/fhi-footer.block";
+@import "../src/fhi/blocks/fhi-header.block";
+@import "../src/fhi/blocks/fhi-input-group.block";
+@import "../src/fhi/blocks/fhi-main-menu.block";
+@import "../src/fhi/blocks/fhi-material-tree.block";
+@import "../src/fhi/blocks/fhi-navigation-tile.block";
+@import "../src/fhi/blocks/fhi-pagination.block";
+@import "../src/fhi/blocks/fhi-search.block";
+@import "../src/fhi/blocks/fhi-tag.block";
+@import "../src/fhi/blocks/fhi-tag-selector.block";
+@import "../src/fhi/blocks/fhi-utility-section.block";
