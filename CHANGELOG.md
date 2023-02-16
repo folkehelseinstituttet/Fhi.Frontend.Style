@@ -1,7 +1,8 @@
-# Unreleased
+# 4.1.0
 
-> Feb 6, 2023
+> Feb 14, 2023
 
+* :tada: **Enhancement** Getting ready to omit import of styles for components depending on Angular
 * :tada: **Enhancement** Updated SASS imports, see [README.md](README.md#use-in-project)
   * _`@import "~@folkehelseinstituttet/style/scss/style.scss";` and \
   `@import "~@folkehelseinstituttet/style/scss/variables.scss";` are deprecated_

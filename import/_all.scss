@@ -9,23 +9,18 @@
 
 @import "../src/fhi/blocks/buttons/buttons";
 @import "../src/fhi/blocks/fhi-accordion-flush.block";
-@import "../src/fhi/blocks/fhi-angular-tree-component.block";
+@import "../src/fhi/blocks/fhi-alert.block";
 @import "../src/fhi/blocks/fhi-app.block";
 @import "../src/fhi/blocks/fhi-badge.block";
 @import "../src/fhi/blocks/fhi-button-group.block";
-@import "../src/fhi/blocks/fhi-datepicker.block";
-@import "../src/fhi/blocks/fhi-double-datepicker.block";
-@import "../src/fhi/blocks/fhi-double-select.block";
-@import "../src/fhi/blocks/fhi-drawer.block";
-@import "../src/fhi/blocks/fhi-expandable-first-col.block";
 @import "../src/fhi/blocks/fhi-footer.block";
 @import "../src/fhi/blocks/fhi-header.block";
 @import "../src/fhi/blocks/fhi-input-group.block";
 @import "../src/fhi/blocks/fhi-main-menu.block";
-@import "../src/fhi/blocks/fhi-material-tree.block";
 @import "../src/fhi/blocks/fhi-navigation-tile.block";
-@import "../src/fhi/blocks/fhi-pagination.block";
-@import "../src/fhi/blocks/fhi-search.block";
 @import "../src/fhi/blocks/fhi-tag.block";
 @import "../src/fhi/blocks/fhi-tag-selector.block";
 @import "../src/fhi/blocks/fhi-utility-section.block";
+
+// TODO: deprecated in v4, to be removed in v5
+@import "./deprecation-for-angular-components";
