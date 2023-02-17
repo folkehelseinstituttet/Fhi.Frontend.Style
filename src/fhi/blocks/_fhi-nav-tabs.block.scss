@@ -1,5 +1,5 @@
 .fhi-nav-tabs {
-    &__content {
+    .tab-content {
         background-color: $fhi-white;
         padding-top: $fhi-space-5;
     }
@@ -15,11 +15,11 @@
 
 .fhi-nav-tabs--inverted {
     .nav-link.active,
-    .fhi-nav-tabs__content {
+    .tab-content {
         background-color: $fhi-core-blue-grey-2;
     }
 
-    .fhi-nav-tabs__content {
+    .tab-content {
         padding-right: $fhi-space-3;
         padding-bottom: $fhi-space-3;
         padding-left: $fhi-space-3;
