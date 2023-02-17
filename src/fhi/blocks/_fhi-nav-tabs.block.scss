@@ -1,0 +1,27 @@
+.fhi-nav-tabs {
+    &__content {
+        background-color: $fhi-white;
+        padding-top: $fhi-space-5;
+    }
+}
+
+
+.fhi-nav-tabs--enhanced {
+    .nav-tabs {
+        border-bottom: 1px solid $border-color;
+    }
+}
+
+
+.fhi-nav-tabs--inverted {
+    .nav-link.active,
+    .fhi-nav-tabs__content {
+        background-color: $fhi-core-blue-grey-2;
+    }
+
+    .fhi-nav-tabs__content {
+        padding-right: $fhi-space-3;
+        padding-bottom: $fhi-space-3;
+        padding-left: $fhi-space-3;
+    }
+}
