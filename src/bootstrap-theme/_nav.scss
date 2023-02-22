@@ -1,3 +1,5 @@
+$nav-tabs-active-border-height: $fhi-core-px * 3;
+
 .nav-tabs {
     .nav-item {
         margin-bottom: $fhi-core-space-2;
@@ -5,10 +7,22 @@
     }
     
     .nav-link {
-        border-top: $fhi-core-px * 3 solid transparent;
+        border-top: $nav-tabs-active-border-height solid transparent;
         border-bottom: 0;
         font-family: $fhi-core-font-family-sans-serif-regular;
         font-size: $fhi-core-font-size-3;
+        position: relative;
+
+        &::before {
+            content: "";
+            height: $nav-tabs-active-border-height;
+            left: 50%;
+            max-width: $fhi-core-px * 54;
+            position: absolute;
+            top: $nav-tabs-active-border-height * -1;
+            transform: translateX(-50%);
+            width: 100%;
+        }
         
         &,
         &.active {
@@ -16,11 +30,11 @@
         }
 
         &.active {
-            border-top-color: $fhi-core-red-1;
+            border-top-color: transparent;
             font-family: $fhi-core-font-family-sans-serif-medium;
 
             &::before {
-                content: none;
+                background-color: $fhi-core-red-1;
             }
         }
 

@@ -149,15 +149,8 @@
                 background-color: $fhi-core-white;
 
                 &::before {
-                    background-color: $fhi-core-red-1;
+                    top: auto;
                     bottom: $fhi-core-px * 3 * -1;
-                    content: "";
-                    display: block;
-                    height: $fhi-core-px * 3;
-                    left: 50%;
-                    position: absolute;
-                    transform: translateX(-50%);
-                    width: $fhi-core-px * 54;
                 }
             }
         }

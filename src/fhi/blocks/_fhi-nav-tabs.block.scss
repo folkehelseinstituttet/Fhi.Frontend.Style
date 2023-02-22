@@ -1,10 +1,12 @@
 .fhi-nav-tabs {
+    &:not(.fhi-main-menu__nav) {
+        display: flex;
+        flex-direction: column;
+    }
+
     .tab-content {
         background-color: $fhi-white;
-        clear: both;
-        float: left;
         padding-top: $fhi-space-5;
-        width: 100%;
     }
 }
 
