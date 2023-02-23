@@ -1,4 +1,10 @@
-# 4.1.0
+# Unreleased
+
+> Feb 23, 2023
+
+* :bug: **Bugfix** Search button hover effect
+
+## 4.1.0
 
 > Feb 14, 2023
 
