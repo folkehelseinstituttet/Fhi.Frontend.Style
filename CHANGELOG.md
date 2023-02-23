@@ -3,6 +3,7 @@
 > Feb 23, 2023
 
 * :bug: **Bugfix** Search button hover effect
+* :tada: **Enhancement** Tabs - fhi-prefixed
 
 ## 4.1.0
 

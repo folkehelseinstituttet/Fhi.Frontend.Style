@@ -1,0 +1,13 @@
+.fhi-nav-tabs {
+    .nav-link.active,
+    .tab-content {
+        background-color: $fhi-core-blue-grey-2;
+    }
+
+    .tab-content {
+        padding-top: $fhi-space-5;
+        padding-right: $fhi-space-3;
+        padding-bottom: $fhi-space-3;
+        padding-left: $fhi-space-3;
+    }
+}
