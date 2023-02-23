@@ -1,30 +1,11 @@
 .fhi-nav-tabs {
-    &:not(.fhi-main-menu__nav) {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tab-content {
-        background-color: $fhi-white;
-        padding-top: $fhi-space-5;
-    }
-}
-
-
-.fhi-nav-tabs--enhanced {
-    .nav-tabs {
-        border-bottom: 1px solid $border-color;
-    }
-}
-
-
-.fhi-nav-tabs--inverted {
     .nav-link.active,
     .tab-content {
         background-color: $fhi-core-blue-grey-2;
     }
 
     .tab-content {
+        padding-top: $fhi-space-5;
         padding-right: $fhi-space-3;
         padding-bottom: $fhi-space-3;
         padding-left: $fhi-space-3;
