@@ -1,7 +1,8 @@
 # Unreleased
 
-> Feb 23, 2023
+> Feb 27, 2023
 
+* :tada: **Enhancement** Allow for menu button w/o icon
 * :bug: **Bugfix** Search button hover effect
 * :tada: **Enhancement** Tabs - fhi-prefixed
 
