@@ -2,7 +2,8 @@
 
 > Feb 27, 2023
 
-* :tada: **Enhancement** Allow for menu button w/o icon
+* :tada: **Enhancement** Navigation tile without icon
+* :tada: **Enhancement** Menu button without icon
 * :bug: **Bugfix** Search button hover effect
 * :tada: **Enhancement** Tabs - fhi-prefixed
 
