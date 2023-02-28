@@ -3,6 +3,8 @@
 > Feb 28, 2023
 
 * :bug: **Bugfix** Radio group hover effect
+* :tada: **Enhancement** Navigation tile without icon
+* :tada: **Enhancement** Menu button without icon
 * :bug: **Bugfix** Search button hover effect
 * :tada: **Enhancement** Tabs - fhi-prefixed
 

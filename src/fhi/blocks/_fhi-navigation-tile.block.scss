@@ -1,6 +1,8 @@
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     .fhi-navigation-tile {
         &__icon {
+            margin-left: ($fhi-space-1 * -1);
+
             [class*="icon-"] {
                 background-position: left center;
             }
@@ -45,8 +47,10 @@ a.fhi-navigation-tile {
 
 @include media-breakpoint-up(md) {
     .fhi-navigation-tile {
-        display: inline-block;
+        display: inline-flex;
+        flex-direction: column;
         height: 100%;
+        justify-content: flex-end;
         padding: $fhi-core-space-4;
         text-align: center;
         width: 100%;
@@ -55,7 +59,7 @@ a.fhi-navigation-tile {
             background-color: $fhi-core-blue-grey-2;
             border-radius: 50%;
             height: $fhi-core-px * 70;
-            margin-bottom: $fhi-core-space-2;
+            margin: 0 auto $fhi-core-space-2;
             width: $fhi-core-px * 70;
 
             [class*="icon-"] {

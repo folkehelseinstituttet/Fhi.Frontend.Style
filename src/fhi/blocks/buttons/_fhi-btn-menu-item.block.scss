@@ -1,6 +1,9 @@
 .fhi-btn-menu-item {
     @include fhi-btn($fhi-core-white);
-    padding-left: $fhi-core-space-3;
+
+    [class*="icon-"] {
+        margin-left: ($fhi-core-space-2 * -1);
+    }
 
     &:focus,
     &:hover {
@@ -29,6 +32,6 @@
 @include media-breakpoint-up(md) {
     .fhi-btn-menu-item {
         height: $fhi-core-px * 60;
-        padding-top: $fhi-core-space-4 - $fhi-core-space-1;
+        padding-top: ($fhi-core-space-4 - $fhi-core-space-1);
     }
 }
