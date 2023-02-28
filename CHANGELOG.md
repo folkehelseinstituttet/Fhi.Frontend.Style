@@ -1,7 +1,8 @@
 # Unreleased
 
-> Feb 27, 2023
+> Feb 28, 2023
 
+* :bug: **Bugfix** Radio group hover effect
 * :tada: **Enhancement** Navigation tile without icon
 * :tada: **Enhancement** Menu button without icon
 * :bug: **Bugfix** Search button hover effect
