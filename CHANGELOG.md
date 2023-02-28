@@ -1,7 +1,8 @@
 # Unreleased
 
-> Feb 23, 2023
+> Feb 28, 2023
 
+* :bug: **Bugfix** Radio group hover effect
 * :bug: **Bugfix** Search button hover effect
 * :tada: **Enhancement** Tabs - fhi-prefixed
 
