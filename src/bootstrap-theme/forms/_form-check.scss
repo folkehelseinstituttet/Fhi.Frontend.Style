@@ -65,7 +65,7 @@
             height: $fhi-core-px * 12;
         }
         &::after {
-            background: $white url(../../fhi/icons/svg-icons/bootstrap-icons/check-white.svg) no-repeat center center;
+            background: $fhi-core-white;
             border: 2px solid $fhi-core-charcoal-1;
             border-radius: $fhi-core-px * 12;
             top: $fhi-core-px * 1;
@@ -103,7 +103,9 @@
             background-color: $fhi-core-grey-1;
         }
         &::after {
-            background-color: $fhi-core-charcoal-1;
+            background: $fhi-core-white url(../../fhi/icons/svg-icons/bootstrap-icons/check.svg) no-repeat center center;
+            border-color: $fhi-core-white;
+            filter: invert(90%);
             transform: translateX($fhi-core-space-4);
         }
     }
