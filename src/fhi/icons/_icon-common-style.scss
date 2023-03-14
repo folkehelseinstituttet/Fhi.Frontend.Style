@@ -12,6 +12,30 @@
     @include icon-classes-generator(); // (mixin)
 }
 
+
+// icon sizes
+.icon-sm {
+    height: $fhi-core-space-3;
+    width: $fhi-core-space-3;
+}
+
+.icon-md {
+    height: $fhi-core-space-4;
+    width: $fhi-core-space-4;
+}
+
+.icon-lg {
+    height: $fhi-core-space-5;
+    width: $fhi-core-space-5;
+}
+
+.icon-xl {
+    height: $fhi-core-space-6;
+    width: $fhi-core-space-6;
+}
+
+
+// color filters
 .icon-white {
     filter: brightness(1000%); // sic
 }
@@ -22,9 +46,4 @@
 
 .icon-green {
     filter: $fhi-green-filter;
-}
-
-.icon-lg {
-    height: $fhi-core-space-5;
-    width: $fhi-core-space-5;
 }
