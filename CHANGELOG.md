@@ -1,4 +1,10 @@
-# 4.2.0
+# Unreleased
+
+> Mar 15, 2023
+
+* :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed.
+
+## 4.2.0
 
 > Feb 28, 2023
 
