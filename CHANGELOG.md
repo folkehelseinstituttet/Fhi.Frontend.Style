@@ -1,4 +1,10 @@
-# 4.2.0
+# Unreleased
+
+> Mar 17, 2023
+
+* :bug: **Bugfix** Drawer trigger text now visible on Safari
+
+## 4.2.0
 
 > Feb 28, 2023
 
