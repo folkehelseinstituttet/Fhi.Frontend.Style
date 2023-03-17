@@ -42,6 +42,12 @@
             }
         }
 
+        &:focus:not(:hover, :focus-visible, :active) {
+            .fhi-search__btn-icon {
+                filter: brightness(1000%);//sic
+            }
+        }
+
         &:hover {
             background-color: $fhi-core-pink-light-2;
         }
