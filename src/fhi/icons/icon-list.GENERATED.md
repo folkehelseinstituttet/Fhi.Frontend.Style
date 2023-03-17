@@ -53,7 +53,6 @@ $included-icons: (
   'exclamation-circle-fill',
   'eye',
   'eye-slash',
-  'eye2',
   'fhi-logo',
   'file-medical',
   'file-text',
