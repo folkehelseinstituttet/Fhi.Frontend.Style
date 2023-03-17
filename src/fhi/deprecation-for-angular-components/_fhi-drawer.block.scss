@@ -25,6 +25,12 @@ $fhi-drawer-animation-speed: .3s;
             text-decoration: none;
         }
 
+        p {
+            margin-bottom: 0;
+            padding-bottom: $fhi-space-3;
+            position: relative;
+        }
+
         [class*="icon-"] {
             margin-right: $fhi-core-space-1;
         }
