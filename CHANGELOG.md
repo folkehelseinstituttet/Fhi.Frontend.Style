@@ -2,7 +2,8 @@
 
 > Mar 15, 2023
 
-* :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed.
+* :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed
+* :tada: **Enhancement** Danger color changed to a lighter shade of pink
 
 ## 4.2.0
 
