@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const iconsPath = path.join(__dirname, 'svg-icons');
-const iconsNameList = path.join(__dirname, 'icon-list.GENERATED.md');
-const iconsMapOutput = path.join(__dirname, '_icon-map.GENERATED.scss');
+const iconsPath = path.join(__dirname, '..', 'src', 'fhi', 'icons');
+const iconsSvgPath = path.join(iconsPath, 'svg-icons');
+const iconsNameList = path.join(iconsPath, 'icon-list.GENERATED.md');
+const iconsMapOutput = path.join(iconsPath, '_icon-map.GENERATED.scss');
 
 let iconsCounter = 0;
 const svgNameAndContent = [];
