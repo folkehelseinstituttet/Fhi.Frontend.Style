@@ -8,7 +8,7 @@ Icons should only be of SVG type, placed in the `/src/fhi/icons/svg-icons/[sourc
 
 When new icon files are added, run `npm run generate-icon-map` to generate a new `_generated-icons-map.scss` that should be committed and pushed.
 
-## Include a subset of icons
+## Creating a subset to your project
 It is possible to cherrypick a subset of the icons in this library, to decrease the file size of the css build.
 
 Create a SASS map named `$included-icons` and include your selection:
