@@ -1,7 +1,7 @@
 [type="search"]::-webkit-search-cancel-button {
     --webkit-appearance: none;
     appearance: none;
-    background: url(../icons/svg-icons/font-awesome/xmark.svg) no-repeat center center;
+    background: url(../icons/svg-icons/bootstrap-icons/x.svg) no-repeat center center;
     height: $fhi-core-px * 16;
     width: $fhi-core-px * 16;
 }
@@ -39,6 +39,12 @@
                 &__btn__text {
                     text-decoration: underline;
                 }
+            }
+        }
+
+        &:focus:not(:hover, :focus-visible, :active) {
+            .fhi-search__btn-icon {
+                filter: brightness(1000%);//sic
             }
         }
 

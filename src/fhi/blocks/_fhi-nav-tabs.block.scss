@@ -1,4 +1,4 @@
-.fhi-nav-tabs {
+.fhi-nav-tabs:not(.fhi-main-menu__nav) {
     .nav-link.active,
     .tab-content {
         background-color: $fhi-core-blue-grey-2;

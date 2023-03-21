@@ -54,7 +54,7 @@ a.fhi-tag--category {
     position: relative;
 
     [class*="icon-"] {
-        background-size: $fhi-core-px * 12;
+        background-size: $fhi-core-px * 20;
         height: $fhi-core-px * 16;
         position: absolute;
         right: calc(#{$fhi-core-space-2 + $fhi-core-space-1});

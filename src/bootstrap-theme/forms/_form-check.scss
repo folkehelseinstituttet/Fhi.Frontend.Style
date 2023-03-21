@@ -65,7 +65,7 @@
             height: $fhi-core-px * 12;
         }
         &::after {
-            background: $white url(../../fhi/icons/svg-icons/bootstrap-icons/check-white.svg) no-repeat center center;
+            background: $fhi-core-white;
             border: 2px solid $fhi-core-charcoal-1;
             border-radius: $fhi-core-px * 12;
             top: $fhi-core-px * 1;
@@ -103,7 +103,8 @@
             background-color: $fhi-core-grey-1;
         }
         &::after {
-            background-color: $fhi-core-charcoal-1;
+            background: $fhi-core-charcoal-1 url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"%3E%3Cpath d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill="white"/%3E%3C/svg%3E') no-repeat center center;
+            background-size: 1rem;
             transform: translateX($fhi-core-space-4);
         }
     }

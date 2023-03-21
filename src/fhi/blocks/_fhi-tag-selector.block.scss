@@ -18,6 +18,10 @@
             top: $fhi-core-px * 4;
         }
 
+        .icon-check {
+            display: none;
+        }
+
         &:hover {
             background: $fhi-core-pink-light-2;
             cursor: pointer;
@@ -37,6 +41,14 @@
 
             [class*="icon-"] {
                 filter: brightness(100);
+            }
+
+            .icon-plus {
+                display: none;
+            }
+
+            .icon-check {
+                display: initial;
             }
         }
 

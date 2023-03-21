@@ -8,15 +8,14 @@ Icons should only be of SVG type, placed in the `/src/fhi/icons/svg-icons/[sourc
 
 When new icon files are added, run `npm run generate-icon-map` to generate a new `_generated-icons-map.scss` that should be committed and pushed.
 
-## Include fewer icons in your project with $included-icons
-It is possible to cherrypick a subset of the icons in this library. This will generate a smaller CSS file, hence improving performance.
+## Creating a subset to your project
+It is possible to cherrypick a subset of the icons in this library, to decrease the file size of the css build.
 
 Create a SASS map named `$included-icons` and include your selection:
 ```scss
-// IMPORTANT! [arrow-left] and [chevron-down] MUST be included since other selectors depend on them
+// IMPORTANT! [chevron-down] MUST be included if you use @folkehelseinstituttet/angular-components
 $included-icons: (
-  'arrow-left', // <- mandatory!
-  'chevron-down', // <- mandatory!
+  'chevron-down', // <- Mandatory
   'chevron-up',
 );
 // This will generate icon classes for these three icons only.
@@ -25,3 +24,4 @@ $included-icons: (
 
 ### List of available icons
 Please find the [current set of available icons in icon-list.GENERATED.md here](icon-list.GENERATED.md).
+[See a list of current icons available here](https://designsystem.fhi.no/developer/visual-identity/Icons).
