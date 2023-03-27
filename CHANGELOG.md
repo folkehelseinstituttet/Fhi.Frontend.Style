@@ -3,6 +3,7 @@
 > Mar 17, 2023
 
 * :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed
+* :tada: **Enhancement** Removed styling for Treeview builder
 * :tada: **Enhancement** Danger color changed to a lighter shade of pink
 * :bug: **Bugfix** Drawer trigger text now visible on Safari
 
