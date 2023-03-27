@@ -1,6 +1,6 @@
-# Unreleased
+# 5.0.0
 
-> Mar 17, 2023
+> Mar 27, 2023
 
 * :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed
 * :tada: **Enhancement** Danger color changed to a lighter shade of pink
