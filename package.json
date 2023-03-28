@@ -9,10 +9,9 @@
   "files": [
     "/css",
     "/import",
-    "/scss",
     "/src"
   ],
-  "main": "./scss/style.scss",
+  "main": "./import/all.scss",
   "unpkg": "./css/styles.css",
   "style": "./css/styles.min.css",
   "scripts": {

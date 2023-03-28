@@ -5,9 +5,6 @@
 // FHI core variables used to override BS defaults
 @import "../src/fhi-core-variables";
 
-// TODO: Delete in v5. Deprecated variables
-@import "../src/fhi-core-variables.v4.deprecation";
-
 
 // Configuration
 @import "./node_modules/bootstrap/scss/functions";
