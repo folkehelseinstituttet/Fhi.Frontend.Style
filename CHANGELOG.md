@@ -1,6 +1,6 @@
 # 5.0.0
 
-> Mar 27, 2023
+> Mar 28, 2023
 
 * :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed
 * :tada: **Enhancement** Removed styling for Tree view builder
