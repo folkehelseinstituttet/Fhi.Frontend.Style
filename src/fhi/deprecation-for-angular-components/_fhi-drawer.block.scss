@@ -1,5 +1,5 @@
 $fhi-drawer-width-md: 40vw;
-$fhi-drawer-width-xl: $fhi-px * 500;
+$fhi-drawer-width-xl: $fhi-core-px * 500;
 $fhi-drawer-animation-speed: .3s;
 
 .fhi-drawer {
@@ -27,7 +27,7 @@ $fhi-drawer-animation-speed: .3s;
 
         p {
             margin-bottom: 0;
-            padding-bottom: $fhi-space-3;
+            padding-bottom: $fhi-core-space-3;
             position: relative;
         }
 

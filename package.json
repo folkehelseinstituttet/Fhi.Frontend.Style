@@ -9,18 +9,15 @@
   "files": [
     "/css",
     "/import",
-    "/scss",
     "/src"
   ],
-  "main": "./scss/style.scss",
-  "unpkg": "./css/styles.css",
   "style": "./css/styles.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/style.scss css/styles.css",
+    "compile-css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 import/_all.scss css/styles.css",
     "generate-icon-map": "node ./src/fhi/icons/generate-icon-map",
-    "minify-css": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
-    "prepack": "npm run generate-icon-map && npm run compile-css && npm run minify-css",
+    "minify-css": "cleancss --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
+    "prepack": "npm run compile-css && npm run minify-css",
     "postversion": "git add package.json package-lock.json && git commit -mv%npm_package_version%"
   },
   "author": "",
@@ -30,8 +27,8 @@
   },
   "devDependencies": {
     "bootstrap": "^5.2.0",
-    "clean-css-cli": "^4.3.0",
+    "clean-css-cli": "^5.6.2",
     "ncp": "^2.0.0",
-    "node-sass": "^6.0.0"
+    "node-sass": "^8.0.0"
   }
 }
