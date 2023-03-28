@@ -125,3 +125,10 @@ $fhi-core-pink-light-3: #fba39b;
   
 $fhi-core-input-height-xs: $fhi-core-px * 48;
 $fhi-core-input-height-lg: $fhi-core-px * 40;
+
+
+
+// filter calculation of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
+$fhi-core-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
+// filter calculation of #04ab79 on same url as above
+$fhi-core-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%);
