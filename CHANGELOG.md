@@ -2,7 +2,11 @@
 
 > Mar 17, 2023
 
-* :boom: **Breaking** Icon set renewed. A lot more icons added, some changed and some removed
+* :boom: **Breaking** Icon set renewed - icons added, some changed and some removed
+* :boom: **Breaking** Material Tree removed
+* :boom: **Breaking** Old SASS imports breaks, see [README.md](README.md#use-in-project) for correct import
+* :boom: **Breaking** Updated variable naming conventions
+* :boom: **Breaking** Global headers prior to v.3.10 breaks, see [Global header module](https://designsystem.fhi.no/developer/modules/GlobalHeader)
 * :tada: **Enhancement** Removed styling for Tree view builder
 * :tada: **Enhancement** Danger color changed to a lighter shade of pink
 * :bug: **Bugfix** Drawer trigger text now visible on Safari
