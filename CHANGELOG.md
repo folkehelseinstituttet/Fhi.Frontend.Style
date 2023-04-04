@@ -1,3 +1,9 @@
+# Unreleased
+
+> Mar 31, 2023
+
+* :tada: **Enhancement** Added health/living/social icons
+
 # 5.0.0
 
 > Mar 28, 2023
