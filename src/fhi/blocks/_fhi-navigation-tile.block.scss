@@ -29,10 +29,6 @@ $tile-transition: background-color .15s;
         justify-content: center;
     }
 
-    &__no-icon {
-        display: none;
-    }
-
     &__heading {
         font-family: $fhi-core-font-family-sans-serif-regular;
         font-size: $fhi-core-font-size-2;
@@ -77,11 +73,6 @@ a.fhi-navigation-tile {
                 height: $fhi-core-px * 30;
                 width: 100%;
             }
-        }
-
-        &__no-icon {
-            background-color: transparent;
-            display: inline-flex;
         }
 
         &__heading {
