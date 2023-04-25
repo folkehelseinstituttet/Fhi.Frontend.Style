@@ -5,7 +5,6 @@ $tile-transition: background-color .15s;
         &__icon {
             margin-right: $fhi-core-space-1;
             margin-left: ($fhi-core-space-1 * -1);
-            order: -1;
 
             [class*="icon-"] {
                 background-position: left center;
@@ -70,6 +69,7 @@ a.fhi-navigation-tile {
             border-radius: 50%;
             height: $fhi-core-px * 70;
             margin: auto auto 0;
+            order: 2;
             width: $fhi-core-px * 70;
 
             [class*="icon-"] {
