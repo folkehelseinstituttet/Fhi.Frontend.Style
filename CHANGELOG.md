@@ -1,7 +1,8 @@
 # Unreleased
 
-> Mar 31, 2023
+> Apr 24, 2023
 
+* :bug: **Bugfix** Path to .scss import files corrected ([README.md](README.md#use-in-project))
 * :tada: **Enhancement** Added health/living/social icons
 
 # 5.0.0

@@ -26,13 +26,13 @@ Install with [npm](https://www.npmjs.com): `npm install @folkehelseinstituttet/s
 If you want the full style library
 
 ```scss
-@import "~@folkehelseinstituttet/import/all.scss";
+@import "@folkehelseinstituttet/style/import/all.scss";
 ```
 
 If you only need the variables for use in ex. a library
 
 ```scss
-@import "~@folkehelseinstituttet/import/all-variables.scss";
+@import "@folkehelseinstituttet/style/import/all-variables.scss";
 ```
 
 If you want to use CSS instead of SCSS
