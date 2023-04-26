@@ -87,28 +87,6 @@ a.fhi-navigation-tile {
             display: block;
             font-size: $fhi-core-font-size-3;
             margin-bottom: $fhi-core-space-3;
-            max-height: 4.75em;
-            overflow: hidden;
-            padding-right: 1rem;
-            position: relative;
-
-            &::before {
-                bottom: 0;
-                content: "...";
-                line-height: 2;
-                position: absolute;
-                right: 0;
-            }
-
-            &::after {
-                background: $fhi-core-white;
-                content: "";
-                height: 1rem;
-                position: absolute;
-                right: 0;
-                transition: $tile-transition;
-                width: 1rem;
-            }
         }
     }
 }
