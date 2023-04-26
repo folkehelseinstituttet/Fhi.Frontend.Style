@@ -1,7 +1,8 @@
 # Unreleased
 
-> Apr 24, 2023
+> Apr 25, 2023
 
+* :tada: **Enhancement** Navigation tiles: icon placed on bottom, max tree lines of description visible
 * :bug: **Bugfix** Path to .scss import files corrected ([README.md](README.md#use-in-project))
 * :tada: **Enhancement** Added health/living/social icons
 

@@ -1,6 +1,9 @@
+$tile-transition: background-color .15s;
+
 @include media-breakpoint-down(md) {
     .fhi-navigation-tile {
         &__icon {
+            margin-right: $fhi-core-space-1;
             margin-left: ($fhi-core-space-1 * -1);
 
             [class*="icon-"] {
@@ -12,13 +15,14 @@
 
 
 .fhi-navigation-tile {
+    background-color: $fhi-core-white;
     border: 1px solid $fhi-core-grey-3;
     border-radius: $border-radius-sm;
     color: $body-color;
     display: inline-flex;
     padding: $fhi-core-space-2 $fhi-core-space-3;
     text-decoration: none;
-    transition: background-color .15s;
+    transition: $tile-transition;
 
     &__icon {
         display: inline-flex;
@@ -41,16 +45,18 @@ a.fhi-navigation-tile {
     &:hover {
         background-color: $fhi-core-pink-light-2;
         color: $body-color;
+
+        .fhi-navigation-tile__description::after {
+            background-color: $fhi-core-pink-light-2;
+        }
     }
 }
 
 
 @include media-breakpoint-up(md) {
     .fhi-navigation-tile {
-        display: inline-flex;
         flex-direction: column;
         height: 100%;
-        justify-content: flex-end;
         padding: $fhi-core-space-4;
         text-align: center;
         width: 100%;
@@ -59,7 +65,8 @@ a.fhi-navigation-tile {
             background-color: $fhi-core-blue-grey-2;
             border-radius: 50%;
             height: $fhi-core-px * 70;
-            margin: 0 auto $fhi-core-space-2;
+            margin: auto auto 0;
+            order: 2;
             width: $fhi-core-px * 70;
 
             [class*="icon-"] {
@@ -79,7 +86,7 @@ a.fhi-navigation-tile {
         &__description {
             display: block;
             font-size: $fhi-core-font-size-3;
-            margin-bottom: 0;
+            margin-bottom: $fhi-core-space-3;
         }
     }
 }
