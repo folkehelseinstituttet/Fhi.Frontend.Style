@@ -5,6 +5,16 @@
         overflow: hidden;
     }
 
+    .col-12 {
+        &:first-child {
+            padding-left: 0;
+        }
+        
+        &:last-child {
+            overflow: auto;
+        }
+    }
+
     &__main {
         transition: min-height $fhi-drawer-animation-speed;
     }
