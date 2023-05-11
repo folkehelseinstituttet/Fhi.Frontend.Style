@@ -1,7 +1,8 @@
 # Unreleased
 
-> Apr 25, 2023
+> May 11, 2023
 
+* :tada: **Enhancement** Improved styling on Drawer to prevent it from breaking in some cases
 * :tada: **Enhancement** Navigation tiles: icon placed on bottom, max tree lines of description visible
 * :bug: **Bugfix** Path to .scss import files corrected ([README.md](README.md#use-in-project))
 * :tada: **Enhancement** Added health/living/social icons
