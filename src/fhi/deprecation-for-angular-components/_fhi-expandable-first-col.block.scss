@@ -9,13 +9,27 @@
         &:first-child {
             padding-left: 0;
         }
-        
-        &:last-child {
-            overflow: auto;
-        }
     }
 
     &__main {
         transition: min-height $fhi-drawer-animation-speed;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .col-12 {
+        &:first-child {
+            padding-right: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .fhi-expandable-first-col {
+        .col-12 {
+            &:last-child {
+                overflow: auto;
+            }
+        }
     }
 }

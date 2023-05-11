@@ -3,7 +3,6 @@ $fhi-drawer-animation-speed: .3s;
 
 .fhi-drawer {
     left: 0;
-    min-height: 3.25rem;
     position: relative;
     top: 0;
 
@@ -69,6 +68,8 @@ $fhi-drawer-animation-speed: .3s;
 
 @include media-breakpoint-up(md) {
     .fhi-drawer {
+        min-height: 7rem;
+        
         &__content {
             left: -16px;//make sure scrollbar is hidden when closed
             margin-left: ($fhi-drawer-width-md * -1);
