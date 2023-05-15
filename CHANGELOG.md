@@ -1,6 +1,6 @@
-# Unreleased
+# 5.1.0
 
-> May 11, 2023
+> May 15, 2023
 
 * :tada: **Enhancement** Improved styling on Drawer to prevent it from breaking in some cases
 * :tada: **Enhancement** Navigation tiles: icon placed on bottom, max tree lines of description visible
