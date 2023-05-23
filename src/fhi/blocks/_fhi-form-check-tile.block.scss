@@ -5,8 +5,8 @@
 
     &__input {
         position: absolute;
-        top: $fhi-core-space-2;
-        left: calc(#{$fhi-core-space-2 + $fhi-core-space-1});
+        top: $fhi-core-px * 9;
+        left: $fhi-core-px * 12;
         z-index: 1;
 
         &:checked {
@@ -17,8 +17,8 @@
             &[type=radio] {
                 ~ .fhi-form-check-tile__label {
                     &::after {
-                        left: calc(#{$fhi-core-space-2 + $fhi-core-space-2});
-                        top: calc(#{$fhi-core-space-2 + $fhi-core-space-1});
+                        left: $fhi-core-px * 16;
+                        top: $fhi-core-px * 13;
                         z-index: 1;
                     }
                 }
@@ -38,12 +38,12 @@
         background-color: $fhi-core-white;
         border: 1px solid $fhi-core-blue-1;
         border-radius: $fhi-core-space-1;
-        box-shadow: 0 0 0 .5px $fhi-core-blue-1;
+        box-shadow: 0 0 0 ($fhi-core-px * .5) $fhi-core-blue-1;
         display: block;
         padding-top: $fhi-core-space-2;
         padding-right: $fhi-core-space-2;
         padding-bottom: $fhi-core-space-2;
-        padding-left: $fhi-core-space-6 + $fhi-core-space-1;
+        padding-left: $fhi-core-px * 44;
     }
 
     &__label-text {
