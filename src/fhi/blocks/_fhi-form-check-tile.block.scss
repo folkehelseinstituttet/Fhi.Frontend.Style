@@ -17,8 +17,8 @@
             &[type=radio] {
                 ~ .fhi-form-check-tile__label {
                     &::after {
-                        left: calc(#{$fhi-core-space-2 + $fhi-core-space-2} - .5px); // negative .5px because of the 1.5px border on __label
-                        top: calc(#{$fhi-core-space-2 + $fhi-core-space-1} - .5px);
+                        left: calc(#{$fhi-core-space-2 + $fhi-core-space-2});
+                        top: calc(#{$fhi-core-space-2 + $fhi-core-space-1});
                         z-index: 1;
                     }
                 }
@@ -29,14 +29,16 @@
             ~ .fhi-form-check-tile__label {
                 background-color: $fhi-core-white;
                 border-color: $fhi-core-grey-3;
+                box-shadow: 0 0 0 .5px $fhi-core-grey-3;
             }
         }
     }
 
     &__label {
         background-color: $fhi-core-white;
-        border: 1.5px solid $fhi-core-blue-1;
+        border: 1px solid $fhi-core-blue-1;
         border-radius: $fhi-core-space-1;
+        box-shadow: 0 0 0 .5px $fhi-core-blue-1;
         display: block;
         padding-top: $fhi-core-space-2;
         padding-right: $fhi-core-space-2;
