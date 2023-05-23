@@ -1,7 +1,5 @@
 .fhi-form-check-tile {
     margin-bottom: $fhi-core-space-3;
-    padding-right: $fhi-core-px * .5; // For the box shadow on __label (if in overflow:hidden container)
-    padding-left: $fhi-core-px * .5;
     position: relative;
 
     &__input {
@@ -18,7 +16,7 @@
             &[type=radio] {
                 ~ .fhi-form-check-tile__label {
                     &::after {
-                        left: $fhi-core-px * 15.5;
+                        left: $fhi-core-px * 16;
                         top: $fhi-core-px * 13;
                         z-index: 1;
                     }
@@ -39,7 +37,7 @@
         background-color: $fhi-core-white;
         border: 1px solid $fhi-core-blue-1;
         border-radius: $fhi-core-space-1;
-        box-shadow: 0 0 0 ($fhi-core-px * .5) $fhi-core-blue-1;
+        box-shadow: 0 0 0 ($fhi-core-px * .5) $fhi-core-blue-1 inset;
         display: block;
         padding-top: $fhi-core-space-2;
         padding-right: $fhi-core-space-2;
