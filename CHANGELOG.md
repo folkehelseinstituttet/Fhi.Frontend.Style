@@ -2,6 +2,7 @@
 
 > May 23, 2023
 
+* :gift: **New** Checkbox Tile
 * :gift: **New** Radio Button Tile
 
 ## 5.1.0
