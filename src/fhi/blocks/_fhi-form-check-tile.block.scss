@@ -1,6 +1,5 @@
 .fhi-form-check-tile {
     margin-bottom: $fhi-core-space-3;
-    max-width: 25rem;
     padding-left: 0;
     position: relative;
 
@@ -18,17 +17,25 @@
             &[type=radio] {
                 ~ .fhi-form-check-tile__label {
                     &::after {
-                        left: calc(#{$fhi-core-space-2 + $fhi-core-space-2});
-                        top: calc(#{$fhi-core-space-2 + $fhi-core-space-1});
+                        left: calc(#{$fhi-core-space-2 + $fhi-core-space-2} - .5px); // negative .5px because of the 1.5px border on __label
+                        top: calc(#{$fhi-core-space-2 + $fhi-core-space-1} - .5px);
                         z-index: 1;
                     }
                 }
             }
         }
+
+        &:disabled {
+            ~ .fhi-form-check-tile__label {
+                background-color: $fhi-core-white;
+                border-color: $fhi-core-grey-3;
+            }
+        }
     }
 
     &__label {
-        border: 1px solid $fhi-core-blue-1;
+        background-color: $fhi-core-white;
+        border: 1.5px solid $fhi-core-blue-1;
         border-radius: $fhi-core-space-1;
         display: block;
         padding-top: $fhi-core-space-2;
