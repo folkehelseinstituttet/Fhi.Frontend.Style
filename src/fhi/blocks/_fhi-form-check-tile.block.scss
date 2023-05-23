@@ -1,6 +1,7 @@
 .fhi-form-check-tile {
     margin-bottom: $fhi-core-space-3;
-    padding-left: 0;
+    padding-right: $fhi-core-px * .5; // For the box shadow on __label (if in overflow:hidden container)
+    padding-left: $fhi-core-px * .5;
     position: relative;
 
     &__input {
