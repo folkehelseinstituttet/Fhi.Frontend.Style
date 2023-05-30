@@ -2,7 +2,7 @@
 
 > May 30, 2023
 
-* :bug: **Bugfix** z-index fix on Drawer
+* :bug: **Bugfix** z-index fix on Drawer and improved specificity on drawer containers
 * :gift: **New** Checkbox Tile
 * :gift: **New** Radio Button Tile
 
