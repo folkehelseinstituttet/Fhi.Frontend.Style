@@ -5,6 +5,7 @@ $fhi-drawer-animation-speed: .3s;
     left: 0;
     position: relative;
     top: 0;
+    z-index: 1;
 
     &__trigger {
         border: 0;
