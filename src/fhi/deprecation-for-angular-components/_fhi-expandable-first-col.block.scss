@@ -4,7 +4,7 @@
     > .row {
         overflow: hidden;
 
-        .col-12 {
+        > .col-12 {
             &:first-child {
                 padding-left: 0;
             }
