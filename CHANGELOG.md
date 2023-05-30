@@ -1,7 +1,8 @@
 # Unreleased
 
-> May 23, 2023
+> May 30, 2023
 
+* :bug: **Bugfix** z-index fix on Drawer
 * :gift: **New** Checkbox Tile
 * :gift: **New** Radio Button Tile
 
