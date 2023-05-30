@@ -3,11 +3,11 @@
     
     > .row {
         overflow: hidden;
-    }
 
-    .col-12 {
-        &:first-child {
-            padding-left: 0;
+        .col-12 {
+            &:first-child {
+                padding-left: 0;
+            }
         }
     }
 
@@ -17,18 +17,22 @@
 }
 
 @include media-breakpoint-down(md) {
-    .col-12 {
-        &:first-child {
-            padding-right: 0;
+    .fhi-expandable-first-col {
+        > .row {
+            > .col-12 {
+                padding-right: 0;
+            }
         }
     }
 }
 
 @include media-breakpoint-up(md) {
     .fhi-expandable-first-col {
-        .col-12 {
-            &:last-child {
-                overflow: auto;
+        > .row {
+            > .col-12 {
+                &:last-child {
+                    overflow: auto;
+                }
             }
         }
     }
