@@ -1,7 +1,8 @@
 # Unreleased
 
-> May 30, 2023
+> May 31, 2023
 
+* :tada: **Enhancement** Using .form-text on Form help text
 * :bug: **Bugfix** z-index fix on Drawer and improved specificity on drawer containers
 * :gift: **New** Checkbox Tile
 * :gift: **New** Radio Button Tile
