@@ -1,8 +1,9 @@
 # Unreleased
 
-> May 30, 2023
+> May 31, 2023
 
-* :gift: **Enhancement** Added fullscreen and log out icons
+* :tada: **Enhancement** Breadcrumb separator icon reversed
+* :tada: **Enhancement** Added fullscreen and log out icons
 * :bug: **Bugfix** z-index fix on Drawer and improved specificity on drawer containers
 * :gift: **New** Checkbox Tile
 * :gift: **New** Radio Button Tile
