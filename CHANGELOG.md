@@ -3,6 +3,7 @@
 > May 31, 2023
 
 * :tada: **Enhancement** Breadcrumb separator icon reversed
+* :tada: **Enhancement** Using .form-text on Form help text
 * :tada: **Enhancement** Added fullscreen and log out icons
 * :bug: **Bugfix** z-index fix on Drawer and improved specificity on drawer containers
 * :gift: **New** Checkbox Tile
