@@ -315,7 +315,7 @@ $theme-colors: (
     'success':    $fhi-core-green-1,
     'info':       $fhi-core-blue-grey-3,
     'warning':    $fhi-core-orange-1,
-    'danger':     $fhi-core-pink-light-2,
+    'danger':     $fhi-core-pink-light-1,
     'light':      $fhi-core-grey-light-1,
     'dark':       $fhi-core-blue-3,
     'error':      $fhi-core-pink-light-2,
@@ -501,7 +501,7 @@ $border-color:                $fhi-core-grey-1;
 // // scss-docs-end border-variables
 
 // // scss-docs-start border-radius-variables
-// $border-radius:               .375rem !default;
+$border-radius:               $fhi-core-px * 4;
 // $border-radius-sm:            .25rem !default;
 // $border-radius-lg:            .5rem !default;
 // $border-radius-xl:            1rem !default;

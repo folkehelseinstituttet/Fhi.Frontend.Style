@@ -1,7 +1,8 @@
 # Unreleased
 
-> May 31, 2023
+> Jun 1, 2023
 
+* :tada: **Enhancement** Error messages has improved visuals
 * :tada: **Enhancement** Breadcrumb separator icon reversed
 * :tada: **Enhancement** Using .form-text on Form help text
 * :tada: **Enhancement** Added fullscreen and log out icons
