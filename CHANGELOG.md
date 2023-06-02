@@ -1,6 +1,6 @@
 # Unreleased
 
-> Jun 1, 2023
+> Jun 2, 2023
 
 * :tada: **Enhancement** Error messages has improved visuals
 * :tada: **Enhancement** Breadcrumb separator icon reversed
