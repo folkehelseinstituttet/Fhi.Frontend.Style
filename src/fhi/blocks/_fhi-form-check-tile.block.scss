@@ -31,6 +31,11 @@
                 box-shadow: 0 0 0 .5px $fhi-core-grey-3;
             }
         }
+
+        &.is-invalid ~ .fhi-form-check-tile__label {
+            border-color: $form-feedback-invalid-color;
+            box-shadow: 0 0 0 ($fhi-core-px * .5) $form-feedback-invalid-color inset;
+        }
     }
 
     &__label {

@@ -21,9 +21,6 @@ textarea.form-control {
     height: auto;
 }
 
-.form-control.is-invalid {
-    background-image: unset;
-}
 .invalid-feedback {
     background-color: $fhi-core-pink-light-1;
     border-radius: $border-radius;
