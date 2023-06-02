@@ -14,20 +14,17 @@
         border-color: $fhi-core-grey-3;
     }
 }
-select.form-control:focus {
-    border-radius: $input-border-radius;
-}
+
 textarea.form-control {
     height: auto;
 }
 
-.form-control.is-invalid {
-    background-image: unset;
-    color: $form-feedback-invalid-color;
-}
 .invalid-feedback {
-    font-family: $fhi-core-font-family-sans-serif-medium;
+    background-color: $fhi-core-pink-light-1;
+    border-radius: $border-radius;
+    color: $fhi-core-grey-4;
     margin-bottom: 0;
+    padding: $fhi-core-space-1;
 }
 
 @include media-breakpoint-up(lg) {

@@ -109,3 +109,9 @@
         }
     }
 }
+
+// Validation
+.was-validated .form-check-input:invalid ~ .form-check-label,
+.form-check-input.is-invalid ~ .form-check-label {
+    color: $body-color;
+}

@@ -31,12 +31,17 @@
                 box-shadow: 0 0 0 .5px $fhi-core-grey-3;
             }
         }
+
+        &.is-invalid ~ .fhi-form-check-tile__label {
+            border-color: $form-feedback-invalid-color;
+            box-shadow: 0 0 0 ($fhi-core-px * .5) $form-feedback-invalid-color inset;
+        }
     }
 
     &__label {
         background-color: $fhi-core-white;
         border: 1px solid $fhi-core-blue-1;
-        border-radius: $fhi-core-space-1;
+        border-radius: $border-radius;
         box-shadow: 0 0 0 ($fhi-core-px * .5) $fhi-core-blue-1 inset;
         display: block;
         padding-top: $fhi-core-space-2;
