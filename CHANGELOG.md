@@ -19,7 +19,7 @@
 * :bug: **Bugfix** Path to .scss import files corrected ([README.md](README.md#use-in-project))
 * :tada: **Enhancement** Added health/living/social icons
 
-# 5.0.0
+## 5.0.0
 
 > Mar 28, 2023
 
