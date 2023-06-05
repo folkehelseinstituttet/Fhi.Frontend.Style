@@ -1,7 +1,8 @@
 # Unreleased
 
-> Jun 2, 2023
+> Jun 5, 2023
 
+* :bug: **Bugfix** Hex on danger/error colors adjusted
 * :tada: **Enhancement** Error messages has improved visuals
 * :tada: **Enhancement** Breadcrumb separator icon reversed
 * :tada: **Enhancement** Using .form-text on Form help text
