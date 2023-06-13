@@ -1,6 +1,11 @@
 .popover {
     border: 0;
     box-shadow: 2px 2px 5px transparentize($fhi-core-grey-4, 0.7);
+
+    a {
+        font-family: inherit;
+        font-size: inherit;
+    }
 }
 
 .popover-header {
@@ -24,16 +29,11 @@
 
     &[aria-describedby] {
         background: $fhi-core-pink-light-2;
-        text-decoration: none;
+    }
+}
 
-        &::after {
-            border: 1px dashed currentColor;
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-        }
+@include media-breakpoint-up(sm) {
+    .popover {
+        --bs-popover-max-width: 450px;
     }
 }
