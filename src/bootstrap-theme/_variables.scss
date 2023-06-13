@@ -1332,17 +1332,17 @@ $tooltip-arrow-height:              .6rem;
 // // Popovers
 
 // // scss-docs-start popover-variables
-// $popover-font-size:                 $font-size-sm !default;
+$popover-font-size:                 $fhi-core-font-size-1;
 // $popover-bg:                        $white !default;
-// $popover-max-width:                 276px !default;
+$popover-max-width:                 360px;
 // $popover-border-width:              $border-width !default;
-// $popover-border-color:              var(--#{$prefix}border-color-translucent) !default;
-// $popover-border-radius:             $border-radius-lg !default;
+$popover-border-color:              $fhi-core-grey-1;
+$popover-border-radius:             $border-radius;
 // $popover-inner-border-radius:       subtract($popover-border-radius, $popover-border-width) !default;
 // $popover-box-shadow:                $box-shadow !default;
 
-// $popover-header-font-size:          $font-size-base !default;
-// $popover-header-bg:                 shade-color($popover-bg, 6%) !default;
+$popover-header-font-size:          $fhi-core-font-size-5;
+$popover-header-bg:                 $fhi-core-white;
 // $popover-header-color:              var(--#{$prefix}heading-color) !default;
 // $popover-header-padding-y:          .5rem !default;
 // $popover-header-padding-x:          $spacer !default;
@@ -1351,7 +1351,7 @@ $tooltip-arrow-height:              .6rem;
 // $popover-body-padding-y:            $spacer !default;
 // $popover-body-padding-x:            $spacer !default;
 
-// $popover-arrow-width:               1rem !default;
+$popover-arrow-width:               .75rem;
 // $popover-arrow-height:              .5rem !default;
 // // scss-docs-end popover-variables
 
