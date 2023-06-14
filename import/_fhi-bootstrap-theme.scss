@@ -44,7 +44,7 @@
 @import "./node_modules/bootstrap/scss/toasts";
 @import "./node_modules/bootstrap/scss/modal";
 @import "./node_modules/bootstrap/scss/tooltip";
-// @import "./node_modules/bootstrap/scss/popover";
+@import "./node_modules/bootstrap/scss/popover";
 // @import "./node_modules/bootstrap/scss/carousel";
 @import "./node_modules/bootstrap/scss/spinners";
 // @import "./node_modules/bootstrap/scss/offcanvas";
@@ -71,6 +71,7 @@
 @import "../src/bootstrap-theme/modal";
 @import "../src/bootstrap-theme/nav";
 @import "../src/bootstrap-theme/pagination";
+@import "../src/bootstrap-theme/popover";
 @import "../src/bootstrap-theme/tables";
 @import "../src/bootstrap-theme/toasts";
 @import "../src/bootstrap-theme/tooltip";

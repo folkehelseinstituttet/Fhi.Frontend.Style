@@ -1,0 +1,29 @@
+.popover {
+    border: 0;
+    box-shadow: 2px 2px 5px transparentize($fhi-core-grey-4, 0.7);
+
+    a {
+        font-family: inherit;
+        font-size: inherit;
+    }
+
+    p, .p {
+        font-size: inherit;
+    }
+}
+
+.popover-header {
+    border: 0;
+    padding-bottom: 0;
+}
+
+.popover-body {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+@include media-breakpoint-up(sm) {
+    .popover {
+        --bs-popover-max-width: 450px;
+    }
+}
