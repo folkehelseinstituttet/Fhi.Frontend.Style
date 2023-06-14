@@ -6,11 +6,20 @@
         font-family: inherit;
         font-size: inherit;
     }
+
+    p, .p {
+        font-size: inherit;
+    }
 }
 
 .popover-header {
     border: 0;
     padding-bottom: 0;
+}
+
+.popover-body {
+    max-height: 250px;
+    overflow-y: auto;
 }
 
 // extending Boostrap
