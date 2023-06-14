@@ -1,0 +1,18 @@
+.fhi-popover-trigger {
+    color: currentColor;
+    font-family: inherit;
+    font-size: inherit;
+    padding: ($fhi-core-px * 1) ($fhi-core-px * 2);
+    position: relative;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: $fhi-core-px * 4;
+
+    &:hover {
+        color: currentColor;
+    }
+
+    &[aria-describedby] {
+        background: $fhi-core-pink-light-2;
+    }
+}
