@@ -1,6 +1,6 @@
-# Unreleased
+# 5.3.0
 
-> Jun 13, 2023
+> Jun 14, 2023
 
 * :gift: **New** Added popover
 
