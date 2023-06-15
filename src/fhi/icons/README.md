@@ -18,7 +18,7 @@ $included-icons: (
   'chevron-down', // <- Mandatory
   'chevron-up',
 );
-// This will generate icon classes for these three icons only.
+// This will generate icon classes for these two icons only.
 ```
 **Note**: this must be added before the import of the style library in your project.
 
