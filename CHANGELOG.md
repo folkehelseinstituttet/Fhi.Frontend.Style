@@ -2,7 +2,7 @@
 
 > Jun 15, 2023
 
-* :tada: **Enhancement** Added refresh icon (arrow-clockwise)
+* :gift: **New** Added refresh icon (arrow-clockwise)
 
 ## 5.3.0
 
