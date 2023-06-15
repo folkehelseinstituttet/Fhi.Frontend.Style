@@ -3,6 +3,7 @@ $included-icons: (
   'accident',
   'alcohol-drugs',
   'anesthesia',
+  'arrow-clockwise',
   'arrow-down',
   'arrow-down-up',
   'arrow-left',
