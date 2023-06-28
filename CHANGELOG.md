@@ -1,8 +1,8 @@
 # Unreleased
 
-> Jun 15, 2023
+> Jun 28, 2023
 
-* :gift: **New** Added refresh icon (arrow-clockwise)
+* :gift: **New** Added refresh and reset icons (arrow-clockwise/arrow-counterclockwise)
 
 ## 5.3.0
 
