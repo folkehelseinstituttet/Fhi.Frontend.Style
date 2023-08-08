@@ -1,0 +1,8 @@
+.fhi-card-shadow {
+  box-shadow: ($fhi-core-px * 3) ($fhi-core-px * 3) ($fhi-core-px * 5) rgba($fhi-core-grey-4, 0.16);
+}
+
+.fhi-card-deactive {
+  background-color: transparent;
+  border: 1px dashed $fhi-core-grey-3;
+}
