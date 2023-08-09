@@ -1,5 +1,9 @@
 .modal-fullscreen {
     padding: $fhi-core-space-2;
+
+    .modal-content {
+        border-radius: var(--bs-modal-inner-border-radius);
+    }
 }
 
 .modal-body {
@@ -8,10 +12,6 @@
 }
 
 @include media-breakpoint-down(sm) {
-    .modal-fullscreen {
-        padding: $fhi-core-space-1;
-    }
-
     .modal-footer .btn {
         width: 100%;
     }
