@@ -1,8 +1,30 @@
-.fhi-card-shadow {
-  box-shadow: ($fhi-core-px * 3) ($fhi-core-px * 3) ($fhi-core-px * 5) rgba($fhi-core-grey-4, 0.16);
+.fhi-card {
+    @extend .card;
+    padding: $fhi-core-space-3;
+
+    &__title {
+        @extend .card-title;
+        font-family: $fhi-core-font-family-serif-medium;
+        letter-spacing: 0;
+    }
+
+    &__content {
+        p {
+            margin-bottom: $fhi-core-space-2;
+        }
+
+        *:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
-.fhi-card-deactive {
-  background-color: transparent;
-  border: 1px dashed $fhi-core-grey-3;
+.fhi-card--shadow {
+    box-shadow: ($fhi-core-px * 3) ($fhi-core-px * 3) ($fhi-core-px * 5)
+    rgba($fhi-core-grey-4, 0.16);
+}
+
+.fhi-card--deactive {
+    background-color: transparent;
+    border: 1px dashed $fhi-core-grey-3;
 }
