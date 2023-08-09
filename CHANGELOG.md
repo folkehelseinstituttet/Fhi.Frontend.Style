@@ -1,3 +1,9 @@
+# Unreleased
+
+> Aug 9, 2023
+
+* :tada: **Enhancement** Fullscreen modal
+
 # 5.4.0
 
 > Jun 28, 2023
