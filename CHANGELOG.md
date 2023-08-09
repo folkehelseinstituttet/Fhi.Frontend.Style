@@ -2,7 +2,7 @@
 
 > Aug 8, 2023
 
-* :gift: **New** Added Card
+* :gift: **New** Added Cards
 
 ## 5.4.0
 
