@@ -4,7 +4,7 @@
 
 * :tada: **Enhancement** Fullscreen modal
 
-# 5.4.0
+## 5.4.0
 
 > Jun 28, 2023
 
