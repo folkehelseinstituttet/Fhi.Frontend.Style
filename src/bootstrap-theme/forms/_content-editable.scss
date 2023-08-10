@@ -16,7 +16,7 @@
 
     &:active,
     &:focus {
-        border-radius: calc(#{$fhi-core-input-height-xs} / 2);
+        border-radius: calc(#{$fhi-core-input-height} / 2);
         margin-right: ($fhi-core-space-2 * -1);
         margin-left: ($fhi-core-space-2 * -1);
         padding-right: $fhi-core-space-2;

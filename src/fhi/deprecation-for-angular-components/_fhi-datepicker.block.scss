@@ -36,8 +36,8 @@
 
         &:focus-visible {
             + .form-control {
-                border-top-left-radius: $fhi-core-input-height-lg;
-                border-bottom-left-radius: $fhi-core-input-height-lg;
+                border-top-left-radius: $fhi-core-input-height;
+                border-bottom-left-radius: $fhi-core-input-height;
             }
         }
     }
