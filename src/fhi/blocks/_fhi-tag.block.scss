@@ -63,3 +63,41 @@ a.fhi-tag--category {
         width: $fhi-core-px * 16;
     }
 }
+
+
+.fhi-tag--state-dot {
+    border: 1px solid $fhi-core-grey-4;
+
+    &__icon {
+        &--info {
+            @extend .icon-info-circle-fill;
+            filter: $fhi-core-blue-filter;
+        }
+
+        &--off {
+            @extend .icon-x-circle-fill;
+            filter: $fhi-core-pink-filter;
+        }
+
+        &--on {
+            @extend .icon-check-circle-fill;
+            filter: $fhi-core-green-filter;
+        }
+
+        &--warning {
+            @extend .icon-exclamation-circle-fill;
+            filter: $fhi-core-orange-filter;
+        }
+    }
+}
+
+
+[class*="fhi-tag--state-dot__icon"] {
+    @extend .icon-sm;
+    background-size: $fhi-core-px * 12;
+    border: $fhi-core-px solid;
+    border-radius: 1em;
+    margin-top: ($fhi-core-space-1 * -1);
+    margin-right: $fhi-core-space-1;
+    vertical-align: middle;
+}

@@ -128,7 +128,21 @@ $fhi-core-input-height-lg: $fhi-core-px * 40;
 
 
 
-// filter calculation of #f86559 made at https://codepen.io/sosuke/pen/Pjoqqp
+/**
+  * filter calculation made using https://codepen.io/sosuke/pen/Pjoqqp
+  */
+
+// $fhi-core-red-1
 $fhi-core-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
-// filter calculation of #04ab79 on same url as above
+
+// $fhi-core-green-2
 $fhi-core-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%);
+
+// $fhi-core-pink-dark-1
+$fhi-core-pink-filter: invert(26%) sepia(31%) saturate(7486%) hue-rotate(325deg) brightness(91%) contrast(90%);
+
+// $fhi-core-orange-2
+$fhi-core-orange-filter: invert(77%) sepia(38%) saturate(808%) hue-rotate(328deg) brightness(105%) contrast(94%);
+
+// $fhi-core-blue-1
+$fhi-core-blue-filter: invert(21%) sepia(91%) saturate(2644%) hue-rotate(195deg) brightness(95%) contrast(104%);
