@@ -5,6 +5,10 @@
     padding-right: $fhi-core-space-3;
     padding-left: $fhi-core-space-3;
 
+    &:hover {
+        background-color: $fhi-core-pink-light-2;
+    }
+
     &:focus,
     &:hover {
         border-color: transparent;
