@@ -3,6 +3,7 @@
 > Aug 9, 2023
 
 * :gift: **New** Added Tag state alternative
+* :tada: **Enhancement** Fullscreen modal
 * :gift: **New** Added Cards
 
 ## 5.4.0
