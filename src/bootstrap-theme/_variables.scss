@@ -1462,15 +1462,15 @@ $alert-bg-scale:                0;
 // // Progress bars
 
 // // scss-docs-start progress-variables
-// $progress-height:                   1rem !default;
-// $progress-font-size:                $font-size-base * .75 !default;
-// $progress-bg:                       $gray-200 !default;
-// $progress-border-radius:            $border-radius !default;
+$progress-height:                   $fhi-core-px * 36;
+$progress-font-size:                $fhi-core-font-size-4;
+$progress-bg:                       $fhi-core-blue-grey-2;
+$progress-border-radius:            $progress-height / 2;
 // $progress-box-shadow:               $box-shadow-inset !default;
 // $progress-bar-color:                $white !default;
 // $progress-bar-bg:                   $primary !default;
 // $progress-bar-animation-timing:     1s linear infinite !default;
-// $progress-bar-transition:           width .6s ease !default;
+$progress-bar-transition:           width .4s ease !default;
 // // scss-docs-end progress-variables
 
 
