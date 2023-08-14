@@ -1,6 +1,6 @@
-# Unreleased
+# 5.5.0
 
-> Aug 9, 2023
+> Aug 14, 2023
 
 * :gift: **New** Added Tag state alternative
 * :tada: **Enhancement** Fullscreen modal
