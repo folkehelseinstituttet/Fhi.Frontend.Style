@@ -46,6 +46,7 @@ $included-icons: (
   'dash-circle',
   'dash-circle-fill',
   'diabetes',
+  'donut',
   'download',
   'droplet',
   'ear',
