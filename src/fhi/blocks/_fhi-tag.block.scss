@@ -1,7 +1,7 @@
 @mixin interactive-state() {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
+    text-underline-offset: $fhi-core-px * 4;
 }
 
 .fhi-tag {
