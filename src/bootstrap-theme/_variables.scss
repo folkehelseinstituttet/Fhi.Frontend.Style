@@ -1465,7 +1465,7 @@ $alert-bg-scale:                0;
 $progress-height:                   $fhi-core-px * 36;
 $progress-font-size:                $fhi-core-font-size-4;
 $progress-bg:                       $fhi-core-blue-grey-2;
-$progress-border-radius:            $progress-height / 2;
+$progress-border-radius:            calc($progress-height / 2);
 // $progress-box-shadow:               $box-shadow-inset !default;
 // $progress-bar-color:                $white !default;
 // $progress-bar-bg:                   $primary !default;
