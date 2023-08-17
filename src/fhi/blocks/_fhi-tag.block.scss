@@ -1,3 +1,9 @@
+@mixin interactive-state() {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: $fhi-core-px * 4;
+}
+
 .fhi-tag {
     background-color: $fhi-core-white;
     border: 1px solid transparent;
@@ -22,6 +28,14 @@ button.fhi-tag {
 
     &:hover {
         background-color: $fhi-core-pink-light-2;
+    }
+
+    &[class*="text-bg-"] {
+        @include interactive-state();
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 
@@ -88,6 +102,10 @@ a.fhi-tag--category {
             @extend .icon-exclamation-circle-fill;
             filter: $fhi-core-orange-filter;
         }
+    }
+
+    &__text {
+        @include interactive-state();
     }
 }
 
