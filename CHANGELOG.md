@@ -1,4 +1,10 @@
-# 5.5.0
+# Undefined
+
+> Aug 14, 2023
+
+* :gift: **New** Progress bar
+
+## 5.5.0
 
 > Aug 14, 2023
 
