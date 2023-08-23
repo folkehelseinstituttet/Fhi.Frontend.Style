@@ -1,7 +1,8 @@
 # Unreleased
 
-> Aug 15, 2023
+> Aug 23, 2023
 
+* :gift: **New** Error page heading
 * :tada: **Enhancement** Improved visuals on interaktive tags w/state
 * :gift: **New** Progress bar
 
