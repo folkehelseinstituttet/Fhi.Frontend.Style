@@ -2,7 +2,7 @@
     @extend .h2;
     margin-bottom: $fhi-core-space-3;
 
-    &__error-code {
+    &__status-code {
         border-left: ($fhi-core-px * 1.5) solid $fhi-core-red-1;
         bottom: 2px;
         color: $fhi-core-grey-3;
