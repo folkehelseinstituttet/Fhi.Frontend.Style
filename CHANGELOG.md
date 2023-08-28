@@ -1,6 +1,6 @@
-# Unreleased
+# 5.6.0
 
-> Aug 23, 2023
+> Aug 28, 2023
 
 * :gift: **New** Error page heading
 * :tada: **Enhancement** Improved visuals on interaktive tags w/state
