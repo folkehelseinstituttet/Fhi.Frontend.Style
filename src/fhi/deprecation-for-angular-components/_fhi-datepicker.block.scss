@@ -45,7 +45,11 @@
     &__form-control {
         max-width: $fhi-core-px * 155;
         padding-left: $fhi-core-px * 44;
-        padding-right: 0;
+        
+        &,
+        &.is-invalid {
+            padding-right: 0;
+        }
     }
 
     .ngb-dp-header,
