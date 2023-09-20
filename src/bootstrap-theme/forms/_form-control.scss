@@ -12,10 +12,6 @@
         border-radius: calc(#{$fhi-core-input-height} / 2);
         border-color: $fhi-core-grey-3;
     }
-
-    &.is-invalid {
-        padding-right: initial;
-    }
 }
 
 textarea.form-control {
