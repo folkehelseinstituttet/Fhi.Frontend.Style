@@ -20,12 +20,3 @@
         transform: translateX(-50%);
     }
 }
-
-
-@include media-breakpoint-down(xs) {
-    .fhi-double-datepicker {
-        .fhi-datepicker__form-control {
-            padding-left: $fhi-core-px * 38;
-        }
-    }
-}
