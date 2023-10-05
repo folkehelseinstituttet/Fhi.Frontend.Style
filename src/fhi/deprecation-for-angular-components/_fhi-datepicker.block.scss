@@ -16,21 +16,17 @@
     }
 
     &__toggler {
-        appearance: none;
-        --webkit-appearance: none;
-        
         background-color: transparent;
         border: 0;
         border-radius: 50%;
         display: flex;
         flex-direction: column;
         float: left;
-        height: $fhi-core-px * 44;
+        height: $fhi-core-px * 40;
         justify-content: center;
-        margin-right: ($fhi-core-px * -44);
+        margin-right: ($fhi-core-px * -40);
         position: relative;
-        top: $fhi-core-px * -2;
-        width: $fhi-core-px * 44;
+        width: $fhi-core-px * 40;
 
         [class*="icon-"] {
             background-size: contain;
@@ -38,7 +34,7 @@
         }
 
         &:focus-visible {
-            + .form-control {
+            + div .form-control {
                 border-top-left-radius: $fhi-core-input-height;
                 border-bottom-left-radius: $fhi-core-input-height;
             }
