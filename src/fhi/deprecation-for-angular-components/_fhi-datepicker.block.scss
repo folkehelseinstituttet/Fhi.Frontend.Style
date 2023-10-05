@@ -32,7 +32,8 @@
 
         [class*="icon-"] {
             background-size: contain;
-            margin: auto;
+            left: $fhi-core-space-2;
+            position: absolute;
         }
 
         &:focus-visible {
