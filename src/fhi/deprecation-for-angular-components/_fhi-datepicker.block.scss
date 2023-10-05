@@ -24,11 +24,11 @@
         border-radius: 50%;
         display: flex;
         flex-direction: column;
-        float: left;
         height: $fhi-core-px * 40;
         justify-content: center;
+        left: 0;
         margin-right: ($fhi-core-px * -40);
-        position: relative;
+        position: absolute;
         width: $fhi-core-px * 40;
 
         [class*="icon-"] {
