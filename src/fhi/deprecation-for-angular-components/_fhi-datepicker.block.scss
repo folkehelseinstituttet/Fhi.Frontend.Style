@@ -16,6 +16,9 @@
     }
 
     &__toggler {
+        appearance: none;
+        --webkit-appearance: none;
+        
         background-color: transparent;
         border: 0;
         border-radius: 50%;
