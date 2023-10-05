@@ -8,6 +8,10 @@
 
         &:last-child {
             padding-left: $fhi-core-space-3;
+
+            .fhi-datepicker__toggler {
+                left: $fhi-core-space-3;
+            }
         }
     }
 
