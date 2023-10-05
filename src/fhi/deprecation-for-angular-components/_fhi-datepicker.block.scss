@@ -2,7 +2,7 @@
     position: relative;
 
     &__label {
-        display: block;
+        display: inline-block;
     }
 
     &__description {
@@ -37,6 +37,7 @@
         }
 
         &:focus-visible {
+            + .form-control,
             + div .form-control {
                 border-top-left-radius: $fhi-core-input-height;
                 border-bottom-left-radius: $fhi-core-input-height;
