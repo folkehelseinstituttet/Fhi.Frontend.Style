@@ -8,6 +8,10 @@
 
         &:last-child {
             padding-left: $fhi-core-space-3;
+
+            .fhi-datepicker__toggler {
+                left: $fhi-core-space-3;
+            }
         }
     }
 
@@ -18,14 +22,5 @@
         line-height: $fhi-core-px * 2;
         position: absolute;
         transform: translateX(-50%);
-    }
-}
-
-
-@include media-breakpoint-down(xs) {
-    .fhi-double-datepicker {
-        .fhi-datepicker__form-control {
-            padding-left: $fhi-core-px * 38;
-        }
     }
 }
