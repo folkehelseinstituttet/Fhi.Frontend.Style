@@ -1,7 +1,8 @@
 # Unreleased
 
-> Sep 20, 2023
+> Sep 25, 2023
 
+* :tada: **Enhancement** Add `fhi-btn-link` (`fhi-btn-flat` will be deprecated in next major release)
 * :tada: **Enhancement** Datepicker with error padding fix
 
 ## 5.6.0

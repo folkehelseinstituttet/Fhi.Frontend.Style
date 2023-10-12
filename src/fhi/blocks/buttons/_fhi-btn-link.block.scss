@@ -1,4 +1,5 @@
-.fhi-btn-flat {
+.fhi-btn-flat, // TODO: Deprecate fhi-btn-flat in v6.0.0
+.fhi-btn-link {
     @include fhi-btn(transparent, transparent, $fhi-core-blue-1);
     border: 0;
     padding-right: $fhi-core-space-2;
