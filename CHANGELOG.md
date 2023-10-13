@@ -1,7 +1,8 @@
 # Unreleased
 
-> Sep 25, 2023
+> Oct 12, 2023
 
+* :tada: **Enhancement** Updated donut chart icon
 * :tada: **Enhancement** Add `fhi-btn-link` (`fhi-btn-flat` will be deprecated in next major release)
 * :tada: **Enhancement** Datepicker with error padding fix
 
