@@ -1,8 +1,8 @@
 # Unreleased
 
-> Oct 18, 2023
+> Oct 20, 2023
 
-* :bug: **Bugfix** NgbDatepicker has new class for next month arrow
+* :tada: **Enhancement** Support change in NgbDatepicker (NgBootstrap v15)
 * :tada: **Enhancement** Updated donut chart icon
 * :tada: **Enhancement** Add `fhi-btn-link` (`fhi-btn-flat` will be deprecated in next major release)
 * :tada: **Enhancement** Datepicker with error padding fix
