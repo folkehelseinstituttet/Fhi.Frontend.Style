@@ -135,9 +135,12 @@
         height: auto;
     }
     
-    .ngb-dp-arrow-next .ngb-dp-navigation-chevron {
-        margin: 0;
-        transform: rotate(180deg);
+    .ngb-dp-arrow.right,
+    .ngb-dp-arrow-next {
+        .ngb-dp-navigation-chevron {
+            margin: 0;
+            transform: rotate(180deg);
+        }
     }
 
     [ngbDatepickerDayView] {
