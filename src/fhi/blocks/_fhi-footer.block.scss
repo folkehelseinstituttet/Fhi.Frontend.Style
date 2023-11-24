@@ -1,6 +1,4 @@
 .fhi-footer {
-    margin-top: auto;
-    
     &__container {
         border-top: 1px solid $border-color;
         margin-top: $fhi-core-space-3;
@@ -10,7 +8,6 @@
     }
 }
 
-
 .fhi-footer--arch {
     overflow: hidden;
     position: relative;
@@ -18,10 +15,10 @@
     &::before,
     &::after {
         background-color: $fhi-core-red-1;
-        content: "";
+        content: '';
         position: absolute;
     }
-    
+
     &::before {
         border-top-right-radius: 100%;
         border-top-left-radius: 100%;
@@ -37,7 +34,7 @@
         left: 0;
         right: 0;
         top: ($fhi-core-space-6 * 2);
-        transition: all .2s;
+        transition: all 0.2s;
     }
 
     a:not([class]) {
@@ -54,7 +51,6 @@
     }
 }
 
-
 @include media-breakpoint-up(xl) {
     .fhi-footer--arch {
         &::before {
@@ -62,13 +58,12 @@
             height: $fhi-core-px * 380;
             width: 108%;
         }
-        
+
         &::after {
             top: $fhi-core-px * 147;
         }
     }
 }
-
 
 @include media-breakpoint-up(xxl) {
     .fhi-footer--arch {

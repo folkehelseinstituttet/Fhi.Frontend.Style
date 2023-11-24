@@ -3,4 +3,29 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    &__main-body {
+        display: flex;
+        flex-grow: 1;
+        padding-right: $fhi-core-space-2;
+        padding-left: $fhi-core-space-2;
+
+        > * {
+            background: $fhi-core-blue-grey-2;
+            flex-basis: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .fhi-app {
+        padding-right: $fhi-core-space-3;
+        padding-left: $fhi-core-space-3;
+
+        &__main-body {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
 }

@@ -73,9 +73,7 @@
     &__utility-menu-content {
         height: $fhi-core-px * 25;
         position: absolute;
-        top: - $fhi-core-px * 46
-             - $fhi-core-space-4
-             - $fhi-core-px * 25;
+        top: -$fhi-core-px * 46 - $fhi-core-space-4 - $fhi-core-px * 25;
         right: $fhi-core-container-padding-xs;
     }
 
@@ -115,6 +113,11 @@
         &__brand-content {
             margin-left: unset;
         }
+    }
+
+    .fhi-main-menu--open {
+        margin-right: calc(#{$fhi-core-space-3} * -1);
+        margin-left: calc(#{$fhi-core-space-3} * -1);
     }
 }
 
