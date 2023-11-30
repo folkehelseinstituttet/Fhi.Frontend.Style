@@ -2,16 +2,15 @@
     background-color: $fhi-bg-color-1;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100svh;
 
     &__main-body {
         display: flex;
         flex-grow: 1;
-        padding-right: $fhi-core-space-2;
-        padding-left: $fhi-core-space-2;
 
-        > * {
+        > *:not(router-outlet) {
             display: flex;
+            flex-grow: 1;
             flex-basis: 100%;
             width: 100%;
         }
@@ -29,10 +28,5 @@
     .fhi-app {
         padding-right: $fhi-core-space-3;
         padding-left: $fhi-core-space-3;
-
-        &__main-body {
-            padding-right: 0;
-            padding-left: 0;
-        }
     }
 }

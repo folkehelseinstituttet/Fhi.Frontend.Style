@@ -1,0 +1,15 @@
+fhi-layout,
+.fhi-layout {
+    display: block;
+    height: 100%;
+    min-width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+    .fhi-layout {
+        &__container,
+        &__row {
+            height: 100%;
+        }
+    }
+}

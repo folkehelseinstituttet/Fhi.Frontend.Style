@@ -1,31 +1,33 @@
-@import "./fhi-bootstrap-theme";
+@import './fhi-bootstrap-theme';
 
-@import "../src/fhi/fhi-variables";
+@import '../src/fhi/fhi-variables';
 
-@import "../src/fhi-core-styles"; // TODO: aiming to get rid of this
+@import '../src/fhi-core-styles'; // TODO: aiming to get rid of this
 
-@import "../src/fhi/typography/typography";
-@import "../src/fhi/icons/icons";
+@import '../src/fhi/typography/typography';
+@import '../src/fhi/icons/icons';
 
-@import "../src/fhi/blocks/buttons/buttons";
-@import "../src/fhi/blocks/fhi-accordion-flush.block";
-@import "../src/fhi/blocks/fhi-alert.block";
-@import "../src/fhi/blocks/fhi-app.block";
-@import "../src/fhi/blocks/fhi-badge.block";
-@import "../src/fhi/blocks/fhi-button-group.block";
-@import "../src/fhi/blocks/fhi-card.block";
-@import "../src/fhi/blocks/fhi-error-page.block";
-@import "../src/fhi/blocks/fhi-footer.block";
-@import "../src/fhi/blocks/fhi-form-check-tile.block";
-@import "../src/fhi/blocks/fhi-header.block";
-@import "../src/fhi/blocks/fhi-input-group.block";
-@import "../src/fhi/blocks/fhi-main-menu.block";
-@import "../src/fhi/blocks/fhi-nav-tabs.block";
-@import "../src/fhi/blocks/fhi-navigation-tile.block";
-@import "../src/fhi/blocks/fhi-popover-trigger.block";
-@import "../src/fhi/blocks/fhi-tag.block";
-@import "../src/fhi/blocks/fhi-tag-selector.block";
-@import "../src/fhi/blocks/fhi-utility-section.block";
+@import '../src/fhi/blocks/buttons/buttons';
+@import '../src/fhi/blocks/fhi-accordion-flush.block';
+@import '../src/fhi/blocks/fhi-alert.block';
+@import '../src/fhi/blocks/fhi-app.block';
+@import '../src/fhi/blocks/fhi-badge.block';
+@import '../src/fhi/blocks/fhi-bg.block';
+@import '../src/fhi/blocks/fhi-button-group.block';
+@import '../src/fhi/blocks/fhi-card.block';
+@import '../src/fhi/blocks/fhi-error-page.block';
+@import '../src/fhi/blocks/fhi-footer.block';
+@import '../src/fhi/blocks/fhi-form-check-tile.block';
+@import '../src/fhi/blocks/fhi-header.block';
+@import '../src/fhi/blocks/fhi-input-group.block';
+@import '../src/fhi/blocks/fhi-layout.block';
+@import '../src/fhi/blocks/fhi-main-menu.block';
+@import '../src/fhi/blocks/fhi-nav-tabs.block';
+@import '../src/fhi/blocks/fhi-navigation-tile.block';
+@import '../src/fhi/blocks/fhi-popover-trigger.block';
+@import '../src/fhi/blocks/fhi-tag.block';
+@import '../src/fhi/blocks/fhi-tag-selector.block';
+@import '../src/fhi/blocks/fhi-utility-section.block';
 
 // TODO: styles to be transferred to it's own Angular Component eventually (step by step)
-@import "./deprecation-for-angular-components";
+@import './deprecation-for-angular-components';
