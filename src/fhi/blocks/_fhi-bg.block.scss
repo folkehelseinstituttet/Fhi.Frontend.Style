@@ -1,8 +1,5 @@
-$bg: $fhi-core-blue-grey-2;
+$app-bg: $fhi-core-blue-grey-2;
 
-.fhi-bg {
-    background-color: $bg;
-    display: block;
-    height: 100%;
-    min-width: 100%;
+.app-bg {
+    background-color: $app-bg;
 }

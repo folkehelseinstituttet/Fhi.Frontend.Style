@@ -1,18 +1,37 @@
-fhi-layout,
-.fhi-layout {
-    display: block;
+app-layout,
+.app-layout {
+    display: flex;
     min-width: 100%;
+}
 
-    .fhi-app__main-content > * & {
-        height: 100%;
+.app-layout {
+    &__sticky-action-bar {
+        background-color: $fhi-core-white;
+        border-top: 1px solid $fhi-core-grey-1;
+        bottom: 0;
+        padding: $fhi-core-space-2 0 $fhi-core-space-1;
+        position: sticky;
+        text-align: right;
+
+        * {
+            margin: 0 $fhi-core-space-1 $fhi-core-space-1;
+        }
     }
 }
 
-// @include media-breakpoint-up(lg) {
-//     .fhi-layout {
-//         &__container,
-//         &__row {
-//             height: 100%;
-//         }
-//     }
-// }
+@include media-breakpoint-up(lg) {
+    .app-layout {
+        &__container,
+        &__row {
+            height: 100%;
+        }
+
+        &__sticky-action-bar {
+            padding: $fhi-core-space-3 $fhi-core-space-3 $fhi-core-space-2;
+
+            * {
+                margin: 0 $fhi-core-space-2 $fhi-core-space-2;
+            }
+        }
+    }
+}
