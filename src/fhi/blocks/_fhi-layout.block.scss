@@ -1,11 +1,11 @@
-app-layout,
-.app-layout {
+fhi-layout,
+.fhi-layout {
     display: flex;
     min-width: 100%;
 }
 
-.app-layout {
-    &__sticky-action-bar {
+.fhi-layout {
+    &__action-bar {
         background-color: $fhi-core-white;
         border-top: 1px solid $fhi-core-grey-1;
         bottom: 0;
@@ -20,13 +20,13 @@ app-layout,
 }
 
 @include media-breakpoint-up(lg) {
-    .app-layout {
+    .fhi-layout {
         &__container,
         &__row {
             height: 100%;
         }
 
-        &__sticky-action-bar {
+        &__action-bar {
             padding: $fhi-core-space-3 $fhi-core-space-3 $fhi-core-space-2;
 
             * {
