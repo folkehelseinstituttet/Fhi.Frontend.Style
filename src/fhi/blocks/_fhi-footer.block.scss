@@ -51,6 +51,15 @@
     }
 }
 
+@include media-breakpoint-up(sm) {
+    .fhi-footer {
+        &--arch {
+            margin-right: calc(#{$fhi-core-space-3} * -1);
+            margin-left: calc(#{$fhi-core-space-3} * -1);
+        }
+    }
+}
+
 @include media-breakpoint-up(xl) {
     .fhi-footer--arch {
         &::before {
