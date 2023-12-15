@@ -1,6 +1,6 @@
-# Unreleased
+# 5.7.0
 
-> Oct 20, 2023
+> Dec 15, 2023
 
 * :tada: **Enhancement** Support change in NgbDatepicker (NgBootstrap v15)
 * :tada: **Enhancement** Updated donut chart icon
