@@ -4,54 +4,51 @@
 
 $fhi-core-px: 0.0625rem;
 
-
 /**
   * Spacing
   * - used for margin, padding, and also height and width
   */
- 
-$fhi-core-space-1: $fhi-core-px *  4; // xxs
-$fhi-core-space-2: $fhi-core-px *  8; // xs
+
+$fhi-core-space-1: $fhi-core-px * 4; // xxs
+$fhi-core-space-2: $fhi-core-px * 8; // xs
 $fhi-core-space-3: $fhi-core-px * 16; // sm
 $fhi-core-space-4: $fhi-core-px * 24; // md
 $fhi-core-space-5: $fhi-core-px * 32; // lg
 $fhi-core-space-6: $fhi-core-px * 40; // xl
 $fhi-core-space-7: $fhi-core-px * 56; // xxl
- 
- 
+
 /**
   * Grid
   */
- 
+
 $fhi-core-container-padding-xxs: $fhi-core-space-2;
 $fhi-core-container-padding-xs: $fhi-core-space-3;
- 
- 
+
 /**
   * Typography
   */
- 
+
 $fhi-core-font-size-1: $fhi-core-px * 15;
 $fhi-core-font-size-2: $fhi-core-px * 17;
 $fhi-core-font-size-3: $fhi-core-px * 19;
 $fhi-core-font-size-4: $fhi-core-px * 22;
 $fhi-core-font-size-5: $fhi-core-px * 25;
-$fhi-core-font-size-6: $fhi-core-px * 30;
+$fhi-core-font-size-6: $fhi-core-px * 28;
 $fhi-core-font-size-7: $fhi-core-px * 36;
 $fhi-core-font-size-8: $fhi-core-px * 44;
-$fhi-core-font-size-9: $fhi-core-px * 70;
+$fhi-core-font-size-9: $fhi-core-px * 48;
 
-$fhi-core-h1-font-size-xs:  $fhi-core-font-size-8;
-$fhi-core-h1-font-size-lg:  $fhi-core-font-size-9; // h1 larger on desktop
-$fhi-core-h2-font-size-xs:  $fhi-core-font-size-7;
-$fhi-core-h3-font-size-xs:  $fhi-core-font-size-6;
-$fhi-core-h4-font-size-xs:  $fhi-core-font-size-5;
-$fhi-core-h5-font-size-xs:  $fhi-core-font-size-4;
+$fhi-core-h1-font-size-xs: $fhi-core-font-size-8;
+$fhi-core-h1-font-size-lg: $fhi-core-font-size-9; // h1 larger on desktop
+$fhi-core-h2-font-size-xs: $fhi-core-font-size-7;
+$fhi-core-h3-font-size-xs: $fhi-core-font-size-6;
+$fhi-core-h4-font-size-xs: $fhi-core-font-size-5;
+$fhi-core-h5-font-size-xs: $fhi-core-font-size-4;
 
-$fhi-core-small-font-size-xs:  $fhi-core-font-size-1;
-$fhi-core-default-font-size-xs:  $fhi-core-font-size-3;
-$fhi-core-default-font-size-lg:  $fhi-core-font-size-2; // body text smaller on desktop
-$fhi-core-lead-font-size-xs:  $fhi-core-font-size-3;
+$fhi-core-small-font-size-xs: $fhi-core-font-size-1;
+$fhi-core-default-font-size-xs: $fhi-core-font-size-3;
+$fhi-core-default-font-size-lg: $fhi-core-font-size-2; // body text smaller on desktop
+$fhi-core-lead-font-size-xs: $fhi-core-font-size-3;
 
 $fhi-core-font-family-serif-regular: 'CrimsonText Regular', serif;
 $fhi-core-font-family-serif-regular-italic: 'CrimsonText Regular Italic', serif;
@@ -60,22 +57,28 @@ $fhi-core-font-family-serif-medium-italic: 'CrimsonText Semi Bold Italic', serif
 $fhi-core-font-family-serif-bold: 'CrimsonText Bold', serif;
 $fhi-core-font-family-serif-bold-italic: 'CrimsonText Bold Italic', serif;
 
-$fhi-core-font-family-sans-serif-regular: 'BrandonText Regular', 'SourceSansPro Regular', sans-serif;
+$fhi-core-font-family-sans-serif-regular: 'BrandonText Regular',
+    'SourceSansPro Regular', sans-serif;
 $fhi-core-font-family-sans-serif-regular-2: 'SourceSansPro Regular', sans-serif;
-$fhi-core-font-family-sans-serif-regular-2-bold: 'SourceSansPro Bold', sans-serif;
-$fhi-core-font-family-sans-serif-regular-italic: 'BrandonText Regular Italic', 'SourceSansPro Regular Italic', sans-serif;
-$fhi-core-font-family-sans-serif-medium: 'BrandonText Medium', 'SourceSansPro Semi Bold', sans-serif;
-$fhi-core-font-family-sans-serif-medium-italic: 'BrandonText Medium Italic', 'SourceSansPro Semi Bold Italic', sans-serif;
-$fhi-core-font-family-sans-serif-bold: 'BrandonText Bold', 'SourceSansPro Bold', sans-serif;
-$fhi-core-font-family-sans-serif-bold-italic: 'BrandonText Bold Italic', 'SourceSansPro Bold Italic', sans-serif;
- 
- 
+$fhi-core-font-family-sans-serif-regular-2-bold: 'SourceSansPro Bold',
+    sans-serif;
+$fhi-core-font-family-sans-serif-regular-italic: 'BrandonText Regular Italic',
+    'SourceSansPro Regular Italic', sans-serif;
+$fhi-core-font-family-sans-serif-medium: 'BrandonText Medium',
+    'SourceSansPro Semi Bold', sans-serif;
+$fhi-core-font-family-sans-serif-medium-italic: 'BrandonText Medium Italic',
+    'SourceSansPro Semi Bold Italic', sans-serif;
+$fhi-core-font-family-sans-serif-bold: 'BrandonText Bold', 'SourceSansPro Bold',
+    sans-serif;
+$fhi-core-font-family-sans-serif-bold-italic: 'BrandonText Bold Italic',
+    'SourceSansPro Bold Italic', sans-serif;
+
 /**
   * All colors used by FHI
   */
- 
+
 $fhi-core-white: white;
- 
+
 $fhi-core-grey-light-1: #fbfbfb;
 $fhi-core-grey-light-2: #f7f6f5;
 $fhi-core-grey-light-3: #f0edeb;
@@ -118,30 +121,32 @@ $fhi-core-pink-light-1: #ffe3e2;
 $fhi-core-pink-light-2: #fad1cd;
 $fhi-core-pink-light-3: #fba39b;
 
-
 /**
   * Forms
   */
-  
+
 $fhi-core-input-height: $fhi-core-px * 40;
-
-
 
 /**
   * filter calculation made using https://codepen.io/sosuke/pen/Pjoqqp
   */
 
 // $fhi-core-red-1
-$fhi-core-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg) brightness(106%) contrast(94%);
+$fhi-core-red-filter: invert(58%) sepia(58%) saturate(4463%) hue-rotate(328deg)
+    brightness(106%) contrast(94%);
 
 // $fhi-core-green-2
-$fhi-core-green-filter: invert(47%) sepia(25%) saturate(5597%) hue-rotate(134deg) brightness(94%) contrast(97%);
+$fhi-core-green-filter: invert(47%) sepia(25%) saturate(5597%)
+    hue-rotate(134deg) brightness(94%) contrast(97%);
 
 // $fhi-core-pink-dark-1
-$fhi-core-pink-filter: invert(26%) sepia(31%) saturate(7486%) hue-rotate(325deg) brightness(91%) contrast(90%);
+$fhi-core-pink-filter: invert(26%) sepia(31%) saturate(7486%) hue-rotate(325deg)
+    brightness(91%) contrast(90%);
 
 // $fhi-core-orange-2
-$fhi-core-orange-filter: invert(77%) sepia(38%) saturate(808%) hue-rotate(328deg) brightness(105%) contrast(94%);
+$fhi-core-orange-filter: invert(77%) sepia(38%) saturate(808%)
+    hue-rotate(328deg) brightness(105%) contrast(94%);
 
 // $fhi-core-blue-1
-$fhi-core-blue-filter: invert(21%) sepia(91%) saturate(2644%) hue-rotate(195deg) brightness(95%) contrast(104%);
+$fhi-core-blue-filter: invert(21%) sepia(91%) saturate(2644%) hue-rotate(195deg)
+    brightness(95%) contrast(104%);

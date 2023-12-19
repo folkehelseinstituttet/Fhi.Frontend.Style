@@ -4,6 +4,11 @@
             padding-top: $fhi-core-space-3;
         }
     }
+
+    h1:not(.h2, .h3, .h4, .h5),
+    .h1 {
+        font-size: $fhi-core-h1-font-size-xs;
+    }
 }
 
 @include media-breakpoint-down(xl) {
