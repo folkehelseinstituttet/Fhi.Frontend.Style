@@ -3,14 +3,8 @@
     position: relative;
 
     &__brand {
-        // max-height: $fhi-core-px * 112;
-        // overflow: hidden;
         padding: $fhi-core-space-6 0 $fhi-core-space-3;
         position: relative;
-
-        .fhi-app--admin-view & {
-            padding-top: $fhi-core-space-3;
-        }
     }
 
     &__brand-container {
@@ -128,10 +122,6 @@
             padding-bottom: $fhi-core-space-4;
             padding-left: 0;
             padding-right: 0;
-
-            .fhi-app--admin-view & {
-                padding-bottom: $fhi-core-space-2;
-            }
         }
 
         &__utility-menu {

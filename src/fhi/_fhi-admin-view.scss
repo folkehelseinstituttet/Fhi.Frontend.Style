@@ -1,0 +1,35 @@
+.fhi-admin-view {
+    .fhi-header {
+        &__brand {
+            padding-top: $fhi-core-space-3;
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .fhi-admin-view {
+        .fhi-main-menu {
+            &__home-link {
+                top: $fhi-core-space-3;
+            }
+
+            &__toggler {
+                top: $fhi-core-space-3;
+            }
+
+            &__nav {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .fhi-admin-view {
+        .fhi-header {
+            &__brand-container {
+                padding-bottom: $fhi-core-space-2;
+            }
+        }
+    }
+}

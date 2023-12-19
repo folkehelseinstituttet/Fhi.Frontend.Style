@@ -12,10 +12,6 @@
             display: none;
             position: absolute;
             top: $fhi-core-space-6;
-
-            .fhi-app--admin-view & {
-                top: $fhi-core-space-3;
-            }
         }
         &__toggler {
             position: absolute;
@@ -28,10 +24,6 @@
             font-size: $fhi-core-font-size-3;
             margin-right: $fhi-core-container-padding-xs;
             padding: ($fhi-core-px * 5) 0 $fhi-core-space-1 $fhi-core-space-2;
-
-            .fhi-app--admin-view & {
-                top: $fhi-core-space-3;
-            }
         }
         &__toggler-close-icon {
             display: none;
@@ -47,10 +39,6 @@
         }
         &__nav {
             margin-top: $fhi-core-space-6;
-
-            .fhi-app--admin-view & {
-                margin-top: 0;
-            }
         }
         &__nav-item {
             width: 100%;
