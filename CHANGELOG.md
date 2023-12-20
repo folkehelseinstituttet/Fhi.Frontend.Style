@@ -1,4 +1,10 @@
-# 5.7.0
+# Unreleased
+
+> Dec 19, 2023
+
+* :gift: **New** Added CSS class for tighter GUI (For admin type solutions)
+
+## 5.7.0
 
 > Dec 15, 2023
 
