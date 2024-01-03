@@ -15,6 +15,7 @@
         }
         &__toggler {
             appearance: none;
+            -webkit-appearance: none;
             position: absolute;
             top: $fhi-core-space-6;
             right: 0;
