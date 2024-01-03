@@ -31,10 +31,3 @@
         box-shadow: $form-check-input-focus-box-shadow !important;
     }
 }
-
-@include media-breakpoint-up(md) {
-    .fhi-btn-menu-item {
-        height: $fhi-core-px * 60;
-        padding-top: ($fhi-core-space-4 - $fhi-core-space-1);
-    }
-}
