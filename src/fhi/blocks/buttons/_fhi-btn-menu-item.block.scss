@@ -1,7 +1,7 @@
 .fhi-btn-menu-item {
     @include fhi-btn($fhi-core-white);
 
-    [class*="icon-"] {
+    [class*='icon-'] {
         margin-left: ($fhi-core-space-2 * -1);
     }
 
@@ -11,14 +11,18 @@
     }
 }
 
-
 .fhi-btn-menu-item--active {
     &,
     &:focus,
     &:hover {
-        @include fhi-btn($fhi-core-charcoal-1, $fhi-core-charcoal-1, $fhi-core-white, $fhi-core-charcoal-1);
+        @include fhi-btn(
+            $fhi-core-charcoal-1,
+            $fhi-core-charcoal-1,
+            $fhi-core-white,
+            $fhi-core-charcoal-1
+        );
 
-        [class*="icon-"] {
+        [class*='icon-'] {
             filter: brightness(100);
         }
     }
@@ -27,7 +31,6 @@
         box-shadow: $form-check-input-focus-box-shadow !important;
     }
 }
-
 
 @include media-breakpoint-up(md) {
     .fhi-btn-menu-item {
