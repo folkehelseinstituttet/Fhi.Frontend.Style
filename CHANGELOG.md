@@ -1,7 +1,8 @@
 # Unreleased
 
-> Dec 19, 2023
+> Jan 03, 2024
 
+* :tada: **Enhancement** Adjusted height on menu buttons
 * :gift: **New** Added CSS class for tighter GUI (For admin type solutions)
 
 ## 5.7.0
