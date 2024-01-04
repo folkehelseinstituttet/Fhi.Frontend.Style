@@ -1,7 +1,7 @@
 .fhi-btn-menu-item {
     @include fhi-btn($fhi-core-white);
 
-    [class*='icon-'] {
+    [class*="icon-"] {
         margin-left: ($fhi-core-space-2 * -1);
     }
 
@@ -22,7 +22,7 @@
             $fhi-core-charcoal-1
         );
 
-        [class*='icon-'] {
+        [class*="icon-"] {
             filter: brightness(100);
         }
     }
