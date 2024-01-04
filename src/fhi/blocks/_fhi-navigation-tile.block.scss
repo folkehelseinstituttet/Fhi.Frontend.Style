@@ -1,92 +1,132 @@
-$tile-transition: background-color .15s;
+.fhi-navigation-tile {
+    color: $body-color;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    padding: $fhi-core-space-3;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    z-index: 0;
 
-@include media-breakpoint-down(md) {
-    .fhi-navigation-tile {
-        &__icon {
-            margin-right: $fhi-core-space-1;
-            margin-left: ($fhi-core-space-1 * -1);
+    &::before {
+        background-color: $fhi-core-white;
+        border: 1px solid $fhi-core-grey-3;
+        border-radius: $border-radius-sm;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
 
-            [class*="icon-"] {
-                background-position: left center;
+    &:hover {
+        &::before {
+            background-color: $fhi-core-grey-light-2;
+            border-width: 2px;
+        }
+    }
+
+    &__icon {
+        background-color: $fhi-core-blue-grey-3;
+        border-radius: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: $fhi-core-px * 36;
+        justify-content: center;
+        margin: auto auto 0;
+        width: $fhi-core-px * 36;
+
+        [class*="icon-"] {
+            background-size: contain;
+            height: $fhi-core-px * 16;
+            width: 100%;
+        }
+    }
+
+    &__header {
+        display: flex;
+
+        .fhi-navigation-tile {
+            &__icon {
+                margin: 0 0 $fhi-core-space-2 $fhi-core-space-3;
             }
         }
     }
-}
-
-
-.fhi-navigation-tile {
-    background-color: $fhi-core-white;
-    border: 1px solid $fhi-core-grey-3;
-    border-radius: $border-radius-sm;
-    color: $body-color;
-    display: inline-flex;
-    padding: $fhi-core-space-2 $fhi-core-space-3;
-    text-decoration: none;
-    transition: $tile-transition;
-
-    &__icon {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     &__heading {
-        font-family: $fhi-core-font-family-sans-serif-regular;
-        font-size: $fhi-core-font-size-2;
-        margin: 0;
+        flex-grow: 1;
+        font-family: $fhi-core-font-family-sans-serif-medium;
+        font-size: $fhi-core-font-size-3;
+        margin-bottom: $fhi-core-space-3;
+    }
+
+    &__link {
+        color: inherit;
+        display: inline-block;
+        font-size: inherit;
+        text-decoration: none;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        &:hover {
+            color: inherit;
+        }
     }
 
     &__description {
-        display: none;
+        font-size: $fhi-core-font-size-2;
+    }
+
+    &__footer {
+        font-family: $fhi-core-font-family-sans-serif-medium;
+        font-size: $fhi-core-font-size-1;
+        margin: auto 0 0;
     }
 }
 
 a.fhi-navigation-tile {
     &:hover {
-        background-color: $fhi-core-pink-light-2;
         color: $body-color;
+    }
+}
 
-        .fhi-navigation-tile__description::after {
-            background-color: $fhi-core-pink-light-2;
+@include media-breakpoint-up(xs) {
+    .fhi-navigation-tile {
+        &__icon {
+            height: $fhi-core-px * 50;
+            width: $fhi-core-px * 50;
+
+            [class*="icon-"] {
+                height: $fhi-core-px * 24;
+            }
         }
     }
 }
 
-
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
     .fhi-navigation-tile {
-        flex-direction: column;
-        height: 100%;
-        padding: $fhi-core-space-4;
-        text-align: center;
-        width: 100%;
-
         &__icon {
-            background-color: $fhi-core-blue-grey-2;
-            border-radius: 50%;
             height: $fhi-core-px * 70;
-            margin: auto auto 0;
-            order: 2;
             width: $fhi-core-px * 70;
 
             [class*="icon-"] {
-                background-size: contain;
-                height: $fhi-core-px * 30;
-                width: 100%;
+                height: $fhi-core-px * 32;
             }
         }
 
         &__heading {
-            font-family: $fhi-core-font-family-serif-regular;
-            font-size: $fhi-core-font-size-7;
-            line-height: 1;
-            margin-bottom: $fhi-core-space-3;
-        }
-
-        &__description {
-            display: block;
-            font-size: $fhi-core-font-size-3;
-            margin-bottom: $fhi-core-space-3;
+            font-size: $fhi-core-font-size-4;
         }
     }
 }
