@@ -1,7 +1,8 @@
 # Unreleased
 
-> Jan 03, 2023
+> Jan 04, 2023
 
+* :tada: **Enhancement** Added 3 new icons
 * :tada: **Enhancement** Navigation tile new design. Markup adjusted, but previous markup doesn't break.
 * :gift: **New** Added CSS class for tighter GUI (For admin type solutions)
 
