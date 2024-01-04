@@ -13,7 +13,7 @@
         background-color: $fhi-core-white;
         border: 1px solid $fhi-core-grey-3;
         border-radius: $border-radius-sm;
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
@@ -40,7 +40,7 @@
         margin: auto auto 0;
         width: $fhi-core-px * 36;
 
-        [class*='icon-'] {
+        [class*="icon-"] {
             background-size: contain;
             height: $fhi-core-px * 16;
             width: 100%;
@@ -71,7 +71,7 @@
         text-decoration: none;
 
         &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
@@ -107,7 +107,7 @@ a.fhi-navigation-tile {
             height: $fhi-core-px * 50;
             width: $fhi-core-px * 50;
 
-            [class*='icon-'] {
+            [class*="icon-"] {
                 height: $fhi-core-px * 24;
             }
         }
@@ -120,7 +120,7 @@ a.fhi-navigation-tile {
             height: $fhi-core-px * 70;
             width: $fhi-core-px * 70;
 
-            [class*='icon-'] {
+            [class*="icon-"] {
                 height: $fhi-core-px * 32;
             }
         }
