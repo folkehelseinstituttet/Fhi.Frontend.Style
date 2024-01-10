@@ -1,4 +1,10 @@
-# 5.8.0
+# Unreleased
+
+> Jan 10, 2024
+
+* :tada: **Enhancement** Button group bg color white when not active
+
+## 5.8.0
 
 > Jan 08, 2024
 
