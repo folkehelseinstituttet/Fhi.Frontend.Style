@@ -2,7 +2,7 @@
 
 > Jan 15, 2024
 
-* :boom: **Breaking** Upgrade to Bootstrap@5.3.2
+* :tada: **Enhancement** Upgrade to Bootstrap@5.3.2
 * :tada: **Enhancement** Button group bg color white when not active
 
 ## 5.8.0
