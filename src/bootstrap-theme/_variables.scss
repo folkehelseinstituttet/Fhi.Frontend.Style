@@ -1321,7 +1321,7 @@ $pagination-active-bg: $pagination-bg;
 // $pagination-active-border-color:    $component-active-bg !default;
 
 $pagination-disabled-color: $fhi-core-grey-3;
-// $pagination-disabled-bg:            var(--#{$prefix}secondary-bg) !default;
+$pagination-disabled-bg: transparent;
 // $pagination-disabled-border-color:  var(--#{$prefix}border-color) !default;
 
 // $pagination-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
