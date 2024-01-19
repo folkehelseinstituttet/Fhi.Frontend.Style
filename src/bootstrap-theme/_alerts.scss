@@ -24,7 +24,6 @@
     .alert-#{$state} {
         --#{$prefix}alert-bg: rgba(var(--bs-#{$state}-rgb), 1);
         --#{$prefix}alert-border-color: transparent;
-        --#{$prefix}alert-link-color: var(--#{$prefix}#{$state}-text-emphasis);
     }
 }
 
