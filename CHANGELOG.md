@@ -1,7 +1,8 @@
 # Unreleased
 
-> Jan 15, 2024
+> Jan 22, 2024
 
+* :tada: **Enhancement** Added 4 new icons
 * :tada: **Enhancement** Upgrade to Bootstrap@5.3.2
 * :tada: **Enhancement** Button group bg color white when not active
 
