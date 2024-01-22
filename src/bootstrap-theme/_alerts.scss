@@ -20,6 +20,13 @@
     }
 }
 
+@each $state in map-keys($theme-colors) {
+    .alert-#{$state} {
+        --#{$prefix}alert-bg: rgba(var(--bs-#{$state}-rgb), 1);
+        --#{$prefix}alert-border-color: transparent;
+    }
+}
+
 .alert-dismissible .btn-close {
     top: -1px;
     right: $fhi-core-space-2;
