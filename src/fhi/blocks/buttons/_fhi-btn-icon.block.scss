@@ -23,7 +23,9 @@
         width: $fhi-core-px * 44;
 
         [class*="icon-"] {
+            height: $fhi-core-px * 24;
             margin: 0;
+            width: $fhi-core-px * 24;
         }
     }
 }
