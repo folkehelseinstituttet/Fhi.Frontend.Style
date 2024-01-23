@@ -12,28 +12,26 @@
     @include icon-classes-generator(); // (mixin)
 }
 
-
 // icon sizes
 .icon-sm {
-    height: $fhi-core-space-3;
-    width: $fhi-core-space-3;
+    height: $fhi-core-px * 16;
+    width: $fhi-core-px * 16;
 }
 
 .icon-md {
-    height: $fhi-core-space-4;
-    width: $fhi-core-space-4;
+    height: $fhi-core-px * 24;
+    width: $fhi-core-px * 24;
 }
 
 .icon-lg {
-    height: $fhi-core-space-5;
-    width: $fhi-core-space-5;
+    height: $fhi-core-px * 32;
+    width: $fhi-core-px * 32;
 }
 
 .icon-xl {
-    height: $fhi-core-space-6;
-    width: $fhi-core-space-6;
+    height: $fhi-core-px * 40;
+    width: $fhi-core-px * 40;
 }
-
 
 // color filters
 .icon-white {
