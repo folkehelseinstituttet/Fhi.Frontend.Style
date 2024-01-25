@@ -1,5 +1,6 @@
 .fhi-btn-icon {
     background-color: $fhi-core-white;
+    border: 1px solid $fhi-core-grey-1;
     border-radius: $fhi-core-px * 22;
     color: $fhi-core-charcoal-1;
     padding-right: $fhi-core-space-3;
@@ -13,5 +14,18 @@
     &:hover {
         border-color: transparent;
         text-decoration: none;
+    }
+
+    &--circular {
+        border-radius: 50%;
+        height: $fhi-core-px * 44;
+        padding: 0;
+        width: $fhi-core-px * 44;
+
+        [class*="icon-"] {
+            height: $fhi-core-px * 24;
+            margin: 0;
+            width: $fhi-core-px * 24;
+        }
     }
 }
