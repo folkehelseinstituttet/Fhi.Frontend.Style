@@ -35,23 +35,19 @@
     }
 }
 
-
 th,
 td {
-    transition: background-color .25s ease;
+    transition: background-color 0.25s ease;
 }
-
 
 td .invalid-feedback {
     font-family: $fhi-core-font-family-sans-serif-regular;
     font-size: $fhi-core-font-size-1;
 }
 
-
 th[tabindex]:focus-visible {
     box-shadow: $input-focus-box-shadow inset !important;
 }
-
 
 th[aria-sort] {
     color: $fhi-core-blue-grey-7;
@@ -74,7 +70,6 @@ th[aria-sort] {
         vertical-align: bottom;
     }
 }
-
 
 th[aria-sort="ascending"],
 th[aria-sort="descending"] {
