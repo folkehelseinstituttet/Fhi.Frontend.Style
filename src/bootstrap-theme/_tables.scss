@@ -8,14 +8,32 @@
         }
 
         th {
-            border-bottom-width: 1px;
+            border: 1px solid $fhi-core-white;
             font-family: $fhi-core-font-family-sans-serif-regular-2-bold;
         }
     }
 
-    tbody > tr[aria-selected="true"] > * {
-        --bs-table-accent-bg: $fhi-core-blue-grey-3;
-        background-color: $fhi-core-blue-grey-3;
+    tbody {
+        > tr[aria-selected="true"] > * {
+            --bs-table-accent-bg: $fhi-core-blue-grey-3;
+            background-color: $fhi-core-blue-grey-3;
+        }
+
+        th,
+        td {
+            &[rowspan] {
+                vertical-align: middle;
+            }
+        }
+
+        td[rowspan] {
+            // border-right: 1px solid $table-border-color;
+        }
+
+        th {
+            border: 1px solid $fhi-core-white;
+            background-color: $fhi-core-blue-grey-2;
+        }
     }
 
     .form-control {
