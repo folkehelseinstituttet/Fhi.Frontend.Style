@@ -1,4 +1,13 @@
-# 5.9.0
+# Unreleased
+
+> Jan 25, 2024
+
+* :tada: **Enhancement** Improved visuals on Logo / project name
+* :tada: **Enhancement** Border on Icon Button
+* :tada: **Enhancement** Circular variant of Icon Button (without text)
+* :tada: **Enhancement** Color palette cleanup (some color variables will be removed in **v6**)
+
+## 5.9.0
 
 > Jan 22, 2024
 
