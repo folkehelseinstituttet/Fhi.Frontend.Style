@@ -1,4 +1,10 @@
-# 5.9.0
+# Unreleased
+
+> Jan 25, 2024
+
+* :tada: **Enhancement** Improved visuals on Logo / project name
+
+## 5.9.0
 
 > Jan 22, 2024
 
