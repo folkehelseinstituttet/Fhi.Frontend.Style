@@ -21,7 +21,6 @@
     }
 
     &__brand-content {
-        display: flex;
         max-width: calc(100% - #{$fhi-core-px * 100});
     }
 
@@ -39,25 +38,13 @@
     }
 
     &__project {
+        border-left: 1px solid $fhi-core-red-1;
         display: none;
         font-size: $fhi-core-font-size-5;
-        line-height: 1;
+        line-height: 0.92;
         height: $fhi-core-px * 25;
-        padding-top: $fhi-core-px * 5;
         padding-left: $fhi-core-space-3;
-        position: relative;
-
-        &::before {
-            background-color: $fhi-core-red-1;
-            border-radius: ($fhi-core-px * 1.5);
-            content: "";
-            display: block;
-            height: 100%;
-            left: $fhi-core-px * -1;
-            top: 7px;
-            position: absolute;
-            width: ($fhi-core-px * 3);
-        }
+        vertical-align: bottom;
     }
 
     &__project-name {
@@ -72,7 +59,7 @@
 
     &__project-name,
     &__project-description {
-        vertical-align: sub;
+        vertical-align: middle;
     }
 
     &__utility-menu {
