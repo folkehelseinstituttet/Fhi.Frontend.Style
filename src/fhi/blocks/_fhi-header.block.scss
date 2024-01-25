@@ -38,13 +38,24 @@
     }
 
     &__project {
-        border-left: 1px solid $fhi-core-red-1;
         display: none;
         font-size: $fhi-core-font-size-5;
         line-height: 0.92;
         height: $fhi-core-px * 25;
         padding-left: $fhi-core-space-3;
-        vertical-align: bottom;
+        position: relative;
+
+        &::before {
+            background-color: $fhi-core-red-1;
+            border-radius: ($fhi-core-px * 1.5);
+            content: "";
+            display: block;
+            height: 100%;
+            left: $fhi-core-px * -1;
+            top: $fhi-core-px * 2;
+            position: absolute;
+            width: ($fhi-core-px * 3);
+        }
     }
 
     &__project-name {
