@@ -46,7 +46,8 @@ const getTheFiles = function (iconsPath, arrayOfFiles) {
           '',
         );
         // removing multiple spaces
-        data = data.replace(/  +/g, '');
+        data = data.replace(/  +/g, ' ');
+        data = data.replace(/>\s+</gim, '><');
 
         currentSVG.push(`${path.parse(currentFile).name}`);
         currentSVG.push(`${data}`);
