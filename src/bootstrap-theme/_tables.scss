@@ -22,17 +22,18 @@
         th,
         td {
             &[rowspan] {
-                vertical-align: middle;
+                // vertical-align: middle;
             }
         }
 
         td[rowspan] {
+            // background-color: $fhi-core-blue-grey-2;
             // border-right: 1px solid $table-border-color;
         }
 
         th {
+            // background-color: $fhi-core-blue-grey-2;
             // border: 1px solid $fhi-core-white;
-            background-color: $fhi-core-blue-grey-2;
         }
     }
 
