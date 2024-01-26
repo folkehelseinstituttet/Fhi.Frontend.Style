@@ -8,7 +8,7 @@
         }
 
         th {
-            border: 1px solid $fhi-core-white;
+            border-bottom-width: 1px;
             font-family: $fhi-core-font-family-sans-serif-regular-2-bold;
         }
     }
@@ -31,7 +31,7 @@
         }
 
         th {
-            border: 1px solid $fhi-core-white;
+            // border: 1px solid $fhi-core-white;
             background-color: $fhi-core-blue-grey-2;
         }
     }
