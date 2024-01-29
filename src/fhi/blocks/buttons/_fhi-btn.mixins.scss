@@ -2,8 +2,15 @@
     $background-color,
     $border-color: $fhi-core-charcoal-1,
     $color: $fhi-core-charcoal-1,
-    $hover-background: $fhi-core-pink-light-2
+    $hover-background: $fhi-core-grey-light-2
 ) {
+    --bs-btn-active-bg: #{$background-color};
+    --bs-btn-active-color: #{$color};
+    --bs-btn-disabled-bg: #{$background-color};
+    --bs-btn-disabled-color: #{$color};
+    --bs-btn-disabled-border-color: #{$border-color};
+    --bs-btn-hover-color: #{$color};
+
     box-shadow: none;
     text-decoration: unset;
 
@@ -26,18 +33,30 @@
         }
     }
 
-    &:hover {
+    &:hover:not(:disabled) {
         background-color: $hover-background;
-        color: $color;
     }
 }
 
 @mixin fhi-btn-dark {
-    background-color: $fhi-core-charcoal-1;
+    background-color: $fhi-core-grey-4;
     border-color: $fhi-core-charcoal-1;
     color: $fhi-core-white;
+    text-overflow: unset;
+    white-space: nowrap;
 
+    &:active,
+    &:focus-visible,
     &:hover {
+        --bs-btn-active-bg: #{$fhi-core-charcoal-1};
+        --bs-btn-active-color: #{$fhi-core-white};
+        --bs-btn-hover-color: #{$fhi-core-white};
+        background-color: $fhi-core-charcoal-1;
         border-color: transparent;
+        color: $fhi-core-white;
+    }
+
+    &:focus-visible {
+        box-shadow: $form-check-input-focus-box-shadow !important;
     }
 }

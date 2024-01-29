@@ -18,7 +18,7 @@
     &__toggler {
         appearance: none;
         --webkit-appearance: none;
-        
+
         background-color: transparent;
         border: 0;
         border-radius: 50%;
@@ -48,7 +48,7 @@
     &__form-control {
         width: $fhi-core-px * 140; // will be replaced by $date-picker-width when moved to component
         padding-left: $fhi-core-px * 44;
-        
+
         &,
         &.is-invalid {
             padding-right: 0;
@@ -102,10 +102,10 @@
     .ngb-dp-navigation-select {
         .form-select {
             &:first-child {
-                margin-right: ($fhi-core-space-1 * .5);
+                margin-right: ($fhi-core-space-1 * 0.5);
             }
             &:last-child {
-                margin-left: ($fhi-core-space-1 * .5);
+                margin-left: ($fhi-core-space-1 * 0.5);
             }
         }
     }
@@ -118,7 +118,7 @@
             box-shadow: none;
         }
     }
-    
+
     .ngb-dp-navigation-chevron {
         background-image: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" %3E%3Cpath d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.146-3.146a.5.5 0 0 0-.707-.707l-4 4a.5.5 0 0 0 0 .707l4 4a.5.5 0 1 0 .707-.707L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/%3E%3C/svg%3E');
         background-repeat: no-repeat;
@@ -134,7 +134,7 @@
     .ngb-dp-arrow {
         height: auto;
     }
-    
+
     .ngb-dp-arrow.right,
     .ngb-dp-arrow-next {
         .ngb-dp-navigation-chevron {
@@ -157,20 +157,22 @@
     }
 
     [ngbDatepickerDayView] {
-        transition: background-color .15s;
+        transition: background-color 0.15s;
 
         &:hover:not(.bg-primary) {
-            background-color: $fhi-core-pink-light-2;
+            background-color: $fhi-core-grey-light-2;
             outline: 0;
         }
 
         &.active {
             background-color: transparent !important;
-            box-shadow: 0 0 0 2px $fhi-core-blue-1 inset, 0 0 0 3px $fhi-core-white inset !important;
+            box-shadow:
+                0 0 0 2px $fhi-core-blue-1 inset,
+                0 0 0 3px $fhi-core-white inset !important;
         }
 
         &.bg-primary {
-            background-color: $fhi-core-blue-3 !important;// BS override
+            background-color: $fhi-core-blue-3 !important; // BS override
         }
     }
 
