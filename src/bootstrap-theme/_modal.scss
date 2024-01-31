@@ -6,8 +6,12 @@
     }
 }
 
+.modal-header {
+    align-items: start;
+}
+
 .modal-body {
-    padding-top: calc(#{$modal-inner-padding}/4);
+    padding-top: calc(#{$modal-inner-padding}/ 4);
     padding-bottom: 0;
 }
 
