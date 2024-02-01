@@ -2,6 +2,7 @@
 
 > Jan 25, 2024
 
+* :tada: **Enhancement** Modal: alignment of close button (x icon) changed to start
 * :tada: **Enhancement** Improved visuals on Logo / project name
 * :tada: **Enhancement** Border on Icon Button
 * :tada: **Enhancement** Circular variant of Icon Button (without text)
