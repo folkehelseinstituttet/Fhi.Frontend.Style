@@ -1501,7 +1501,7 @@ $modal-inner-padding: $fhi-core-space-5;
 // $modal-dialog-margin:               .5rem !default;
 // $modal-dialog-margin-y-sm-up:       1.75rem !default;
 
-// $modal-title-line-height:           $line-height-base !default;
+$modal-title-line-height: 1.25;
 
 // $modal-content-color:               null !default;
 // $modal-content-bg:                  var(--#{$prefix}body-bg) !default;
@@ -1517,7 +1517,7 @@ $modal-content-border-radius: $fhi-core-space-1;
 
 // $modal-header-border-color:         var(--#{$prefix}border-color) !default;
 $modal-header-border-width: 0;
-$modal-header-padding-y: $fhi-core-space-3;
+$modal-header-padding-y: $fhi-core-space-5;
 $modal-header-padding-x: $fhi-core-space-5;
 // $modal-header-padding:              $modal-header-padding-y $modal-header-padding-x !default; // Keep this for backwards compatibility
 
