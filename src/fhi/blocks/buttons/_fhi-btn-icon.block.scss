@@ -20,12 +20,16 @@
         border-radius: 50%;
         height: $fhi-core-px * 44;
         padding: 0;
+        position: relative;
         width: $fhi-core-px * 44;
 
         [class*="icon-"] {
             height: $fhi-core-px * 24;
+            left: 50%;
             margin: 0;
-            top: 0;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
             width: $fhi-core-px * 24;
         }
     }
