@@ -1,11 +1,11 @@
 [type="search"]::-webkit-search-cancel-button {
     --webkit-appearance: none;
     appearance: none;
-    background: url(../icons/svg-icons/bootstrap-icons/x.svg) no-repeat center center;
+    background: url(../icons/svg-icons/bootstrap-icons/x.svg) no-repeat center
+        center;
     height: $fhi-core-px * 16;
     width: $fhi-core-px * 16;
 }
-
 
 .fhi-search {
     &__form-control {
@@ -24,33 +24,6 @@
         margin-left: $fhi-core-space-1;
         padding-right: $fhi-core-space-3;
         padding-left: $fhi-core-space-3;
-        text-overflow: unset;
-        white-space: nowrap;
-
-        &:focus,
-        &:hover {
-            text-decoration: none;
-
-            .fhi-search {
-                &__btn-icon {
-                    filter: invert(100);
-                }
-
-                &__btn__text {
-                    text-decoration: underline;
-                }
-            }
-        }
-
-        &:focus:not(:hover, :focus-visible, :active) {
-            .fhi-search__btn-icon {
-                filter: brightness(1000%);//sic
-            }
-        }
-
-        &:hover {
-            background-color: $fhi-core-pink-light-2;
-        }
     }
 
     &__btn-icon {
@@ -62,7 +35,6 @@
         font-family: $fhi-core-font-family-sans-serif-medium;
     }
 }
-
 
 @include media-breakpoint-up(sm) {
     .fhi-search__btn {

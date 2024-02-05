@@ -23,7 +23,7 @@
         }
 
         &:hover {
-            background: $fhi-core-pink-light-2;
+            background: $fhi-core-grey-light-2;
             cursor: pointer;
         }
     }
@@ -56,7 +56,7 @@
             padding-left: $fhi-core-space-4 * 2;
         }
 
-        &[type="radio"]:checked  ~ .fhi-tag-selector__label {
+        &[type="radio"]:checked ~ .fhi-tag-selector__label {
             cursor: default;
         }
     }

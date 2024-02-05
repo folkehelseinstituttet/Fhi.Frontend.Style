@@ -1,7 +1,6 @@
 $visual-trigger-width: $fhi-core-px * 40;
 $visual-trigger-width-md: $fhi-core-px * 60;
 
-
 .accordion-button {
     font-family: $btn-font-family;
     font-size: $fhi-core-font-size-3;
@@ -25,12 +24,17 @@ $visual-trigger-width-md: $fhi-core-px * 60;
 
     &::after {
         position: relative;
-        right: calc(((#{$visual-trigger-width} / 2) + (#{$fhi-core-space-3}) + (#{$accordion-icon-width} / 2)) * -1);
+        right: calc(
+            (
+                    (#{$visual-trigger-width} / 2) + (#{$fhi-core-space-3}) +
+                        (#{$accordion-icon-width} / 2)
+                ) * -1
+        );
         z-index: 1;
     }
 
     &:hover::before {
-        background-color: $fhi-core-pink-light-2;
+        background-color: $fhi-core-blue-grey-3;
     }
 }
 
@@ -70,8 +74,13 @@ $visual-trigger-width-md: $fhi-core-px * 60;
     .accordion-item:last-of-type .accordion-button.collapsed {
         border-radius: 0;
     }
-}
 
+    .accordion-button {
+        &:hover::before {
+            background-color: $fhi-core-grey-light-2;
+        }
+    }
+}
 
 @include media-breakpoint-up(md) {
     .accordion-button {
@@ -79,11 +88,17 @@ $visual-trigger-width-md: $fhi-core-px * 60;
 
         &::before {
             width: $visual-trigger-width-md;
-            transition: background-color .15s;
+            transition: background-color 0.15s;
         }
 
         &::after {
-            right: calc(((#{$visual-trigger-width-md} / 2) + (#{$fhi-core-space-3}) + (#{$accordion-icon-width} / 2)) * -1);
+            right: calc(
+                (
+                        (#{$visual-trigger-width-md} / 2) +
+                            (#{$fhi-core-space-3}) +
+                            (#{$accordion-icon-width} / 2)
+                    ) * -1
+            );
         }
     }
 }

@@ -1,6 +1,6 @@
 .fhi-btn-flat, // TODO: Deprecate fhi-btn-flat in v6.0.0
 .fhi-btn-link {
-    @include fhi-btn(transparent, transparent, $fhi-core-blue-1);
+    @include fhi-btn(transparent, transparent, $fhi-core-blue-1, transparent);
     border: 0;
     padding-right: $fhi-core-space-2;
     padding-left: $fhi-core-space-2;
@@ -9,7 +9,8 @@
 
     &:focus,
     &:hover {
-        background-color: transparent;
-        color: $fhi-core-red-2;
+        &:not(:disabled) {
+            color: $fhi-core-red-2;
+        }
     }
 }

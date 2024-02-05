@@ -1,4 +1,8 @@
 .fhi-btn-icon {
+    --bs-btn-active-border-color: #{$fhi-core-grey-1};
+    --bs-btn-hover-bg: #{$fhi-core-grey-light-2};
+    --bs-btn-disabled-border-color: #{$fhi-core-grey-1};
+
     background-color: $fhi-core-white;
     border: 1px solid $fhi-core-grey-1;
     border-radius: $fhi-core-px * 22;
@@ -6,13 +10,8 @@
     padding-right: $fhi-core-space-3;
     padding-left: $fhi-core-space-3;
 
-    &:hover {
-        background-color: $fhi-core-pink-light-2;
-    }
-
     &:focus,
     &:hover {
-        border-color: transparent;
         text-decoration: none;
     }
 
