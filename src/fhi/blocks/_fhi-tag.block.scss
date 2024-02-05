@@ -14,31 +14,47 @@
     line-height: $fhi-core-px * 22;
     min-height: $fhi-core-px * 36;
     padding: ($fhi-core-px * 6) ($fhi-core-px * 12);
-    transition: background-color .15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
 }
 
-a.fhi-tag,
-button.fhi-tag {
-    text-decoration: none;
+a,
+button {
+    &.fhi-tag {
+        text-decoration: none;
 
-    &,
-    &:hover {
-        color: $body-color;
-    }
-
-    &:hover {
-        background-color: $fhi-core-pink-light-2;
-    }
-
-    &[class*="text-bg-"] {
-        @include interactive-state();
+        &,
+        &:hover {
+            color: $body-color;
+        }
 
         &:hover {
-            text-decoration: none;
+            background-color: $fhi-core-grey-light-2;
+
+            &.text-bg-info {
+                box-shadow: 0 0 0 ($fhi-core-px * 2) $fhi-core-blue-1 inset;
+            }
+            &.text-bg-success {
+                box-shadow: 0 0 0 ($fhi-core-px * 2) $fhi-core-green-2 inset;
+            }
+            &.text-bg-warning {
+                box-shadow: 0 0 0 ($fhi-core-px * 2) $fhi-core-orange-2 inset;
+            }
+            &.text-bg-error {
+                box-shadow: 0 0 0 ($fhi-core-px * 2) $fhi-core-pink-dark-1 inset;
+            }
+        }
+
+        &[class*="text-bg-"] {
+            @include interactive-state();
+        }
+    }
+
+    &.fhi-tag--state-dot {
+        &:hover {
+            box-shadow: 0 0 0 1px currentColor inset;
         }
     }
 }
-
 
 .fhi-tag--category {
     border-color: $fhi-core-grey-4;
@@ -49,18 +65,9 @@ button.fhi-tag {
         height: $fhi-core-px * 16;
         position: relative;
         top: $fhi-core-px * 2;
-        transition: filter .15s;
+        transition: filter 0.15s;
     }
 }
-
-a.fhi-tag--category {
-    &:hover {
-        [class*="icon"] {
-            filter: none;
-        }
-    }
-}
-
 
 .fhi-tag--filter-option {
     border: 1px dashed $fhi-core-charcoal-1;
@@ -77,7 +84,6 @@ a.fhi-tag--category {
         width: $fhi-core-px * 16;
     }
 }
-
 
 .fhi-tag--state-dot {
     border: 1px solid $fhi-core-grey-4;
@@ -108,7 +114,6 @@ a.fhi-tag--category {
         @include interactive-state();
     }
 }
-
 
 [class*="fhi-tag--state-dot__icon"] {
     @extend .icon-sm;

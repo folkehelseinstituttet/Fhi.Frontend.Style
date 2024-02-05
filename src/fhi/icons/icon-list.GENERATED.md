@@ -109,6 +109,7 @@ $included-icons: (
   'skin',
   'sliders',
   'social',
+  'star',
   'stomach',
   'table',
   'thermometer-half',
