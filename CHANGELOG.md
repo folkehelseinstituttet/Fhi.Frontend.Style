@@ -1,7 +1,8 @@
 # Unreleased
 
-> Feb 1, 2024
+> Feb 6, 2024
 
+* :tada: **Enhancement** Table styling improved (th in particular)
 * :tada: **Enhancement** Star icon
 * :tada: **Enhancement** Modal: alignment of close button (x icon) changed to start
 * :tada: **Enhancement** Improved visuals on Logo / project name
