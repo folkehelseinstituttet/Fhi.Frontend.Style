@@ -12,7 +12,7 @@
         .page-link {
             padding-right: 0;
             padding-left: 0;
-            text-shadow: .75px 0 .75px currentColor;
+            text-shadow: 0.75px 0 0.75px currentColor;
         }
     }
 
@@ -56,7 +56,6 @@
 }
 
 .page-link {
-    font-family: $fhi-core-font-family-sans-serif-regular;
     min-width: $fhi-core-px * 44;
     text-align: center;
 }

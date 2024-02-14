@@ -5,9 +5,8 @@
 .toast-header {
     padding-top: 0;
     padding-bottom: 0;
-    
+
     strong {
-        font-family: $fhi-core-font-family-sans-serif-medium;
         font-size: $fhi-core-font-size-4;
     }
 
@@ -16,12 +15,13 @@
     }
 
     .btn-close {
-        font-size: .75rem;
+        font-size: 0.75rem;
         margin: 0 (-$fhi-core-space-3) 0 0;
         padding: $fhi-core-space-3;
     }
 }
 
 .toast-body {
-    padding: 0 var(--bs-toast-padding-x) var(--bs-toast-padding-y) var(--bs-toast-padding-x);
+    padding: 0 var(--bs-toast-padding-x) var(--bs-toast-padding-y)
+        var(--bs-toast-padding-x);
 }

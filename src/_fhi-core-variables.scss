@@ -38,40 +38,10 @@ $fhi-core-font-size-7: $fhi-core-px * 36;
 $fhi-core-font-size-8: $fhi-core-px * 44;
 $fhi-core-font-size-9: $fhi-core-px * 48;
 
-$fhi-core-h1-font-size-xs: $fhi-core-font-size-8;
-$fhi-core-h1-font-size-lg: $fhi-core-font-size-9; // h1 larger on desktop
-$fhi-core-h2-font-size-xs: $fhi-core-font-size-7;
-$fhi-core-h3-font-size-xs: $fhi-core-font-size-6;
-$fhi-core-h4-font-size-xs: $fhi-core-font-size-5;
-$fhi-core-h5-font-size-xs: $fhi-core-font-size-4;
-
-$fhi-core-small-font-size-xs: $fhi-core-font-size-1;
-$fhi-core-default-font-size-xs: $fhi-core-font-size-3;
-$fhi-core-default-font-size-lg: $fhi-core-font-size-2; // body text smaller on desktop
-$fhi-core-lead-font-size-xs: $fhi-core-font-size-3;
-
-$fhi-core-font-family-serif-regular: "CrimsonText Regular", serif;
-$fhi-core-font-family-serif-regular-italic: "CrimsonText Regular Italic", serif;
-$fhi-core-font-family-serif-medium: "CrimsonText Semi Bold", serif;
-$fhi-core-font-family-serif-medium-italic: "CrimsonText Semi Bold Italic", serif;
-$fhi-core-font-family-serif-bold: "CrimsonText Bold", serif;
-$fhi-core-font-family-serif-bold-italic: "CrimsonText Bold Italic", serif;
-
-$fhi-core-font-family-sans-serif-regular: "BrandonText Regular",
-    "SourceSansPro Regular", sans-serif;
-$fhi-core-font-family-sans-serif-regular-2: "SourceSansPro Regular", sans-serif;
-$fhi-core-font-family-sans-serif-regular-2-bold: "SourceSansPro Bold",
-    sans-serif;
-$fhi-core-font-family-sans-serif-regular-italic: "BrandonText Regular Italic",
-    "SourceSansPro Regular Italic", sans-serif;
-$fhi-core-font-family-sans-serif-medium: "BrandonText Medium",
-    "SourceSansPro Semi Bold", sans-serif;
-$fhi-core-font-family-sans-serif-medium-italic: "BrandonText Medium Italic",
-    "SourceSansPro Semi Bold Italic", sans-serif;
-$fhi-core-font-family-sans-serif-bold: "BrandonText Bold", "SourceSansPro Bold",
-    sans-serif;
-$fhi-core-font-family-sans-serif-bold-italic: "BrandonText Bold Italic",
-    "SourceSansPro Bold Italic", sans-serif;
+$fhi-core-font-family-sans-serif-regular: "Lato", sans-serif;
+$fhi-core-font-family-sans-serif-regular-italic: "Lato", sans-serif;
+$fhi-core-font-family-sans-serif-bold: "Lato", sans-serif;
+$fhi-core-font-family-sans-serif-black: "Lato", sans-serif;
 
 /**
   * All colors used by FHI

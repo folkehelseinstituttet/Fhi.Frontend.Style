@@ -12,13 +12,12 @@
         color: $body-color;
         font-family: inherit;
         font-size: inherit;
-        text-decoration: none;
+        text-decoration-line: none;
 
         &:hover {
-            text-decoration: underline;
+            color: inherit;
+            text-decoration-line: underline;
             text-decoration-color: $fhi-core-red-2;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px;
         }
     }
 
@@ -26,7 +25,8 @@
         padding-left: $fhi-core-space-2;
 
         &::before {
-            background: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" xmlns:v="https://vecta.io/nano"%3E%3Cpath d="M4.646 1.646a.5.5 0 0 1 .707 0l6 6a.5.5 0 0 1 0 .707l-6 6a.5.5 0 1 1-.707-.707L10.293 8 4.646 2.354a.5.5 0 0 1 0-.707z" fill="%23333841"/%3E%3C/svg%3E') no-repeat center center;
+            background: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" xmlns:v="https://vecta.io/nano"%3E%3Cpath d="M4.646 1.646a.5.5 0 0 1 .707 0l6 6a.5.5 0 0 1 0 .707l-6 6a.5.5 0 1 1-.707-.707L10.293 8 4.646 2.354a.5.5 0 0 1 0-.707z" fill="%23333841"/%3E%3C/svg%3E')
+                no-repeat center center;
             float: none;
             height: 100%;
             margin-right: $fhi-core-space-2;
@@ -39,13 +39,11 @@
     }
 }
 
-
 @for $i from 1 through 6 {
     .breadcrumb-item:nth-child(#{$i}) {
         order: -$i;
     }
 }
-
 
 @include media-breakpoint-up(sm) {
     .breadcrumb {

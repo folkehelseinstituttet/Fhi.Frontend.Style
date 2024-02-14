@@ -59,7 +59,7 @@
 
     &__heading {
         flex-grow: 1;
-        font-family: $fhi-core-font-family-sans-serif-medium;
+
         font-size: $fhi-core-font-size-3;
         margin-bottom: $fhi-core-space-3;
     }
@@ -89,7 +89,6 @@
     }
 
     &__footer {
-        font-family: $fhi-core-font-family-sans-serif-medium;
         font-size: $fhi-core-font-size-1;
         margin: auto 0 0;
     }
