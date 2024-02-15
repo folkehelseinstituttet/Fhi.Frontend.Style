@@ -16,12 +16,6 @@
     font-weight: 700;
     src: url("./fonts/Lato/Lato-Bold.woff2") format("woff2");
 }
-@font-face {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    src: url("./fonts/Lato/Lato-Black.woff2") format("woff2");
-}
 
 body {
     font-family: $fhi-core-font-family-sans-serif-regular;
@@ -91,9 +85,6 @@ a {
 }
 
 @include media-breakpoint-up(lg) {
-    body {
-        font-size: $fhi-core-font-size-3;
-    }
     h1,
     .h1 {
         font-size: $fhi-core-font-size-9;
