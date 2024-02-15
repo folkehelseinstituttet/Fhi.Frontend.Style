@@ -2,6 +2,10 @@
 // Check/radio
 //
 
+.form-check {
+    font-size: $fhi-core-font-size-3;
+}
+
 .form-check-input {
     &:checked {
         &[type="checkbox"] {
@@ -24,7 +28,7 @@
                     position: absolute;
 
                     //$fhi-core-px * 27
-                    left: -#{($fhi-core-space-4 + $fhi-core-space-1 * .75)}; // 24 + 3 px
+                    left: -#{($fhi-core-space-4 + $fhi-core-space-1 * 0.75)}; // 24 + 3 px
                     top: $fhi-core-space-1 * 1.25;
                     width: 0;
                     height: 0;
@@ -37,7 +41,6 @@
         box-shadow: $form-check-input-focus-box-shadow !important;
     }
 }
-
 
 //
 // Switch
@@ -72,7 +75,7 @@
             left: -$fhi-core-space-7;
             width: $fhi-core-px * 24;
             height: $fhi-core-px * 24;
-            transition: transform .15s ease-out;
+            transition: transform 0.15s ease-out;
         }
     }
 
@@ -81,7 +84,8 @@
             box-shadow: $form-check-input-focus-box-shadow !important;
         }
 
-        &:disabled, &[disabled] {
+        &:disabled,
+        &[disabled] {
             & ~ .form-check-label {
                 color: $fhi-core-grey-3;
                 opacity: 1;
@@ -103,7 +107,9 @@
             background-color: $fhi-core-grey-1;
         }
         &::after {
-            background: $fhi-core-charcoal-1 url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"%3E%3Cpath d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill="white"/%3E%3C/svg%3E') no-repeat center center;
+            background: $fhi-core-charcoal-1
+                url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"%3E%3Cpath d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill="white"/%3E%3C/svg%3E')
+                no-repeat center center;
             background-size: 1rem;
             transform: translateX($fhi-core-space-4);
         }
