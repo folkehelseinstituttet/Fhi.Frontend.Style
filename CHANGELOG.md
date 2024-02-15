@@ -1,7 +1,9 @@
 # Unreleased
 
-> Feb 6, 2024
+> Feb 15, 2024
 
+* :tada: **Enhancement** Font family Lato is new global font
+* :boom: **Breaking** Remove obsolete color variables
 * :tada: **Enhancement** Table styling improved (th in particular)
 * :tada: **Enhancement** Star icon
 * :tada: **Enhancement** Modal: alignment of close button (x icon) changed to start
