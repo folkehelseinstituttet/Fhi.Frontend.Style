@@ -1,24 +1,24 @@
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     src: url("./fonts/Lato/Lato-Regular.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     font-style: italic;
     font-weight: 400;
     src: url("./fonts/Lato/Lato-Italic.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     src: url("./fonts/Lato/Lato-Bold.woff2") format("woff2");
 }
 
 body {
-    font-family: $fhi-core-font-family-sans-serif-regular;
+    font-family: $fhi-core-font-family-sans-serif;
     font-size: $fhi-core-font-size-2;
 }
 h1,
@@ -62,18 +62,13 @@ h6,
 .lead {
     font-size: $fhi-core-font-size-3;
 }
-small,
-.small {
-    font-size: $small-font-size;
-}
 b,
 .b,
 strong,
 .font-weight-bold {
-    font-family: $fhi-core-font-family-sans-serif-bold;
+    font-weight: $font-weight-bold;
 }
 a {
-    font-family: $fhi-core-font-family-sans-serif-regular;
     color: $fhi-inline-link-color;
     text-decoration: underline;
     text-decoration-thickness: $fhi-core-px;

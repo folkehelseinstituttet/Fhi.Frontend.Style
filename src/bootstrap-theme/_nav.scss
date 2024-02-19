@@ -31,6 +31,7 @@ $nav-tabs-active-border-height: $fhi-core-px * 3;
 
         &.active {
             border-top-color: transparent;
+            font-weight: 700;
 
             &::before {
                 background-color: $fhi-core-red-1;

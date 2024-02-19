@@ -59,8 +59,8 @@
 
     &__heading {
         flex-grow: 1;
-
-        font-size: $fhi-core-font-size-3;
+        font-size: $fhi-core-font-size-2;
+        font-weight: 700;
         margin-bottom: $fhi-core-space-3;
     }
 
@@ -90,6 +90,7 @@
 
     &__footer {
         font-size: $fhi-core-font-size-1;
+        font-weight: 700;
         margin: auto 0 0;
     }
 }
@@ -125,7 +126,7 @@ a.fhi-navigation-tile {
         }
 
         &__heading {
-            font-size: $fhi-core-font-size-4;
+            font-size: $fhi-core-font-size-3;
         }
     }
 }

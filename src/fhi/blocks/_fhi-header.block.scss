@@ -43,7 +43,6 @@
         font-size: $fhi-core-font-size-5;
         line-height: 0.92;
         height: $fhi-core-px * 25;
-        padding-top: $fhi-core-px * 7;
         padding-left: $fhi-core-space-3;
         position: relative;
         vertical-align: bottom;
@@ -63,15 +62,9 @@
 
     &__project-name {
         display: inline-block;
-    }
-
-    &__project-description {
-        display: none;
-    }
-
-    &__project-name,
-    &__project-description {
-        vertical-align: middle;
+        font-weight: 700;
+        position: relative;
+        top: $fhi-core-px * 10;
     }
 
     &__utility-menu {
@@ -108,14 +101,6 @@
         }
 
         &__project {
-            display: inline-block;
-        }
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .fhi-header {
-        &__project-description {
             display: inline-block;
         }
     }

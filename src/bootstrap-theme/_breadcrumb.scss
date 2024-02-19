@@ -46,10 +46,6 @@
 }
 
 @include media-breakpoint-up(sm) {
-    .breadcrumb {
-        font-size: $fhi-core-font-size-3;
-    }
-
     .breadcrumb-item {
         + .breadcrumb-item {
             padding-left: $fhi-core-space-3;
