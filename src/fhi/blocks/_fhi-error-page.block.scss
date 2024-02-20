@@ -5,14 +5,13 @@
     }
 
     &__heading-status-code {
-        border-left: ($fhi-core-px * 1.5) solid $fhi-core-red-1;
+        border-left: ($fhi-core-px * 3) solid $fhi-core-red-1;
         bottom: 2px;
         color: $fhi-core-grey-3;
         display: inline-block;
-        font-family: $fhi-core-font-family-sans-serif-regular;
+
         font-size: $fhi-core-font-size-4;
         font-weight: 400;
-        letter-spacing: 0;
         margin-left: $fhi-core-space-1;
         padding-left: $fhi-core-space-2;
         position: relative;

@@ -1,14 +1,16 @@
 # Unreleased
 
-> Feb 6, 2024
+> Feb 19, 2024
 
+* :boom: **Breaking** Color palette cleanup (some core color variables removed)
+* :boom: **Breaking** Removed `.fhi-btn-flat`
+* :tada: **Enhancement** Font family Lato is new global font
 * :tada: **Enhancement** Table styling improved (th in particular)
 * :tada: **Enhancement** Star icon
 * :tada: **Enhancement** Modal: alignment of close button (x icon) changed to start
 * :tada: **Enhancement** Improved visuals on Logo / project name
 * :tada: **Enhancement** Border on Icon Button
 * :tada: **Enhancement** Circular variant of Icon Button (without text)
-* :tada: **Enhancement** Color palette cleanup (some color variables will be removed in **v6**)
 
 ## 5.9.0
 

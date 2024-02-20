@@ -15,7 +15,8 @@
         [class*="icon-"] {
             left: $fhi-core-px * 16;
             position: absolute;
-            top: $fhi-core-px * 4;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         .icon-check {

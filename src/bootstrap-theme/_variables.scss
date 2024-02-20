@@ -627,7 +627,7 @@ $font-family-monospace: Consolas, "Liberation Mono", monospace;
 // $font-weight-normal:          400 !default;
 // $font-weight-medium:          500 !default;
 // $font-weight-semibold:        600 !default;
-// $font-weight-bold:            700 !default;
+$font-weight-bold: 700;
 // $font-weight-bolder:          bolder !default;
 
 // $font-weight-base:            $font-weight-normal !default;
@@ -684,7 +684,7 @@ $font-family-monospace: Consolas, "Liberation Mono", monospace;
 // $lead-font-size:              $font-size-base * 1.25 !default;
 // $lead-font-weight:            300 !default;
 
-// $small-font-size:             .875em !default;
+$small-font-size: calc(1em / 17 * 12);
 
 // $sub-sup-font-size:           .75em !default;
 
@@ -793,7 +793,7 @@ $table-variants: (
 // // scss-docs-start input-btn-variables
 // $input-btn-padding-y:         .375rem !default;
 // $input-btn-padding-x:         .75rem !default;
-$input-btn-font-family: $fhi-core-font-family-sans-serif-regular-2;
+$input-btn-font-family: $fhi-core-font-family-sans-serif;
 // $input-btn-font-size:         $font-size-base !default;
 // $input-btn-line-height:       $line-height-base !default;
 
@@ -823,7 +823,7 @@ $input-btn-font-family: $fhi-core-font-family-sans-serif-regular-2;
 // $btn-padding-y:               $input-btn-padding-y !default;
 // $btn-padding-x:               $input-btn-padding-x !default;
 // $btn-font-family:             $input-btn-font-family !default;
-$btn-font-size: $fhi-core-font-size-3;
+$btn-font-size: $fhi-core-font-size-2;
 // $btn-line-height:             $input-btn-line-height !default;
 $btn-white-space: nowrap;
 
@@ -837,7 +837,7 @@ $btn-white-space: nowrap;
 
 // $btn-border-width:            $input-btn-border-width !default;
 
-// $btn-font-weight:             $font-weight-normal !default;
+$btn-font-weight: $font-weight-bold;
 // $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
 // $btn-focus-width:             $input-btn-focus-width !default;
 // $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
@@ -878,7 +878,7 @@ $form-text-font-size: $fhi-core-font-size-2;
 
 // // scss-docs-start form-label-variables
 // $form-label-margin-bottom:              .5rem !default;
-// $form-label-font-size:                  null !default;
+$form-label-font-size: $fhi-core-font-size-2;
 // $form-label-font-style:                 null !default;
 // $form-label-font-weight:                null !default;
 // $form-label-color:                      null !default;
@@ -1466,7 +1466,7 @@ $popover-arrow-width: 0.75rem;
 $toast-max-width: 380px;
 $toast-padding-x: $fhi-core-space-3;
 $toast-padding-y: $fhi-core-space-2;
-$toast-font-size: $fhi-core-font-size-3;
+$toast-font-size: $fhi-core-font-size-2;
 // $toast-color:                       null !default;
 $toast-background-color: $fhi-core-blue-grey-3;
 $toast-border-width: 0;
@@ -1483,10 +1483,10 @@ $toast-header-background-color: transparent;
 // // Badges
 
 // // scss-docs-start badge-variables
-$badge-font-size: $fhi-core-font-size-3;
+$badge-font-size: $fhi-core-font-size-1;
 $badge-font-weight: 400;
 $badge-color: $body-color;
-$badge-padding-y: $fhi-core-px * 5;
+$badge-padding-y: 0;
 $badge-padding-x: 0;
 $badge-border-radius: 50%;
 // // scss-docs-end badge-variables
@@ -1560,7 +1560,7 @@ $alert-bg-scale: 0;
 
 // // scss-docs-start progress-variables
 $progress-height: $fhi-core-px * 36;
-$progress-font-size: $fhi-core-font-size-4;
+$progress-font-size: $fhi-core-font-size-3;
 $progress-bg: $fhi-core-blue-grey-2;
 $progress-border-radius: calc($progress-height / 2);
 // $progress-box-shadow:               var(--#{$prefix}box-shadow-inset) !default;

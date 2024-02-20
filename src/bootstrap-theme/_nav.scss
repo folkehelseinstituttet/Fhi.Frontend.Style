@@ -9,7 +9,7 @@ $nav-tabs-active-border-height: $fhi-core-px * 3;
     .nav-link {
         border-top: $nav-tabs-active-border-height solid transparent;
         border-bottom: 0;
-        font-family: $fhi-core-font-family-sans-serif-regular;
+
         font-size: $fhi-core-font-size-3;
         position: relative;
 
@@ -31,7 +31,7 @@ $nav-tabs-active-border-height: $fhi-core-px * 3;
 
         &.active {
             border-top-color: transparent;
-            font-family: $fhi-core-font-family-sans-serif-medium;
+            font-weight: 700;
 
             &::before {
                 background-color: $fhi-core-red-1;

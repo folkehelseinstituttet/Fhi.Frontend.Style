@@ -1,6 +1,4 @@
 .fhi-utility-section {
-    z-index: 1;
-
     &__group {
         display: flex;
         flex-direction: column;
@@ -9,11 +7,11 @@
 
         a {
             color: $body-color;
-            font-family: $fhi-core-font-family-sans-serif-regular;
+
             font-weight: normal;
             text-decoration: none;
         }
-        
+
         [class*="icon-"] {
             background-size: contain;
         }
@@ -27,7 +25,7 @@
     &__btn {
         background: transparent;
         border: 0;
-        line-height: .667;//sic
+        line-height: 0.667; //sic
         margin: 0 $fhi-core-space-2;
         padding: 0;
     }

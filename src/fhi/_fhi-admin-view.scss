@@ -5,9 +5,10 @@
         }
     }
 
-    h1:not(.h2, .h3, .h4, .h5),
-    .h1 {
-        font-size: $fhi-core-h1-font-size-xs;
+    .nav-tabs {
+        .nav-link {
+            font-size: $fhi-core-font-size-2;
+        }
     }
 }
 
@@ -25,6 +26,15 @@
             &__nav {
                 margin-top: 0;
             }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .fhi-admin-view {
+        h1:not(.h2, .h3, .h4, .h5),
+        .h1 {
+            font-size: $fhi-core-font-size-8;
         }
     }
 }

@@ -47,7 +47,7 @@
 
     &__form-control {
         width: $fhi-core-px * 140; // will be replaced by $date-picker-width when moved to component
-        padding-left: $fhi-core-px * 44;
+        padding-left: $fhi-core-px * 40;
 
         &,
         &.is-invalid {

@@ -4,8 +4,6 @@
 
     &__title {
         @extend .card-title;
-        font-family: $fhi-core-font-family-serif-medium;
-        letter-spacing: 0;
     }
 
     &__content {
@@ -21,7 +19,7 @@
 
 .fhi-card--shadow {
     box-shadow: ($fhi-core-px * 3) ($fhi-core-px * 3) ($fhi-core-px * 5)
-    rgba($fhi-core-grey-4, 0.16);
+        rgba($fhi-core-grey-4, 0.16);
 }
 
 .fhi-card--deactive {

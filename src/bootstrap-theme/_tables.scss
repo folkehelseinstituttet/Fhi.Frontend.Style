@@ -1,5 +1,4 @@
 .table {
-    font-family: $fhi-core-font-family-sans-serif-regular-2;
     width: auto;
 
     thead {
@@ -64,12 +63,12 @@
 
 th,
 td {
+    font-size: $fhi-core-font-size-1;
     line-height: $fhi-core-px * 20;
     transition: background-color 0.25s ease;
 }
 
 td .invalid-feedback {
-    font-family: $fhi-core-font-family-sans-serif-regular;
     font-size: $fhi-core-font-size-1;
 }
 
@@ -87,12 +86,12 @@ th[aria-sort] {
 
     span {
         line-height: 1.5rem;
-        padding-right: 2rem;
+        padding-right: $fhi-core-space-3;
     }
 
     [class*="icon-"] {
         background-size: contain;
-        margin-left: -1.75rem;
+        margin-left: calc(#{$fhi-core-space-2} * -1);
         position: absolute;
         transform: translateX($fhi-core-space-1);
         vertical-align: bottom;

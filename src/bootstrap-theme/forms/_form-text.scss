@@ -1,9 +1,10 @@
 ::placeholder {
-    font-size: $fhi-core-font-size-1;
+    font-size: $fhi-core-font-size-2;
 }
 
 .form-text {
     display: block;
+    font-size: $fhi-core-font-size-1;
     margin-bottom: $form-text-margin-top;
 
     .form-label + & {
