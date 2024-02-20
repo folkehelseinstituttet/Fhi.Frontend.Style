@@ -5,6 +5,7 @@
 * :boom: **Breaking** Color palette cleanup (some core color variables removed)
 * :boom: **Breaking** Removed `.fhi-btn-flat`
 * :tada: **Enhancement** Font family Lato is new global font
+* :tada: **Enhancement** Secondary button colors
 * :tada: **Enhancement** Table styling improved (th in particular)
 * :tada: **Enhancement** Star icon
 * :tada: **Enhancement** Modal: alignment of close button (x icon) changed to start
