@@ -1,4 +1,7 @@
 .btn {
+    --bs-btn-font-weight: 400;
+
+    font-size: $fhi-core-font-size-3;
     height: $fhi-core-px * 44;
     line-height: 1.125;
     max-width: 100%;
