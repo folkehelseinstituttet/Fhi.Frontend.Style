@@ -1,5 +1,9 @@
 .pagination {
     margin-bottom: 0;
+
+    a {
+        font-weight: 400;
+    }
 }
 
 .page-item {
@@ -10,9 +14,10 @@
         z-index: 1;
 
         .page-link {
+            font-weight: 700;
             padding-right: 0;
             padding-left: 0;
-            text-shadow: 0.75px 0 0.75px currentColor;
+            text-shadow: 0.5px 0 0.5px currentColor;
         }
     }
 
@@ -33,17 +38,6 @@
         background-size: contain;
         filter: $fhi-core-red-filter;
         vertical-align: text-top;
-    }
-
-    &:not(.active) {
-        .page-link {
-            &:hover {
-                .page-item__text {
-                    text-decoration: underline;
-                    text-underline-offset: 4px;
-                }
-            }
-        }
     }
 
     &:first-child .page-link {

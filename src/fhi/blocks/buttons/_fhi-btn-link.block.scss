@@ -1,7 +1,6 @@
 .fhi-btn-link {
     @include fhi-btn(transparent, transparent, $fhi-core-blue-1, transparent);
     border: 0;
-    font-weight: 400;
     padding-right: $fhi-core-space-2;
     padding-left: $fhi-core-space-2;
     text-decoration: underline;

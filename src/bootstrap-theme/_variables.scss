@@ -1466,7 +1466,7 @@ $popover-arrow-width: 0.75rem;
 $toast-max-width: 380px;
 $toast-padding-x: $fhi-core-space-3;
 $toast-padding-y: $fhi-core-space-2;
-$toast-font-size: $fhi-core-font-size-3;
+$toast-font-size: $fhi-core-font-size-2;
 // $toast-color:                       null !default;
 $toast-background-color: $fhi-core-blue-grey-3;
 $toast-border-width: 0;
@@ -1560,7 +1560,7 @@ $alert-bg-scale: 0;
 
 // // scss-docs-start progress-variables
 $progress-height: $fhi-core-px * 36;
-$progress-font-size: $fhi-core-font-size-4;
+$progress-font-size: $fhi-core-font-size-3;
 $progress-bg: $fhi-core-blue-grey-2;
 $progress-border-radius: calc($progress-height / 2);
 // $progress-box-shadow:               var(--#{$prefix}box-shadow-inset) !default;

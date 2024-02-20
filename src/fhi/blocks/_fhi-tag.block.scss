@@ -9,7 +9,7 @@
     border: 1px solid transparent;
     border-radius: $fhi-core-px * 18;
     display: inline-block;
-    font-size: $fhi-core-font-size-2;
+    font-size: $fhi-core-font-size-1;
 
     line-height: $fhi-core-px * 22;
     min-height: $fhi-core-px * 36;
@@ -20,6 +20,7 @@
 a,
 button {
     &.fhi-tag {
+        font-weight: 400;
         text-decoration: none;
 
         &,
@@ -117,8 +118,6 @@ button {
 
 [class*="fhi-tag--state-dot__icon"] {
     @extend .icon-sm;
-    background-size: $fhi-core-px * 12;
-    border: $fhi-core-px solid;
     border-radius: 1em;
     margin-top: ($fhi-core-space-1 * -1);
     margin-right: $fhi-core-space-1;

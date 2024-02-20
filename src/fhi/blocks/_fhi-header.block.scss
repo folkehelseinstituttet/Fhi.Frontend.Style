@@ -10,7 +10,6 @@
     &__brand-container {
         display: block;
         color: $body-color;
-        font-size: $fhi-core-font-size-2;
         position: relative;
         text-decoration: none;
 
@@ -40,8 +39,8 @@
 
     &__project {
         display: none;
-        font-size: $fhi-core-font-size-5;
-        line-height: 0.92;
+        font-size: $fhi-core-font-size-4;
+        line-height: 1;
         height: $fhi-core-px * 25;
         padding-left: $fhi-core-space-3;
         position: relative;
@@ -61,10 +60,13 @@
     }
 
     &__project-name {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         font-weight: 700;
+        height: 100%;
+        justify-content: flex-end;
         position: relative;
-        top: $fhi-core-px * 10;
+        top: $fhi-core-px * 8;
     }
 
     &__utility-menu {
@@ -102,6 +104,14 @@
 
         &__project {
             display: inline-block;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .fhi-header {
+        &__project-name {
+            top: $fhi-core-px * 9;
         }
     }
 }

@@ -1,5 +1,5 @@
 .fhi-pagination {
-    [class*=icon-] {
+    [class*="icon-"] {
         background-size: 1rem 1rem;
         filter: none;
     }
@@ -7,8 +7,9 @@
     &__page-item {
         order: -1;
     }
-    
+
     &__page-item-number {
-        text-shadow: 0 0 .75px currentColor;
+        font-weight: bold;
+        text-shadow: 0 0 0.5px currentColor;
     }
 }

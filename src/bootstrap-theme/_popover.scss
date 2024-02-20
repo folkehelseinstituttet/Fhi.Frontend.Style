@@ -1,13 +1,15 @@
 .popover {
     border: 0;
     box-shadow: 2px 2px 5px transparentize($fhi-core-grey-4, 0.7);
+    font-family: $fhi-core-font-family-sans-serif;
 
     a {
         font-family: inherit;
         font-size: inherit;
     }
 
-    p, .p {
+    p,
+    .p {
         font-size: inherit;
     }
 }
