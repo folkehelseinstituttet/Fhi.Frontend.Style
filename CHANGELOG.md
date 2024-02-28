@@ -1,9 +1,10 @@
 # Unreleased
 
-> Feb 19, 2024
+> Feb 28, 2024
 
 * :boom: **Breaking** Color palette cleanup (some core color variables removed)
 * :boom: **Breaking** Removed `.fhi-btn-flat`
+* :tada: **Enhancement** Button group redesigned, added possibility to include split-button (dropdown) in group
 * :tada: **Enhancement** Font family Lato is new global font
 * :tada: **Enhancement** Secondary button colors
 * :tada: **Enhancement** Table styling improved (th in particular)
