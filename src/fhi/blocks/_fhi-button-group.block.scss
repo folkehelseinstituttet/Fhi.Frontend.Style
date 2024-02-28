@@ -2,18 +2,18 @@
     background-color: $fhi-core-white;
     border-radius: #{$fhi-core-px * 22};
     box-shadow: 0 0 0 $fhi-core-px $fhi-core-grey-1;
-    padding-left: #{$fhi-core-px * 2};
-    padding-right: #{$fhi-core-px * 2};
 
     &__btn {
         --bs-btn-border-radius: #{$fhi-core-px * 24};
+        --bs-btn-active-border-color: #{$fhi-core-white};
 
-        border: 0;
+        border: ($fhi-core-px * 2) solid transparent;
         border-radius: var(--bs-btn-border-radius) !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 0 !important;
+        text-align: left;
 
         &.btn:hover:not(.active) {
             background-color: $fhi-core-grey-light-2;
@@ -23,9 +23,8 @@
     &__btn.active,
     &__check:checked + .fhi-btn-group__btn {
         background-color: $fhi-core-grey-4;
+        border-color: $fhi-core-white;
         color: $fhi-core-white;
-        height: #{$fhi-core-px * 40};
-        margin-top: 2px;
     }
 
     &__btn.active,
@@ -33,8 +32,11 @@
         &:hover,
         &:focus {
             background-color: $fhi-core-grey-4;
-            cursor: default;
             text-decoration: none;
+
+            &:not(.fhi-btn-group__split-btn-toggler) {
+                cursor: default;
+            }
         }
     }
 
@@ -45,15 +47,48 @@
     }
 
     &__split-btn {
+        border-right: 0;
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
-        padding-right: $fhi-core-space-2;
+        padding-right: $fhi-core-space-2 + $fhi-core-space-1;
     }
 
     &__split-btn-toggler {
+        background-position: 40% 50%;
+        background-repeat: no-repeat;
+        border-left: 0;
         border-top-left-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
         padding-left: $fhi-core-space-2;
         padding-right: $fhi-core-space-3;
+
+        &::after {
+            @extend .icon-chevron-down;
+            border: 0;
+            height: $fhi-core-px * 16;
+            width: $fhi-core-px * 16;
+        }
+
+        &.active {
+            &,
+            &:active,
+            &:focus,
+            &:hover {
+                background-color: $fhi-core-charcoal-1;
+            }
+
+            &::after {
+                filter: brightness(10);
+            }
+        }
+    }
+
+    &.btn-group-vertical > .btn:not(:first-child),
+    &.btn-group-vertical > .btn-group:not(:first-child) {
+        margin-top: 0;
+    }
+
+    .dropdown-item {
+        white-space: wrap;
     }
 }
