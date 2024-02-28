@@ -1,6 +1,6 @@
-# Unreleased
+# 6.0.0
 
-> Feb 19, 2024
+> Feb 28, 2024
 
 * :boom: **Breaking** Color palette cleanup (some core color variables removed)
 * :boom: **Breaking** Removed `.fhi-btn-flat`
