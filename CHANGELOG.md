@@ -1,4 +1,4 @@
-# Unreleased
+# 6.0.0
 
 > Feb 28, 2024
 
