@@ -1,4 +1,12 @@
 .fhi-nav-tabs:not(.fhi-main-menu__nav) {
+    .nav-item {
+        [class*="icon-"] {
+            margin-right: $fhi-core-space-1;
+            position: relative;
+            vertical-align: bottom;
+        }
+    }
+
     .nav-link.active,
     .tab-content {
         background-color: $fhi-core-blue-grey-2;

@@ -2,6 +2,7 @@
 
 > Feb 28, 2024
 
+* :tada: **Enhancement** Possibility to add icon on a Tab
 * :boom: **Breaking** Color palette cleanup (some core color variables removed)
 * :boom: **Breaking** Removed `.fhi-btn-flat`
 * :tada: **Enhancement** Button group redesigned, added possibility to include split-button (dropdown) in group
