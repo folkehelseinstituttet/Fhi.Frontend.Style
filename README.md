@@ -6,6 +6,7 @@ CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getboots
 
 | Fhi.Frontend.Style | Bootstrap | Node/NPM |
 | ------------------ | --------- | -------- |
+| 6.x.x              | 5.3.2     | 18/9*    |
 | 5.9.x              | 5.3.2     | 18/9*    |
 | 5.x.x              | 5.2.x     | 16/8*    |
 | 4.x.x              | 5         | 16/8*    |
