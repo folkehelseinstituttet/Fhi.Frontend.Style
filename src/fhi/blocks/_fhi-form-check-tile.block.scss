@@ -16,8 +16,8 @@
             &[type="radio"] {
                 ~ .fhi-form-check-tile__label {
                     &::after {
-                        left: $fhi-core-px * 16;
-                        top: $fhi-core-px * 13;
+                        left: $fhi-core-px * 12;
+                        top: $fhi-core-px * 9;
                         z-index: 1;
                     }
                 }
