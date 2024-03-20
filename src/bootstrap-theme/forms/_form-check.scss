@@ -4,6 +4,7 @@
 
 .form-check {
     font-size: $fhi-core-font-size-1;
+    position: relative;
 }
 
 .form-check-input {
@@ -14,24 +15,23 @@
         }
 
         &[type="radio"] {
-            background-color: $white;
+            background-color: $fhi-core-white;
             background-image: none;
+            outline: currentColor solid 0.5px;
 
             ~ .form-check-label {
-                position: relative;
-
                 &::after {
                     background-color: $fhi-core-charcoal-1;
-                    border: ($fhi-core-px * 7) solid $fhi-core-charcoal-1;
+                    border: ($fhi-core-px * 5) solid $fhi-core-white;
                     border-radius: 50%;
                     content: "";
                     position: absolute;
 
                     //$fhi-core-px * 27
-                    left: -#{($fhi-core-space-4 + $fhi-core-space-1 * 0.75)}; // 24 + 3 px
-                    top: $fhi-core-space-1 * 1.25;
-                    width: 0;
-                    height: 0;
+                    left: 0;
+                    top: 0;
+                    width: $fhi-core-px * 24;
+                    height: $fhi-core-px * 24;
                 }
             }
         }
