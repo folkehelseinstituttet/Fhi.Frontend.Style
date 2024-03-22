@@ -1,8 +1,8 @@
-# Unreleased
+# 6.1.1
 
-> Mar 20, 2024
+> Mar 22, 2024
 
-* :tada: **Enhancement** Improved custom checkbox visuals on system zoom
+* :tada: **Enhancement** Improved custom radio button visuals on system zoom
 
 ## 6.1.0
 
