@@ -1,4 +1,21 @@
 .dropdown-menu {
-  box-shadow: var(--bs-dropdown-box-shadow);
-  width: 100%;
+    box-shadow: var(--bs-dropdown-box-shadow);
+    width: auto;
+}
+
+.dropdown-item {
+    &.disabled,
+    &[disabled] {
+        cursor: not-allowed;
+        pointer-events: initial;
+
+        [class*="icon-"] {
+            opacity: 0.4;
+        }
+    }
+
+    [class*="icon-"] {
+        margin-right: $fhi-core-space-1;
+        vertical-align: bottom;
+    }
 }

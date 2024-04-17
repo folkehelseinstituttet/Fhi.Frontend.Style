@@ -1245,8 +1245,8 @@ $dropdown-padding-y: 0;
 // $dropdown-font-size:                $font-size-base !default;
 // $dropdown-color:                    var(--#{$prefix}body-color) !default;
 // $dropdown-bg:                       var(--#{$prefix}body-bg) !default;
-// $dropdown-border-color:             var(--#{$prefix}border-color-translucent) !default;
-// $dropdown-border-radius:            var(--#{$prefix}border-radius) !default;
+$dropdown-border-color: transparent;
+$dropdown-border-radius: 0;
 // $dropdown-border-width:             var(--#{$prefix}border-width) !default;
 // $dropdown-inner-border-radius:      calc(#{$dropdown-border-radius} - #{$dropdown-border-width}) !default; // stylelint-disable-line function-disallowed-list
 // $dropdown-divider-bg:               $dropdown-border-color !default;
@@ -1262,7 +1262,7 @@ $dropdown-link-active-bg: $fhi-core-grey-light-2;
 
 // $dropdown-link-disabled-color:      var(--#{$prefix}tertiary-color) !default;
 
-// $dropdown-item-padding-y:           $spacer * .25 !default;
+$dropdown-item-padding-y: $fhi-core-space-2;
 // $dropdown-item-padding-x:           $spacer !default;
 
 // $dropdown-header-color:             $gray-600 !default;
