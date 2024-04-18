@@ -6,17 +6,22 @@
     &__btn {
         --bs-btn-border-radius: #{$fhi-core-px * 24};
         --bs-btn-active-border-color: #{$fhi-core-white};
+        --bs-btn-disabled-border-color: transparent;
 
         border: ($fhi-core-px * 2) solid transparent;
         border-radius: var(--bs-btn-border-radius) !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         margin-left: 0 !important;
+        padding-right: $fhi-core-space-3;
+        padding-left: $fhi-core-space-3;
         text-align: left;
 
-        &.btn:hover:not(.active) {
+        &.btn:hover:not(.active):not([disabled]) {
             background-color: $fhi-core-grey-light-2;
+        }
+
+        [class*="icon-"] {
+            margin-right: $fhi-core-space-1;
+            top: $fhi-core-px * -3;
         }
     }
 
@@ -32,9 +37,10 @@
         &:hover,
         &:focus {
             background-color: $fhi-core-grey-4;
+            color: $fhi-core-white;
             text-decoration: none;
 
-            &:not(.fhi-btn-group__split-btn-toggler) {
+            &:not(.fhi-btn-group__split-btn-toggler):not([disabled]) {
                 cursor: default;
             }
         }
@@ -51,6 +57,10 @@
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
         padding-right: $fhi-core-space-2 + $fhi-core-space-1;
+
+        &.active:focus-visible {
+            z-index: 2;
+        }
     }
 
     &__split-btn-toggler {
@@ -66,6 +76,7 @@
             @extend .icon-chevron-down;
             border: 0;
             height: $fhi-core-px * 16;
+            margin-top: $fhi-core-px * 3;
             width: $fhi-core-px * 16;
         }
 
