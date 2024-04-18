@@ -57,6 +57,10 @@
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
         padding-right: $fhi-core-space-2 + $fhi-core-space-1;
+
+        &.active:focus-visible {
+            z-index: 2;
+        }
     }
 
     &__split-btn-toggler {
