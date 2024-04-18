@@ -20,6 +20,7 @@
     }
 
     &.active {
-        box-shadow: ($fhi-core-px * 5) 0 0 0 $fhi-core-red-1 inset;
+        box-shadow: ($fhi-core-px * 6) 0 0 ($fhi-core-px * -1) $fhi-core-red-1
+            inset;
     }
 }
