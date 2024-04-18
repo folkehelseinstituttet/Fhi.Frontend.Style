@@ -40,7 +40,7 @@
             color: $fhi-core-white;
             text-decoration: none;
 
-            &:not(.fhi-btn-group__split-btn-toggler) {
+            &:not(.fhi-btn-group__split-btn-toggler):not([disabled]) {
                 cursor: default;
             }
         }
