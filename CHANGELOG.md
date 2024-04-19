@@ -1,6 +1,6 @@
-# Unreleased
+# 6.2.0
 
-> Apr 18, 2024
+> Apr 19, 2024
 
 * :tada: **Enhancement** Disabled states on button group buttons and dropdown items
 
