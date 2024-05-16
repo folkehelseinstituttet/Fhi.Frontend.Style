@@ -2,7 +2,7 @@
 
 > May 16, 2024
 
-* :bug: **Bugfix** References to import of scss files in npm packages to recommended standards (removed relative reference to `./node_modules/`)
+* :bug: **Bugfix** Updated references to import of scss files in npm packages to recommended standards (removed relative reference to `./node_modules/`)
 
 ## 6.2.0
 
