@@ -1,6 +1,6 @@
-# Unreleased
+# 6.2.1
 
-> May 16, 2024
+> May 27, 2024
 
 * :bug: **Bugfix** Updated references to import of scss files in npm packages to recommended standards (removed relative reference to `./node_modules/`)
 
