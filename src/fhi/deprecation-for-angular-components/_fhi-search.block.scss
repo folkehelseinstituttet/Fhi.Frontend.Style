@@ -1,12 +1,3 @@
-[type="search"]::-webkit-search-cancel-button {
-    --webkit-appearance: none;
-    appearance: none;
-    background: url(../icons/svg-icons/bootstrap-icons/x.svg) no-repeat center
-        center;
-    height: $fhi-core-px * 16;
-    width: $fhi-core-px * 16;
-}
-
 .fhi-search {
     &__form-control {
         height: 100%;
