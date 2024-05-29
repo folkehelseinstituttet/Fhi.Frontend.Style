@@ -1,11 +1,3 @@
-.modal-fullscreen {
-    padding: $fhi-core-space-2;
-
-    .modal-content {
-        border-radius: var(--bs-modal-inner-border-radius);
-    }
-}
-
 .modal-header {
     align-items: start;
 }
@@ -22,7 +14,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-    .modal-dialog {
+    .modal-dialog:not(.modal-fullscreen) {
         padding-right: $fhi-core-space-2;
         padding-left: $fhi-core-space-2;
     }
