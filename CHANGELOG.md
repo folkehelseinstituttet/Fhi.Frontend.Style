@@ -2,7 +2,7 @@
 
 > May 30, 2024
 
-* :bug: **Bugfix** Embedded fonts as base64 strings, and removed obsolete reference to an svg file so that precompiled `style.min.css` may be used directly
+* :bug: **Bugfix** Embedded fonts as base64 strings and removed obsolete reference to an svg file so that precompiled `style.min.css` may be used directly
 * :bug: **Bugfix** Removed padding on `.modal-fullscreen` that in odd cases led to accidental closing of the modal
 
 ## 6.2.1
