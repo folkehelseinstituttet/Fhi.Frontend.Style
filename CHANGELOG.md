@@ -1,4 +1,10 @@
-# 6.2.1
+# Unreleased
+
+> May 29, 2024
+
+* :bug: **Bugfix** Removed padding on `.modal-fullscreen` that in odd cases led to accidental closing of the modal
+
+## 6.2.1
 
 > May 27, 2024
 
