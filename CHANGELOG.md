@@ -1,6 +1,6 @@
-# Unreleased
+# 6.2.2
 
-> May 30, 2024
+> Jun 5, 2024
 
 * :bug: **Bugfix** Embedded fonts and `x` marker on `::-webkit-search-cancel-button` as base64
 * :bug: **Bugfix** Removed padding on `.modal-fullscreen` that in odd cases led to accidental closing of the modal
