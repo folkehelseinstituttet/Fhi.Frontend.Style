@@ -1,4 +1,10 @@
-# 6.2.2
+# Unreleased
+
+> Aug 21, 2024
+
+* :bug: **Bugfix** Reset font imports to the pre 6.2.2 solution, and added a script for copying the fonts to the css folder. And update the info in the README about using CSS instead of SCSS.
+
+## 6.2.2
 
 > Jun 5, 2024
 
