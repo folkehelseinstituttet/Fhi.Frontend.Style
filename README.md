@@ -41,8 +41,8 @@ If you only need the variables for use in ex. a library
 If you want to use CSS instead of SCSS
 
 1. Run `npm pack`
-2. Copy the generated folder `./css` to the root of your web project
-3. Add the line `<link rel="stylesheet" type="text/css" href="styles.min.css" />` to your `index.html`
+2. Copy the generated folder `./css` to the folder containing `index.html` (if the script wasn't executed in the same folder)
+3. Add the line `<link rel="stylesheet" type="text/css" href="css/styles.min.css" />` to your `index.html`
 
 ## Contribute
 
