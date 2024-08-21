@@ -40,8 +40,9 @@ If you only need the variables for use in ex. a library
 
 If you want to use CSS instead of SCSS
 
-- run `npm pack`
-- add `~@folkehelseinstituttet/style/css/style.css` to your project
+1. Run `npm pack`
+2. Copy the generated folder `./css` to the root of your web project
+3. Add the line `<link rel="stylesheet" type="text/css" href="styles.min.css" />` to your `index.html`
 
 ## Contribute
 
