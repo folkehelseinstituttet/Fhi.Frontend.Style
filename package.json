@@ -17,7 +17,7 @@
     "compile-css": "node-sass --include-path node_modules --output-style expanded --source-map true --source-map-contents true --precision 6 import/_all.scss css/styles.css",
     "generate-icon-map": "node ./src/fhi/icons/generate-icon-map",
     "minify-css": "cleancss --format breaksWith=lf --source-map --source-map-inline-sources --output css/styles.min.css css/styles.css",
-    "copy-fonts": "npx copyfiles ./src/fhi/typography/fonts ./css",
+    "copy-fonts": "npx copyfiles -f ./src/fhi/typography/fonts/Lato/* ./css/Lato",
     "prepack": "npm run compile-css && npm run minify-css && npm run copy-fonts",
     "postversion": "git add package.json package-lock.json && git commit -mv%npm_package_version%"
   },
