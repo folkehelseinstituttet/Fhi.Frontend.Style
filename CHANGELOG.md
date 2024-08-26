@@ -1,8 +1,9 @@
 # Unreleased
 
-> Aug 21, 2024
+> Aug 26, 2024
 
 * :bug: **Bugfix** Reset font imports to the pre 6.2.2 solution, and added a script for copying the fonts to the css folder. And update the info in the README about using CSS instead of SCSS.
+* :gift: **New** New icon added: Lock (🔒)
 
 ## 6.2.2
 
