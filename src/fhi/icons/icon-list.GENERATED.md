@@ -85,6 +85,7 @@ $included-icons: (
   'list',
   'list-ul',
   'living',
+  'lock',
   'lungs',
   'mental',
   'muscle',
