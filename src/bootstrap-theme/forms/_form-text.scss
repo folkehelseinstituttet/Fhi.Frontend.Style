@@ -3,8 +3,8 @@
 }
 
 .form-text {
+    color: $fhi-core-grey-3;
     display: block;
-    font-size: $fhi-core-font-size-1;
     margin-bottom: $form-text-margin-top;
 
     .form-label + & {
