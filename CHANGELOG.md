@@ -1,4 +1,10 @@
-# 6.3.0
+# Unreleased
+
+> Sep 4, 2024
+
+* :bug: **Bugfix** Update CSS for Bootstrap `.form-label` and `.form-text`
+
+## 6.3.0
 
 > Aug 26, 2024
 
