@@ -1,4 +1,10 @@
-# 6.3.1
+# Unreleased
+
+> Oct 15, 2024
+
+* :tada: **Enhancement** Add hover border color (`#cfd0cb`) to icon button.
+
+## 6.3.1
 
 > Sep 9, 2024
 
