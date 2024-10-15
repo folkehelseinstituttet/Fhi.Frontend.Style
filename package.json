@@ -2,6 +2,10 @@
   "name": "@folkehelseinstituttet/style",
   "version": "6.3.1",
   "description": "CSS styling used by Folkehelseinstituttet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/folkehelseinstituttet/Fhi.Frontend.Style.git"
+  },
   "keywords": [
     "css",
     "sass"
