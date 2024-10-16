@@ -1,7 +1,9 @@
 # Unreleased
 
-> Oct 15, 2024
+> Oct 16, 2024
 
+
+* :tada: **Enhancement** Add reference to github repo in package.json
 * :tada: **Enhancement** Add hover border color (`#cfd0cb`) to icon button.
 
 ## 6.3.1
