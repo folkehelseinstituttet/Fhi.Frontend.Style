@@ -1,23 +1,22 @@
-# Unreleased
+# 6.4.0
 
 > Oct 16, 2024
 
-
-* :tada: **Enhancement** Add reference to github repo in package.json
-* :tada: **Enhancement** Add hover border color (`#cfd0cb`) to icon button.
+* :tada: **Enhancement** Add reference to github repo in package.json [(#403)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/403)
+* :tada: **Enhancement** Add hover border color (`#cfd0cb`) to icon button [(#404)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/404)
 
 ## 6.3.1
 
 > Sep 9, 2024
 
-* :bug: **Bugfix** Update CSS for Bootstrap `.form-label` and `.form-text`
+* :bug: **Bugfix** Update CSS for Bootstrap `.form-label` and `.form-text` [(#398)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/398)
 
 ## 6.3.0
 
 > Aug 26, 2024
 
-* :bug: **Bugfix** Reset font imports to the pre 6.2.2 solution, and added a script for copying the fonts to the css folder. And update the info in the README about using CSS instead of SCSS.
-* :gift: **New** New icon added: Lock (🔒)
+* :bug: **Bugfix** Reset font imports to the pre 6.2.2 solution, and added a script for copying the fonts to the css folder. And update the info in the README about using CSS instead of SCSS. [(#393)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/393)
+* :gift: **New** New icon added: Lock (🔒) [(#395)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/395)
 
 ## 6.2.2
 
