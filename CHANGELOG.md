@@ -1,7 +1,9 @@
-# Unreleased
+# 6.5.0
 
-* :tada: **New** Icon: Flask (beaker)
-* :tada: **New** Icon: Copy
+> Feb 7, 2025
+
+* :gift: **New** Icon: Flask (beaker) [(#409)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/409)
+* :gift: **New** Icon: Copy [(#409)](https://github.com/folkehelseinstituttet/Fhi.Frontend.Style/pull/409)
 
 ## 6.4.0
 
