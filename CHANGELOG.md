@@ -1,4 +1,9 @@
-# 6.4.0
+# Unreleased
+
+* :tada: **New** Icon: Flask (beaker)
+* :tada: **New** Icon: Copy
+
+## 6.4.0
 
 > Oct 16, 2024
 
