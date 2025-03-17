@@ -156,7 +156,7 @@
 * :boom: **Breaking** Icon set renewed - icons added, some changed and some removed
 * :boom: **Breaking** Old SASS imports break (pre 4.1), see [README.md](README.md#use-in-project)
 * :boom: **Breaking** Updated variable naming conventions
-* :boom: **Breaking** Global headers prior to v.3.10 breaks, see [Global header module](https://designsystem.fhi.no/developer/modules/GlobalHeader)
+* :boom: **Breaking** Global headers prior to v.3.10 breaks
 * :boom: **Breaking** Material Tree removed
 * :tada: **Enhancement** Removed styling for Tree view builder
 * :tada: **Enhancement** Danger color changed to a lighter shade of pink
@@ -205,16 +205,16 @@
 * :tada: **Enhancement** Minor visual adjustments to global header and navigation tile
 * :boom: **Breaking** Color adjustments
   * _Removed color variables:_
-    * ![#65adc3](https://via.placeholder.com/10/65adc3/000000?text=+) `$fhi-blue-light-1`
-    * ![#057e9a](https://via.placeholder.com/10/057e9a/000000?text=+) `$fhi-blue-light-2`
-    * ![#2e3152](https://via.placeholder.com/10/2e3152/000000?text=+) `$fhi-blue-dark-2`
-    * ![#181B40](https://via.placeholder.com/10/181B40/000000?text=+) `$fhi-blue-dark-3`
-    * ![#e22867](https://via.placeholder.com/10/e22867/000000?text=+) `$fhi-pink-dark-2`
-    * ![#b10640](https://via.placeholder.com/10/b10640/000000?text=+) `$fhi-pink-dark-3`
+    * `$fhi-blue-light-1`
+    * `$fhi-blue-light-2`
+    * `$fhi-blue-dark-2`
+    * `$fhi-blue-dark-3`
+    * `$fhi-pink-dark-2`
+    * `$fhi-pink-dark-3`
   * _Renamed color variables:_
-    * ![#393c61](https://via.placeholder.com/10/393c61/000000?text=+) `$fhi-blue-dark-1` => `$fhi-blue-3`
-    * ![#faedec](https://via.placeholder.com/10/faedec/000000?text=+) `$fhi-pink-light-2` => `$fhi-pink-light-1`
-    * ![#fad1cd](https://via.placeholder.com/10/fad1cd/000000?text=+) `$fhi-pink-light-4` => `$fhi-pink-light-2`
+    * `$fhi-blue-dark-1` => `$fhi-blue-3`
+    * `$fhi-pink-light-2` => `$fhi-pink-light-1`
+    * `$fhi-pink-light-4` => `$fhi-pink-light-2`
 * :tada: **Enhancement** Tags - filter option border change
 * :gift: **New** Add datepicker
 

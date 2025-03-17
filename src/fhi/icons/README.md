@@ -24,4 +24,4 @@ $included-icons: (
 
 ### List of available icons
 Please find the [current set of available icons in icon-list.GENERATED.md here](icon-list.GENERATED.md).
-[See a list of current icons available here](https://designsystem.fhi.no/developer/visual-identity/Icons).
+[See a list of current icons available here](https://old.designsystem.fhi.no/developer/visual-identity/icons).

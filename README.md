@@ -12,7 +12,7 @@ CSS styling used by Folkehelseinstituttet, based on [Bootstrap](https://getboots
 | 4.x.x              | 5         | 16/8*    |
 | 3.x.x              | 5         | 16/8*    |
 
-_* [designsystem.fhi.no](https://designsystem.fhi.no) uses these Node/NPM versions, older versions may work, but then you're on your own_ :wink:
+_* [old.designsystem.fhi.no](https://old.designsystem.fhi.no) uses these Node/NPM versions, older versions may work, but then you're on your own_ :wink:
 
 ## Changelog
 
@@ -50,7 +50,7 @@ Read about how to contribute [here](https://github.com/folkehelseinstituttet/Fhi
 
 ## Demo and documentation
 
-Live examples in our demo app: [https://designsystem.fhi.no](https://designsystem.fhi.no)
+Live examples in our demo app: [https://old.designsystem.fhi.no](https://old.designsystem.fhi.no)
 Repo for demo app: [Fhi.Frontend.Demo](https://github.com/folkehelseinstituttet/Fhi.Frontend.Demo)
 
 ## Info about fonts
